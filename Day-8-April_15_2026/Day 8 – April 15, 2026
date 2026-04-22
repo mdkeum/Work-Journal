@@ -1,35 +1,40 @@
-# Day 8 – April 15, 2026
+# Day 8 – April 15, 2026  
 
-## Office Hours
+## Office Hours  
 - **Scheduled:** 10:00 AM – 7:00 PM  
-- **Arrived:** 10:03 AM (within allowable late time)
+- **Arrived:** 10:03 AM (within allowable late time)  
 
-## Tasks
+## Tasks  
 - Arrived at the office and prepared for the day’s work  
+- Installed Node.js and Git on the office laptop for future development and version control use  
 - Created a Google Form survey to collect user feedback on **miah.shop** website experience and usability  
 - Structured the survey into multiple sections including basic information, website experience, performance, shopping experience, and overall satisfaction  
 - Designed questions using multiple formats such as multiple choice, linear scale, and paragraph responses  
 - Included an NPS (Net Promoter Score) question to measure user recommendation likelihood  
-- Ensured the survey is user-friendly and can be completed within a short time  
-- Shared the Google Form link with team leader Mr. Aontor via email for review and feedback before distribution  
+- Shared the Google Form link with team leader Mr. Aontor for review and feedback  
+- Revised the Google Form based on feedback by reducing it from 8 sections to 3 sections to improve usability and completion rate  
+- Optimized the survey to ensure it is more user-friendly and quicker to complete  
 
-## Learnings
+## Learnings  
 - Learned how to design structured user surveys for UX research  
 - Gained practical experience in using Google Forms for data collection  
 - Understood how to frame questions to capture meaningful user insights  
 - Learned about NPS (Net Promoter Score) and its importance in user satisfaction analysis  
+- Learned the importance of keeping surveys short to improve user completion rates  
+- Gained basic setup knowledge of Node.js and Git for development workflow  
 
-## Challenges
+## Challenges  
 - Ensuring questions are clear, concise, and unbiased  
 - Structuring the survey to keep it short while still collecting valuable insights  
 
-## Additional Notes
-- Focused on making the survey easy to understand and quick to complete (under 3 minutes)  
-- Designed the form in a way that supports future UX improvements for **miah.shop**  
-- Awaiting feedback from team leader before sharing the survey with users  
+## Additional Notes  
+- Initially created a longer survey, but feedback helped improve usability  
+- Final version reduced to 3 sections for better user experience  
+- Development environment setup (Node.js and Git) completed for future tasks  
 
-## Outcome
-- Successfully created a complete UX survey for **miah.shop**  
-- Shared the survey for internal review and approval  
+## Outcome  
+- Successfully created and improved a complete UX survey for **miah.shop**  
+- Made the survey more efficient and user-friendly based on feedback  
+- Set up development tools (Node.js and Git) for future project work  
 - Contributed to user research and data-driven improvement planning  
-- Strengthened skills in UX research and survey design  
+- Strengthened skills in UX research, survey design, and basic development setup  
