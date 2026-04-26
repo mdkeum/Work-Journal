@@ -1,0 +1,65 @@
+# Day 14 – April 22, 2026  
+
+## Office Hours  
+- Scheduled: 10:00 AM – 7:00 PM  
+- Arrived: 9:45 AM (early)  
+- Left: 7:06 PM  
+
+## Tasks  
+- Continued size data entry task from previous day using SKU-based lookup  
+- Completed remaining entries across T-shirt, Pant, and Shirt tables  
+- Introduced to Updatemaster admin panel by Mr. Tushar  
+- Learned product upload/edit workflow using AI tools and supporting utilities  
+- Processed and uploaded product images  
+
+## Data Work Completed  
+- **T-Shirt Table:** Continued from row 70 and progressed further  
+- **Pant Table:** Completed all 113 rows  
+  - Reported **20 missing/unmatched SKU entries**  
+- **Shirt Table:** Completed all 81 rows  
+
+## Admin Panel Training  
+- Learned how to:  
+  - Add and edit products  
+  - Manage unpublished products  
+  - Use AI tools for product content generation  
+- Demonstrated product upload process (e.g., Tant Saree)  
+- Granted access to admin panel under team supervision  
+
+## Image & File Handling  
+- Received product images (RAR format) via email along with “Saree Details 2025–2026”  
+- Downloaded and extracted files using :contentReference[oaicite:0]{index=0}  
+- Organized image assets (10 products, 4 images each)  
+- Uploaded images to the admin panel and assigned them to products  
+
+## Product Work  
+- Logged into :contentReference[oaicite:1]{index=1}  
+- Navigated to “Unpublished Products”  
+- Edited existing product and successfully added **1 complete product**  
+- Prepared remaining **9 products** for upload on the next working day  
+
+## Tools Used  
+- :contentReference[oaicite:2]{index=2} for analyzing product images and generating content  
+- :contentReference[oaicite:3]{index=3} for formatting titles  
+- :contentReference[oaicite:4]{index=4} for color extraction  
+
+## Key Learnings  
+- End-to-end workflow of product upload in an e-commerce admin panel  
+- Practical use of AI tools for content generation and data preparation  
+- Handling compressed files and organizing product image assets  
+- Importance of accurate mapping between product data and images  
+
+## Challenges  
+- Managing multiple responsibilities (data completion + new system learning)  
+- Ensuring correct image-to-product mapping  
+- Adapting quickly to a new admin interface and workflow  
+
+## Outcome  
+- Completed all pending size data entries  
+- Successfully uploaded and added **1 product** in the admin panel  
+- Prepared remaining products for next day’s work  
+- Gained working knowledge of admin system and tools  
+
+## Notes  
+- Work scope expanded from data entry to product management  
+- Next task: Complete upload of remaining 9 products  
