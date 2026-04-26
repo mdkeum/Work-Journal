@@ -1,0 +1,53 @@
+# Day 13 – April 21, 2026  
+
+## Office Hours  
+- Scheduled: 10:00 AM – 7:00 PM  
+- Arrived: 9:50 AM (early)  
+- Left: 7:03 PM  
+
+## Tasks  
+- Reassigned to work under Mr. Shoan Rana by Team Leader Mr. Aontor (due to his external tour)  
+- Received task via email with a live Google Docs file containing product data tables  
+- Updated missing **size information** using SKU-based lookup from the MIAH.shop website  
+
+## Data Overview  
+- **T-Shirt Table:** 217 rows  
+- **Pant Table:** 117 rows  
+  - 20 rows had missing or unmatched SKU data (could not be completed)  
+- **Shirt Table:** 81 rows  
+
+## Work Completed (April 21)  
+- Updated **69 rows** with correct size information  
+- Matched SKU from Google Docs with corresponding product data  
+- Marked unresolved entries for further review  
+
+## Special Cases Handled  
+- Identified **20 entries in the pant table** where SKU data was missing or did not match any product  
+  - Left those entries blank and flagged for team review  
+- Found **rows 100–113 in the pant table** using numerical sizes instead of standard size format (S, M, L, XL, etc.)  
+  - Reported the issue to Mr. Shoan Rana  
+  - Proceeded with data entry as instructed (kept values as provided)  
+
+## Process Details  
+- Used SKU to locate products on the website  
+- Extracted and verified size information for each item  
+- Handled multiple SKUs per product due to size variations  
+
+## Key Learnings  
+- Importance of reporting data inconsistencies before making assumptions  
+- Real-world handling of incomplete and inconsistent datasets  
+- Improved understanding of SKU mapping and product variation handling  
+
+## Challenges  
+- Missing or invalid SKU data preventing completion of some entries  
+- Inconsistent size formats across dataset  
+- Maintaining accuracy while working with a large volume of data  
+
+## Outcome  
+- Successfully updated 69 entries with accurate size data  
+- Properly flagged 20 unresolved entries for follow-up  
+- Ensured data consistency by following team guidance on special cases  
+
+## Notes  
+- Task required strong attention to detail and communication with team members  
+- Work will continue in subsequent days until all tables are completed  
