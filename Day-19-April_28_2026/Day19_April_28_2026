@@ -2,47 +2,53 @@
 
 ## Office Hours  
 - Scheduled: 10:00 AM – 7:00 PM  
-- Arrived: 10:00 AM *(adjust if needed)*  
+- Arrived: 10:03 AM *(within allowable limit)*  
 - Left: (in progress / not yet recorded)  
 
 ## Tasks  
-- Worked on Pathao payment data entry from shared Google Docs  
-- Followed instructions provided by Mr. Kawsar Bhai via Mr. Shawon Rana’s laptop/profile  
+- Continued Pathao payment data entry from shared Google Docs  
+- Resumed work from previous session (starting at Serial No. 23)  
+- Reviewed complex data entries requiring clarification  
+- Experimented with Python-based automation for data entry workflow  
 - Continued invoice processing and admin dashboard updates  
 
 ## Work Completed  
-- Accessed **“Pathao Payment - 2026”** live Google Docs shared via email  
-- Understood data entry workflow and requirements for Updatemaster system  
-- Extracted April 2026 invoice data from the document  
+- Accessed **“Pathao Payment - 2026”** live Google Docs  
+- Continued April 2026 data extraction from Serial No. 23  
 - Entered and updated records in the admin dashboard:  
   - Searched relevant products  
-  - Input consignment IDs in correct fields  
+  - Input consignment IDs accurately  
   - Added cash received and delivery cost values  
-- Successfully processed entries from **Serial No. 7 to 22**  
+- Successfully processed entries from **Serial No. 23 to 65**  
+- Identified complex/mismatched data entries requiring further discussion  
 
 ## System / Administrative Work  
-- Identified discrepancies in invoice/data entries  
-- Discussed mismatches with Mr. Kawsar Bhai  
-- Resolved data inconsistencies through verification and correction  
+- Flagged complicated data inconsistencies for review  
+- Planned discussion with Mr. Kawsar Bhai for clarification  
+- Ensured partial validation before proceeding with uncertain records  
 
 ## Documentation Work  
-- Maintained consistency in structured data entry and tracking  
-- Followed proper formatting and validation for all entries  
+- Maintained structured and consistent data entry format  
+- Kept track of processed and pending entries  
+- Documented edge cases for later verification  
 
 ## Key Learnings  
-- Improved understanding of payment reconciliation workflow  
-- Learned how to accurately map invoice data to admin system fields  
-- Gained experience in identifying and resolving data mismatches  
+- Gained initial experience in automating repetitive data entry using Python  
+- Understood potential efficiency improvements through automation  
+- Learned to identify cases where manual verification is critical  
 
 ## Challenges  
-- Handling mismatched or inconsistent data entries  
-- Ensuring accuracy while processing multiple invoice records  
+- Encountered complex and unclear data entries  
+- Balancing time between manual work and automation research  
+- Reduced data entry speed due to development of automation approach  
 
 ## Outcome  
-- Completed data entry for Serial No. 7–22 of April 2026 dataset  
-- Resolved existing data mismatches with proper coordination  
-- Prepared groundwork for continuing remaining entries  
+- Completed data entry for Serial No. 23–65 of April 2026 dataset  
+- Identified and isolated problematic entries for further review  
+- Initiated automation concept that can improve future workflow efficiency  
 
 ## Notes  
-- Next task: Continue from **Serial No. 23** of April 2026 data table  
-- Work will proceed in the next working session  
+- Next task: Continue from **Serial No. 66** of April 2026 data table  
+- Discuss complex data cases with Mr. Kawsar Bhai in next session  
+- Continue development and testing of Python-based automation tool  
+- Team celebration: Promotion treat from Mr. Zaman Bhai (Software Manager) — KFC chicken (2 pieces per colleague)  
