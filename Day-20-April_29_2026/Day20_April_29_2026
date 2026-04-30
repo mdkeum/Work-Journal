@@ -1,24 +1,64 @@
 # Day 20 – April 29, 2026  
 
 ## Office Hours  
-- **Scheduled:** 10:00 AM – 7:00 PM  
-- **Arrived:** 9:44 AM  
-- **Left:** —  
-- **Note:** Marked attendance in ERP system (finger scan)  
-- **Remarks:** Arrived early despite heavy rain and reduced traffic  
+- Scheduled: 10:00 AM – 7:00 PM  
+- Arrived: 9:43 AM *(arrived early)*  
+- Left: 7:02 PM  
+- Note: Marked attendance in ERP system (finger scan)  
+- Remarks: Arrived early despite heavy rain and reduced traffic  
 
 ## Tasks  
-- Continue Pathao payment data entry from shared Google Docs  
-- Proceed with invoice processing and admin dashboard updates  
+- Continued Pathao payment data entry from shared Google Docs  
+- Resumed work from previous session (starting at Serial No. 66)  
+- Continued invoice processing and admin dashboard updates  
+- Performed validation of entries using Google Sheets color-coding  
 
-## Work Plan  
-- Resume data entry from **Serial No. 66** of the April 2026 dataset  
-- Follow established workflow for:  
-  - Product search  
-  - Consignment ID entry  
-  - Cash received input  
-  - Delivery cost update  
+## Work Completed  
+- Accessed **“Pathao Payment - 2026”** live Google Docs  
+- Continued April 2026 data extraction from Serial No. 66  
+- Entered and updated records in the admin dashboard:  
+  - Searched relevant products  
+  - Input consignment IDs accurately  
+  - Added cash received and delivery cost values  
+- Successfully processed entries from **Serial No. 66 to 179**  
+- Completed validation for all processed rows using color indicators  
+
+## System / Administrative Work  
+- Ensured all entries were properly validated before finalizing  
+- Marked matching and mismatched entries for clarity and review  
+- Maintained consistency in data entry and validation workflow  
+
+## Documentation Work  
+- Maintained structured and consistent data entry format  
+- Tracked processed serial numbers and total entries  
+- Ensured clear distinction between validated and flagged records  
+
+## Key Learnings  
+- Improved speed and consistency in bulk data entry tasks  
+- Reinforced importance of validation alongside data entry  
+- Gained better understanding of handling variable entry counts per serial  
+
+## Challenges  
+- Large volume of entries required sustained focus over long duration  
+- Repetitive validation process added extra time per row  
+- Maintaining accuracy while working at higher speed  
+
+## Outcome  
+- Completed data entry for Serial No. 66–179 of April 2026 dataset  
+- Ensured all serial rows were validated and properly marked  
+
+- Processed **114 serial entries**, resulting in **193 website entries**  
+- Average processing time: **1.5 minutes per entry**  
+- Total data entry time: **~289.5 minutes (4 hours 50 minutes)**  
+
+- Performed additional validation in Google Sheets:  
+  - Marked entries **blue** where collectable and collected amounts matched  
+  - Marked entries **yellow** where collected amount was 0 or mismatched  
+- Validation time: **~30 seconds per row (~57 minutes total)**  
+
+- **Total time spent (entry + validation): ~346.5 minutes (5 hours 47 minutes)**  
 
 ## Notes  
-- Weather conditions: Heavy rain, lighter traffic than usual  
-- Focus on maintaining accuracy and consistency in ongoing data entry  
+- Weather conditions: Heavy rain with lighter traffic than usual  
+- Next task: Continue from **next pending serial entries**  
+- Maintain consistency in both data entry and validation process  
