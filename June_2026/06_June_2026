@@ -1,0 +1,132 @@
+# Day 50 – June 6, 2026
+
+## Office Hours
+- Scheduled: 10:00 AM – 7:00 PM
+- Arrived: 09:44 AM (16 minutes before office time)
+- End: Still in Office
+
+---
+
+## Context
+- Continued practical training and hands-on learning activities on the organization's newly developed ASG ERP platform.
+- Received training and guidance from Mr. Zakir Bhai of the Software Development Team.
+- Focused on learning Approval Management and Inventory Transaction modules to develop knowledge required for future System Administrator responsibilities.
+- Performed operational support activities related to order fulfillment and courier management.
+- Maintained progress tracking and implementation updates through the shared Google Spreadsheet.
+
+---
+
+## Tasks
+- Learned Approval Configuration functionalities within the ERP system.
+- Studied Approval Permission setup and management processes.
+- Reviewed Approval Pending List workflows and approval tracking mechanisms.
+- Worked with Inventory Transactions and Opening Stock modules.
+- Added and reviewed inventory transaction entries related to:
+  - SALES_ORDER
+  - PURCHASE_ORDER
+  - PUR_GRN
+  - JOURNAL_ENTRY
+- Created new inventory stock records within the ERP system.
+- Processed courier shipment entries through the Pathao Merchant platform.
+- Recorded order tracking information manually for shipment monitoring purposes.
+- Updated learning and implementation progress in the shared Google Spreadsheet.
+
+---
+
+## Work Discussion / Role Update
+- Continued expanding ERP administration knowledge under the guidance of Mr. Zakir Bhai.
+- Learned approval workflow structures and inventory transaction processes used within the organization.
+- Gained practical exposure to stock management and inventory-related administrative functions.
+- Assisted with operational order fulfillment activities to support business processes.
+- Maintained documentation of learning progress and completed tasks for internal reporting and collaboration.
+
+---
+
+## Work Completed
+
+### Approval Module
+
+#### Approval Configurations
+- Learned approval configuration setup and workflow management.
+
+#### Approval Permissions
+- Reviewed user approval permission settings and access controls.
+
+#### Approval Pending List
+- Learned approval tracking procedures and pending approval management workflows.
+
+### Inventory Transactions
+
+#### Opening Stock
+- Learned Opening Stock management functionality.
+- Added and reviewed inventory transaction entries.
+
+#### Inventory Records
+- Worked with inventory transactions related to:
+  - SALES_ORDER
+  - PURCHASE_ORDER
+  - PUR_GRN
+  - JOURNAL_ENTRY
+- Verified successful stock entry and transaction updates within the ERP system.
+
+### Courier & Order Management
+
+#### Pathao Merchant Processing
+- Created 24 new delivery entries in the Pathao Merchant platform.
+- Verified shipment information before submission.
+
+#### Order Tracking Documentation
+- Manually recorded 24 order IDs and customer phone number references from the Pathao Merchant platform.
+- Maintained tracking information to assist in identifying and monitoring missing or delayed orders using the last four digits of customer phone numbers.
+
+### Documentation & Reporting
+- Updated learning progress and implementation status in the shared Google Spreadsheet.
+- Maintained records of completed tasks and training activities.
+
+---
+
+## System / Administrative Work
+- Explored Approval Management modules and workflow configurations.
+- Reviewed user permission and approval process structures.
+- Worked with Inventory Transaction and Opening Stock functionalities.
+- Performed stock entry and transaction verification activities.
+- Processed courier shipment entries and order tracking documentation.
+- Maintained structured documentation of daily learning and operational activities.
+
+---
+
+## Key Learnings
+- Improved understanding of approval workflow management within ERP systems.
+- Learned approval permission structures and access control mechanisms.
+- Gained practical knowledge of approval tracking and pending approval management.
+- Developed familiarity with inventory transactions and opening stock procedures.
+- Learned how inventory records are maintained through sales, purchase, goods receipt, and journal transaction processes.
+- Strengthened understanding of courier management and shipment tracking workflows.
+- Enhanced knowledge required for future System Administrator responsibilities.
+
+---
+
+## Challenges
+- Understanding approval workflow relationships and permission hierarchies.
+- Learning inventory transaction processes across multiple transaction types.
+- Ensuring accuracy during stock entry and inventory verification activities.
+- Maintaining accurate shipment and order tracking records for operational monitoring.
+
+---
+
+## Outcome
+- Successfully completed learning activities related to Approval Configuration, Approval Permissions, and Approval Pending List modules.
+- Successfully learned and practiced Inventory Transactions and Opening Stock management processes.
+- Added and reviewed inventory transaction records for multiple transaction categories.
+- Created 24 new Pathao Merchant delivery entries.
+- Documented 24 order tracking records for shipment monitoring and issue resolution purposes.
+- Expanded practical ERP administration knowledge and operational workflow understanding.
+- Continued progress toward future System Administrator responsibilities.
+
+---
+
+## Notes
+- Training and practical guidance were provided by Mr. Zakir Bhai of the Software Development Team.
+- Learning progress and completed tasks were documented in the shared Google Spreadsheet.
+- Operational support activities included courier shipment processing and order tracking documentation.
+- All assigned learning and operational activities were completed successfully.
