@@ -1,0 +1,137 @@
+# Day 52 – June 8, 2026
+
+## Office Hours
+- Scheduled: 10:00 AM – 7:00 PM
+- Arrived: 09:47 AM (early arrival before office time)
+- End: Still in office
+
+---
+
+## Context
+- Continued operational support activities related to payment entry, ERP implementation, and system testing.
+- Worked across both production admin panel tasks and ERP HRM module configuration for testing purposes.
+- Participated in internal meetings for new website testing and workflow understanding.
+
+---
+
+## Tasks
+- Updated Pathao Payment - 2026 records into the website system for May 26 data.
+- Performed ERP HRM module setup and user role configuration for testing purposes.
+- Created and assigned demo users for role-based access control (RBAC) testing.
+- Attended internal system testing meeting with management.
+- Attended team update meeting with team lead and completed assigned tasks.
+- Communicated work progress update to supervisor via WhatsApp.
+
+---
+
+## Meetings & Discussion
+
+### Meeting with Management (Website Testing & Learning)
+- Attended short meeting with :contentReference[oaicite:0]{index=0} from **11:45 AM to 12:45 PM**.
+- Topic: New Amanath Shah Group website testing and system understanding.
+
+#### Key Learnings from Meeting:
+**HRM Module**
+- Created department-wise Manager and Executive user accounts.
+- Successfully created:
+  - 6 Manager users
+  - 6 Executive users
+- Purpose: Testing organizational hierarchy and approval workflows.
+
+**System Administration Module**
+- Configured user roles and login credentials.
+- Assigned role-based access permissions.
+- Prepared demo accounts for ERP functionality testing.
+
+---
+
+### Team Update Meeting
+- Held short update discussion with :contentReference[oaicite:1]{index=1}.
+- Provided full progress update on:
+  - ERP HRM module setup
+  - Payment processing work
+  - Demo user creation
+- Completed all assigned tasks as instructed.
+
+---
+
+## Work Discussion / Role Update
+- Continued dual responsibility in operational data entry and ERP system implementation support.
+- Strengthened practical understanding of ERP HRM workflows and RBAC (Role-Based Access Control).
+- Gained hands-on exposure to organizational hierarchy setup and approval flow testing.
+- Improved communication and reporting through direct coordination with management and team lead.
+
+---
+
+## Work Completed
+
+### Payment Data Entry & System Update
+
+#### Pathao Payment - 2026 (Website Admin Panel)
+- Updated Pathao payment records into the internal website system for May 26.
+- Processed database entries from row 315 to 346.
+- Completed processing of a total of 56 rows of payment-related records.
+- Verified and maintained structured payment data accuracy.
+- Admin panel link: https://updatemaster.miah.shop/admin/account/paymentList
+
+---
+
+### ERP Implementation & HRM Module Testing
+
+#### Department & Role Setup
+- Continued ERP implementation and testing activities in HRM module.
+- Created department-wise designations:
+  - Manager-level designations
+  - Executive-level designations
+- Assigned users to respective departments for testing structure.
+
+#### Demo User Creation (RBAC Testing)
+- Created a total of **12 demo users** for system testing:
+  - 6 Manager-level users
+  - 6 Executive-level users
+- Configured login credentials for all users.
+- Assigned role-based permissions through System Administration module.
+- Structured users for organizational hierarchy testing.
+
+---
+
+## System / Administrative Work
+- Updated payment data in internal website database.
+- Performed ERP HRM module configuration for testing.
+- Created and managed demo users for RBAC validation.
+- Maintained structured organizational hierarchy setup.
+- Participated in system testing discussions and internal coordination meetings.
+
+---
+
+## Key Learnings
+- Deepened understanding of ERP HRM module structure and workflow design.
+- Learned practical implementation of RBAC (Role-Based Access Control).
+- Gained insight into approval workflows and organizational hierarchy setup.
+- Improved ability to translate business requirements into system configurations.
+- Strengthened communication through structured reporting to management.
+
+---
+
+## Challenges
+- Managing parallel tasks across payment processing and ERP configuration.
+- Ensuring accuracy in role assignments and user hierarchy setup.
+- Coordinating system learning and operational execution simultaneously.
+
+---
+
+## Outcome
+- Successfully updated Pathao Payment - 2026 records for May 26 (56 rows processed).
+- Successfully created and configured 12 ERP demo users for RBAC testing.
+- Completed HRM module setup for organizational hierarchy testing.
+- Attended management meeting and gained key system insights.
+- Completed assigned tasks from team lead and reported progress successfully.
+- Ensured readiness for further ERP system testing and validation.
+
+---
+
+## Notes
+- ERP testing focused on HRM module, RBAC, and organizational workflow structure.
+- Payment processing and ERP configuration were completed in parallel.
+- Meetings with management and team lead helped clarify system structure and expectations.
+- All assigned responsibilities were completed successfully and reported on time.
