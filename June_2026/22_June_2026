@@ -1,1 +1,166 @@
+# Day 64 – June 22, 2026
 
+## Office Hours
+
+- Scheduled: 10:00 AM – 7:00 PM
+- Arrived: 09:47 AM
+- End: 11:10 PM
+
+---
+
+## Context
+
+- Continued User Acceptance Testing (UAT) and ERP learning activities for the new Helal & Brothers website.
+- Performed master data entry activities under Inventory and Sales modules.
+- Identified and documented bugs, observations, and process improvement questions for the software team.
+- Participated in software and management meetings after regular office hours.
+
+---
+
+## Tasks
+
+- Added inventory items with stock and pricing information.
+- Added customer records from the provided master Excel file.
+- Recorded bugs and observations in the shared Google Spreadsheet.
+- Raised questions regarding customer master data management.
+- Participated in software and management meetings with the development team and management personnel.
+
+---
+
+## Work Completed
+
+### Inventory Module Operations
+
+#### Item Master Data Entry
+
+- Added item information under the Inventory → Items section.
+- Entered stock and pricing-related information including minimum stock, maximum stock, MRP, production cost, reference cost price, and dealer price.
+- Verified item information before saving records.
+
+##### Work Summary
+
+- Total items added: **20**
+- Improved understanding of inventory master data and pricing configurations.
+- Gained practical experience in item master maintenance.
+
+---
+
+### Customer Management
+
+#### Customer Master Data Entry
+
+- Added customer records under the Sales → Customers module.
+- Used the provided master Excel file as the source.
+- Verified customer information before submission.
+
+##### Work Summary
+
+- Total customers added: **8**
+- Improved understanding of customer master data management.
+- Gained additional experience in sales module operations.
+
+---
+
+### UAT Activities & Issue Documentation
+
+#### Bug Reporting and Requirement Clarification
+
+- Identified system issues during testing activities.
+- Recorded bugs and observations in the shared Google Spreadsheet.
+- Shared findings with Fazle Rabbi Bhai (Advisor), Aontor Bhai, Zaman Bhai, and Zakir Bhai.
+- Raised process-related questions and documented them for discussion.
+
+##### Question Raised
+
+> Credit customers are currently maintained alphabetically by customer name. However, the company-provided master Excel file contains a unique customer code for each customer. Would it be preferable to organize and maintain customer records based on the unique customer code?
+
+##### Work Summary
+
+- Bugs and questions documented successfully.
+- Improved collaboration with software and business teams.
+- Contributed to process improvement discussions.
+
+---
+
+### Management & Software Team Coordination
+
+#### Evening Meetings
+
+- Attended a meeting with Fazle Rabbi Bhai starting at approximately **7:20 PM**.
+- Continued discussions until **8:00 PM**.
+- Later, Director Sir called Fazle Rabbi Bhai and Zaman Bhai for further discussion.
+- Zakir Bhai and I were subsequently invited to join the meeting.
+- Participated in software and business-related discussions with management.
+- Meeting activities concluded at approximately **10:50 PM**.
+- Left the office at **11:10 PM**.
+
+##### Work Summary
+
+- Participated in cross-functional discussions involving management and software teams.
+- Gained exposure to decision-making and coordination activities.
+- Extended office hours to support organizational objectives.
+
+---
+
+## Work Discussion / Role Update
+
+- Continued transitioning into ERP Operations and User Acceptance Testing (UAT) responsibilities.
+- Performed master data entry activities under Inventory and Sales modules.
+- Participated in bug reporting and requirement clarification processes.
+- Collaborated with software development and management teams.
+- Gained additional exposure to cross-functional discussions and organizational decision-making.
+
+---
+
+## Administrative Activities
+
+- Added inventory item master records.
+- Added customer master records.
+- Documented bugs and questions in the shared Google Spreadsheet.
+- Maintained task visibility and coordination with team members.
+- Participated in software and management meetings.
+- Recorded daily progress and completed assigned responsibilities.
+
+---
+
+## Key Learnings
+
+- Improved understanding of item master and pricing configurations.
+- Strengthened knowledge of customer master data management.
+- Learned the importance of documenting bugs and raising process-related questions.
+- Gained practical experience in User Acceptance Testing (UAT) activities.
+- Improved collaboration with software development and management teams.
+- Gained exposure to management-level discussions and coordination activities.
+
+---
+
+## Challenges
+
+- Maintaining data accuracy while entering master data records.
+- Identifying issues and documenting them clearly.
+- Understanding the most effective customer master organization structure.
+- Managing extended working hours due to multiple meetings.
+- Balancing technical learning and operational responsibilities.
+
+---
+
+## Outcome
+
+- Successfully added **20 inventory items** with pricing and stock information.
+- Added **8 customer records** from the master Excel file.
+- Documented bugs and process-related questions in the shared Google Spreadsheet.
+- Raised a recommendation regarding maintaining customer records using unique customer codes.
+- Participated in software and management meetings extending beyond office hours.
+- Continued building practical experience in ERP Operations, User Acceptance Testing (UAT), and business process improvement.
+- Successfully completed all assigned responsibilities.
+
+---
+
+## Notes
+
+- UAT activities focused on Inventory and Sales modules of the Helal & Brothers website.
+- Bug reports and questions were shared with Fazle Rabbi Bhai, Aontor Bhai, Zaman Bhai, and Zakir Bhai.
+- A process improvement question regarding customer code-based organization was raised for discussion.
+- Meetings continued after regular office hours and concluded around **10:50 PM**.
+- Left the office at **11:10 PM** after completing all organizational commitments.
+- Workday focused primarily on ERP learning, UAT activities, data management, and management coordination.
