@@ -1,1 +1,159 @@
+# Day 65 – June 23, 2026
 
+## Office Hours
+
+- Scheduled: 10:00 AM – 7:00 PM
+- Arrived: 10:13 AM
+- End: 07:20 PM
+
+---
+
+## Context
+
+- Continued User Acceptance Testing (UAT) and ERP learning activities for the new Helal & Brothers website.
+- Received additional training from Zakir Bhai on Sales module operations and workflows.
+- Performed role and permission configuration activities under the User Management module.
+- Added vendor master data under the Purchase module.
+- Identified and documented a UI bug during testing activities.
+
+---
+
+## Tasks
+
+- Learned and practiced Sales module workflows under the guidance of Zakir Bhai.
+- Understood POS and B2B sales-related modules.
+- Created role mappings and configured permissions using the Menu Permissions (Bulk) feature.
+- Added a new vendor under the Purchase module.
+- Performed UAT activities and identified a bug in the Direct Purchase module.
+
+---
+
+## Work Completed
+
+### Sales Module Training
+
+#### POS and B2B Sales Operations
+
+- Received training from Zakir Bhai on Sales module functionalities.
+- Learned and practiced the following modules:
+
+  - POS Sign IN-OUT (B2B)
+  - Billing Monitor
+  - POS Change Money
+  - Credit Sales (B2B)
+  - Settlement Request (B2B)
+  - Settlement Approve
+  - POS Invoice List
+  - B2B Pending Approval
+
+##### Work Summary
+
+- Improved understanding of POS and B2B sales workflows.
+- Gained practical knowledge of billing and settlement processes.
+
+---
+
+### User Management Operations
+
+#### Role Mapping and Permission Configuration
+
+- Utilized acquired knowledge to create role mappings.
+- Accessed **Menu Permissions (Bulk)** under the User Management module.
+- Assigned permissions to two newly created roles.
+- Configured access rights according to operational requirements.
+
+##### Work Summary
+
+- Total roles configured: **2**
+- Improved understanding of role-based access control and user management.
+
+---
+
+### Purchase Module Operations
+
+#### Vendor Master Data Entry
+
+- Added a new vendor under the Purchase module.
+- Verified vendor information before submission.
+
+##### Work Summary
+
+- Total vendors added: **1**
+- Gained practical experience in vendor master data management.
+
+---
+
+### User Acceptance Testing (UAT)
+
+#### Bug Identification
+
+- Conducted testing activities in the Purchase module.
+- Identified a UI issue in **Direct Purchase → Organization & Location**.
+- Observed that after selecting values from the **Business Unit** and **Location** dropdown fields, an unwanted cross (×) icon appeared above the selected text.
+- Documented the issue for reporting to the development team.
+
+##### Work Summary
+
+- Total bugs identified: **1**
+- Contributed to improving system usability and interface quality.
+
+---
+
+## Work Discussion / Role Update
+
+- Continued transitioning toward ERP Operations and User Acceptance Testing responsibilities.
+- Strengthened understanding of Sales and Purchase workflows.
+- Performed role and permission configuration activities under User Management.
+- Participated in bug identification and quality assurance activities.
+- Expanded practical knowledge of ERP business processes and system administration.
+
+---
+
+## Administrative Activities
+
+- Learned multiple Sales module functionalities.
+- Configured permissions for two new roles.
+- Added vendor master data.
+- Conducted testing activities and documented system issues.
+- Coordinated with software team members regarding system functionalities.
+- Recorded daily progress and completed assigned tasks.
+
+---
+
+## Key Learnings
+
+- Improved understanding of POS and B2B sales workflows.
+- Learned role-based access control and permission configuration.
+- Gained experience in vendor master data management.
+- Strengthened User Acceptance Testing (UAT) skills through bug identification.
+- Improved understanding of software usability and interface validation.
+
+---
+
+## Challenges
+
+- Understanding interrelated workflows across Sales and User Management modules.
+- Ensuring accurate permission assignment for newly created roles.
+- Identifying and documenting issues clearly during testing activities.
+- Balancing learning activities with operational tasks.
+
+---
+
+## Outcome
+
+- Successfully learned key Sales module functionalities with guidance from Zakir Bhai.
+- Configured permissions for **2 new roles** using Menu Permissions (Bulk).
+- Added **1 new vendor** under the Purchase module.
+- Identified and documented **1 UI bug** in the Direct Purchase module.
+- Continued building practical experience in ERP Operations, User Management, and User Acceptance Testing (UAT).
+- Successfully completed all assigned responsibilities.
+
+---
+
+## Notes
+
+- Training on Sales module operations was provided by Zakir Bhai.
+- Role permissions were configured through the User Management → Menu Permissions (Bulk) section.
+- One vendor record was successfully created under the Purchase module.
+- A UI issue was identified in Direct Purchase → Organization & Location and documented for the development team.
+- Workday focused primarily on ERP learning, access management, vendor management, and software testing activities.
