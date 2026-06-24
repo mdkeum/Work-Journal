@@ -14,7 +14,8 @@
 - Received additional training from Zakir Bhai on Sales module operations and workflows.
 - Performed role and permission configuration activities under the User Management module.
 - Added vendor master data under the Purchase module.
-- Identified and documented a UI bug during testing activities.
+- Conducted shipment monitoring and delivery status updates.
+- Identified and documented system issues during testing and operational activities.
 
 ---
 
@@ -24,6 +25,8 @@
 - Understood POS and B2B sales-related modules.
 - Created role mappings and configured permissions using the Menu Permissions (Bulk) feature.
 - Added a new vendor under the Purchase module.
+- Updated delivered invoices and marked returned shipments.
+- Investigated shipment issues and documented findings.
 - Performed UAT activities and identified a bug in the Direct Purchase module.
 
 ---
@@ -83,6 +86,25 @@
 
 ---
 
+### Shipment Status Monitoring
+
+#### Delivery Status Update
+
+- Reviewed shipment records in the **Awaiting for Delivery** section.
+- Verified delivery status through the Pathao Merchant platform.
+- Updated delivered invoices in the system.
+- Marked returned products where applicable.
+- Investigated invoice discrepancies and reported issues.
+
+##### Work Summary
+
+- Total invoices updated to **Delivered**: **49**
+- Total invoices marked as **Returned**: **5**
+- Total invoice issues identified: **2**
+- Improved shipment tracking and operational visibility.
+
+---
+
 ### User Acceptance Testing (UAT)
 
 #### Bug Identification
@@ -104,6 +126,7 @@
 - Continued transitioning toward ERP Operations and User Acceptance Testing responsibilities.
 - Strengthened understanding of Sales and Purchase workflows.
 - Performed role and permission configuration activities under User Management.
+- Assisted in shipment monitoring and delivery status management.
 - Participated in bug identification and quality assurance activities.
 - Expanded practical knowledge of ERP business processes and system administration.
 
@@ -114,6 +137,8 @@
 - Learned multiple Sales module functionalities.
 - Configured permissions for two new roles.
 - Added vendor master data.
+- Updated delivery and return records.
+- Investigated invoice discrepancies.
 - Conducted testing activities and documented system issues.
 - Coordinated with software team members regarding system functionalities.
 - Recorded daily progress and completed assigned tasks.
@@ -127,6 +152,7 @@
 - Gained experience in vendor master data management.
 - Strengthened User Acceptance Testing (UAT) skills through bug identification.
 - Improved understanding of software usability and interface validation.
+- Enhanced knowledge of shipment monitoring and exception handling.
 
 ---
 
@@ -135,6 +161,7 @@
 - Understanding interrelated workflows across Sales and User Management modules.
 - Ensuring accurate permission assignment for newly created roles.
 - Identifying and documenting issues clearly during testing activities.
+- Investigating shipment discrepancies and invoice issues.
 - Balancing learning activities with operational tasks.
 
 ---
@@ -144,8 +171,11 @@
 - Successfully learned key Sales module functionalities with guidance from Zakir Bhai.
 - Configured permissions for **2 new roles** using Menu Permissions (Bulk).
 - Added **1 new vendor** under the Purchase module.
+- Updated **49 invoices** to Delivered status.
+- Marked **5 invoices** as Returned.
+- Identified **2 invoice-related issues** during shipment monitoring.
 - Identified and documented **1 UI bug** in the Direct Purchase module.
-- Continued building practical experience in ERP Operations, User Management, and User Acceptance Testing (UAT).
+- Continued building practical experience in ERP Operations, User Management, logistics operations, and User Acceptance Testing (UAT).
 - Successfully completed all assigned responsibilities.
 
 ---
@@ -155,5 +185,6 @@
 - Training on Sales module operations was provided by Zakir Bhai.
 - Role permissions were configured through the User Management → Menu Permissions (Bulk) section.
 - One vendor record was successfully created under the Purchase module.
-- A UI issue was identified in Direct Purchase → Organization & Location and documented for the development team.
-- Workday focused primarily on ERP learning, access management, vendor management, and software testing activities.
+- Shipment status verification activities were performed alongside ERP learning tasks.
+- One UI issue was identified in Direct Purchase → Organization & Location and documented for the development team.
+- Workday focused on ERP learning, access management, shipment monitoring, vendor management, and software testing activities.
