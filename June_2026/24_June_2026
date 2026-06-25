@@ -1,1 +1,228 @@
+# Day 66 – June 24, 2026
 
+## Office Hours
+
+- Scheduled: 10:00 AM – 7:00 PM
+- Arrived: 09:56 AM
+- End: 07:18 PM
+
+---
+
+## Context
+
+- Utilized available time to support Miah Shop operational activities when no immediate tasks were assigned by the Helal & Brothers development team.
+- Performed shipment monitoring, delivery updates, and issue identification in the Miah Shop Admin Panel.
+- Continued User Acceptance Testing (UAT) and master data activities for the Helal & Brothers (H & B) website.
+- Added geographical master data and validated data accuracy across Sales Setup modules.
+- Raised business logic and visibility-related questions to the development team.
+
+---
+
+## Tasks
+
+- Updated delivered invoices in the Miah Shop Admin Panel.
+- Marked returned products where applicable.
+- Processed pending shipment invoices and moved eligible orders to Awaiting Delivery.
+- Investigated invoice-related shipment issues.
+- Created geographical master data in the H & B system.
+- Performed UAT testing for different user roles and visibility scenarios.
+- Raised questions regarding duplicate customers and money change approval visibility.
+- Validated data accuracy for Sales Setup master data.
+
+---
+
+## Work Completed
+
+### Miah Shop Shipment Operations
+
+#### Delivery Status Update
+
+- Reviewed invoices in the **Awaiting for Delivery** section.
+- Verified delivery status through the Pathao Merchant platform.
+- Updated delivered invoices in the Miah Shop Admin Panel.
+- Processed records from approximately Page **86 to 74**.
+
+##### Work Summary
+
+- Total products updated to **Delivered**: **116**
+- Approximate pages processed: **12**
+- Improved shipment tracking accuracy and delivery visibility.
+
+---
+
+### Return Management
+
+#### Returned Product Marking
+
+- Reviewed undelivered shipment records.
+- Marked returned products using the red-marked dropdown option in the system.
+
+##### Work Summary
+
+- Total products marked as **Returned**: **3**
+- Maintained accurate return tracking records.
+
+---
+
+### Pending Shipment Processing
+
+#### Pending → Awaiting Delivery
+
+- Reviewed pending shipment invoices.
+- Verified courier entry availability through the Pathao Merchant platform.
+- Updated eligible orders from **Pending Shipment** to **Awaiting Delivery**.
+
+##### Work Summary
+
+- Total products moved to **Awaiting Delivery**: **43**
+- Supported ongoing order fulfillment operations.
+
+---
+
+### Shipment Issue Investigation
+
+#### Invoice Issue Identification
+
+- Investigated shipment discrepancies and missing delivery records.
+
+##### Issues Found
+
+- **Invoice 29585** — No Pathao entry found.
+- **Invoice 28846** — Pickup requested to Pathao on **10/06/2026** but not delivered.
+
+##### Work Summary
+
+- Total invoice issues identified: **2**
+- Contributed to operational follow-up and issue resolution.
+
+---
+
+### H & B ERP Data Entry
+
+#### Geographical Master Data Creation
+
+- Created geographical master data for the Helal & Brothers website using ChatGPT and information from the Bangladesh Government website.
+- Added administrative divisions, districts, and upazilas into the system.
+
+##### Work Summary
+
+- Divisions added: **8**
+- Districts added: **64**
+- Upazilas added: **495**
+- Successfully completed bulk master data entry.
+
+---
+
+### User Acceptance Testing (UAT)
+
+#### Role & Visibility Testing
+
+- Performed UAT testing for different user roles.
+- Tested business logic, visibility rules, and workflow behavior.
+- Identified observations and documented questions for the development team.
+- Recorded findings in the shared Google document.
+
+##### Questions Raised
+
+**Sales → Customers**
+
+Observation: The system currently allows creating duplicate customer records.
+
+Question: Should duplicate customers be restricted based on unique customer code and/or mobile number to prevent duplicate ledgers, invoice inconsistencies, and reporting issues, or is there a business requirement that permits duplicate customer records?
+
+**Sales → Money Change Approval**
+
+Observation: When a field salesperson submits a money change request, the Admin Sales approval screen does not display the requesting employee's name or ID.
+
+Question: Should requester information (Employee Name, Employee ID, etc.) be displayed so the approver can identify whose request is being approved and maintain proper accountability and auditability?
+
+##### Work Summary
+
+- Total UAT questions raised: **2**
+- Contributed to business process improvement discussions.
+
+---
+
+### Data Accuracy Validation
+
+#### Sales Setup Verification
+
+Validated data under:
+
+- Divisions
+- District
+- Upazila
+- Thana
+- Area
+- Market
+
+##### Work Summary
+
+- Districts verified: **18 out of 64**
+- Accuracy result: **100% accurate**
+- Confirmed that bulk-entered data was functioning correctly.
+
+---
+
+## Work Discussion / Role Update
+
+- Supported both operational logistics activities and ERP/UAT responsibilities.
+- Assisted in shipment tracking, delivery monitoring, and issue identification for Miah Shop.
+- Performed large-scale master data entry for the H & B ERP system.
+- Participated in User Acceptance Testing and business logic validation.
+- Contributed to process improvement discussions through structured observations and questions.
+- Continued transitioning toward ERP Operations, Business Systems, and QA/UAT responsibilities.
+
+---
+
+## Administrative Activities
+
+- Updated delivery and return records in the Miah Shop Admin Panel.
+- Processed pending shipment records.
+- Investigated invoice discrepancies.
+- Added geographical master data in the H & B system.
+- Conducted UAT testing and documented observations.
+- Updated shared Google documents with questions and findings.
+- Verified data accuracy across Sales Setup modules.
+
+---
+
+## Key Learnings
+
+- Improved understanding of shipment monitoring and exception handling.
+- Gained experience in large-scale ERP master data creation.
+- Strengthened UAT skills through role-based testing and business logic validation.
+- Learned the importance of duplicate prevention and audit visibility in ERP systems.
+- Improved data verification and quality assurance practices.
+
+---
+
+## Challenges
+
+- Handling both operational logistics tasks and ERP testing activities in the same workday.
+- Verifying large volumes of shipment records accurately.
+- Ensuring master data accuracy during bulk entry.
+- Identifying business logic gaps and documenting them clearly for developers.
+
+---
+
+## Outcome
+
+- Updated **116 products** to Delivered status.
+- Marked **3 products** as Returned.
+- Moved **43 products** from Pending Shipment to Awaiting Delivery.
+- Identified **2 invoice-related shipment issues**.
+- Added **8 divisions, 64 districts, and 495 upazilas** to the H & B ERP system.
+- Raised **2 UAT/business logic questions** to the development team.
+- Verified **18 districts** and confirmed **100% data accuracy** for the tested records.
+- Successfully completed both operational and ERP/UAT responsibilities.
+
+---
+
+## Notes
+
+- Operational shipment activities were performed in the Miah Shop Admin Panel during available time.
+- Geographical master data was created using ChatGPT and Bangladesh Government administrative information.
+- UAT observations and questions were documented in the shared Google document with the development team.
+- Data accuracy checks confirmed that the bulk-entered district records were functioning correctly.
+- Workday focused on shipment operations, ERP master data management, UAT testing, business process validation, and quality assurance activities.
