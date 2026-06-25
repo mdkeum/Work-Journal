@@ -1,0 +1,149 @@
+# Day 67 – June 25, 2026
+
+## Office Hours
+
+- Scheduled: 10:00 AM – 7:00 PM
+- Arrived: 09:49 AM
+- End: Ongoing (Workday in Progress)
+
+---
+
+## Context
+
+- Continued User Acceptance Testing (UAT) and data validation activities for the Helal & Brothers (H & B) ERP system.
+- Focused on verifying administrative and geographical master data entered into the system.
+- Performed data accuracy checks to ensure the correctness of master data records across multiple Sales Setup modules.
+
+---
+
+## Tasks
+
+- Verified Thana master data records.
+- Verified District master data records.
+- Verified Division master data records.
+- Verified Area master data records.
+- Tested relationships between Market, Division, Area, and Market configurations.
+- Conducted data accuracy validation activities under the Sales Setup module.
+
+---
+
+## Work Completed
+
+### Sales Setup Data Validation
+
+#### Thana Verification
+
+- Reviewed and validated Thana records entered into the system.
+- Cross-checked entries for accuracy and consistency.
+
+##### Work Summary
+
+- Total Thanas verified: **22**
+- Errors found: **0**
+- Accuracy rate: **100%**
+
+---
+
+#### District Verification
+
+- Reviewed and validated District records.
+- Verified district information against source data.
+
+##### Work Summary
+
+- Total Districts verified: **8**
+- Errors found: **0**
+- Accuracy rate: **100%**
+
+---
+
+#### Division Verification
+
+- Reviewed and validated Division master records.
+- Confirmed proper configuration and visibility within the system.
+
+##### Work Summary
+
+- Total Divisions verified: **8**
+- Errors found: **0**
+- Accuracy rate: **100%**
+
+---
+
+#### Area Verification
+
+- Reviewed Area records and their relationship with Divisions.
+- Verified Area configuration and mapping.
+
+##### Work Summary
+
+- Total Area-Division mappings verified: **11**
+- Errors found: **0**
+- Accuracy rate: **100%**
+
+---
+
+#### Market Configuration Verification
+
+- Tested relationships between Market, Division, Area, and Market configurations.
+- Verified one non-customer configuration scenario.
+- Confirmed proper functionality during testing.
+
+##### Work Summary
+
+- Market configuration validation completed.
+- No issues identified during verification.
+
+---
+
+## Work Discussion / Role Update
+
+- Continued supporting ERP data validation and User Acceptance Testing (UAT) activities.
+- Focused on verifying the accuracy of master data entered into the H & B ERP system.
+- Assisted in ensuring data integrity and consistency across Sales Setup modules.
+- Continued strengthening skills in ERP testing, validation, and quality assurance.
+
+---
+
+## Administrative Activities
+
+- Conducted master data verification activities.
+- Validated system records against source information.
+- Documented testing progress and verification results.
+- Maintained quality assurance records for UAT activities.
+
+---
+
+## Key Learnings
+
+- Improved understanding of geographical master data relationships within ERP systems.
+- Strengthened data validation and quality assurance skills.
+- Learned the importance of verifying master data accuracy before production use.
+- Improved understanding of Sales Setup module configurations and dependencies.
+
+---
+
+## Challenges
+
+- Ensuring complete accuracy across large master datasets.
+- Verifying relationships between multiple linked modules and configurations.
+- Maintaining consistency during large-scale validation activities.
+
+---
+
+## Outcome (So Far)
+
+- Verified **22 Thanas** with **100% accuracy**.
+- Verified **8 Districts** with **100% accuracy**.
+- Verified **8 Divisions** with **100% accuracy**.
+- Verified **11 Area-Division mappings** with **100% accuracy**.
+- Completed Market configuration validation without identifying any issues.
+- Successfully continued UAT and master data quality assurance activities.
+
+---
+
+## Notes
+
+- Workday is still ongoing and additional tasks may be completed before final submission.
+- Current activities are focused on data validation, ERP testing, and quality assurance.
+- All verified records checked so far have been found accurate with no errors identified.
