@@ -10,23 +10,25 @@
 
 ## Context
 
-- Continued User Acceptance Testing (UAT), data validation, and ERP operations activities for the Helal & Brothers (H & B) ERP system.
-- Focused on validating Sales Setup master data accuracy and testing Production module workflows.
-- Performed master data verification using company-provided Excel files.
-- Created production transactions and stock items after database cleanup.
-- Identified and documented system issues for the development team.
+- Continued User Acceptance Testing (UAT), ERP master data validation, and Production module testing for the Helal & Brothers (H & B) ERP system.
+- Focused on validating Sales Setup master data accuracy using the company-provided Excel file.
+- Performed Production Receipt transactions and stock item creation after database cleanup.
+- Conducted workflow validation and identified system issues for the development team.
 
 ---
 
 ## Tasks
 
-- Verified Thana, District, Division, Area, and Market master data.
-- Cross-checked ERP data against the company master Excel file.
-- Tested Area-Market relationships and mappings.
+- Verified Thana master data.
+- Verified District master data.
+- Verified Division master data.
+- Verified Area and Market master data using the company-provided Excel file.
+- Cross-checked ERP master data against the source Excel file.
 - Created Production Receipts under the Production module.
 - Added new stock items after database cleanup.
-- Performed UAT testing on Production Receipt workflows.
-- Identified and documented production-related system issues.
+- Performed User Acceptance Testing (UAT) on Production Receipt workflows.
+- Tested Production Receipt creation and edit functionality.
+- Identified and documented Production module workflow and system-generated numbering issues.
 
 ---
 
@@ -37,7 +39,7 @@
 #### Thana Verification
 
 - Reviewed and validated Thana records entered into the system.
-- Cross-checked entries against source data.
+- Cross-checked all entries against the company master Excel file.
 
 ##### Work Summary
 
@@ -50,7 +52,7 @@
 #### District Verification
 
 - Reviewed and validated District records.
-- Verified district information against source data.
+- Verified district information against the master Excel file.
 
 ##### Work Summary
 
@@ -63,7 +65,7 @@
 #### Division Verification
 
 - Reviewed and validated Division records.
-- Confirmed proper configuration and visibility within the system.
+- Confirmed proper configuration and visibility within the ERP system.
 
 ##### Work Summary
 
@@ -76,7 +78,7 @@
 #### Area Verification
 
 - Verified Area records and their relationship with Divisions.
-- Cross-checked records using the company-provided Excel file.
+- Cross-checked Area information using the company master Excel file.
 
 ##### Work Summary
 
@@ -88,9 +90,9 @@
 
 #### Area & Market Verification
 
-- Verified Area and Market master data using the master Excel file.
-- Tested Area-Market relationships and mappings.
-- Confirmed consistency between ERP data and source records.
+- Verified Area and Market master data.
+- Tested Area-Market relationships and mapping accuracy.
+- Confirmed consistency between ERP records and source data.
 
 ##### Work Summary
 
@@ -105,15 +107,15 @@
 #### Production Receipt Creation
 
 - Tested Production Receipt functionality under the Production module.
-- Created production receipt transactions after database cleanup activities.
-- Added stock items required for production operations.
-- Verified transaction flow and item integration during testing.
+- Created Production Receipt transactions after database cleanup.
+- Added new stock items required for production operations.
+- Verified transaction workflow and stock item integration.
 
 ##### Work Summary
 
 - Production Receipts created: **20**
 - New Stock Items added: **27**
-- Successfully tested production workflow and stock item integration.
+- Successfully completed production workflow testing.
 
 ---
 
@@ -122,8 +124,8 @@
 #### Production Module Testing
 
 - Performed workflow validation for Production Receipt transactions.
-- Tested item creation and transaction processing behavior.
-- Identified issues affecting transaction completion and numbering.
+- Tested Production Receipt creation, editing, and transaction processing.
+- Identified issues affecting transaction editing and automatic receipt number generation.
 
 ##### Issue Identified #1
 
@@ -131,15 +133,15 @@
 
 **Observation:**
 
-After creating and adding items to a Production Receipt, if a user creates a new stock item during the process, the **Save** and **Submit** buttons become non-functional.
+After creating a Production Receipt and adding items, if the user edits the Production Receipt, the **Save** and **Submit** buttons do not work.
 
 **Expected Result:**
 
-Users should be able to save and submit the Production Receipt successfully after creating a new stock item.
+Users should be able to successfully save and submit the Production Receipt after making edits.
 
 **Actual Result:**
 
-Save and Submit buttons do not work after creating a new stock item.
+The Save and Submit buttons become non-functional during the edit process.
 
 **Severity:** Medium
 
@@ -151,62 +153,64 @@ Save and Submit buttons do not work after creating a new stock item.
 
 **Observation:**
 
-In some cases, the system does not automatically generate a Production Receipt Number.
+While creating a new Production Receipt, the system occasionally does not automatically generate a **Production Receipt Number**.
 
 **Expected Result:**
 
-A unique Production Receipt Number should be generated automatically for every Production Receipt transaction.
+A unique Production Receipt Number should be generated automatically for every new Production Receipt.
 
 **Actual Result:**
 
-Receipt Number generation occasionally fails.
+In some cases, the Production Receipt Number is not generated automatically.
 
 **Severity:** High
 
 ##### Work Summary
 
-- Total production-related issues identified: **2**
-- Issues documented for developer review and resolution.
-- Continued validation of Production module workflows.
+- Total Production module issues identified: **2**
+- Issues documented and reported to the development team.
+- Continued validation of Production Receipt workflows and transaction processing.
 
 ---
 
 ## Work Discussion / Role Update
 
 - Continued supporting ERP quality assurance and User Acceptance Testing (UAT) activities.
-- Focused on validating master data accuracy and production workflows.
-- Assisted in identifying business process and system issues before production deployment.
-- Continued strengthening ERP testing, data validation, and quality assurance skills.
+- Validated Sales Setup master data before production use.
+- Tested Production module workflows and transaction behavior.
+- Identified workflow issues and documented them for the software development team.
+- Continued strengthening ERP testing, master data validation, and quality assurance skills.
 
 ---
 
 ## Administrative Activities
 
-- Conducted master data verification activities.
-- Cross-checked ERP data against company Excel records.
-- Created production transactions and stock items.
-- Tested production workflows and documented findings.
-- Maintained issue tracking records for developer review.
-- Recorded daily testing progress and validation results.
+- Conducted master data verification using the company master Excel file.
+- Cross-checked ERP records with source data.
+- Created Production Receipt transactions.
+- Added new stock items.
+- Conducted UAT testing and documented findings.
+- Updated issue tracking records for the development team.
+- Recorded daily testing progress.
 
 ---
 
 ## Key Learnings
 
 - Improved understanding of Production Receipt workflows.
-- Strengthened ERP data validation and quality assurance skills.
+- Strengthened ERP master data validation skills.
 - Learned the importance of transaction numbering and workflow continuity.
-- Improved understanding of master data relationships between Area, Market, District, and Division records.
-- Gained additional experience in identifying and documenting software defects.
+- Improved understanding of Sales Setup master data relationships.
+- Enhanced practical experience in identifying, documenting, and reporting software defects during UAT.
 
 ---
 
 ## Challenges
 
-- Ensuring complete data accuracy across multiple master data modules.
-- Testing production workflows while identifying edge-case scenarios.
+- Ensuring complete accuracy across multiple master data modules.
+- Testing Production workflows while identifying edge-case scenarios.
 - Validating large datasets efficiently.
-- Identifying root causes of workflow interruptions and transaction failures.
+- Identifying workflow interruptions and transaction processing issues.
 
 ---
 
@@ -216,19 +220,20 @@ Receipt Number generation occasionally fails.
 - Verified **8 Districts** with **100% accuracy**.
 - Verified **8 Divisions** with **100% accuracy**.
 - Verified **11 Area-Division mappings** with **100% accuracy**.
-- Completed Area and Market verification successfully.
+- Successfully completed Area and Market verification with no discrepancies.
 - Created **20 Production Receipts**.
 - Added **27 new stock items**.
-- Identified and documented **2 Production module issues**.
-- Successfully continued ERP testing, master data validation, and quality assurance activities.
+- Identified and documented **2 Production Receipt workflow bugs** for the development team.
+- Successfully continued ERP testing, Production module validation, master data verification, and quality assurance activities.
 
 ---
 
 ## Notes
 
-- Data validation activities were performed using the company-provided master Excel file.
-- Production testing was conducted after database cleanup activities.
-- Two issues were identified and documented in the Production Receipt workflow.
+- Master data validation was performed using the company-provided Excel master file.
+- Production Receipt testing was conducted after database cleanup activities.
+- Two Production module bugs were identified and documented for developer review.
 - All verified master data records were found accurate during testing.
-- Workday focused primarily on ERP testing, master data validation, production workflow testing, and quality assurance activities.
-- Workday is still ongoing and additional activities may be added before final submission.
+- Workday focused primarily on ERP testing, Production module validation, master data verification, and User Acceptance Testing (UAT).
+- Workday was still ongoing at the time this journal was prepared and additional activities could be added before final submission.
+```
