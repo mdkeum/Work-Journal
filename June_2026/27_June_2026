@@ -1,1 +1,167 @@
+# Day 68 – June 27, 2026
 
+## Office Hours
+
+- **Scheduled:** 10:00 AM – 7:00 PM
+- **Arrived:** 10:00 AM
+- **End:** 07:18 PM
+
+---
+
+## Context
+
+- Continued User Acceptance Testing (UAT), master data verification, and Production module validation for the Helal & Brothers (H & B) ERP system.
+- Performed customer master data verification to ensure data accuracy.
+- Conducted regression testing on previously reported Production Receipt bugs after developer fixes.
+- Participated in an ERP workflow discussion with the Helal & Brothers Accounts Team through Google Meet.
+- Assigned documentation responsibilities for preparing meeting minutes and workflow diagrams.
+
+---
+
+## Tasks
+
+- Verified customer master data under the Sales → Customers module.
+- Cross-checked customer records for data accuracy.
+- Performed regression testing on previously reported Production Receipt bugs.
+- Created new Production Receipts.
+- Added new inventory items during Production Receipt testing.
+- Participated in the ERP workflow discussion with the Accounts Team.
+- Took detailed meeting notes during the discussion.
+- Received responsibility for preparing the workflow diagram and meeting minutes for team distribution.
+
+---
+
+## Work Completed
+
+### Sales Module Data Verification
+
+#### Customer Verification
+
+- Reviewed customer records under the **Sales → Customers** module.
+- Cross-checked customer information to verify data accuracy.
+- Validated customer records entered into the ERP system.
+
+##### Work Summary
+
+- Total customer pages in the system: **569**
+- Customers per page: **10**
+- Total customer records in the database: **5,690**
+- Customer records verified: **20**
+- Data verification completed successfully with no discrepancies identified during the sampled review.
+
+---
+
+### Production Module Testing
+
+#### Production Receipt Regression Testing
+
+- Performed regression testing on previously reported Production Receipt issues after developer fixes.
+- Retested the following reported issues:
+  - Unit-related error
+  - Save & Submit button not working after editing a Production Receipt
+- Observed that the issues were **not fully resolved** and continued to exhibit unexpected behavior.
+- Documented findings for further developer review.
+
+##### Work Summary
+
+- Regression testing completed.
+- Previously reported issues require additional fixes.
+
+---
+
+#### Production Receipt Creation
+
+- Created new Production Receipt transactions.
+- Added inventory items required for production operations.
+- Verified Production Receipt workflow and inventory integration.
+
+##### Work Summary
+
+- Production Receipts created: **6**
+- Inventory items added: **33**
+
+---
+
+### ERP Project Meeting
+
+#### Google Meet Discussion with Accounts Team
+
+- Participated in an online ERP discussion with the **Helal & Brothers Accounts Team (Baburhat)**.
+- Discussed business workflow improvements required to make the ERP system fully operational.
+- Attended the meeting with:
+  - **Mr. Fazle Rabbi Bhai** – Software Advisor
+  - **Mr. Zaman Bhai** – Software Team Manager
+  - **Mr. Zakir Bhai** – Senior Executive (Software)
+  - **Keum** – Junior Executive, Business Development
+- Took comprehensive meeting notes throughout the discussion.
+- Mr. Fazle Rabbi Bhai explained the proposed business workflow for the ERP process.
+- Assigned responsibility to prepare a professional workflow diagram based on the discussion.
+
+##### Work Summary
+
+- Meeting notes successfully recorded.
+- Workflow requirements documented.
+- Assigned documentation responsibilities for the ERP project.
+
+---
+
+## Work Discussion / Role Update
+
+- Continued supporting ERP User Acceptance Testing (UAT) and quality assurance activities.
+- Performed regression testing to verify previously fixed software defects.
+- Continued validating ERP master data quality.
+- Participated in business process discussions with cross-functional stakeholders.
+- Expanded responsibilities to include ERP documentation, meeting minutes preparation, and business workflow visualization.
+
+---
+
+## Administrative Activities
+
+- Verified customer master data.
+- Conducted regression testing on Production Receipt functionality.
+- Created Production Receipts and inventory items.
+- Attended ERP workflow discussion via Google Meet.
+- Recorded detailed meeting notes.
+- Planned preparation of the meeting minutes document and professional workflow diagram for team distribution.
+
+---
+
+## Key Learnings
+
+- Improved understanding of regression testing after software bug fixes.
+- Gained practical experience validating Production module enhancements.
+- Enhanced understanding of ERP business workflows discussed with the Accounts Team.
+- Improved documentation skills through meeting note preparation.
+- Learned how business process workflows are translated into system implementation requirements.
+
+---
+
+## Challenges
+
+- Verifying whether previously reported bugs were completely resolved.
+- Identifying remaining issues after partial bug fixes.
+- Understanding complex cross-department ERP workflow requirements.
+- Accurately documenting business discussions for future implementation.
+
+---
+
+## Outcome
+
+- Verified **20 customer records** from a database containing **5,690 customer records**.
+- Completed regression testing on previously reported Production Receipt issues.
+- Created **6 Production Receipts**.
+- Added **33 inventory items**.
+- Participated in the ERP workflow meeting with the Accounts Team.
+- Successfully documented meeting discussions and workflow requirements.
+- Assigned responsibility to prepare the professional workflow diagram and meeting minutes for the ERP project.
+
+---
+
+## Notes
+
+- Customer verification was performed as part of ongoing ERP master data validation.
+- Regression testing confirmed that previously reported Production Receipt issues still require further developer attention.
+- Meeting discussions focused on defining the complete ERP workflow for production implementation.
+- Meeting notes and workflow diagram preparation were scheduled for completion on the following day.
+- Workday focused on ERP testing, regression testing, master data validation, business process documentation, and cross-functional collaboration.
+```
