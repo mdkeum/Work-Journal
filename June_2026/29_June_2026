@@ -1,1 +1,139 @@
+# Day 70 – June 29, 2026
 
+## Office Hours
+
+- **Scheduled:** 10:00 AM – 7:00 PM
+- **Arrived:** 09:56 AM
+- **End:** Ongoing (Workday in Progress)
+
+---
+
+## Context
+
+Today's activities focused on understanding the updated Sales module, validating inventory movement, monitoring the impact of sales transactions on stock records, participating in a requirements discussion with stakeholders, and identifying business logic issues during ERP User Acceptance Testing (UAT).
+
+---
+
+## Tasks
+
+- Understood the updated Sales module from Zakir Bhai.
+- Created a new Production Receipt.
+- Performed sales transactions to validate inventory behavior.
+- Monitored Stock Summary and Stock Ledger after each transaction.
+- Tested sales scenarios using inventory items.
+- Participated in a team meeting regarding ERP improvements and workflow requirements.
+- Identified and documented a stock validation bug.
+
+---
+
+## Work Completed
+
+### 1. Sales Module Understanding
+
+- Reviewed the latest updates to the Sales module with guidance from Zakir Bhai.
+- Understood the updated sales workflow and transaction process.
+
+### 2. Production Receipt Testing
+
+- Created **1 new Production Receipt**.
+- Verified that the production receipt successfully added items to inventory.
+
+### 3. Sales & Inventory Testing
+
+- Created **2 sales transactions**.
+- Issued inventory items through the sales process.
+- Performed additional sales transactions using the **Prasiddha** item to validate stock behavior under different quantity scenarios.
+
+### 4. Stock Validation & Monitoring
+
+- Continuously monitored the ERP after every transaction.
+- Opened the **Stock Summary** and **Stock Ledger** in separate windows to observe real-time inventory updates.
+- Verified whether stock quantities and ledger entries were updated correctly after each sales transaction.
+
+### 5. Bug Identification
+
+**Bug Found:**
+
+> When the requested sales quantity equals the available stock, the system incorrectly displays **"Product Out of Stock"** and blocks the sale. The sale should be allowed, reducing the stock quantity to **0**. Sales should only be blocked when the requested quantity exceeds the available stock.
+
+### 6. Team Meeting with Software Advisor
+
+Participated in a technical discussion with **Fazle Rabbi Bhai (Software Advisor)** along with **Zaman Bhai** and **Zakir Bhai** regarding ERP enhancements, inventory handling, and POS workflow improvements.
+
+#### Key Discussion Points
+
+- Discussed how **Handling Loss** should be recorded in the **Stock Holding Ledger**.
+- Reviewed the impact of **Handling Loss** on the **Item Ledger** and overall stock calculations.
+- Discussed the **Stock Transfer** process, including:
+  - Transfer Issue
+  - Transfer Receive
+- Proposed that the **Express/POS Item Search** should display **all categories by default** while still supporting category-based filtering.
+- Suggested that the **Item Search** field should automatically receive cursor focus so users can begin typing immediately without extra clicks.
+- Reviewed the **Customer Entry Form** and discussed using the **Billing Address** as the default **Shipping Address** when applicable.
+- Recommended that the **Shipping Address** should automatically load during **POS Bill Issue** while remaining editable by the user if necessary.
+
+---
+
+## Work Discussion / Role Update
+
+- Improved understanding of the updated Sales module and its interaction with the Inventory module.
+- Conducted functional testing to verify inventory deductions and stock synchronization after sales.
+- Participated in a requirements discussion with the Software Advisor and development team regarding inventory workflows, stock movement, POS usability, and customer address management.
+- Contributed testing observations and documented a reproducible business logic issue for the development team.
+
+---
+
+## Administrative Activities
+
+- Recorded testing observations and bug details.
+- Prepared documentation for reporting the identified issue to the development team.
+- Attended the ERP requirements review meeting with Fazle Rabbi Bhai, Zaman Bhai, and Zakir Bhai.
+- Documented meeting discussions and proposed enhancements for future implementation.
+
+---
+
+## Key Learnings
+
+- Gained a deeper understanding of the Sales and Inventory workflow.
+- Learned how Stock Summary and Stock Ledger reflect inventory movements after transactions.
+- Improved understanding of **Handling Loss** and its impact on stock records and inventory ledgers.
+- Learned the workflow of **Stock Transfer (Issue & Receive)** operations.
+- Learned usability considerations for POS item searching, customer address handling, and default shipping address behavior.
+- Identified the importance of testing boundary conditions (e.g., requested quantity equal to available stock) during ERP validation.
+
+---
+
+## Challenges
+
+- The ERP incorrectly rejected valid sales when the requested quantity exactly matched the available stock, preventing complete inventory depletion through normal sales.
+- Determining the impact of stock-related transactions required simultaneous monitoring of multiple inventory reports and ledgers.
+
+---
+
+## Outcome
+
+- Successfully understood the updated Sales module.
+- Completed production receipt and sales testing.
+- Verified stock movement behavior through Stock Summary and Stock Ledger analysis.
+- Participated in a stakeholder discussion on ERP enhancements and workflow improvements.
+- Identified and documented **one High Severity business logic bug** related to stock validation.
+- Contributed observations and recommendations for future ERP and POS usability improvements.
+
+---
+
+## Notes
+
+- Continue testing additional edge cases in the Sales and Inventory modules, including:
+  - Partial sales
+  - Exact stock depletion scenarios
+  - Zero stock validation
+  - Over-selling prevention
+  - Product returns
+  - Concurrent transactions
+
+- Follow up on the discussion points related to:
+  - Handling Loss
+  - Stock Transfer workflow
+  - POS item search optimization
+  - Customer address management
+  - Shipping address automation
