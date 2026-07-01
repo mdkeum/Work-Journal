@@ -1,1 +1,157 @@
+# Day 71 – June 30, 2026
 
+## Office Hours
+
+- **Scheduled:** 10:00 AM – 7:00 PM
+- **Arrived:** 09:58 AM
+- **End:** 07:20 PM
+
+---
+
+## Context
+
+Today's work focused on testing the **Production** and **Inventory** modules, validating inventory updates after production transactions, participating in ERP-related meetings and discussions, preparing an SQA analysis presentation, presenting the ERP system to management, and improving my understanding of the Attendance & Biometric ERP before the monthly attendance cycle closed.
+
+---
+
+## Tasks
+
+- Created Production Receipts under the Production module.
+- Verified inventory updates through Stock Summary and Stock List.
+- Tested the ERP for production-related issues.
+- Attended management and project discussion meetings.
+- Conducted SQA role analysis using AI tools.
+- Prepared an SQA presentation.
+- Reviewed the complete ERP system with Zakir Bhai.
+- Presented the ERP system to management through a live demonstration.
+- Clarified ERP observations after the presentation.
+- Learned the Attendance & Biometric ERP workflow.
+
+---
+
+## Work Completed
+
+### 1. Production Receipt Testing
+
+- Created **4 Production Receipts** under the **Production** module.
+- Verified that each production receipt was processed successfully.
+- Reviewed the **Inventory Stock Summary** and **Stock List** after each production receipt to ensure inventory quantities were updated correctly.
+
+### 2. ERP Validation & Issue Verification
+
+- Checked the ERP system after creating the production receipts.
+- Verified inventory records, stock updates, and transaction consistency.
+- Reviewed the system for functional, calculation, and business logic issues related to production activities.
+
+### 3. Management Meeting
+
+**Time:** **12:20 PM – 01:05 PM**
+
+- Attended a meeting with **Director Sir**, along with **Zaman Bhai** and **Aontor Bhai**.
+- Participated in discussions regarding the ERP project, implementation progress, and ongoing business requirements.
+
+### 4. SQA Role Analysis & Presentation Preparation
+
+**Time:** **02:10 PM – 02:45 PM**
+
+- Conducted research on the **Software Quality Assurance (SQA)** role using **ChatGPT** and **Gemini AI**.
+- Prepared an SQA presentation as assigned by **Zaman Bhai** to better understand ERP testing methodologies and responsibilities.
+
+### 5. ERP Knowledge Review
+
+**Time:** **02:50 PM – 03:30 PM**
+
+- Discussed the complete ERP system with **Zakir Bhai**.
+- Reviewed the major modules, workflows, and business processes before presenting the ERP system to management.
+
+### 6. ERP Live Demonstration
+
+**Time:** **03:35 PM – 04:50 PM**
+
+- Conducted a detailed discussion and live demonstration of the **M/S Helal & Brothers ERP System** with **Aontor Bhai**.
+- Demonstrated the major ERP modules and explained their workflows.
+- Received valuable feedback and identified several system issues and improvement opportunities during the session.
+
+### 7. Post-Demo Clarification Session
+
+**Time:** **05:35 PM – 06:20 PM**
+
+- Revisited the ERP system with **Zakir Bhai**.
+- Discussed the observations and issues identified during the live demonstration.
+- Clarified several ERP workflows and business logic scenarios to improve overall system understanding.
+
+### 8. Attendance & Biometric ERP Understanding
+
+**Time:** **06:20 PM – 06:35 PM**
+
+- Met with **Partho Bhai** to understand the **Attendance & Biometric ERP** module.
+- Learned how attendance and biometric records are managed within the ERP system.
+- Understood the procedure for applying for **Paid Late** and **Short Leave** through the ERP.
+- Clarified the maximum number of **Paid Late** and **Short Leave** applications permitted within a month.
+- Since **30 June** was the final day of the monthly attendance cycle and the ERP could close the attendance period at any time, confirmed the importance of submitting all attendance-related applications before the monthly closing.
+
+---
+
+## Work Discussion / Role Update
+
+- Continued functional testing of the Production and Inventory modules.
+- Validated inventory updates using the **Stock Summary** and **Stock List** after production transactions.
+- Participated in management discussions regarding ERP implementation and business processes.
+- Conducted research on Software Quality Assurance (SQA) and prepared a presentation to strengthen understanding of testing responsibilities.
+- Assisted in presenting the ERP system to management and gathered valuable feedback for future improvements.
+- Improved understanding of the Attendance & Biometric ERP and monthly attendance management process.
+
+---
+
+## Administrative Activities
+
+- Documented production testing activities and observations.
+- Prepared the assigned SQA presentation.
+- Attended multiple meetings related to ERP implementation and project review.
+- Recorded observations and improvement opportunities identified during the ERP live demonstration.
+- Reviewed the Attendance & Biometric ERP with Partho Bhai to understand attendance management and monthly attendance application procedures before the ERP attendance cycle closed.
+
+---
+
+## Key Learnings
+
+- Improved understanding of the **Production Receipt** workflow and its impact on inventory.
+- Learned how to validate inventory updates using the **Inventory Stock Summary** and **Stock List**.
+- Gained practical knowledge of **Software Quality Assurance (SQA)** roles, responsibilities, and ERP testing strategies.
+- Enhanced understanding of the complete ERP workflow through discussions with Zakir Bhai.
+- Learned how to effectively demonstrate an ERP system to management while collecting valuable business feedback.
+- Improved understanding of ERP business logic through post-demonstration discussions.
+- Gained practical knowledge of the **Attendance & Biometric ERP** module.
+- Learned the workflow for applying for **Paid Late** and **Short Leave**.
+- Understood the monthly application limits and the importance of submitting attendance-related requests before the ERP attendance cycle closes.
+
+---
+
+## Challenges
+
+- Required careful verification of production transactions to ensure inventory accuracy.
+- Preparing for the ERP demonstration required a comprehensive understanding of multiple ERP modules within a limited timeframe.
+- Several observations raised during the live demonstration required further clarification to fully understand the intended business logic.
+- Ensuring attendance-related applications were completed before the monthly ERP attendance cycle closed.
+
+---
+
+## Outcome
+
+- Successfully created **4 Production Receipts** and verified inventory updates.
+- Validated **Inventory Stock Summary** and **Stock List** after production transactions.
+- Completed the assigned **SQA role analysis** and presentation.
+- Participated in strategic discussions regarding ERP implementation and business processes.
+- Successfully demonstrated the ERP system to management through a live presentation.
+- Improved overall understanding of ERP workflows, business processes, and system behavior through follow-up discussions.
+- Gained practical knowledge of the **Attendance & Biometric ERP** and attendance application procedures before the monthly ERP closing.
+
+---
+
+## Notes
+
+- Continue testing advanced production scenarios and inventory reconciliation.
+- Follow up on the issues identified during the ERP live demonstration.
+- Continue improving SQA documentation, test cases, and ERP testing strategies.
+- Validate identified issues with the development team and track them through the bug reporting process.
+- Continue expanding knowledge of HRM and Attendance modules to support comprehensive ERP testing.
