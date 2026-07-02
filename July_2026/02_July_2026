@@ -1,1 +1,234 @@
+# Day 73 – July 02, 2026
 
+## Office Hours
+
+- **Scheduled:** 10:00 AM – 7:00 PM
+- **Arrived:** 10:12 AM
+- **End:** Still in Office
+
+---
+
+# Context
+
+Continued User Acceptance Testing (UAT), Software Quality Assurance (SQA), and ERP data validation activities for the M/S Helal & Brothers ERP System. Today's work focused on sales workflow validation, payment processing, settlement verification, purchase inventory data consistency checks, production testing, and documenting a new POS bug related to the **Rounding Down** functionality.
+
+---
+
+# Tasks
+
+- Tested Sales Order functionality.
+- Approved sales approval requests.
+- Verified customer payment collection.
+- Performed sales settlements.
+- Validated Purchase Inventory item master data against the database.
+- Corrected inconsistent inventory records.
+- Created sales invoices for testing.
+- Created one production receipt.
+- Identified and documented a new POS bug.
+
+---
+
+# Work Completed
+
+## 1. Sales Order Functional Testing
+
+### Objective
+
+To verify that the Sales Order functionality works correctly under simultaneous testing.
+
+### Work Performed
+
+- Created **2 Sales Orders** together with **Zakir Bhai**.
+- Tested the sales functionality simultaneously from two users.
+- Verified that the Sales Order workflow functioned correctly.
+
+### Outcome
+
+Sales Order functionality worked as expected and the test was successfully passed.
+
+---
+
+## 2. Sales Approval & Payment Verification
+
+### Objective
+
+To validate the approval workflow and payment collection process.
+
+### Work Performed
+
+- Approved **5 Sales Approval Requests**.
+- Verified payments through:
+
+  - Cash
+  - MFS (Mobile Financial Service)
+
+- Confirmed the payments from:
+
+  **Sales → Accounts → Received Payment List**
+
+- Processed payments for **5 sales bills**.
+
+### Outcome
+
+Successfully verified the payment workflow and approval process.
+
+---
+
+## 3. Sales Settlement Testing
+
+### Objective
+
+To verify settlement functionality after completing sales transactions.
+
+### Work Performed
+
+- Completed **2 Sales Settlements**.
+
+### Outcome
+
+Settlement process completed successfully for the tested sales.
+
+---
+
+## 4. Purchase Inventory Data Verification
+
+### Objective
+
+To verify Purchase Inventory Item master data against the ERP database and identify inconsistencies.
+
+### Work Performed
+
+Assigned by **Zaman Bhai** to verify the **Purchase Inventory Item Category Tags**.
+
+Compared ERP records with the system database by checking:
+
+- Category
+- Tag
+- Name
+- Group
+- Sub Group
+- Sub Category
+
+Verification summary:
+
+- **Rows 19–22:** Compared ERP data with the database.
+- **Rows 54–58:** Verified database records using the reference/base database.
+- **Row 63:** Verified ERP data against the database.
+- Corrected inconsistent records by comparing them with the reference database.
+- Observed that **Row 67** existed in the ERP (Local) but was missing from the database.
+- Department: **Accessories**
+  - No update required as instructed by **Zaman Bhai**.
+
+### Outcome
+
+Completed data validation and corrected inconsistent inventory records while documenting remaining discrepancies.
+
+---
+
+## 5. Sales Invoice & Production Testing
+
+### Objective
+
+To generate test transactions for ERP workflow validation.
+
+### Work Performed
+
+- Created **11 Sales Invoices** for testing.
+- Among them, **4 invoices were rejected** during the approval stage for workflow testing.
+- Created **1 Production Receipt**.
+
+### Outcome
+
+Successfully generated test data for sales approval and production workflow validation.
+
+---
+
+## 6. POS Bug Documentation
+
+### Objective
+
+To validate the **Rounding Down** functionality during POS settlement.
+
+### Work Performed
+
+Identified a functional inconsistency in:
+
+**Sales → POS Sign In/Out → Continue to POS**
+
+### Bug Description
+
+The **"Rounding Down"** field accepts any numeric value (e.g., 10, 150, 6250, 1500), even though the ERP applies a maximum rounding down of **৳100** to the final bill.
+
+This creates inconsistent behavior because:
+
+- Users can enter values greater than the allowed business limit.
+- The system internally limits the calculation to **৳100**.
+- The entered value and the calculated value become inconsistent.
+
+### Expected Behavior
+
+If the maximum allowed rounding down is **৳100**, then the system should:
+
+- Restrict user input to **100**.
+- Or display a validation message whenever a higher value is entered.
+
+### Business Impact
+
+- Creates inconsistent user experience.
+- Causes confusion between entered values and calculated values.
+- Weakens input validation within the POS module.
+- May lead users to misunderstand the actual discount or rounding applied.
+
+### Outcome
+
+Documented the issue as a UI/Business Logic enhancement (minor bug) for the development team.
+
+---
+
+# Work Discussion / Role Update
+
+- Worked closely with **Zakir Bhai** during Sales Order testing.
+- Performed Purchase Inventory data verification assigned by **Zaman Bhai**.
+- Continued contributing to ERP UAT by validating both functional workflows and master data consistency.
+- Focused on identifying business logic issues in addition to technical defects.
+
+---
+
+# Administrative Activities
+
+- Compared ERP master data with the database.
+- Corrected inconsistent inventory records.
+- Documented newly identified ERP bug.
+- Maintained testing notes for future tracking.
+
+---
+
+# Key Learnings
+
+- Improved understanding of ERP master data validation and database consistency checking.
+- Learned how sales approval, payment collection, settlement, and production modules are interconnected.
+- Understood the importance of enforcing business validation rules on user input fields.
+- Strengthened ERP testing skills by validating both functional workflows and backend data consistency.
+
+---
+
+# Challenges
+
+- Identified inconsistencies between ERP data and the reference database.
+- Found inventory records that existed in the ERP but not in the database.
+- Detected insufficient validation in the POS Rounding Down field, resulting in inconsistent system behavior.
+
+---
+
+# Outcome
+
+Successfully completed UAT activities covering Sales Orders, payment verification, settlements, purchase inventory validation, production testing, and ERP data consistency checks. Identified and documented a new POS validation issue while improving overall understanding of ERP business processes and data management.
+
+---
+
+# Notes
+
+- Simultaneous Sales Order testing confirmed stable functionality.
+- Purchase Inventory verification helped improve master data accuracy.
+- The Rounding Down validation issue should be considered for enhancement to ensure consistency between user input and system calculations.
+- Continued expanding practical ERP testing experience by combining business workflow validation with backend data verification.
