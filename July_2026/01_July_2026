@@ -1,1 +1,217 @@
+# Day 72 – July 01, 2026
 
+## Office Hours
+
+- **Scheduled:** 10:00 AM – 7:00 PM
+- **Arrived:** 10:06 AM
+- **End:** 08:06 PM
+
+---
+
+# Context
+
+Continued User Acceptance Testing (UAT) and Software Quality Assurance (SQA) activities on the **M/S Helal & Brothers ERP**. The primary focus was on validating the complete B2B POS sales workflow, payment processing, cash settlement process, user sign-in/sign-out flow, and login session behavior. Alongside functional testing, I studied the complete sales cycle to better understand the business workflow and documented critical bugs discovered during testing.
+
+---
+
+# Tasks
+
+- Performed UAT and bug testing on the ERP system.
+- Tested previous sales billing and payment collection.
+- Verified cash and MFS payment processing.
+- Checked the Received Payment List.
+- Verified Inventory → Sales Issue → Gate Pass workflow.
+- Studied the complete B2B POS sales cycle documentation.
+- Used ChatGPT to understand the complete sales workflow.
+- Executed an end-to-end POS sales transaction for testing.
+- Identified and documented critical POS settlement and sign-out issues.
+- Performed login/logout session testing.
+
+---
+
+# Work Completed
+
+## 1. Previous Sales Billing & Payment Verification
+
+### Objective
+
+To verify that previously created sales invoices can be successfully paid and reflected correctly throughout the sales workflow.
+
+### Work Performed
+
+- Accepted one previous sales billing.
+- Completed payment using:
+  - Cash
+  - MFS (Mobile Financial Service)
+- Verified that the payment appeared correctly in the **Received Payment List**.
+- Reviewed the Inventory → Sales Issue process.
+- Confirmed that after resolving the issue, sold items proceed correctly to the **Gate Pass** stage.
+
+### Outcome
+
+Successfully verified payment processing and downstream inventory movement after payment completion.
+
+---
+
+## 2. Sales Cycle Study
+
+### Objective
+
+To gain a better understanding of the complete ERP sales workflow before continuing advanced testing.
+
+### Work Performed
+
+- Used ChatGPT to understand the complete ERP sales cycle and business workflow.
+- Studied the complete **B2B POS Sales Flow** document prepared by **Zakir Bhai** using Cursor.
+- Study Time:
+  - **12:20 PM – 12:50 PM**
+  - **2:00 PM – 2:31 PM**
+
+### Outcome
+
+Improved understanding of the complete business process, enabling more effective functional and UAT testing.
+
+---
+
+## 3. End-to-End POS Sales Testing
+
+### Objective
+
+To validate the complete POS sales process from sign-in to settlement.
+
+### Work Performed
+
+- Performed one complete sales transaction for testing at approximately **2:31 PM**.
+- Tested the following workflow:
+
+```
+Sales
+    ↓
+POS Sign In
+    ↓
+POS Sign-In Slip Generated
+    ↓
+Request Change Money
+    ↓
+Sign Out
+    ↓
+Continue POS
+
+Settlement for Approval
+    ↓
+Approved
+    ↓
+Accept
+```
+
+### Outcome
+
+The workflow execution exposed multiple issues in the POS sign-in/sign-out and settlement process, which were documented for the development team.
+
+---
+
+## 4. POS Settlement & Sign-Out Bug Documentation
+
+### Objective
+
+To verify whether mandatory cash settlement is enforced before allowing POS users to sign out.
+
+### Work Performed
+
+Documented a critical business logic issue:
+
+**Issue**
+
+After completing the **Change Money** process, the system allows the salesman/user to sign out without completing the required settlement.
+
+**Expected Business Workflow**
+
+- Users should not be able to sign out until:
+  - Cash settlement is completed.
+  - Settlement is verified.
+- The system should block sign-out and display an appropriate validation message until settlement is successfully completed.
+
+**Business Risk**
+
+Allowing users to sign out before settlement may result in:
+
+- Incomplete cash reconciliation.
+- Inaccurate end-of-day cash closing.
+- Increased risk of financial discrepancies.
+
+### Outcome
+
+Prepared detailed bug documentation and recorded the issue for the development team in the Bugs Google Docs.
+
+---
+
+## 5. Login Session Testing
+
+### Objective
+
+To verify whether the previously reported login issue after inactivity had been resolved.
+
+### Work Performed
+
+- Logout Time:
+  - **5:54 PM**
+- Login Time:
+  - **6:17 PM**
+- Retested the inactivity login scenario.
+
+### Previous Observation
+
+Earlier, logging in after approximately **20 minutes of inactivity** produced an error and required two login attempts.
+
+### Current Result
+
+- Login completed successfully.
+- The issue was no longer reproducible.
+- Test Status: **Passed**
+
+---
+
+# Work Discussion / Role Update
+
+- Continued strengthening understanding of the ERP business workflow rather than only testing individual screens.
+- Focused on validating whether ERP functionality aligns with real-world retail and B2B business operations.
+- Documented business-critical workflow issues to improve overall system reliability before deployment.
+
+---
+
+# Administrative Activities
+
+- Documented identified bugs in Google Docs.
+- Maintained personal testing notes for future reference.
+- Continued reviewing ERP workflow documentation to improve testing accuracy.
+
+---
+
+# Key Learnings
+
+- Gained a clearer understanding of the complete B2B POS sales lifecycle.
+- Learned how payment processing, sales issue management, and gate pass generation are connected within the ERP workflow.
+- Recognized the importance of enforcing settlement validation before allowing user sign-out.
+- Improved ability to evaluate ERP features from both technical testing and business process perspectives.
+
+---
+
+# Challenges
+
+- Identified a critical workflow gap where users can sign out without completing mandatory settlement.
+- Multiple issues were encountered during POS sales workflow testing, requiring detailed documentation for future fixes.
+- Ensuring business rules are properly enforced remains essential for preventing financial inconsistencies.
+
+---
+
+# Outcome
+
+Successfully completed comprehensive UAT activities covering sales billing, payment verification, POS workflow validation, settlement testing, and login session testing. Enhanced understanding of the complete ERP sales process while identifying and documenting critical business logic issues that could impact financial reconciliation and operational accuracy.
+
+---
+
+# Notes
+
+- Continued developing practical ERP testing skills by combining business process understanding with functional validation.
+- The documented settlement/sign-out issue is a high-priority business workflow defect due to its potential impact on end-of-day cash reconciliation.
+- Login inactivity issue was retested and confirmed to be resolved during this testing session.
