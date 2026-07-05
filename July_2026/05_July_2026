@@ -1,1 +1,168 @@
+# Day 75 – July 05, 2026
 
+## Office Hours
+
+- **Scheduled:** 10:00 AM – 7:00 PM
+- **Arrived:** 10:20 AM
+- **End:** Still in Office
+
+---
+
+# Context
+
+Continued User Acceptance Testing (UAT), Software Quality Assurance (SQA), and ERP workflow validation for the **M/S Helal & Brothers ERP System**. Today's work focused on validating the complete POS sales cycle, verifying production receipt and inventory updates, testing end-to-end sales workflows, and improving understanding of the company's organizational structure through AI-assisted documentation.
+
+---
+
+# Tasks
+
+- Tested the complete POS Sales cycle.
+- Verified Production Receipt inventory updates.
+- Created multiple Production Receipts.
+- Performed end-to-end Sales workflow testing.
+- Created an AI-assisted professional company organizational structure for business understanding.
+
+---
+
+# Work Completed
+
+## 1. POS Sales Cycle Testing
+
+### Objective
+
+To verify that the complete POS sales workflow functions correctly from sign-in to sales completion.
+
+### Work Performed
+
+- Navigated to **Sales → POS Sign In-Out**.
+- Performed **2 separate full sales cycle tests**.
+- Validated the complete POS workflow, including the sales transaction process.
+
+### Outcome
+
+Both test cycles completed successfully, and the POS sales workflow was functioning as expected without any issues.
+
+---
+
+## 2. Production Receipt & Inventory Verification
+
+### Objective
+
+To verify that Production Receipts correctly update inventory and increase stock quantities.
+
+### Work Performed
+
+- Created **10 Production Receipts** under:
+
+  **Production → Production Receipt**
+
+- Verified that each Production Receipt:
+  - Successfully affected the inventory.
+  - Increased stock quantities correctly after posting.
+
+### Outcome
+
+Confirmed that the Production Receipt process correctly updates inventory and increases available stock.
+
+---
+
+## 3. Production Data Creation
+
+### Objective
+
+To generate additional production data for ERP testing.
+
+### Work Performed
+
+Created **3 new Production Receipts** containing products such as:
+
+- Bijoy Lungi
+- Reshmi Voil Fabric
+- Tij Lungi
+
+### Outcome
+
+Successfully generated additional production records for testing and inventory validation.
+
+---
+
+## 4. ERP Sales Flow Testing
+
+### Objective
+
+To validate the end-to-end ERP sales workflow.
+
+### Work Performed
+
+- Created and completed **2 new Sales**.
+- Tested the complete ERP sales flow from transaction creation through completion.
+
+### Outcome
+
+Verified that the sales workflow functioned correctly throughout the tested process.
+
+---
+
+## 5. Company Structure Documentation & Business Analysis
+
+### Objective
+
+To gain a better understanding of Helal & Brothers' organizational hierarchy and business structure.
+
+### Work Performed
+
+- Used the manually drawn company organizational structure provided by the team as the source document.
+- Used AI tools (including ChatGPT) to redesign and organize the structure into a cleaner, professional format.
+- Reviewed the AI-generated organizational chart for clarity, hierarchy, and readability.
+- Printed the finalized company structure for future reference.
+- Studied the organizational hierarchy to better understand the company's departments, reporting relationships, and overall business operations.
+
+### Outcome
+
+Successfully transformed the manually prepared organizational structure into a professional, easy-to-understand document, improving readability while strengthening understanding of the company's organizational and business structure.
+
+---
+
+# Work Discussion / Role Update
+
+- Continued performing functional ERP testing across both Sales and Production modules.
+- Focused on validating business workflows rather than only individual system features.
+- Applied AI tools to improve internal documentation and learning resources, helping develop a clearer understanding of the company's organizational structure and business operations.
+
+---
+
+# Administrative Activities
+
+- Created multiple test transactions within the ERP.
+- Verified inventory updates after production activities.
+- Reviewed and printed the AI-enhanced company organizational structure for future reference and study.
+
+---
+
+# Key Learnings
+
+- Improved understanding of the complete POS sales workflow and end-to-end ERP sales process.
+- Reinforced knowledge of how Production Receipts affect inventory and stock levels.
+- Gained a deeper understanding of Helal & Brothers' organizational hierarchy and departmental relationships.
+- Learned how AI can effectively enhance manually prepared business documentation while preserving its original content and intent.
+
+---
+
+# Challenges
+
+- Carefully verified inventory changes after each Production Receipt to ensure stock accuracy.
+- Ensured that the AI-enhanced organizational chart accurately reflected the manually prepared company structure without altering reporting relationships or business information.
+
+---
+
+# Outcome
+
+Successfully completed UAT activities covering POS sales cycle testing, production receipt verification, inventory validation, and ERP sales workflow testing. Additionally, enhanced and studied the company's organizational structure using AI-assisted documentation, improving both business understanding and internal reference materials.
+
+---
+
+# Notes
+
+- Both POS sales cycle tests completed successfully without any functional issues.
+- Production Receipts correctly updated inventory and increased stock levels.
+- The AI-generated organizational structure was based on the manually prepared company hierarchy and served as an improved visual reference for understanding the company's organizational and business structure.
