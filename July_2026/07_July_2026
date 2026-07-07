@@ -1,1 +1,165 @@
+# Day 77 – July 07, 2026
 
+## Office Hours
+
+- **Scheduled:** 10:00 AM – 7:00 PM
+- **Arrived:** 10:18 AM
+- **End:** Still in Office
+
+---
+
+# Context
+
+Continued ERP User Acceptance Testing (UAT), bug reporting, business process validation, and workflow testing across the Sales, Production, and Accounts modules. Focused on validating approval workflows, settlement processes, change money transactions, and preparing supporting documentation for developer review.
+
+---
+
+# Tasks Completed
+
+- Edited previously recorded bug videos using Canva.
+- Muted and processed the bug videos before sharing.
+- Uploaded and shared the bug video links in the centralized Google Docs UAT tracker for developer review.
+- Recorded a complete Sales Cycle demonstration video of approximately 4 minutes.
+- Shared the Sales Cycle video with Aonton Bhai via WhatsApp.
+- Created **2 Production Receipts** and tested the complete approval workflow.
+- Verified that after **Level 1 Approval**, the Production Receipt correctly moves to **Level 2 Approval**.
+- Performed **1 Settlement** transaction for testing purposes.
+- Created and verified **3 Change Money** transactions.
+- Identified a business rule clarification regarding unrestricted Change Money amounts.
+- Created **1 additional Production Receipt** to further validate the production workflow.
+- Confirmed that the Production Receipt workflow is functioning correctly.
+
+---
+
+# Work Completed
+
+## 1. Bug Documentation & Video Preparation
+
+- Edited bug demonstration videos using Canva.
+- Muted audio where required and prepared videos for professional review.
+- Shared the final video links within the centralized UAT Google Docs tracker.
+- Ensured developers have direct access to issue reproduction videos.
+
+---
+
+## 2. Sales Cycle Documentation
+
+- Recorded a complete end-to-end Sales Cycle demonstration video.
+- Video duration was approximately 4 minutes.
+- Shared the video with Aonton Bhai through WhatsApp for review and understanding of the workflow.
+
+---
+
+## 3. Production Receipt Workflow Testing
+
+- Created **2 Production Receipts**.
+- Tested both approval levels.
+- Verified the following workflow:
+
+```text
+Production Receipt
+       ↓
+Level 1 Approval
+       ↓
+Level 2 Approval
+       ↓
+Final Approval
+```
+
+### Result
+
+- Workflow performed as expected.
+- Level 1 approved records successfully moved to Level 2 approval.
+- No issues found during approval testing.
+
+---
+
+## 4. Settlement Testing
+
+- Performed **1 Settlement** transaction.
+- Validated the settlement process for testing purposes.
+- No issues observed during execution.
+
+---
+
+## 5. Change Money Validation
+
+- Created and verified **3 Change Money** transactions.
+- Observed that the system allows users to enter any Change Money amount without restriction.
+
+### Business Question Raised
+
+**Module:** Sales → Account → Change Money
+
+> Is there a business rule or configurable limit for Change Money transactions? Currently, users can enter any amount without restriction or approval. Should a maximum limit, approval workflow, or branch-wise configuration be implemented to strengthen cash control and audit compliance?
+
+This was documented as a business clarification question for discussion with the development and business teams.
+
+---
+
+## 6. Additional Production Workflow Validation
+
+- Created **1 additional Production Receipt**.
+- Tested the overall Production Receipt process again.
+- Verified that the workflow is functioning correctly.
+
+---
+
+# Work Discussion / Role Update
+
+- Continued ERP functional testing and workflow validation activities.
+- Focused on both technical validation and business process verification.
+- Improved bug reporting quality by preparing structured video evidence.
+- Raised business control questions related to Change Money transactions to improve auditability and cash management.
+
+---
+
+# Administrative Activities
+
+- Updated the centralized UAT Bug Tracker.
+- Uploaded and shared bug video references.
+- Shared Sales Cycle demonstration video with stakeholders.
+- Maintained testing records and issue documentation.
+
+---
+
+# Key Learnings
+
+- Approval workflows must be validated across multiple approval levels to ensure correct process transitions.
+- Cash-related transactions should ideally be governed by business rules and approval controls.
+- Video-based bug reporting improves communication and issue reproduction efficiency.
+
+---
+
+# Challenges
+
+- Change Money transactions currently appear to have no configurable restriction, requiring business clarification regarding expected controls and limits.
+
+---
+
+# Outcome
+
+- Successfully validated Production Receipt approval workflows.
+- Verified Settlement functionality.
+- Tested Change Money transactions and identified a business process clarification requirement.
+- Prepared and shared bug evidence for developer review.
+- Created and shared an end-to-end Sales Cycle demonstration video.
+
+---
+
+# Notes
+
+### Business Clarification
+
+- Change Money transactions currently allow unrestricted amounts.
+- Clarification required regarding configurable limits, approval workflows, and cash control policies.
+
+### Functional Validation Completed
+
+- ✅ Production Receipt Creation
+- ✅ Production Approval (Level 1)
+- ✅ Production Approval (Level 2)
+- ✅ Settlement Testing
+- ✅ Change Money Testing
+- ✅ Sales Cycle Documentation
+- ✅ Bug Video Preparation & Sharing
