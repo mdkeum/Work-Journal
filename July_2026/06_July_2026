@@ -4,13 +4,13 @@
 
 - **Scheduled:** 10:00 AM – 7:00 PM
 - **Arrived:** 10:15 AM
-- **End:** Still in Office
+- **End:** 09:25 PM
 
 ---
 
 # Context
 
-Continued User Acceptance Testing (UAT), ERP functional testing, and business process validation across the **Sales**, **Accounts**, **Inventory**, and **Production** modules. Today's work focused on understanding the complete Sales Cycle, validating business workflows, testing ERP functionalities, identifying functional issues and business logic gaps, and documenting findings in the centralized UAT Bug Tracker.
+Continued User Acceptance Testing (UAT), ERP functional testing, business process validation, and ERP implementation discussions across the **Sales**, **Accounts**, **Inventory**, and **Production** modules. Today's activities focused on understanding the complete Sales Cycle, validating business workflows, testing ERP functionalities, identifying functional issues and business logic gaps, documenting findings in the centralized UAT Bug Tracker, and participating in a Chart of Accounts (COA) implementation meeting for the new ERP system.
 
 ---
 
@@ -23,12 +23,15 @@ Continued User Acceptance Testing (UAT), ERP functional testing, and business pr
 - Reported the POS approval workflow issue in the centralized **UAT Bug Tracker** with detailed business impact, severity, expected behavior, and supporting evidence.
 - Tested **Sales → Account → Change Money** and identified a functional usability issue where the transaction list lacks **From Date** and **To Date** filters, preventing users from viewing historical transaction records.
 - Tested **Production → Production Receipt** search functionality and identified a functional issue where the **From Date** and **To Date** filter does not return the complete list of Production Receipt records within the selected date range.
+- Documented the Production Receipt search issue in the UAT Bug Tracker with supporting screenshots and a screen recording.
 - Created **1 Goods Receive Note (GRN)** under **Inventory → Transactions → GRN** for **2 items** and verified inventory updates through **Stock Summary** and **Stock Ledger**.
 - Printed **3 Sales Invoices** from the **Invoice List** to verify invoice printing functionality.
 - Tested the QR Code Scanner functionality across multiple ERP print options.
 - Created **5 Production Receipts** and verified both **Level 1** and **Level 2** approval workflows.
 - Captured screenshots and screen recordings for all identified issues.
 - Updated the centralized **UAT Bug Tracking** document and shared the reported issues with the development team.
+- Participated in an ERP implementation discussion regarding the design and implementation of the **Chart of Accounts (COA)** for the new ERP system.
+- Attended a business requirements meeting with Fazle Rabbi Bhai, Moin Bhai, Zaman Bhai, and Zakir Bhai to discuss accounting structure requirements and COA implementation.
 
 ---
 
@@ -38,6 +41,7 @@ Continued User Acceptance Testing (UAT), ERP functional testing, and business pr
 
 - Discussed the complete Sales Cycle workflow with **Zakir Bhai**.
 - Understood the end-to-end business process from Sales Invoice creation through approval, inventory movement, accounting impact, and overall workflow.
+- Clarified key business process dependencies for future UAT activities.
 
 ---
 
@@ -71,6 +75,10 @@ This business workflow gap was documented and reported.
 - Reported the issue in the centralized UAT Bug Tracker.
 - Attached screenshots and screen recordings for developer review.
 
+### Reported Issue
+
+**BUG-010:** Undefined workflow after rejection of a POS Sales Invoice.
+
 ---
 
 ## 4. Change Money Module Testing
@@ -82,6 +90,10 @@ This business workflow gap was documented and reported.
 - Identified that the page does not provide **From Date** and **To Date** filters.
 - Reported the issue as a functional usability bug.
 
+### Reported Issue
+
+**BUG-011:** Missing **From Date** and **To Date** filters for historical Change Money transaction search.
+
 ---
 
 ## 5. Production Receipt Search Validation
@@ -90,32 +102,43 @@ This business workflow gap was documented and reported.
 
 - Tested the Production Receipt search functionality using different date ranges.
 - Observed that the **From Date** and **To Date** filter does not return the complete list of Production Receipt records.
-- Some Production Receipts within the selected date range were missing from the search results.
-- Reported the issue in the UAT Bug Tracker with supporting evidence.
+- Some Production Receipt entries within the selected date range were missing from the search results.
+- Documented the issue with screenshots and a screen recording.
+- Reported the issue in the UAT Bug Tracker.
+
+### Reported Issue
+
+**BUG-012:** Production Receipt date range search does not return the complete list of records.
 
 ---
 
 ## 6. Inventory GRN Validation
 
-- Created **1 Goods Receive Note (GRN)** under **Inventory → Transactions → GRN**.
+**Module:** Inventory → Transactions → GRN
+
+- Created **1 Goods Receive Note (GRN)**.
 - Added **2 inventory items**.
-- Verified inventory updates in:
+- Verified inventory updates through:
   - Stock Summary
   - Stock Ledger
-- Confirmed that inventory balances were updated correctly.
+- Confirmed that stock quantities increased correctly after the GRN transaction.
+- Validated inventory consistency between transaction and ledger records.
 
 ---
 
 ## 7. Invoice Printing Verification
 
-- Printed **3 Sales Invoices** from the Invoice List (assigned by **Zaman Bhai**).
-- Verified invoice formatting and print functionality.
+**Module:** Sales → Invoice List
+
+- Printed **3 Sales Invoices** (assigned by Zaman Bhai).
+- Verified invoice formatting, print layout, and output quality.
+- Confirmed that the printing functionality operates correctly.
 
 ---
 
 ## 8. QR Code Scanner Testing
 
-Tested QR Code functionality in:
+Validated QR Code functionality in:
 
 - Sales → POS → Sign In/Out
 - Sales → Invoice List
@@ -131,28 +154,67 @@ Tested QR Code functionality in:
 
 ## 9. Production Module Testing
 
+**Module:** Production → Production Receipt
+
 - Created **5 Production Receipts**.
 - Verified both **Level 1** and **Level 2** approval workflows.
-- Confirmed that both approval levels functioned correctly.
+- Confirmed that approved records correctly progressed through the approval hierarchy.
+- No approval-related issues were found.
 
 ---
 
-## 10. UAT Documentation
+## 10. UAT Documentation & Bug Reporting
 
 Updated the centralized UAT documentation by:
 
 - Reporting newly identified bugs.
 - Recording business workflow gaps.
-- Adding issue descriptions and severity.
+- Writing detailed issue descriptions.
+- Assigning severity levels.
 - Attaching screenshots.
 - Attaching screen recordings.
-- Updating issue status for developer review.
+- Updating issue statuses.
+- Sharing findings with the development team.
+
+---
+
+## 11. Chart of Accounts (COA) Implementation Meeting
+
+### Participants
+
+- Fazle Rabbi Bhai
+- Moin Bhai
+- Zaman Bhai
+- Zakir Bhai
+
+### Meeting Duration
+
+- **Start:** 07:20 PM
+- **End:** 09:25 PM
+- **Duration:** Approximately 2 Hours 05 Minutes
+
+### Discussion Topics
+
+- Chart of Accounts (COA) structure for the new ERP system.
+- Account hierarchy and account grouping requirements.
+- Financial reporting considerations.
+- ERP accounting configuration requirements.
+- Future accounting transaction flow and control mechanisms.
+- Business requirements for implementing the accounting module.
+
+### Outcome
+
+- Improved understanding of ERP accounting structure and COA design.
+- Gathered business requirements related to financial accounting implementation.
+- Contributed to ERP implementation discussions beyond standard UAT activities.
 
 ---
 
 # Work Discussion / Role Update
 
-Today's activities focused on validating ERP functionality from both technical and business perspectives. In addition to functional testing, emphasis was placed on understanding business workflows, identifying business logic gaps, verifying search functionality, testing transaction history filters, validating inventory movements, and ensuring production approval workflows operated correctly. All identified issues were documented in a structured format for developer review.
+Today's activities focused on validating ERP functionality from both technical and business perspectives. In addition to functional testing, emphasis was placed on understanding business workflows, identifying business logic gaps, validating inventory transactions, testing transaction history filters, verifying production approval workflows, and documenting findings in a structured format.
+
+A significant portion of the evening was dedicated to a Chart of Accounts (COA) implementation meeting, which provided deeper exposure to ERP accounting configuration, financial reporting structures, and business requirements gathering for the new ERP system.
 
 ---
 
@@ -161,17 +223,20 @@ Today's activities focused on validating ERP functionality from both technical a
 - Updated the centralized Google Sheets UAT Bug Tracker.
 - Uploaded screenshots and screen recordings.
 - Organized supporting evidence using standardized bug naming conventions.
-- Shared all reported issues with the development team.
+- Shared reported issues with the development team.
+- Participated in business requirement discussions for ERP accounting implementation.
 
 ---
 
 # Key Learnings
 
 - Business workflow validation is as important as identifying software defects.
-- Date range filters should always return complete and accurate historical records.
+- Date range filters should return complete and accurate historical records.
 - ERP transaction history screens should support operational review and reconciliation.
 - QR Code functionality should be validated across every printable ERP document.
 - Cross-module testing helps verify data consistency throughout the ERP system.
+- Gained practical understanding of Chart of Accounts (COA) structure and ERP accounting implementation.
+- Learned how accounting requirements influence ERP configuration and financial reporting.
 
 ---
 
@@ -179,38 +244,43 @@ Today's activities focused on validating ERP functionality from both technical a
 
 - The expected business process after Sales Invoice rejection remains undefined.
 - Some search filters do not retrieve complete historical records, making data verification difficult.
+- Additional clarification is required regarding accounting structure requirements during ERP implementation.
 
 ---
 
 # Outcome
 
-- Successfully completed functional testing across the Sales, Accounts, Inventory, and Production modules.
+- Successfully completed ERP functional testing across the Sales, Accounts, Inventory, and Production modules.
+- Participated in ERP implementation discussions related to Chart of Accounts (COA) design.
 - Identified **one business workflow gap** and **two functional bugs**.
 - Verified Sales Invoice creation, invoice printing, QR Code functionality, GRN processing, inventory updates, and Production Receipt approval workflows.
-- Strengthened understanding of the ERP Sales Cycle and contributed comprehensive UAT documentation for developer review.
+- Strengthened understanding of ERP accounting structure, Sales Cycle workflows, and business process validation.
+- Contributed comprehensive UAT documentation and business requirement discussions for developer and stakeholder review.
 
 ---
 
 # Notes
 
-### Business Workflow Gap
+## Business Workflow Gap
 
 - **BUG-010:** Undefined workflow after rejection of a POS Sales Invoice.
 
-### Functional Bugs
+## Functional Bugs
 
 - **BUG-011:** Sales → Account → Change Money – Missing **From Date** and **To Date** filters for historical transaction search.
 - **BUG-012:** Production → Production Receipt – Date range search does not return the complete list of Production Receipt records.
 
-### Functional Validation Completed
+## Functional Validation Completed
 
 - ✅ Sales Invoice Creation
 - ✅ Sales Invoice Approval & Rejection
 - ✅ Invoice Printing
 - ✅ QR Code Scanner
 - ✅ Goods Receive Note (GRN)
-- ✅ Stock Summary & Stock Ledger Verification
+- ✅ Stock Summary Verification
+- ✅ Stock Ledger Verification
 - ✅ Production Receipt Creation
 - ✅ Production Approval (Level 1 & Level 2)
+- ✅ Production Receipt Search Validation
 - ✅ UAT Bug Reporting & Documentation
-```
+- ✅ COA Requirement Discussion
