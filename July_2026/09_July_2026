@@ -1,1 +1,284 @@
+# Day 79 – July 09, 2026
 
+## Office Hours
+
+- **Scheduled:** 10:00 AM – 7:00 PM
+- **Arrived:** 09:59 AM
+- **End:** Still in Office
+
+---
+
+# Context
+
+Continued User Acceptance Testing (UAT), bug testing, business process validation, workflow documentation, and Software Quality Assurance (SQA) activities for both the **Helal & Brothers ERP System** and the **MiahBD E-Commerce Website**.
+
+---
+
+# Tasks Completed
+
+## Helal & Brothers ERP System
+
+- Continued UAT, bug testing, and reporting activities.
+- Drew the complete Sales Cycle flow diagram for the ERP system.
+- Used AI-powered diagramming tools to visualize and refine the Sales Cycle workflow.
+- Performed end-to-end Sales Cycle testing.
+- Completed 10 sales transactions to validate the Sales Cycle workflow.
+- Verified inventory updates after sales transactions.
+- Checked Stock Summary and Stock Ledger after sales issue transactions.
+- Created 5 Production Receipts and verified inventory updates.
+- Identified and documented a POS Reprint issue.
+- Performed 3 POS sales transactions to reproduce the issue.
+- Captured screenshots and screen recordings for bug reporting.
+- Conducted a live Sales Cycle demonstration with Aonton Bhai.
+
+## MiahBD E-Commerce Website
+
+- Created and finalized the SQA testing project tracking document.
+- Designed the testing structure for systematic website testing and defect management.
+- Started functional testing of the MiahBD website as an end user.
+- Tested account registration and phone verification.
+- Tested product browsing functionality.
+- Tested Add to Cart functionality.
+- Tested Wishlist functionality.
+- Tested product quantity increase/decrease functionality.
+- Tested checkout and order placement workflow.
+- Tested post-registration navigation workflow.
+- Identified and documented multiple website issues.
+
+---
+
+# Work Completed
+
+## 1. Helal & Brothers ERP Sales Cycle Documentation
+
+- Drew the complete Sales Cycle flow diagram.
+- Used:
+  - Napkin AI
+  - Eraser AI
+  - Whimsical AI
+- Refined and validated the business workflow.
+
+### Sales Cycle Flow Validation
+
+- Reviewed workflow connections and process dependencies.
+- Verified operational flow from Sign In through Settlement and Sign Out.
+- Validated change money and sales transaction paths within the workflow.
+
+---
+
+## 2. ERP Sales Cycle Testing
+
+### Time
+
+- **10:00 AM – 12:25 PM**
+
+### Activities
+
+- Performed end-to-end Sales Cycle testing.
+- Executed 10 sales transactions.
+- Validated transaction flow behavior.
+- Verified inventory movement after sales transactions.
+
+### Inventory Verification
+
+Verified inventory updates using:
+
+- Stock Summary
+- Stock Ledger
+
+---
+
+## 3. Production Receipt Validation
+
+- Created 5 Production Receipts.
+- Verified inventory quantity updates after Production Receipt creation.
+- Confirmed inventory records updated correctly.
+
+---
+
+## 4. POS Reprint Issue Investigation
+
+### Module
+
+Sales → POS → Sign In-Out
+
+### Activities
+
+- Created POS invoices.
+- Tested Save & Send for Approval & Print.
+- Tested Reprint functionality.
+- Reproduced the issue using multiple transactions.
+- Captured screenshots and screen recordings.
+
+### Issue Identified
+
+**BUG-013 – POS Reprint Displays Blank Page Before Actual Invoice**
+
+- Initial print preview appears correctly.
+- Reprint displays a blank print page first.
+- After cancelling the blank page, the correct invoice print preview appears.
+
+---
+
+## 5. Sales Cycle Demonstration
+
+### Meeting
+
+- Conducted a Sales Cycle demonstration with Aonton Bhai.
+
+### Duration
+
+- **Start:** 05:40 PM
+- **End:** 06:25 PM
+
+---
+
+## 6. MiahBD SQA Project Setup
+
+### Time Allocation
+
+#### 12:30 PM – 12:55 PM
+
+- Created the SQA project tracking document.
+
+#### 01:00 PM – 02:00 PM
+
+- Lunch Break.
+
+#### 02:00 PM – 02:37 PM
+
+- Finalized the documentation structure.
+
+### Documentation Created
+
+- SQA Dashboard
+- Test User Management
+- Test Case Management
+- Bug Tracking
+- Business Questions
+- Daily Work Log
+- Order Testing
+- Final Testing Summary
+
+---
+
+## 7. MiahBD Website Functional Testing
+
+### Modules Tested
+
+- Account Registration
+- Phone Verification
+- Product Browsing
+- Wishlist
+- Add to Cart
+- Product Quantity Update
+- Checkout
+- Order Placement
+- Post-Registration Navigation
+
+---
+
+## 8. Issues Identified in MiahBD Website
+
+### BUG-001 – Phone Verification Country Code Field Issue
+
+**Severity:** Medium
+
+- Country code +880 is automatically populated.
+- Unable to remove or edit the value using Backspace during phone verification.
+
+---
+
+### BUG-002 – Incorrect Branding Text on Registration Page
+
+**Severity:** High
+
+- Found incorrect text:
+
+> I would like receive Ralph Lauren email
+
+- Branding/content appears unrelated to MiahBD.
+
+---
+
+### BUG-003 – Place Order Button Not Functioning
+
+**Severity:** Critical
+
+- Account creation completed successfully.
+- Product added to cart successfully.
+- Wishlist functionality working.
+- Quantity update functionality working.
+- Place Order button does not perform any action.
+- Unable to complete purchase.
+
+---
+
+### BUG-004 – Start Shopping Button Not Functioning
+
+**Severity:** High
+
+- After registration, Start Shopping redirects to another page.
+- Clicking the Start Shopping button does not perform any action.
+
+---
+
+# Current Testing Results
+
+## Helal & Brothers ERP
+
+### Functional Validation Completed
+
+- ✅ Sales Cycle Documentation
+- ✅ Sales Cycle Testing
+- ✅ Inventory Verification
+- ✅ Stock Summary Validation
+- ✅ Stock Ledger Validation
+- ✅ Production Receipt Validation
+- ✅ POS Issue Reproduction
+- ✅ Screenshot & Video Evidence Collection
+- ✅ Sales Cycle Demonstration
+
+### Issues Identified
+
+- BUG-013 – POS Reprint Displays Blank Page Before Actual Invoice
+
+---
+
+## MiahBD Website
+
+### Working Features
+
+- ✅ Account Creation
+- ✅ Product Browsing
+- ✅ Add to Cart
+- ✅ Wishlist
+- ✅ Quantity Increase
+- ✅ Quantity Decrease
+
+### Issues Identified
+
+| Severity | Count |
+|-----------|--------|
+| Critical | 1 |
+| High | 2 |
+| Medium | 1 |
+| Low | 0 |
+
+### Total Bugs Reported
+
+- 4
+
+---
+
+# Work Summary
+
+- Conducted ERP UAT, bug testing, workflow validation, and business process documentation.
+- Created and refined the Helal & Brothers ERP Sales Cycle flow diagram using AI-powered diagramming tools.
+- Performed Sales Cycle and inventory validation testing.
+- Identified and reproduced a POS Reprint issue.
+- Created the MiahBD SQA testing project structure.
+- Started functional testing of the MiahBD E-Commerce Website.
+- Identified four website issues, including one critical issue affecting order placement.
+- Documented findings for future bug tracking and developer review.
+- Did 5 orders using guest or no login in miah
