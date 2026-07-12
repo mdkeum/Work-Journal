@@ -1,1 +1,220 @@
+# Day 80 – July 12, 2026
 
+## Office Hours
+
+- **Scheduled:** 10:00 AM – 7:00 PM
+- **Arrived:** 10:35 AM (Due to heavy rain, flood water, slow traffic movement, no rickshaw want to go to the water area and walk 3 km in rain with umbrella|)
+- **End:** Still in Office
+
+---
+
+# Context
+
+Continued User Acceptance Testing (UAT), Software Quality Assurance (SQA), bug identification, business workflow validation, and defect reporting for both the **Helal & Brothers ERP System** and the **MiahBD E-Commerce Website**. Activities focused on end-to-end sales process testing, inventory workflow validation, stock reservation analysis, POS transaction testing, and e-commerce purchasing workflow validation.
+
+---
+
+# Tasks Completed
+
+## Helal & Brothers ERP System
+
+- Performed end-to-end Sales Cycle testing.
+- Tested inventory monitoring and stock visibility features.
+- Reviewed stock reservation workflow for customer orders.
+- Tested POS sales transaction quantity modification functionality.
+- Identified and documented 3 ERP issues.
+- Captured screenshots and supporting evidence.
+- Updated the centralized UAT Bug Tracker shared with team members.
+
+## MiahBD E-Commerce Website
+
+- Conducted functional testing using **5 different user accounts** with separate email addresses and phone numbers.
+- Tested customer registration and purchasing workflows.
+- Tested Add to Cart, Checkout, and Order Placement functionalities.
+- Attempted multiple product purchases using different user accounts.
+- Captured screenshots of recurring website errors.
+- Created and organized a dedicated testing tracker for structured test management and defect tracking.
+
+---
+
+# Work Completed
+
+## 1. Helal & Brothers ERP System – Sales Cycle Testing
+
+- Performed full Sales Cycle testing and workflow validation.
+- Verified sales transaction processing and inventory behavior.
+- Tested inventory-related reports and operational workflows.
+- Reviewed business processes and identified workflow gaps.
+
+---
+
+## 2. ERP Issues Identified & Reported
+
+### BUG-013 – Stock Summary Drill-Down Functionality Not Working
+
+**Module:** Inventory → Report → Stock Summary
+
+**Severity:** High
+
+- Tested Low Stock and Out of Stock indicators.
+- Observed that clicking the indicators does not display the corresponding item list.
+- Users cannot view affected stock items for replenishment planning and inventory monitoring.
+- Reported the issue with screenshot evidence.
+
+---
+
+### BUG-014 – Inventory Reservation Management Required
+
+**Module:** Sales → Customer Order / Stock Reservation
+
+**Severity:** High
+
+- Analyzed inventory reservation behavior for credit customer orders.
+- Observed that inventory remains reserved indefinitely if a customer postpones or cancels an order.
+- No functionality exists to release, cancel, expire, or remove reservations.
+- Identified the issue as a business process gap affecting inventory availability and stock management.
+- Documented and reported the issue.
+
+---
+
+### BUG-015 – POS Quantity Edit Triggers False Out-of-Stock Error
+
+**Module:** Sales → POS → Sign In/Out
+
+**Severity:** Critical
+
+- Added items to a POS transaction successfully.
+- Attempted to modify item quantity after selection.
+- Observed incorrect stock validation error:
+
+  > "Item is out of stock (Available Qty is 0)"
+
+- Determined that the system incorrectly recalculates available stock during quantity updates.
+- Captured screenshot and video evidence.
+- Reported the issue.
+- Verified that the issue was fixed by the development team.
+
+**Status:** Fixed (12-Jul-2026)
+
+---
+
+## 3. MiahBD E-Commerce Website Functional Testing
+
+### User Testing
+
+- Tested the website using **5 different user accounts**.
+- Used separate email addresses and phone numbers for each account.
+- Simulated real customer purchasing scenarios.
+
+### Modules Tested
+
+- Account Registration
+- Login
+- Product Browsing
+- Add to Cart
+- Checkout
+- Order Placement
+
+### Testing Results
+
+- Successfully registered user accounts.
+- Successfully browsed products.
+- Successfully added products to cart.
+- Successfully reached the checkout process.
+- Attempted purchases using multiple user accounts.
+- No successful order completion was achieved.
+- No purchase confirmation or success message was displayed.
+- Similar errors occurred repeatedly during order placement.
+
+### Evidence Collection
+
+- Captured screenshots of 3 recurring website errors.
+- Documented findings for future bug reporting and developer review.
+
+---
+
+## 4. MiahBD Website Testing Documentation
+
+### Testing Tracker Creation
+
+Created and organized a dedicated testing tracker:
+
+**Miah Shop New E-Commerce Website – UAT Testing, Bug Tracking & Progress Monitoring (09 July Onwards)**
+
+### Purpose
+
+- Track testing progress and daily activities.
+- Record identified bugs and issue status.
+- Maintain test user information.
+- Store screenshots and supporting evidence.
+- Track bug resolution and retesting activities.
+- Ensure all testing findings remain organized and traceable throughout the project.
+
+---
+
+# Documentation & Reporting
+
+- Updated the centralized Helal & Brothers ERP UAT Bug Tracker.
+- Recorded newly identified ERP issues.
+- Attached screenshots and supporting evidence.
+- Updated testing notes and observations.
+- Organized MiahBD testing records and evidence.
+- Shared findings through existing team documentation channels.
+
+---
+
+# Key Outcomes
+
+## Helal & Brothers ERP System
+
+### Issues Identified
+
+| Issue ID | Severity | Status |
+|-----------|-----------|---------|
+| BUG-013 | High | Open |
+| BUG-014 | High | Open |
+| BUG-015 | Critical | Fixed |
+
+### Functional Validation Completed
+
+- ✅ Sales Cycle Testing
+- ✅ Inventory Workflow Validation
+- ✅ Stock Summary Review
+- ✅ Stock Reservation Workflow Analysis
+- ✅ POS Transaction Testing
+- ✅ Bug Reporting & Documentation
+
+---
+
+## MiahBD E-Commerce Website
+
+### Functional Validation Completed
+
+- ✅ Account Registration
+- ✅ Login Testing
+- ✅ Product Browsing
+- ✅ Add to Cart
+- ✅ Checkout Process Testing
+- ✅ Order Placement Validation
+- ✅ Multi-User Testing
+
+### Issues Observed
+
+- Recurring order placement failures.
+- No successful purchase completion.
+- No order success confirmation displayed.
+- Multiple website errors captured for reporting.
+
+---
+
+# Work Summary
+
+- Conducted ERP UAT, bug testing, and business workflow validation.
+- Identified and reported 3 ERP issues, including 1 critical issue.
+- Verified resolution of BUG-015.
+- Performed end-to-end MiahBD website testing using 5 different user accounts.
+- Validated registration, cart, checkout, and order placement workflows.
+- Identified recurring purchasing issues preventing successful order completion.
+- Captured supporting evidence and organized testing documentation.
+- Created a dedicated MiahBD testing tracker to manage progress, defects, test users, and supporting evidence.
+- Updated all relevant documentation and shared findings for developer review.
