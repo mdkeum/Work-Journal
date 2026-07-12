@@ -176,6 +176,18 @@ Sales → POS → Sign In-Out
 - Order Placement
 - Post-Registration Navigation
 
+### Guest User Testing
+
+- Created **5 guest user test scenarios** on the MiahBD website.
+- Tested the complete guest user shopping journey without account registration.
+- Added products to the shopping cart.
+- Verified cart management functionality.
+- Tested the checkout process.
+- Successfully placed orders as guest users.
+- Tested the payment workflow during order placement.
+- Validated the end-to-end purchasing process from product selection through order confirmation.
+- Compared guest checkout behavior with registered user checkout behavior to identify functional differences and potential issues.
+
 ---
 
 ## 8. Issues Identified in MiahBD Website
