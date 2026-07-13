@@ -1,1 +1,209 @@
+# Day 81 – July 13, 2026
 
+## Office Hours
+
+- **Scheduled:** 10:00 AM – 7:00 PM
+- **Arrived:** 10:20 AM (Due to Rain)
+- **End:** Still in Office
+
+---
+
+# Context
+
+Performed User Acceptance Testing (UAT), Software Quality Assurance (SQA), bug identification, evidence collection, issue reporting, and business workflow validation for both the **Helal & Brothers ERP System** and the **Miah Shop New E-Commerce Website (miahbd.com)**.
+
+---
+
+# Tasks Completed
+
+## Helal & Brothers ERP System
+
+- Processed payments for Sales Invoices.
+- Issued sales products/invoices for Gate Pass and Courier processing.
+- Performed Sales Cycle testing.
+- Tested sales transactions to identify any functional issues or business workflow gaps.
+
+## Miah Shop New E-Commerce Website
+
+- Continued functional testing of customer registration, checkout, order placement, billing calculation, and profile management features.
+- Conducted purchase attempts and validated OTP delivery.
+- Identified multiple website issues and bugs.
+- Captured screenshots and screen recordings as supporting evidence.
+- Reported issues to Aontor Bhai.
+- Demonstrated the issues to Sakib Bhai (Developer).
+- Participated in issue validation with the IT Team.
+
+---
+
+# Work Completed
+
+## 1. Helal & Brothers ERP System – UAT & Sales Cycle Validation
+
+### Sales Invoice Payment Processing
+
+- Processed payments for **19 Sales Invoices**.
+
+### Sales Product / Invoice Processing
+
+- Issued **19 Sales Products/Invoices** for **Gate Pass / Courier processing**.
+
+### Sales Cycle Testing
+
+- Performed **3 Sales transactions** to validate the complete Sales Cycle.
+- Reviewed the workflow for any functional issues, process gaps, or unexpected system behavior.
+
+---
+
+## 2. Miah Shop New E-Commerce Website Functional Testing
+
+### Purchase Testing
+
+- Performed **2 purchase attempts** through the website.
+- Successfully received **2 OTPs** on the registered mobile phone.
+- Verified that OTP delivery functionality is working correctly.
+
+### Observation
+
+- OTP verification was successful.
+- Despite successful OTP receipt, order placement was not completed successfully.
+
+---
+
+## 3. Issues Identified
+
+### Checkout_Count_Error
+
+- During checkout, the item count displayed **0** instead of **1**.
+- The checkout count should accurately reflect the number of products selected for purchase.
+
+### Order_Failure_Message
+
+- An error message appeared during order placement.
+- Users are unable to complete purchases successfully.
+
+### Order_Placing_Loading
+
+- The order placement process remained in a loading state.
+- Orders were not completed successfully.
+
+### Problem_in_Total_Bill_Amount_Addition
+
+- Added multiple products to the cart.
+- Observed incorrect bill calculation.
+- The calculated total amount became **1 Taka less** than the expected amount.
+
+### Profile_Update_Failed
+
+- Attempted to update profile information.
+- The update process failed and user information was not saved.
+
+### New_Account_Creation_Successful
+
+- Successfully created **1 new customer account**.
+- Verified that account registration functionality is operational.
+
+---
+
+## 4. Evidence Collection & Reporting
+
+### Evidence Captured
+
+- Captured screenshots of identified issues.
+- Recorded screen videos demonstrating the observed errors and ordering failures.
+
+### Reporting Activities
+
+- Shared screenshots and video evidence with **Aontor Bhai**.
+- Reported all identified issues and testing observations for review.
+
+---
+
+## 5. Developer Review & Validation
+
+### Discussion with Sakib Bhai (Developer)
+
+- Demonstrated the identified issues directly.
+- Reviewed the issue behavior together.
+- Discussed potential causes of the observed problems.
+
+### Developer Feedback
+
+- The possibility of internet speed affecting the behavior was raised for investigation.
+
+---
+
+## 6. IT Team Validation Meeting
+
+### Time
+
+- **03:20 PM – 04:45 PM**
+
+### Activities
+
+- Visited the IT Team based on the developer's recommendation.
+- Investigated whether internet connectivity was responsible for the reported issues.
+- Reproduced the test cases on the IT Team's environment.
+
+### Findings
+
+- The same issues were reproduced on the IT Team's machine.
+- The behavior was not isolated to the tester's computer or internet connection.
+- The findings indicate that the issue requires further investigation by the development team.
+
+---
+
+# Documentation & Reporting
+
+- Updated testing records and notes.
+- Organized screenshots and screen recordings.
+- Maintained issue documentation for follow-up and resolution tracking.
+- Shared findings with relevant stakeholders for review.
+
+---
+
+# Key Outcomes
+
+## Helal & Brothers ERP System
+
+### Functional Validation Completed
+
+- ✅ Sales Invoice Payment Processing (19 Invoices)
+- ✅ Sales Product / Invoice Processing (19 Invoices)
+- ✅ Sales Cycle Testing (3 Sales Transactions)
+
+---
+
+## Miah Shop New E-Commerce Website
+
+### Functional Validation Completed
+
+- ✅ New Account Registration
+- ✅ OTP Verification
+- ✅ Purchase Attempt Testing
+- ✅ Checkout Testing
+- ✅ Order Placement Testing
+- ✅ Profile Update Testing
+- ✅ Bug Reporting & Evidence Collection
+
+### Issues Identified
+
+- Checkout_Count_Error
+- Order_Failure_Message
+- Order_Placing_Loading
+- Problem_in_Total_Bill_Amount_Addition
+- Profile_Update_Failed
+
+---
+
+# Work Summary
+
+- Conducted UAT and functional testing of the Miah Shop New E-Commerce Website.
+- Performed 2 purchase attempts and verified OTP delivery functionality.
+- Identified multiple functional issues affecting checkout, billing, order placement, and profile management.
+- Captured screenshots and screen recordings for all identified issues.
+- Reported findings to Aontor Bhai and demonstrated issues to Sakib Bhai.
+- Participated in an IT Team validation session from **3:20 PM to 4:45 PM**.
+- Confirmed that the issues persist across multiple environments and require further technical investigation.
+- Processed payments for 19 Sales Invoices within the Helal & Brothers ERP System.
+- Issued 19 Sales Products/Invoices for Gate Pass and Courier processing.
+- Performed Sales Cycle validation through 3 sales transactions and reviewed the workflow for potential issues.
