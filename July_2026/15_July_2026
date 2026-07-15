@@ -1,1 +1,29 @@
+# Day 83 – July 15, 2026
 
+## Office Hours
+
+- **Scheduled:** 10:00 AM – 7:00 PM
+- **Arrived:** 10:16 AM
+- **End:** Still in Office
+
+## Tasks Completed
+
+- Approved **9 Production Receipts**.
+- Issued **4 products** from the Issue List.
+- Created/processed **2 Production Receipts** in Fabrics.
+- Performed **4 complete Sales Cycle tests** to identify issues and validate workflows.
+- Self-learned the **Commercial Module** and executed **1 test case**.
+
+## Bugs Reported
+
+### BUG-002 – Sales → Change Money Request (Critical)
+- Accounts can approve any change money amount without any limit.
+- Recommended fix: Implement approval limits, role-based authorization, and multi-level approval for large amounts.
+
+### BUG-003 – Inventory → Sales Issue List (Low)
+- Spelling error in header row: **"Get Pass"** should be **"Gate Pass"**.
+- Recommended fix: Update the label to **"Gate Pass"**.
+
+### BUG-004 – Sales → POS Sign In-Out → Continue to POS
+- POS sales can be completed without selecting a customer.
+- Note: Confirm whether anonymous/walk-in sales are allowed before classifying as a defect.
