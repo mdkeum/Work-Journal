@@ -1,1 +1,94 @@
+# Day 84 – July 16, 2026
 
+## Office Hours
+
+- **Scheduled:** 10:00 AM – 7:00 PM
+- **Arrived:** 10:03 AM
+- **Status:** Still in Office
+
+---
+
+## Tasks Completed
+
+### 1. Bug Verification – POS Customer Selection
+
+- Reviewed a previously reported issue in the Sales/POS module.
+- The issue allowed sales transactions to be completed without selecting or entering a customer name.
+- Verified the developer's fix.
+- Confirmed that the issue has been resolved and is functioning correctly.
+
+### 2. Documentation Update
+
+- Updated the Google Docs project documentation.
+- Added details related to new modules and recent modifications.
+
+### 3. Accounts Module Knowledge Transfer Session
+
+- Attended a learning session with Zakir Bhai regarding the ERP Accounts Module.
+- Topics covered:
+  - Accounts Setup
+  - Cost Center
+  - Accounts Policy
+  - Chart of Accounts
+  - Contra Voucher
+  - Payment Voucher
+  - Non Customers
+- Session duration: approximately 1 hour 15 minutes.
+
+### 4. Bug Validation
+
+- Reviewed and verified bug fixes completed by the development team.
+- Tested and confirmed the fixes were working as expected.
+
+### 5. Accounting Self-Learning
+
+- Studied accounting fundamentals using AI tools (ChatGPT and Claude).
+- Topics covered:
+  - Assets
+  - Liabilities
+  - Equity
+  - Income
+  - Expenses
+  - Basic ERP accounting concepts
+
+### 6. SQA Learning
+
+- Started studying Software Quality Assurance (SQA) concepts relevant to H&B ERP testing.
+- Focused on building foundational knowledge for ERP testing activities.
+
+---
+
+## Key Learnings
+
+- Learned the basic structure of the ERP Accounts Module.
+- Understood the purpose of Cost Centers and the Chart of Accounts.
+- Gained introductory knowledge of accounting fundamentals.
+- Improved understanding of bug verification and validation processes.
+
+---
+
+## Challenges
+
+- Accounting concepts are new and require further study and practice.
+- Need a deeper understanding of vouchers and financial reports.
+
+---
+
+## Next Steps
+
+- Continue learning the ERP Accounts Module.
+- Study Journal Voucher, Receipt Voucher, Payment Voucher, and Contra Voucher in detail.
+- Continue SQA learning focused on ERP testing scenarios.
+- Participate in additional Accounts module knowledge-sharing sessions.
+
+---
+
+## Daily Summary
+
+Today's work focused on three key areas:
+
+1. ERP bug verification and validation
+2. ERP Accounts module learning
+3. SQA skill development and self-study
+
+Overall, it was a productive day with a balance of practical testing work and professional skill development.
