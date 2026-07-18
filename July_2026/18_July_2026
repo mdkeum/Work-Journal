@@ -1,1 +1,108 @@
+# Day 86 – July 19, 2026
 
+## Office Hours
+
+- **Scheduled:** 10:00 AM – 7:00 PM
+- **Arrived:** 10:00 AM
+- **Status:** Completed
+
+---
+
+## Tasks Completed
+
+### 1. Accounts Module Knowledge Transfer Session
+
+- Attended an Accounts Module learning session with the Accounts Team.
+- Reviewed notes from the previous Accounts meeting.
+- Topics discussed:
+  - Cash Sales
+  - Memo Sales
+  - Tagada Sales
+  - Receivables
+  - Back-to-Back LC
+- Participated in a short discussion on Cash Sales and Memo Sales.
+- Learned that Back-to-Back LC is treated as a Current Asset in the ERP Accounts context.
+- Discussed follow-up topics for the next Accounts meeting.
+
+### 2. ERP Test Data Preparation
+
+- Created production entries for multiple products.
+- Added inventory for different products under the Fabrics category.
+- Prepared test data to validate inventory-related workflows and category-wise operations.
+
+### 3. ERP Functional Testing
+
+- Performed one complete ERP testing cycle to validate end-to-end workflows.
+- Executed three full sales cycles from order creation to invoice generation.
+- Verified invoice generation, inventory movement, sales processing, and payment workflows.
+- No issues were found during these test scenarios.
+
+### 4. Category-wise Sales Testing
+
+- Performed sales transactions from multiple product categories:
+  - Three Piece
+  - Fabrics
+  - Lungi
+  - Sharee
+- Verified category-wise sales functionality and transaction processing.
+
+### 5. Bug Discovery and Reporting
+
+- Performed multiple end-to-end sales and payment workflow tests.
+- Identified payment-related validation issues during testing.
+- Documented and reported:
+  - Missing MFS transaction-limit validation in the Payment module.
+  - Missing MFS transaction-limit validation in the After Sales → Receive Payment workflow.
+- Submitted both issues for developer review and resolution.
+
+#### Reported Bug #1
+
+| Issue ID | Date Reported | Module | Issue Description | Severity | Assigned To | Status | Resolution Date | Reference-1 (Image) | Reference-2 (Video) | Notes | Additional Notes |
+|----------|---------------|---------|-------------------|----------|-------------|--------|-----------------|--------------------|--------------------|-------|------------------|
+| BUG-004 | 19-Jul-2026 | After Sales → Receive Payment → MFS Payment | The system allows users to enter and submit any payment amount when selecting MFS Payment methods (bKash, Nagad, Rocket). No validation exists to check the maximum transaction limit supported by the selected MFS provider. For example, a user can record a bKash payment amount exceeding the provider's allowed transaction limit. The system should validate the payment amount against configurable MFS limits and prevent submission when the entered amount exceeds the allowed limit. | Medium | Developer Team | Open | | | | Missing business-rule validation for MFS payment limits. | Recommended to maintain configurable transaction limits per MFS provider and validate payment amounts during payment entry. |
+
+#### Reported Bug #2
+
+| Issue ID | Date Reported | Module | Issue Description | Severity | Assigned To | Status | Resolution Date | Reference-1 (Image) | Reference-2 (Video) | Notes | Additional Notes |
+|----------|---------------|---------|-------------------|----------|-------------|--------|-----------------|--------------------|--------------------|-------|------------------|
+| BUG-005 | 19-Jul-2026 | Payment → MFS Payment | The system allows users to enter and submit any payment amount when selecting MFS Payment methods (bKash, Nagad, Rocket). No validation exists to check the maximum transaction limit supported by the selected MFS provider. For example, a user can record a bKash payment of 100,000 BDT even though the provider's transaction limits may not allow such a payment. The system should validate the payment amount against configurable MFS limits and prevent submission when the entered amount exceeds the allowed limit. | Medium | Developer Team | Open | | | | Missing transaction-limit validation for MFS payment methods. | Recommended to maintain configurable transaction limits for each MFS provider and validate payment amounts before submission. |
+
+---
+
+## Key Learnings
+
+- Improved understanding of Cash Sales, Memo Sales, Receivable-related concepts, and Back-to-Back LC.
+- Learned how sales transactions flow through the ERP system from inventory to payment.
+- Gained practical experience in preparing inventory data for ERP testing.
+- Enhanced understanding of end-to-end sales cycle testing and payment workflow validation.
+- Learned the importance of business-rule validation in financial and payment-related modules.
+
+---
+
+## Challenges
+
+- Accounting concepts such as Receivables and Back-to-Back LC require further study and practical exposure.
+- Need a deeper understanding of payment-related business rules and external financial service limitations.
+- Additional learning is required on how ERP systems handle MFS transactions and payment validations.
+
+---
+
+## Next Steps
+
+- Continue learning ERP Accounts Module concepts.
+- Participate in upcoming Accounts Team knowledge-sharing sessions.
+- Follow up on the reported MFS payment validation issues.
+- Perform additional testing on payment workflows, invoice status handling, and receivable management.
+- Continue studying ERP business rules related to sales, accounts, and payment processing.
+
+---
+
+## Daily Summary
+
+Today's work focused on three primary areas:
+
+1. Accounts Module learning and knowledge transfer.
+2. ERP inventory, sales, and payment workflow testing.
+3. Bug identification and reporting related to MFS payment validation.
+
+The day was productive, combining practical ERP testing with Accounts Module learning. Multiple sales cycles were successfully executed, inventory scenarios were validated, and two payment-related business-rule validation issues were identified and reported for review by the development team.
