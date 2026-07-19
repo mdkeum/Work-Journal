@@ -1,1 +1,98 @@
+# Day 86 – July 19, 2026
 
+## Office Hours
+
+- **Scheduled:** 10:00 AM – 7:00 PM
+- **Arrived:** 10:12 AM
+- **End:** 07:25 PM
+
+---
+
+## Tasks Completed
+
+### 1. Journal Voucher Testing
+
+- Entered and tested **2 Journal Vouchers** in the ERP system.
+- Reviewed the journal entry process and verified debit-credit posting behavior.
+- Observed the accounting flow and gained familiarity with voucher creation and validation.
+
+### 2. Accounting Fundamentals Learning
+
+- Studied the basic concepts of **Debit and Credit**.
+- Researched accounting principles using online resources and AI-assisted learning.
+- Prepared notes and a basic reference document to strengthen accounting knowledge for ERP testing activities.
+
+### 3. Software Quality Assurance (SQA) Learning
+
+- Studied SQA concepts and testing methodologies.
+- Explored how quality assurance practices can be applied within ERP implementation and testing processes.
+- Learned the importance of validation, business rules, and defect reporting in enterprise applications.
+
+### 4. Bug Discovery and Reporting
+
+- Performed testing within the POS sales workflow.
+- Identified a validation issue in the Quantity (Qty) field during item selection.
+- Documented and reported the issue for developer review.
+
+#### Reported Bug
+
+| Issue ID | Date Reported | Module | Issue Description | Severity | Assigned To | Status | Resolution Date | Reference-1 (Image) | Reference-2 (Video) | Notes | Additional Notes |
+|----------|---------------|---------|-------------------|----------|-------------|--------|-----------------|--------------------|--------------------|-------|------------------|
+| BUG-002 | 19-Jul-2026 | Sales → POS Sign In-Out → Continue to POS → Lungi/Sharee → Item Selection (Qty) | The Quantity (Qty) field accepts decimal values such as 1.1, 2.3, and 3.5 during item selection. Quantity should only accept whole numbers (integers). The system currently allows decimal quantities without validation. The system should prevent decimal values from being entered or saved and display an appropriate validation message. | High | Developer Team | Open | | Sale_Quantity_Accepts_Decimal_Values.png | Sale_Quantity_Accepts_Decimals_Reproduction.mp4 | Issue is consistently reproducible. | Expected: Only integer quantities should be allowed. Actual: Decimal quantities are accepted. |
+
+### 5. End-to-End Sales Cycle Testing
+
+- Performed **6 complete sales cycles** after identifying the quantity validation issue.
+- Verified product selection, quantity entry, payment processing, invoice generation, and sales completion workflows.
+- Confirmed that the overall sales process continued to function correctly aside from the reported quantity validation issue.
+
+### 6. Production Receipt Testing
+
+- Created **4 Production Receipts** under:
+  - Production → Production Receipt
+- Added and processed products including:
+  - Lungi
+  - Fabric
+  - Sharee
+  - Three Piece
+- Verified product addition and receipt generation workflows.
+
+---
+
+## Key Learnings
+
+- Improved understanding of Journal Voucher creation and accounting transactions.
+- Strengthened knowledge of Debit and Credit concepts and their practical ERP application.
+- Learned core SQA principles and their role in ERP quality assurance processes.
+- Gained practical experience in defect identification, documentation, and reporting.
+- Enhanced understanding of sales workflow testing and production receipt operations.
+
+---
+
+## Challenges
+
+- Accounting concepts such as journal entries and transaction balancing require additional practice.
+- Need deeper exposure to ERP accounting workflows and financial module integrations.
+- Further learning is required on validation rules and business logic implementation across ERP modules.
+
+---
+
+## Next Steps
+
+- Continue studying ERP accounting concepts and journal voucher processes.
+- Expand SQA knowledge and apply testing techniques during ERP validation activities.
+- Follow up on the reported quantity validation issue with the development team.
+- Perform additional testing on sales, inventory, and production workflows.
+- Continue documenting defects and improving test coverage across ERP modules.
+
+---
+
+## Daily Summary
+
+Today's work focused on three primary areas:
+
+1. Journal Voucher testing and accounting concept learning.
+2. SQA learning and ERP quality assurance understanding.
+3. ERP sales and production workflow testing, including bug identification and reporting.
+
+The day was productive, combining accounting knowledge development, software quality assurance learning, and hands-on ERP testing. A quantity validation defect was identified and reported, multiple sales cycles were executed successfully, and production receipt workflows were verified through practical testing activities.
