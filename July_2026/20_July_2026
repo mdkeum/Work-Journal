@@ -1,1 +1,101 @@
+# Day 87 – July 20, 2026
 
+## Office Hours
+
+- **Scheduled:** 10:00 AM – 7:00 PM
+- **Arrived:** 09:53 AM 
+- **End:** 09:51 PM 
+
+---
+
+## Tasks Completed
+
+### 1. ERP UAT Testing and Bug Verification
+
+- Performed end-to-end ERP testing focusing on the Sales and Production modules.
+- Executed complete sales cycles covering multiple product categories.
+- Verified overall transaction flow and system behavior during sales processing.
+- Monitored previously reported issues to check whether fixes had been deployed.
+
+### 2. End-to-End Sales Cycle Testing
+
+- Completed **4 full sales cycles** using products from different categories:
+  - Lungi
+  - Three Piece
+  - Fabric
+  - Sharee
+- Tested product selection, quantity entry, sales invoice generation, payment processing, and sales completion.
+- No new issues were identified during the sales cycle execution.
+
+### 3. Quantity Validation Bug Retesting
+
+- Retested the previously reported **decimal quantity validation issue**.
+- Verified that the issue was still present in the system.
+- Confirmed that decimal quantities continue to be accepted during sales transactions.
+- The bug remains unresolved and requires further action from the development team.
+
+### 4. Production Receipt Testing
+
+- Created and tested Production Receipts for:
+  - Fabric
+  - Sharee
+  - Lungi
+  - Three Piece
+- Verified successful production receipt generation.
+- Confirmed inventory stock updates after production receipt completion.
+- Checked product availability for subsequent sales transactions.
+
+### 5. ERP QA & UAT Dashboard Development
+
+- Continued developing the ERP QA & UAT Dashboard in Google Sheets.
+- Organized testing data and reporting structure for project tracking.
+- Worked on:
+  - KPI Metrics
+  - Defect Tracking Summary
+  - Module-wise Defect Analysis
+  - Severity Distribution
+  - Testing Progress Visualization
+- Prepared dashboard information for developers, business users, management, and project stakeholders.
+
+### 6. Production-to-Sales Flow Validation
+
+- Conducted UAT testing of the Production Receipt process.
+- Generated production receipts for multiple products.
+- Verified inventory stock generation after production completion.
+- Validated inventory quantity updates.
+- Confirmed that produced items were available for sales transactions.
+- Tested the complete production-to-sales workflow to ensure data consistency across modules.
+
+---
+
+## Key Learnings
+
+- Improved understanding of end-to-end ERP sales cycle validation.
+- Gained additional experience in Production Receipt processing and inventory management.
+- Learned how production transactions impact inventory availability and sales operations.
+- Enhanced skills in UAT execution, defect verification, and reporting dashboard preparation.
+- Improved understanding of ERP testing metrics and QA reporting practices.
+
+---
+
+## Challenges
+
+- The previously reported quantity validation bug remains unresolved.
+- Additional verification is required after the development team deploys a fix.
+- Dashboard reporting requires continuous updates as testing progresses.
+
+---
+
+## Next Steps
+
+- Follow up with the development team regarding the decimal quantity validation issue.
+- Continue UAT testing across Sales, Inventory, Production, and Accounting modules.
+- Expand ERP QA & UAT Dashboard reporting and metrics.
+- Perform additional regression testing after bug fixes are released.
+- Continue documenting defects and improving overall test coverage.
+
+---
+
+## Daily Summary
+
+Today's activities focused on ERP UAT execution, production receipt testing, dashboard development, and defect verification. Four complete sales cycles were successfully executed across multiple product categories, and production receipts were tested for Fabric, Sharee, Lungi, and Three Piece products. The previously reported quantity validation defect was retested and remains unresolved. Progress was also made on the ERP QA & UAT Dashboard to improve project visibility and reporting for stakeholders.
