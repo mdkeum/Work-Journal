@@ -1,1 +1,85 @@
+# Day 88 – July 21, 2026
 
+## Office Hours
+
+- **Scheduled:** 10:00 AM – 7:00 PM
+- **Arrived:** 10:51 AM 
+- **End:** 07: PM 
+
+---
+
+## Tasks Completed
+
+### 1. Dummy Data Preparation for ERP Testing
+
+- Created an **H&B Dummy Data Excel file** using AI-assisted tools (ChatGPT).
+- Prepared realistic customer sales and transaction data to simulate actual business operations.
+- Designed test data covering customer purchases, sales transactions, payments, and credit sales scenarios.
+- Entered the dummy data into the ERP system for UAT and business flow validation.
+
+### 2. End-to-End Sales Cycle Testing with Dummy Data
+
+- Executed **21 complete sales cycles** using the prepared dummy data.
+- Verified the complete sales workflow from product selection to sales completion.
+- Tested system behavior with realistic transaction scenarios.
+- Validated inventory movement and stock deductions during sales operations.
+- Confirmed successful processing of sales transactions using the generated test dataset.
+
+### 3. Production Receipt Testing
+
+- Created **6 Production Receipts** to increase stock availability for testing purposes.
+- Generated production receipts for:
+  - Sharee
+  - Fabric
+  - Lungi
+  - Three Piece
+- Verified successful stock generation after production receipt completion.
+- Confirmed that produced items became available for sales transactions.
+
+### 4. Inventory and Stock Verification
+
+- Performed stock verification after production and sales activities.
+- Checked whether inventory quantities were updating correctly after each transaction.
+- Validated stock availability across tested products.
+- Confirmed consistency between production receipts and inventory records.
+
+### 5. Ledger and Transaction Verification
+
+- Reviewed ledger entries generated from sales and inventory transactions.
+- Verified whether sales and production-related transactions were correctly recorded in the ERP system.
+- Checked that inventory movements and related records were properly reflected in system reports.
+- Validated data consistency between operational transactions and ledger records.
+
+---
+
+## Key Learnings
+
+- Improved understanding of testing ERP systems using realistic business datasets.
+- Learned how large-scale sales transactions affect inventory and stock management.
+- Gained practical experience in validating stock updates after production receipts.
+- Enhanced knowledge of ledger verification and transaction traceability within ERP workflows.
+- Improved skills in preparing business-oriented UAT test data for ERP validation.
+
+---
+
+## Challenges
+
+- Creating realistic test data requires careful consideration of business scenarios and transaction flows.
+- Large volumes of transactions require detailed verification to ensure data consistency.
+- Additional testing is needed to validate all ledger and reporting outputs generated from dummy data.
+
+---
+
+## Next Steps
+
+- Continue testing ERP workflows using realistic business datasets.
+- Verify reporting modules using the generated sales and production data.
+- Perform additional inventory and ledger reconciliation testing.
+- Expand test coverage across Accounting, Inventory, Sales, and Production modules.
+- Continue documenting findings and validating business process accuracy.
+
+---
+
+## Daily Summary
+
+Today's work focused on ERP UAT testing using realistic dummy business data. An H&B Dummy Data Excel file was created and imported into the ERP system to simulate actual customer transactions. A total of 21 complete sales cycles were executed to validate the sales workflow, inventory movement, and stock deductions. Six production receipts were created for Sharee, Fabric, Lungi, and Three Piece products to generate stock for testing purposes. Inventory balances, stock updates, and ledger entries were reviewed to ensure that transactions were correctly recorded and reflected throughout the ERP system. The day provided valuable insights into end-to-end business process validation using realistic ERP test scenarios.
