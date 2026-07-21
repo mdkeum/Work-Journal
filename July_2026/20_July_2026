@@ -10,31 +10,40 @@
 
 ## Tasks Completed
 
-### 1. ERP UAT Testing and Bug Verification
+### 1. H&B ERP Meeting and System Presentation
 
-- Performed end-to-end ERP testing focusing on the Sales and Production modules.
-- Executed complete sales cycles covering multiple product categories.
-- Verified overall transaction flow and system behavior during sales processing.
-- Monitored previously reported issues to check whether fixes had been deployed.
+- Participated in an H&B ERP discussion session with Anotor Bhai and Zakir Bhai.
+- Planned to present the ERP system to the Director Sir.
+- Visited the Director's office for the presentation; however, the meeting could not be conducted because he was busy with clients.
+- Briefly discussed the ERP progress with him.
+- Director Sir informed us that he would provide a separate time for a detailed ERP presentation later.
 
-### 2. End-to-End Sales Cycle Testing
+### 2. ERP Production-to-Sales Cycle Demonstration
+
+- Presented the complete ERP production-to-sales workflow to Anotor Bhai and Zakir Bhai.
+- Demonstrated the end-to-end process including production activities, inventory updates, and sales transactions.
+- Explained how product stock generated from production becomes available for sales operations.
+- Reviewed the overall business flow and system behavior.
+
+### 3. End-to-End Sales Cycle Testing
 
 - Completed **4 full sales cycles** using products from different categories:
   - Lungi
   - Three Piece
   - Fabric
   - Sharee
-- Tested product selection, quantity entry, sales invoice generation, payment processing, and sales completion.
-- No new issues were identified during the sales cycle execution.
+- Tested product selection, quantity entry, payment processing, invoice generation, and sales completion.
+- Observed system behavior throughout the sales process.
+- No new issues were identified during the sales cycle testing.
 
-### 3. Quantity Validation Bug Retesting
+### 4. Quantity Validation Bug Retesting
 
 - Retested the previously reported **decimal quantity validation issue**.
-- Verified that the issue was still present in the system.
-- Confirmed that decimal quantities continue to be accepted during sales transactions.
-- The bug remains unresolved and requires further action from the development team.
+- Verified that the issue remains unresolved.
+- Confirmed that decimal values are still accepted in the Quantity (Qty) field during sales transactions.
+- The bug remains open and requires developer action.
 
-### 4. Production Receipt Testing
+### 5. Production Receipt Testing
 
 - Created and tested Production Receipts for:
   - Fabric
@@ -42,47 +51,47 @@
   - Lungi
   - Three Piece
 - Verified successful production receipt generation.
-- Confirmed inventory stock updates after production receipt completion.
+- Confirmed inventory stock updates after production completion.
 - Checked product availability for subsequent sales transactions.
 
-### 5. ERP QA & UAT Dashboard Development
+### 6. ERP QA & UAT Dashboard Development
 
-- Continued developing the ERP QA & UAT Dashboard in Google Sheets.
-- Organized testing data and reporting structure for project tracking.
+- Continued development of the ERP QA & UAT Dashboard in Google Sheets.
+- Organized testing and defect-tracking information for reporting purposes.
 - Worked on:
   - KPI Metrics
   - Defect Tracking Summary
   - Module-wise Defect Analysis
   - Severity Distribution
   - Testing Progress Visualization
-- Prepared dashboard information for developers, business users, management, and project stakeholders.
+- Structured dashboard data for developers, business users, management, and project stakeholders.
 
-### 6. Production-to-Sales Flow Validation
+### 7. Production-to-Sales Flow Validation
 
 - Conducted UAT testing of the Production Receipt process.
-- Generated production receipts for multiple products.
+- Generated production receipts for four products.
 - Verified inventory stock generation after production completion.
 - Validated inventory quantity updates.
-- Confirmed that produced items were available for sales transactions.
-- Tested the complete production-to-sales workflow to ensure data consistency across modules.
+- Confirmed successful product availability during sales transactions.
+- Tested the complete production-to-sales workflow for accuracy and system consistency.
 
 ---
 
 ## Key Learnings
 
-- Improved understanding of end-to-end ERP sales cycle validation.
-- Gained additional experience in Production Receipt processing and inventory management.
-- Learned how production transactions impact inventory availability and sales operations.
-- Enhanced skills in UAT execution, defect verification, and reporting dashboard preparation.
-- Improved understanding of ERP testing metrics and QA reporting practices.
+- Improved understanding of the complete production-to-sales lifecycle within the ERP system.
+- Gained practical experience in stakeholder demonstrations and ERP workflow presentations.
+- Enhanced knowledge of Production Receipt processing and inventory management.
+- Learned how production activities affect stock availability and sales operations.
+- Improved skills in UAT execution, defect verification, and QA reporting dashboard development.
 
 ---
 
 ## Challenges
 
-- The previously reported quantity validation bug remains unresolved.
-- Additional verification is required after the development team deploys a fix.
-- Dashboard reporting requires continuous updates as testing progresses.
+- The previously reported decimal quantity validation bug remains unresolved.
+- Additional verification will be required once the development team deploys a fix.
+- Dashboard reporting and testing metrics require ongoing maintenance and updates.
 
 ---
 
@@ -90,12 +99,12 @@
 
 - Follow up with the development team regarding the decimal quantity validation issue.
 - Continue UAT testing across Sales, Inventory, Production, and Accounting modules.
-- Expand ERP QA & UAT Dashboard reporting and metrics.
-- Perform additional regression testing after bug fixes are released.
-- Continue documenting defects and improving overall test coverage.
+- Expand ERP QA & UAT Dashboard reporting and KPI metrics.
+- Perform regression testing after bug fixes are deployed.
+- Continue documenting defects and increasing test coverage across ERP modules.
 
 ---
 
 ## Daily Summary
 
-Today's activities focused on ERP UAT execution, production receipt testing, dashboard development, and defect verification. Four complete sales cycles were successfully executed across multiple product categories, and production receipts were tested for Fabric, Sharee, Lungi, and Three Piece products. The previously reported quantity validation defect was retested and remains unresolved. Progress was also made on the ERP QA & UAT Dashboard to improve project visibility and reporting for stakeholders.
+Today's work focused on ERP UAT activities, stakeholder discussions, workflow demonstrations, production receipt testing, and QA reporting. Participated in an H&B ERP meeting with Anotor Bhai and Zakir Bhai and demonstrated the complete production-to-sales workflow. An attempt was made to present the ERP system to the Director Sir, but the meeting was postponed because he was occupied with clients. Four complete sales cycles were executed successfully across multiple product categories, and production receipts were tested for Fabric, Sharee, Lungi, and Three Piece products. The previously reported quantity validation issue was retested and remains unresolved. Progress was also made on the ERP QA & UAT Dashboard to improve project tracking, defect reporting, and stakeholder visibility.
