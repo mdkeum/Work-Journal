@@ -1,1 +1,117 @@
+# Day 89 – July 22, 2026
 
+## Office Hours
+
+- **Scheduled:** 10:00 AM – 7:00 PM
+- **Arrived:** 10:35 AM
+- **End:** 07:30 PM
+
+---
+
+## Tasks Completed
+
+### 1. ERP Sales Testing Data Preparation
+
+- Created a structured Excel dataset for ERP sales testing.
+- Prepared realistic dummy sales data for **5 real customers**.
+- Organized sales transactions in a transaction-based format containing:
+  - Date
+  - Customer
+  - Item
+  - Quantity
+  - Unit Price
+  - Total Amount
+  - Paid Amount
+  - Due Amount
+- Converted customer-wise sales records into a format suitable for reporting, dashboard creation, and future data analysis.
+
+### 2. Customer Sales Scenario Creation
+
+- Created realistic sales scenarios for the following products:
+  - Fabric
+  - Lungi
+  - Sharee
+  - Three Piece
+- Generated realistic sales quantities and transaction values for ERP testing purposes.
+- Prepared customer purchase scenarios to simulate actual wholesale business operations.
+
+### 3. End-to-End Sales Cycle Testing
+
+- Executed multiple sales transactions using the prepared test dataset.
+- Tested the complete sales process including:
+  - Customer selection
+  - Product selection
+  - Quantity entry
+  - Invoice generation
+  - Payment processing
+  - Due amount calculation
+- Verified successful completion of sales transactions within the ERP system.
+
+### 4. Inventory Verification
+
+- Verified inventory updates after sales transactions.
+- Checked stock deductions for sold items.
+- Validated inventory movement for:
+  - Fabric
+  - Lungi
+  - Sharee
+  - Three Piece
+- Confirmed consistency between sales transactions and inventory balances.
+
+### 5. Payment and Due Amount Validation
+
+- Performed sales transactions using predefined invoice amounts.
+- Verified paid and unpaid amount calculations.
+- Confirmed that due balances were correctly reflected after transaction completion.
+- Tested various payment scenarios to validate system calculations.
+
+### 6. Sales Data Structure and Dashboard Planning
+
+- Designed a transaction-level data structure for future dashboard development.
+- Prepared data suitable for:
+  - Customer-wise Sales Analysis
+  - Item-wise Sales Analysis
+  - Monthly Sales Reporting
+  - Paid vs Due Analysis
+  - Sales Forecasting
+- Organized data for future Pivot Table and dashboard creation in Excel.
+
+---
+
+## Key Learnings
+
+- Learned how transaction-based data structures improve reporting and dashboard generation.
+- Improved understanding of inventory validation through sales transactions.
+- Gained practical experience in preparing realistic ERP UAT datasets.
+- Enhanced knowledge of customer-wise and item-wise sales analysis.
+- Learned how sales, payments, and due balances interact within ERP workflows.
+
+---
+
+## Challenges
+
+- Maintaining consistency between quantities, prices, payments, and due amounts across multiple transactions.
+- Preparing realistic business scenarios while ensuring accurate test coverage.
+- Verifying inventory balances after multiple sales transactions.
+
+---
+
+## Next Steps
+
+- Continue creating realistic sales scenarios for additional customers.
+- Build Excel Pivot Tables for customer-wise and item-wise sales analysis.
+- Develop a sales dashboard containing:
+  - Total Sales
+  - Total Paid
+  - Total Due
+  - Customer-wise Sales
+  - Item-wise Sales
+  - Monthly Sales Trends
+- Continue validating inventory and ledger updates.
+- Expand UAT coverage across Sales, Inventory, Production, and Accounting modules.
+
+---
+
+## Daily Summary
+
+Today's work focused on ERP UAT sales testing and data preparation. A structured Excel dataset was created using realistic sales transactions for five real customers. Sales scenarios covering Fabric, Lungi, Sharee, and Three Piece products were prepared and used to execute multiple sales transactions within the ERP system. Inventory updates, stock deductions, payment processing, and due calculations were verified to ensure system accuracy. Additionally, sales data was reorganized into a transaction-based structure to support future dashboard creation, reporting, and sales analysis activities.
