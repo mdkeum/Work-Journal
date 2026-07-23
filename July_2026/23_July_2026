@@ -1,1 +1,141 @@
+# Day 90 – July 23, 2026
 
+## Office Hours
+
+- **Scheduled:** 10:00 AM – 7:00 PM
+- **Arrived:** 09:45 AM
+- **End:** 07: PM
+
+---
+
+## Tasks Completed
+
+### 1. ERP UAT Testing Across Multiple Business Units
+
+- Conducted ERP testing for multiple business units:
+  - HBI
+  - SGG
+  - HBS
+  - HSG
+- Verified accessibility and functionality of business unit operations.
+- Tested system workflows to ensure proper configuration across all units.
+
+### 2. Terminal Setup and Configuration
+
+- Created **5 new terminals** for HBI business unit testing.
+- Verified terminal configuration and connectivity.
+- Ensured terminals were ready for sales and transaction testing.
+
+### 3. POS Sales Cycle Testing
+
+- Executed **4 complete sales cycles** using the POS system.
+- Tested the end-to-end sales process including:
+  - Customer selection
+  - Product selection
+  - Quantity entry
+  - Invoice generation
+  - Payment processing
+  - Settlement process
+- Verified transaction flow and system behavior throughout the sales cycle.
+
+### 4. H&B Mobile Application Testing
+
+- Downloaded and installed the H&B Mobile App.
+- Performed application setup and initial configuration.
+- Executed **2 sales transactions** using the mobile application.
+- Verified:
+  - Sales workflow
+  - Transaction processing
+  - User interface functionality
+  - Data synchronization
+
+### 5. Production Receipt Testing
+
+- Completed **18 Production Receipt transactions**.
+- Distributed receipts across the remaining four business units.
+- Verified inventory updates after production receipt completion.
+- Confirmed stock quantities were increased correctly in respective inventories.
+
+### 6. New Business Unit Validation
+
+- Conducted testing on the newly created **HBI (Islampur)** Business Unit.
+- Performed **4 complete sales cycles**.
+- Verified:
+  - POS functionality
+  - Inventory movement
+  - Sales processing
+  - Transaction recording
+  - Overall business workflow
+
+### 7. Bug Identification and Reporting
+
+- Identified and documented multiple issues during UAT testing.
+- Reproduced bugs and recorded detailed observations.
+- Prepared bug reports for the development team for further investigation.
+
+---
+
+## Bugs Identified
+
+### BUG-002 – Settlement Approval Error
+
+**Module:** Sales → Settlement Approval
+
+- Settlement approval for Express Sales through the Mobile App fails due to a timing/synchronization issue.
+- Approval process does not complete successfully.
+
+**Priority:** High
+
+### BUG-003 – Challan Printing Error
+
+**Module:** Sales → Challan Printing
+
+- Express Sales challan printing generates **4 pages** instead of the expected **single-page challan**.
+- Issue observed in POS/App sales transactions.
+
+**Priority:** High
+
+### BUG-004 – POS Delete Button Not Working
+
+**Module:** POS → Sales Entry
+
+- The Delete button is not functioning correctly.
+- Users cannot remove items after adding them to a sales transaction.
+
+**Priority:** Medium
+
+---
+
+## Key Learnings
+
+- Gained deeper understanding of ERP UAT processes across multiple business units.
+- Learned how business unit configuration impacts sales and inventory workflows.
+- Improved knowledge of POS and Mobile App transaction processing.
+- Enhanced experience in identifying, reproducing, and documenting software defects.
+- Better understanding of production receipt impacts on inventory management.
+
+---
+
+## Challenges
+
+- Identifying root causes of synchronization issues between Mobile App and ERP.
+- Validating sales workflows across multiple business units simultaneously.
+- Reproducing printing-related issues consistently for bug reporting.
+- Ensuring accurate inventory verification after multiple production receipt transactions.
+
+---
+
+## Next Steps
+
+- Retest reported bugs after fixes are provided by the development team.
+- Continue UAT testing for POS and Mobile App modules.
+- Validate settlement approval workflow after issue resolution.
+- Verify challan printing functionality after bug fixes.
+- Expand testing coverage across Inventory, Production, and Accounting modules.
+- Continue testing newly created business units and terminal configurations.
+
+---
+
+## Daily Summary
+
+Today's work focused on ERP User Acceptance Testing (UAT), business unit validation, POS testing, mobile application testing, and bug tracking. Multiple business units were tested, five new terminals were configured, and several sales cycles were executed through both POS and the H&B Mobile App. Additionally, 18 production receipt transactions were completed to verify inventory updates. During testing, three significant issues were identified involving settlement approval, challan printing, and POS item deletion functionality. These issues were documented and reported to the development team for resolution while continuing validation of the newly created HBI (Islampur) business unit.
