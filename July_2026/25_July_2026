@@ -1,1 +1,103 @@
+# Day 91 – July 25, 2026
 
+## Office Hours
+
+- **Scheduled:** 10:00 AM – 7:00 PM
+- **Arrived:** 09:40 AM
+- **End:** 07:35 PM
+
+---
+
+## Tasks Completed
+
+### 1. POS Sales Verification
+
+- Performed sales testing using the POS machine.
+- Verified the sales workflow and transaction processing through the POS system.
+
+### 2. Express Challan Printing Verification
+
+- Checked Express Sales challan printing from:
+  - Inventory → Sales Issue List → View → Challan Print
+- Retested the previously reported issue where challan printing generates multiple pages.
+- Confirmed that the issue is still present and has not yet been resolved.
+
+### 3. ERP Mobile Application Update Testing
+
+- Downloaded and installed the new version of the ERP Mobile Application.
+- Installed the updated version on both:
+  - Mobile device
+  - POS machine
+
+### 4. Login Issue Verification
+
+- Observed a login-related problem in the new application version.
+- Reported the issue and downloaded the updated version again for verification.
+
+### 5. HBI Business Unit Sales Testing
+
+- Completed **10 full sales cycles** for the new **HBI Business Unit**.
+- Checked inventory and stock updates in real time.
+- Verified stock movement and inventory behavior during sales transactions.
+
+### 6. HBB Business Unit Sales Testing
+
+- Completed **8 full sales cycles** in the **HBB Business Unit**.
+- Tested sales flow through:
+  - Web
+  - POS Application
+- Verified that the sales process and workflow were functioning correctly.
+
+### 7. Additional Sales Cycle Testing
+
+- Completed:
+  - **6 full Express Sales cycles**
+  - **4 full Web Sales cycles**
+- Verified transaction flow and settlement behavior during testing.
+
+---
+
+## Bugs Identified
+
+### BUG-029 – Settlement Approval Time Mismatch
+
+**Module:** Web Sales → Settlement Approval
+
+- A timing mismatch exists between settlements completed through POS and the corresponding settlement records viewed from the web system.
+- Approximately a **6-hour difference** was observed between the settlement time recorded in POS and the time reflected in the web approval process.
+- The issue appears to be related to a timing/synchronization discrepancy and requires priority attention.
+
+**Priority:** High
+
+---
+
+## Key Learnings
+
+- Improved understanding of sales workflow validation across Web, POS, and Express Sales channels.
+- Learned more about inventory and stock verification in real time during sales transactions.
+- Gained additional experience in ERP Mobile App deployment and version testing.
+- Enhanced skills in identifying and validating settlement synchronization issues.
+
+---
+
+## Challenges
+
+- Verifying the root cause of the settlement time mismatch between POS and Web.
+- Retesting previously reported challan printing issues and confirming persistence after updates.
+- Validating application behavior after new version installations and login-related issues.
+
+---
+
+## Next Steps
+
+- Continue monitoring settlement synchronization between POS and Web Sales.
+- Retest the settlement approval process after fixes are provided.
+- Follow up on the Express Sales challan printing issue.
+- Continue UAT testing of the ERP Mobile Application and POS modules.
+- Validate inventory and stock updates during future sales cycles.
+
+---
+
+## Daily Summary
+
+Today's work focused on POS, Web Sales, and ERP Mobile Application testing. Sales transactions were executed through both HBI and HBB business units, including Express Sales and Web Sales cycles. The new ERP Mobile App version was installed and tested, while inventory and stock updates were verified in real time. Previously reported challan printing behavior was rechecked and found to remain unresolved. Additionally, a settlement approval timing mismatch between POS and Web Sales was identified and documented for further investigation by the development team.
