@@ -1,1 +1,136 @@
+# Day 93 – July 27, 2026
 
+## Office Hours
+
+- **Scheduled:** 10:00 AM – 7:00 PM
+- **Arrived:** 09:51 AM
+- **End:** 07: PM
+
+---
+
+## Tasks Completed
+
+### 1. Production Receipt Testing – HB BU-01 Outlet-01
+
+- Completed **1 Production Receipt transaction** under:
+  - Business Unit: **HB BU-01**
+  - Outlet: **Outlet-01**
+- Verified successful Production Receipt processing and transaction completion.
+
+### 2. Production Receipt Testing – HBG BU Outlet-05
+
+- Completed **6 Production Receipt transactions** under:
+  - Business Unit: **HBG BU**
+  - Outlet: **Outlet-05**
+- Verified Production Receipt workflow and inventory update behavior.
+
+### 3. Production Receipt Testing – HBG BU Outlet-04
+
+- Completed **2 Production Receipt transactions** under:
+  - Business Unit: **HBG BU**
+  - Outlet: **Outlet-04**
+- Confirmed successful transaction processing and stock movement updates.
+
+### 4. POS Sign-In / Sign-Out Validation
+
+- Performed **4 Sign-In and Sign-Out tests** on POS terminals.
+- Verified terminal authentication and session management functionality.
+- Confirmed successful login and logout operations.
+
+### 5. POS Sales Verification
+
+- Completed **2 POS sales transactions**.
+- Verified successful sales processing through POS terminals.
+- Confirmed transaction completion and sales flow behavior.
+
+### 6. Full Sales Cycle Testing – HBG BU Outlet-05
+
+- Completed **10 full sales cycles** under:
+  - Business Unit: **HBG BU**
+  - Outlet: **Outlet-05**
+- Verified:
+  - Sales workflow
+  - Inventory deduction
+  - Transaction flow
+  - Stock updates after sales completion
+
+### 7. Accounts Module Testing – Payment Voucher
+
+- Performed initial UAT testing of the **Payment Voucher** functionality in the Accounts module.
+- Created **6 Payment Vouchers** under the HBB Business Unit.
+- Verified voucher creation, approval routing, and accounting transaction processing.
+
+### 8. Payment Voucher Approval Configuration
+
+- Configured and tested the approval workflow required for Payment Voucher processing.
+- Verified successful approval setup and transaction submission flow.
+
+### 9. Payment Voucher Void Testing
+
+- Tested the **Void/Cancel** functionality by canceling **1 Payment Voucher**.
+- Verified successful voucher cancellation and status update behavior.
+
+### 10. Accounts Module Testing – Journal, Receipt & Contra Vouchers
+
+- Created **4 Journal Vouchers (JV)** under the HBB Business Unit.
+- Verified Journal Voucher creation and posting functionality.
+- Created **1 Receipt Voucher (RV)** and identified a critical issue during processing.
+- Retested Receipt Voucher creation after issue review and confirmed successful processing.
+- Created **1 Contra Voucher (CV)** and verified successful transaction completion.
+
+---
+
+## Bugs Identified
+
+### BUG-031 – Duplicate Voucher Number Generation in Receipt Voucher
+
+**Module:** Accounts → Receipt Voucher
+
+- While creating a Receipt Voucher, the system generated a duplicate voucher/journal entry code and failed to save the transaction.
+- The following database error was encountered:
+
+> "duplicate key value violates unique constraint... Key (code)=(RV-01-0000001) already exists."
+
+- The system attempted to create a Receipt Voucher using an existing voucher number, causing transaction failure.
+- The issue indicates a problem in Receipt Voucher number generation, sequence management, or concurrent transaction handling.
+
+**Priority:** Critical
+
+**Remarks:**
+
+- Issue documented and reported to the development team.
+- Retesting was performed after investigation, and subsequent Receipt Voucher creation was completed successfully.
+- Further verification is required to ensure voucher numbering remains unique under all scenarios.
+
+---
+
+## Key Learnings
+
+- Gained practical experience testing the Accounts module, particularly Payment, Receipt, Journal, and Contra Voucher workflows.
+- Improved understanding of approval configuration requirements for financial transactions.
+- Learned how voucher lifecycle events such as creation, approval, and void operations affect accounting processes.
+- Enhanced knowledge of POS sign-in/sign-out functionality and sales transaction validation.
+
+---
+
+## Challenges
+
+- Identifying the root cause of the Receipt Voucher failure caused by duplicate voucher number generation.
+- Verifying transaction integrity across multiple modules including Production, Sales, POS, and Accounts.
+- Ensuring approval workflow configurations were properly set before voucher processing.
+
+---
+
+## Next Steps
+
+- Continue UAT testing of Accounts module voucher functionalities.
+- Retest Receipt Voucher numbering after developer fixes.
+- Verify General Ledger impact of Journal, Payment, Receipt, and Contra Voucher transactions.
+- Perform additional approval workflow validation across accounting documents.
+- Continue POS and sales cycle testing with inventory verification.
+
+---
+
+## Daily Summary
+
+Today's activities focused on Production Receipt validation, POS testing, sales cycle verification, and Accounts module UAT. Multiple Production Receipt transactions were completed across different business units and outlets, while POS sign-in/sign-out and sales transactions were successfully verified. Initial testing of the Payment Voucher feature was performed, including approval setup and voucher cancellation validation. Journal Voucher, Receipt Voucher, and Contra Voucher functionalities were also tested. A critical issue related to duplicate Receipt Voucher number generation was identified, documented, and reported to the development team for resolution. Overall, the day's testing expanded coverage of both operational and accounting workflows within the ERP system.
