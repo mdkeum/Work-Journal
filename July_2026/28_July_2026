@@ -1,1 +1,168 @@
+# Day 94 – July 28, 2026
 
+## Office Hours
+
+- **Scheduled:** 10:00 AM – 7:00 PM
+- **Arrived:** 10:02 AM
+- **End:** 07:25 PM
+
+---
+
+## Tasks Completed
+
+### 1. Transfer Request Testing
+
+- Tested **3 Transfer Request transactions** under:
+  - Inventory → Transactions → Transfer Request
+- Verified transfer request creation and workflow execution.
+- All 3 test transactions were completed successfully.
+
+### 2. Approval Configuration Setup
+
+- Configured and tested approval workflows for:
+  - **HBI BU**
+  - **HBG BU**
+- Verified approval routing and submission flow behavior.
+
+### 3. Journal Voucher Back-Date Testing
+
+- Performed **3 Journal Voucher transactions** using back-dated entries.
+- Executed test cases:
+  - **TC-005**
+  - **TC-007**
+- Verified successful voucher creation and posting behavior for back-dated transactions.
+
+### 4. Inventory Adjustment Testing
+
+- Executed **2 test cases** under:
+  - Inventory → Transactions → Inventory Adjustment
+  - **TC-001**
+  - **TC-002**
+- Verified **Inventory Adjustment (In)** functionality by increasing stock quantities.
+- Confirmed successful inventory update and transaction completion.
+
+### 5. Learning Progress Documentation Update
+
+- Updated the UAT Learning Progress tracker with newly explored ERP functionalities.
+- Documented the following modules and sub-modules:
+  - Accounts → Day Book
+  - Sales → Sales Return
+  - Sales → Return Conditions
+
+### 6. Accounts Report Learning – General Ledger
+
+- Self-learned and tested:
+  - Accounts → Reports → General Ledger
+- Generated General Ledger reports using required filter criteria.
+- Successfully exported reports in:
+  - PDF format
+  - Excel format
+
+### 7. Inventory Process Learning – Store Requisition & Store Issue
+
+- Learned the Store Requisition and Store Issue workflow under the Inventory module.
+- Reviewed the business process and transaction flow for inventory requests and issuance.
+
+### 8. Inventory Workflow Learning – Transfer Process
+
+- Learned the complete inventory transfer workflow:
+  - Transfer Request
+  - Pending Store Transfer
+  - Store Issue
+  - Store Receipt (TR)
+- Improved understanding of inventory movement between business units and locations.
+
+### 9. Bug Identification & Reporting – Transfer Request
+
+- Identified and documented a validation issue during inventory transfer processing.
+- Error message:
+
+> "organizationId - Organization is required"
+
+- Reported the issue to the development team for investigation.
+
+### 10. Bug Identification & Reporting – Inventory Adjustment (Out)
+
+- Identified a critical issue while performing Inventory Adjustment (Out).
+- Error message:
+
+> "Validation failed for classes [com.asg.hb.inventory.model.InvStockHold] during persist time for groups [jakarta.validation.groups.Default]. Constraint violation: Hold date is required."
+
+- Inventory Adjustment (Out) transactions failed due to missing hold date validation.
+- Issue documented and reported to the development team.
+
+---
+
+## Bugs Identified
+
+### BUG-032 – Organization Validation Error During Transfer Request
+
+**Module:** Inventory → Transactions → Transfer Request
+
+- While creating or processing a Transfer Request, the system displays the validation error:
+
+> "organizationId - Organization is required"
+
+- The transaction cannot proceed because the required organization information is not being passed or populated correctly.
+- The issue may be related to Business Unit and Organization mapping or validation logic.
+
+**Priority:** High
+
+**Remarks:**
+
+- Issue documented and reported to the development team.
+- Requires verification of organization mapping and transfer transaction validation.
+
+---
+
+### BUG-033 – Inventory Adjustment (Out) Fails Due to Missing Hold Date
+
+**Module:** Inventory → Transactions → Inventory Adjustment
+
+- Inventory Adjustment (Out) transactions fail with the following validation error:
+
+> "Validation failed for classes [com.asg.hb.inventory.model.InvStockHold] during persist time... Hold date is required."
+
+- The system attempts to persist an inventory stock hold record without a valid hold date.
+- As a result, stock reduction transactions cannot be completed.
+
+**Priority:** High
+
+**Remarks:**
+
+- Issue documented and reported to the development team.
+- Requires investigation of Inventory Adjustment workflow and InvStockHold validation handling.
+
+---
+
+## Key Learnings
+
+- Improved understanding of inventory transfer workflows, including Transfer Request, Store Issue, and Store Receipt processes.
+- Learned the Store Requisition and Store Issue transaction flow within the Inventory module.
+- Gained hands-on experience with General Ledger report generation and export functionality.
+- Enhanced knowledge of approval workflow configuration across multiple business units.
+- Explored back-dated Journal Voucher processing and validation scenarios.
+
+---
+
+## Challenges
+
+- Identifying the root cause of organization validation failures during transfer processing.
+- Investigating Inventory Adjustment (Out) failures caused by stock hold validation requirements.
+- Understanding dependencies between approval configurations and inventory transaction workflows.
+
+---
+
+## Next Steps
+
+- Continue UAT testing of Inventory transaction workflows.
+- Retest Transfer Request functionality after developer fixes.
+- Retest Inventory Adjustment (Out) functionality after validation issues are resolved.
+- Continue learning and documenting ERP business processes and transaction flows.
+- Expand testing coverage for Accounts reports and inventory movement transactions.
+
+---
+
+## Daily Summary
+
+Today's activities focused on Inventory transaction testing, approval workflow configuration, Journal Voucher validation, and ERP process learning. Three Transfer Request transactions and multiple back-dated Journal Voucher tests were completed successfully. Inventory Adjustment testing confirmed successful stock increase transactions, while stock reduction transactions exposed a critical validation issue. Additional time was spent learning inventory workflows, General Ledger reporting, and updating the UAT learning progress documentation. Two bugs related to Transfer Request validation and Inventory Adjustment processing were identified, documented, and reported to the development team for resolution. Overall, the day contributed to both functional testing coverage and deeper understanding of ERP operational workflows.
