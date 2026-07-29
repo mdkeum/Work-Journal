@@ -1,1 +1,177 @@
+# Day 95 – July 29, 2026
 
+## Office Hours
+
+- **Scheduled:** 10:00 AM – 7:00 PM
+- **Arrived:** 09:58 AM
+- **End:** 08:34 PM
+
+---
+
+## Tasks Completed
+
+### 1. POS Machine Testing
+
+- Attempted to perform testing using the POS machine.
+- The POS machine displayed an error during operation.
+- Initial observations were documented for further investigation and troubleshooting.
+
+### 2. Journal Voucher Issue Verification
+
+- Retested the previously reported Journal Voucher issue.
+- Observed that the issue remains unresolved.
+- The voucher date continues to be automatically fixed to:
+
+> 27-Jul-2026
+
+- Verified that the problem still persists and requires developer intervention.
+
+### 3. Journal Voucher Functional Testing
+
+- Performed **3 Journal Voucher transactions**.
+- Executed test cases:
+  - **TC-006**
+  - **TC-008**
+- Verified voucher creation, submission, and posting functionality.
+- All tested transactions were completed successfully without errors.
+
+### 4. Payment Voucher Testing
+
+- Executed **3 Payment Voucher transactions**.
+- Performed testing under:
+  - Accounts → Payment Voucher
+- Executed test cases:
+  - **TC-007**
+  - **TC-009**
+- Verified successful payment voucher processing and posting.
+- No issues were identified during testing.
+
+### 5. Receipt Voucher Testing
+
+- Conducted testing under:
+  - Accounts → Receipt Voucher
+- Executed the following test cases:
+  - **TC-002**
+  - **TC-003**
+  - **TC-004**
+  - **TC-005**
+- Verified successful receipt voucher creation and transaction processing.
+- All four test cases passed successfully.
+
+### 6. Contra Voucher Testing
+
+- Performed testing under:
+  - Accounts → Contra Voucher
+- Executed **3 transactions** using:
+  - **TC-002**
+  - **TC-003**
+  - **TC-004**
+- Verified fund transfer functionality between internal accounts.
+- All transactions were completed successfully.
+
+### 7. Inventory Adjustment Testing
+
+- Performed testing under:
+  - Inventory → Transactions → Inventory Adjustment
+- Executed:
+  - **TC-003**
+  - **TC-004**
+- Conducted **2 successful Inventory Adjustment transactions**.
+- Verified inventory update functionality and transaction completion.
+
+### 8. Inventory Learning – Stock Hold Process
+
+- Learned the Stock Hold and Stock Hold Approval process within the Inventory module.
+- Explored related areas:
+  - Stock Hold
+  - Stock Hold Approval
+  - Inventory Inquiry
+  - Stock Summary
+- Reviewed the business process and approval workflow associated with inventory stock holding.
+
+### 9. Stock Hold Approval Verification
+
+- Tested Stock Hold approval functionality.
+- Verified stock quantity impact through Inventory and Stock Summary screens.
+- Confirmed that stock hold approval transactions were reflected correctly and data remained consistent across related modules.
+
+### 10. Project Meeting Participation
+
+- Attended a discussion session with:
+  - Zakir Bhai
+  - Sakib Bhai
+- Discussed ongoing UAT activities, testing progress, and reported issues.
+
+---
+
+## Bugs Identified
+
+### BUG-034 – POS Machine Error During Testing
+
+**Module:** POS / Sales
+
+- Attempted to perform transactions using the POS machine.
+- The system displayed an error during operation, preventing successful transaction execution.
+- Further investigation is required to determine whether the issue is related to POS configuration, connectivity, or application logic.
+
+**Priority:** High
+
+**Remarks:**
+
+- Issue observed and documented.
+- Requires technical investigation and retesting after resolution.
+
+---
+
+### BUG-035 – Journal Voucher Date Automatically Fixed
+
+**Module:** Accounts → Journal Voucher
+
+- The previously reported Journal Voucher issue remains unresolved.
+- While creating Journal Vouchers, the transaction date is automatically fixed to:
+
+> 27-Jul-2026
+
+- Users are unable to use the intended transaction date, affecting voucher accuracy and back-date processing.
+
+**Priority:** High
+
+**Remarks:**
+
+- Retested and confirmed issue persistence.
+- Requires developer review of date handling and voucher validation logic.
+
+---
+
+## Key Learnings
+
+- Learned the complete Stock Hold and Stock Hold Approval workflow within the Inventory module.
+- Improved understanding of stock reservation and approval processes.
+- Learned how Stock Hold transactions affect Inventory and Stock Summary records.
+- Gained hands-on experience with Contra Voucher transaction processing.
+- Enhanced understanding of Receipt Voucher and Payment Voucher transaction flows.
+- Strengthened knowledge of Journal Voucher functionality and validation behavior.
+
+---
+
+## Challenges
+
+- Investigating POS machine errors preventing successful transaction execution.
+- Tracking the root cause of the Journal Voucher date-locking issue.
+- Understanding stock hold approval impacts across multiple inventory screens and reports.
+
+---
+
+## Next Steps
+
+- Retest the Journal Voucher date issue after developer fixes are deployed.
+- Continue POS machine testing after error resolution.
+- Expand testing coverage for Accounts vouchers and transaction workflows.
+- Perform additional Stock Hold and Stock Hold Approval validation scenarios.
+- Continue learning and documenting Inventory and Accounts business processes.
+
+---
+
+## Daily Summary
+
+Today's activities focused on Accounts voucher testing, Inventory process learning, and issue verification. Multiple Journal Voucher, Payment Voucher, Receipt Voucher, Contra Voucher, and Inventory Adjustment transactions were executed successfully. Additional effort was spent learning the Stock Hold and Stock Hold Approval workflow and validating inventory consistency through Stock Summary verification. Retesting confirmed that the Journal Voucher date issue remains unresolved, and an additional POS machine error was identified during testing. The day contributed to both functional testing progress and a deeper understanding of inventory control and accounting transaction workflows.
