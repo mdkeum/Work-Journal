@@ -1,1 +1,128 @@
+# Day 96 – July 30, 2026
 
+## Office Hours
+
+- **Scheduled:** 10:00 AM – 7:00 PM
+- **Arrived:** 10:28 AM (30 Min grace period)
+- **End:** 07:40 PM
+
+---
+
+## Tasks Completed
+
+### 1. Full Sales Cycle Testing
+
+- Performed end-to-end sales cycle testing in:
+  - **HBB Business Unit (Outlet-01)**
+- Executed **10 complete sales transactions**.
+- Verified sales processing workflow, transaction completion, and system behavior.
+- All sales transactions were completed successfully without errors.
+
+### 2. Requisition Module Testing
+
+- Conducted testing under:
+  - **Inventory / Requisition Module**
+- Executed the following test cases:
+  - **TC-001**
+  - **TC-002**
+- Performed requisition creation and approval workflow validation.
+- Verified requisition approval functionality.
+- No functional issues were identified during testing.
+
+### 3. Requisition Module Data Availability Review
+
+- Reviewed available test data within the Requisition module.
+- Identified limited business data for executing broader testing scenarios.
+- Noted that additional test data is required to perform comprehensive module validation.
+
+### 4. POS Machine Issue Investigation
+
+- Attempted POS sales transactions using the POS machine.
+- Encountered device-related issues preventing transaction execution.
+- Performed troubleshooting activities to identify the root cause.
+
+### 5. POS Device Binding Verification
+
+- Investigated POS machine connectivity and configuration settings.
+- Resolved the POS sales issue by correcting the device binding configuration.
+- Verified successful communication between the POS device and ERP application.
+
+### 6. POS Sales Testing
+
+- Performed **2 POS sales transactions** using the POS machine.
+- Verified successful sales processing after issue resolution.
+- Confirmed transaction completion and system response accuracy.
+
+### 7. Production Receipt Testing
+
+- Conducted testing under:
+  - **Production → Production Receipt**
+- Executed **4 Production Receipt transactions** for:
+  - **HBB Business Unit (Outlet-03)**
+- Added and processed multiple inventory items including:
+  - Sharee
+  - Lungi
+  - Fabric
+  - Additional production items
+- Verified successful receipt generation and inventory updates.
+
+### 8. Header & Inner Field Consistency Verification
+
+- Tested header and related inner field update functionality.
+- Verified updates across multiple Business Units and Outlets.
+- Confirmed that header-level information remained synchronized with corresponding detail records.
+- No inconsistencies were observed during validation.
+
+---
+
+## Bugs Identified
+
+### BUG-036 – POS Device Binding Configuration Issue
+
+**Module:** POS / Sales
+
+- POS sales transactions could not be executed due to device binding configuration issues.
+- The problem prevented successful communication between the POS machine and ERP system.
+- The issue was investigated and resolved through device reconfiguration.
+
+**Priority:** Medium
+
+**Remarks:**
+
+- Root cause identified as device binding configuration.
+- Resolved and successfully verified through subsequent POS sales transactions.
+
+---
+
+## Key Learnings
+
+- Improved understanding of the complete sales cycle workflow within the ERP system.
+- Learned the Requisition creation and approval process.
+- Enhanced knowledge of POS device configuration and device binding mechanisms.
+- Gained hands-on experience with Production Receipt transactions and inventory updates.
+- Improved understanding of data consistency validation between header and detail records.
+- Learned challenges associated with testing modules that have limited business data.
+
+---
+
+## Challenges
+
+- Limited test data availability within the Requisition module restricted broader scenario coverage.
+- Troubleshooting POS device configuration issues required additional investigation.
+- Ensuring production receipt transactions accurately reflected inventory updates across related records.
+
+---
+
+## Next Steps
+
+- Continue expanding Requisition module testing once additional test data becomes available.
+- Perform additional POS transaction validation across different sales scenarios.
+- Increase Production module testing coverage and validate inventory impacts.
+- Continue end-to-end sales workflow testing across Business Units and Outlets.
+- Explore additional inventory and requisition approval scenarios for comprehensive UAT coverage.
+
+---
+
+## Daily Summary
+
+Today's activities focused on Sales, Requisition, POS, and Production module testing. A total of 10 complete sales cycle transactions were successfully executed in HBB Business Unit (Outlet-01). Requisition module testing and approval workflow validation were completed without identifying functional issues, although limited test data was observed. Investigation of a POS machine issue led to the identification and resolution of a device binding configuration problem, after which two successful POS sales transactions were executed. Additional testing was conducted on Production Receipt transactions and header-detail data consistency across Business Units and Outlets. The day contributed to continued ERP business process learning, UAT execution, issue investigation, and functional validation across multiple ERP modules.
