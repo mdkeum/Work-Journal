@@ -1,1 +1,171 @@
+# Day 97 – August 01, 2026
 
+## Office Hours
+
+- **Scheduled:** 10:00 AM – 7:00 PM
+- **Arrived:** 09:58 AM
+- **End:** 07:40 PM
+
+---
+
+## Tasks Completed
+
+### 1. Production Receipt Functional Testing
+
+- Conducted testing under:
+  - **Production → Production Receipt**
+- Executed **6 Production Receipt transactions** in:
+  - **HBB Business Unit (Outlet-01)**
+- Added and processed multiple categories of items including:
+  - Three Piece
+  - Fabric
+  - Lungi
+  - Sharee
+- Verified successful Production Receipt processing and transaction completion.
+- No issues were identified during transaction execution.
+
+### 2. Inventory Impact Verification
+
+- Verified inventory updates generated from Production Receipt transactions.
+- Reviewed:
+  - **Stock Summary**
+  - **Stock Ledger**
+- Confirmed all received items were correctly reflected in inventory records.
+- No inconsistencies were identified for transactions performed under HBB Business Unit (Outlet-01).
+
+### 3. Store-Level Production Receipt Testing
+
+- Reviewed store configuration under:
+  - **HBB Business Unit (Outlet-01)**
+- Identified:
+  - Store-01 (Finished Goods Store)
+  - Store-07 (Raw Material / Packaging Material Store)
+- Performed additional testing and data verification to validate store-level inventory behavior.
+- Generated additional transaction data to support further validation activities.
+
+### 4. Multi-Business Unit Production Receipt Testing
+
+- Executed Production Receipt transactions across:
+  - **HBB Business Unit (Outlet-02)**
+  - **HBB Business Unit (Outlet-03)**
+  - **HBI Business Unit (Outlet-01)**
+  - **HBG Business Unit (Outlet-06)**
+- Verified successful transaction processing and inventory updates across multiple Business Units.
+- Confirmed system behavior remained consistent across organizational units.
+
+### 5. Production Receipt Data Consistency Validation
+
+- Validated Production Receipt records against inventory records.
+- Cross-checked transaction data with:
+  - Stock Summary
+  - Stock Ledger
+- Verified inventory quantities and stock movement accuracy.
+- No data inconsistencies were observed during validation.
+
+### 6. ERP Testing Methodology Research & Development
+
+- Conducted research on industry-standard ERP testing methodologies.
+- Studied:
+  - Unit Testing
+  - Integration Testing
+  - Validation Testing
+  - System Testing
+  - Regression Testing
+- Explored structured approaches for ERP test case management and defect tracking.
+- Researched the use of AI tools for:
+  - Test case preparation
+  - Bug documentation
+  - QA reporting
+  - Testing process improvement
+
+### 7. Workplace Etiquette Training Session
+
+- Attended the training session:
+  - **"Workplace Etiquette"**
+- Organized by:
+  - **Human Resources Department**
+- Facilitated by:
+  - **Mr. Habib Sir (HR Head)**
+- Session Duration:
+  - **04:00 PM – 06:10 PM**
+- Topics covered:
+  - Professional workplace behavior
+  - Communication etiquette
+  - Organizational culture
+  - Professional responsibility
+  - Team collaboration and conduct
+
+### 8. Daily Task Management Update
+
+- Updated completed tasks and testing progress in the task management system.
+- Maintained activity tracking and project reporting records.
+- Documented daily accomplishments and testing outcomes.
+
+---
+
+## Bugs Identified
+
+### BUG-002 – Production Received Business Unit Filter and Header Data Inconsistency
+
+**Module:** Inventory → Transactions → Production Received
+
+- Changing the Business Unit from the header does not refresh or filter the Production Received transaction list.
+- Transaction records remain unchanged even after selecting a different Business Unit.
+- The following fields remain blank in the transaction records:
+  - Business Unit
+  - Location
+  - Store
+- This causes inconsistency between the selected header values and the displayed transaction data.
+- The transaction list should refresh according to the selected Business Unit, and all related fields should be populated correctly.
+
+**Priority:** High
+
+**Remarks:**
+
+- Functional issue affecting transaction filtering behavior.
+- Data displayed in transaction records is not synchronized with the selected Business Unit.
+- May cause users to view incorrect transaction data and create confusion during inventory validation.
+- Logged as **BUG-002** and assigned to the Development Team.
+
+---
+
+## Key Learnings
+
+- Improved understanding of Production Receipt workflows and inventory update mechanisms.
+- Enhanced knowledge of stock verification using Stock Summary and Stock Ledger.
+- Learned industry-standard ERP testing methodologies:
+  - Unit Testing
+  - Integration Testing
+  - Validation Testing
+  - System Testing
+  - Regression Testing
+- Explored practical usage of AI tools for QA and testing activities.
+- Improved understanding of workplace etiquette and professional communication standards.
+- Enhanced awareness of structured task management and reporting practices.
+
+---
+
+## Challenges
+
+- Limited inventory data in certain stores restricted broader testing coverage.
+- Additional transactions were required to generate meaningful test data.
+- Cross-Business Unit inventory validation required careful reconciliation and verification.
+- Identifying and reproducing the Business Unit filtering inconsistency required testing across multiple Business Units and transaction records.
+
+---
+
+## Next Steps
+
+- Continue Production module testing with additional business scenarios.
+- Expand inventory validation coverage across all Business Units and Stores.
+- Retest BUG-002 after the development team provides a fix.
+- Create structured ERP test cases and module-wise testing documentation.
+- Continue building the ERP defect tracking and test repository.
+- Perform end-to-end Production-to-Inventory integration testing.
+- Apply researched testing methodologies to future ERP QA activities.
+
+---
+
+## Daily Summary
+
+Today's activities focused on Production Receipt testing, inventory validation, ERP testing process improvement, and professional development. A total of 6 Production Receipt transactions were executed under HBB Business Unit (Outlet-01) using multiple inventory item categories. Inventory updates were successfully validated through Stock Summary and Stock Ledger reviews. Additional Production Receipt testing was conducted across HBB Outlet-02, HBB Outlet-03, HBI Outlet-01, and HBG Outlet-06 to verify functionality across multiple Business Units. Research was conducted on ERP testing methodologies and AI-assisted QA practices to improve future testing processes. A Workplace Etiquette training session organized by the HR Department was also attended. During testing, a functional issue was identified in the Production Received module where changing the Business Unit from the header did not refresh the transaction list and related Business Unit, Location, and Store fields remained blank. The issue was documented and reported as **BUG-002** for further investigation by the Development Team.
