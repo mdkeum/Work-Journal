@@ -1,0 +1,154 @@
+# Day 98 – August 02, 2026
+
+## Office Hours
+
+- **Scheduled:** 10:00 AM – 7:00 PM
+- **Arrived:** 10:20 AM
+- **End:** 07:40 PM
+
+---
+
+## Tasks Completed
+
+### 1. Store Purchase Requisition (SPR) Functional Testing
+
+- Conducted testing under:
+  - **Purchase → SPR (Store Purchase Requisition)**
+- Executed **2 SPR transactions**.
+- Verified requisition creation and processing workflow.
+- Reviewed item selection, quantity entry, and transaction behavior.
+- Identified functional and master-data-related issues during testing.
+
+### 2. Purchase Order Functional Testing
+
+- Conducted testing under:
+  - **Purchase → Purchase Order**
+- Executed **2 Purchase Order transactions**.
+- Verified Purchase Order creation workflow and transaction processing.
+- Reviewed document generation and order management functionality.
+
+### 3. Purchase Module Self-Learning and Exploration
+
+- Performed self-learning activities on:
+  - Store Purchase Requisition (SPR)
+  - Purchase Order
+- Explored workflow relationships between requisition and purchasing processes.
+- Improved understanding of Purchase Module functionality and transaction flow.
+
+### 4. ERP Test Tracking Documentation Update
+
+- Updated ERP testing documentation and tracking records.
+- Added **4 new modules** to the ERP testing tracker maintained in Google Docs.
+- Organized module-wise testing progress for future QA activities.
+
+### 5. Sales Cycle Functional Testing
+
+- Executed **2 complete Sales Cycle transactions**.
+- Performed testing under:
+  - **HBB Business Unit – Outlet-01**
+- Verified sales process flow and transaction completion.
+- Confirmed successful execution of end-to-end sales activities.
+
+### 6. Settlement Request Research and Analysis
+
+- Conducted research and analysis on:
+  - **Settlement Request functionality**
+- Investigated system behavior when a single user attempts to access the ERP simultaneously from two different devices or terminals.
+- Verified that concurrent usage from multiple devices using the same user account is restricted.
+- Confirmed that one active session must be signed out before another session can continue operations.
+
+### 7. Production Receipt Testing
+
+- Executed **5 Production Receipt transactions**.
+- Conducted testing across:
+  - **HBB Business Unit – Outlet-01**
+  - **HBB Business Unit – Outlet-02**
+  - **HBB Business Unit – Outlet-03**
+  - **HBI Business Unit – Outlet-04**
+  - **HBG Business Unit – Outlet-06**
+- Verified successful transaction processing across multiple Business Units.
+- Confirmed consistency of Production Receipt functionality and inventory updates.
+
+### 8. Team Discussion and Idea Sharing Session
+
+- Participated in a brainstorming and knowledge-sharing session with **Arto Bhai**.
+- Session Duration:
+  - **12:20 PM – 12:54 PM**
+- Discussed ERP testing approaches, module behavior, and validation strategies.
+- Shared testing observations and improvement ideas.
+
+---
+
+## Bugs Identified
+
+### BUG-003 – SPR Module Spelling Error
+
+**Module:** Purchase → SPR
+
+- Identified a spelling mistake within the SPR module interface.
+- Incorrect text is displayed to users.
+- The label/content should be corrected for consistency and professionalism.
+
+**Priority:** Low
+
+**Remarks:**
+
+- UI/content issue.
+- Does not affect system functionality.
+- Recommended correction during future UI updates.
+
+---
+
+### BUG-004 – Incorrect UOM Configuration for Lungi Item
+
+**Module:** Purchase → SPR
+
+- The UOM (Unit of Measurement) for **Lungi** is displayed as **Yard**.
+- Expected UOM should be **PCS (Pieces)**.
+- Incorrect master data may cause purchasing and inventory inconsistencies.
+
+**Priority:** Medium
+
+**Remarks:**
+
+- Master data configuration issue.
+- May affect procurement accuracy and inventory reporting.
+- Requires verification and correction by the responsible team.
+
+---
+
+## Key Learnings
+
+- Improved understanding of Store Purchase Requisition (SPR) workflow.
+- Enhanced knowledge of Purchase Order processing and transaction flow.
+- Learned how Purchase and Inventory processes interact within the ERP.
+- Gained understanding of user-session restrictions across multiple devices.
+- Improved ERP test tracking and documentation practices.
+- Expanded practical experience with Sales Cycle and Production Receipt testing.
+
+---
+
+## Challenges
+
+- Identifying configuration-related issues within the Purchase Module required additional validation.
+- Understanding user-session restrictions required multiple testing scenarios.
+- Cross-Business Unit Production Receipt testing required repeated verification across several outlets.
+- Limited documentation for some workflows required self-learning and exploration.
+
+---
+
+## Next Steps
+
+- Continue detailed testing of the Purchase Module.
+- Retest BUG-003 and BUG-004 after fixes are provided by the Development Team.
+- Expand SPR and Purchase Order test coverage with additional business scenarios.
+- Continue updating module-wise ERP testing documentation.
+- Perform additional end-to-end Purchase-to-Inventory validation.
+- Explore Settlement Request workflow in greater detail.
+- Continue Production Receipt testing across all Business Units.
+
+---
+
+## Daily Summary
+
+Today's activities focused on Purchase Module testing, Sales Cycle validation, Production Receipt testing, ERP documentation updates, and workflow research. Two Store Purchase Requisition (SPR) transactions and two Purchase Order transactions were successfully executed and validated. During SPR testing, a spelling issue and an incorrect UOM configuration for the Lungi item were identified and documented as BUG-003 and BUG-004. Two complete Sales Cycle transactions were performed under HBB Business Unit (Outlet-01), and five Production Receipt transactions were executed across multiple Business Units to verify functional consistency. Additional research was conducted on Settlement Request functionality and multi-device user-session behavior. ERP testing documentation was expanded by adding four new modules to the testing tracker. A brainstorming and idea-sharing session with Arto Bhai also contributed to testing strategy improvements and knowledge sharing. Overall, the day contributed significantly to Purchase Module validation, ERP process understanding, and testing documentation enhancement.
