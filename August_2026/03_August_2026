@@ -1,1 +1,101 @@
+## Tasks Completed
 
+### 1. Sales Cycle Functional Testing – HBB BU Outlet-01
+
+- Executed **4 complete Sales Cycle transactions** under:
+  - **HBB Business Unit – Outlet-01**
+- Verified end-to-end sales process flow and transaction completion.
+- Confirmed successful sales execution and inventory updates.
+
+### 2. New Sales Terminal Setup – HBB BU Outlet-02
+
+- Created and configured **1 new sales terminal** under:
+  - **HBB Business Unit – Outlet-02**
+- Completed terminal setup and configuration.
+- Verified terminal readiness for sales operations.
+
+### 3. Sales Cycle Functional Testing – HBB BU Outlet-02
+
+- Executed **4 complete Sales Cycle transactions** under:
+  - **HBB Business Unit – Outlet-02**
+- Verified successful transaction processing and sales workflow execution.
+
+### 4. Terminal Creation and Configuration – HBB BU Outlet-03
+
+- Created and fully configured **3 new sales terminals**:
+  - **TERM-024**
+  - **TERM-025**
+  - **TERM-026**
+- Assigned terminals under:
+  - **HBB Business Unit – Outlet-03**
+- Verified successful terminal setup and configuration.
+
+### 5. POS/Express Android Application Installation
+
+- Downloaded and installed the **POS/Express Android Application** on:
+  - Mobile devices
+  - POS systems
+- Verified successful installation and application accessibility.
+
+### 6. POS/Express Device Binding and Settlement Workflow Testing
+
+- Performed testing of:
+  - User Sign-In
+  - Device Binding
+  - Sales Transaction Processing
+  - Settlement Approval Workflow
+- Executed a sales transaction through the POS/Express system.
+- Submitted and approved settlement requests.
+- Verified successful workflow execution.
+
+### 7. Sales Cycle Functional Testing – HBB BU Outlet-03
+
+- Executed **4 complete Sales Cycle transactions** under:
+  - **HBB Business Unit – Outlet-03**
+- Verified successful end-to-end sales transaction processing.
+
+### 8. Change Money Issue Investigation and Discussion
+
+- Identified a potential issue related to the **Change Money Request** process.
+- Discussed the issue and business scenario with the Development Team.
+- Analyzed system behavior when users continue sales activities without signing out from previous sessions.
+- Documented observations and business clarification requirements.
+
+### 9. Production Receipt Testing – HBB BU Outlet-01
+
+- Executed **3 Production Receipt transactions** under:
+  - **HBB Business Unit – Outlet-01**
+- Conducted testing using three different user accounts:
+  - Zaman Bhai
+  - Zakin Bhai
+  - Keum
+- Verified successful transaction processing and consistency across user accounts.
+
+### 10. Production Receipt Testing – HBI BU Outlet-04
+
+- Executed **5 Production Receipt transactions** under:
+  - **HBI Business Unit – Outlet-04**
+- Verified successful Production Receipt processing and inventory updates.
+- Confirmed system consistency across Business Units.
+
+### 11. Submitting task to the daily task management software
+
+---
+
+## Bugs Identified
+
+### BUG-005 – Change Money Request Persistence Issue
+
+**Module:** POS/Express Sales & Settlement
+
+- A user performed sales activities on a previous day without completing the Change Money process and without signing out.
+- On the following day, when continuing sales operations, the system still displayed the previous day's Change Money request information.
+- Business logic and expected system behavior require clarification.
+
+**Priority:** Medium
+
+**Remarks:**
+
+- Requires discussion with the Business Team and Development Team.
+- May affect daily sales operations and Change Money tracking.
+- Additional testing and validation are required before final confirmation.
