@@ -1,9 +1,75 @@
-# Day 99 – August 03, 2026
+# Day 100 – August 04, 2026
 
 ## Office Hours
 
 - **Scheduled:** 10:00 AM – 7:00 PM
-- **Arrived:** 09:50 AM
-- **End:** 07:45 PM
+- **Arrived:** 09:56 AM
+- **End:** 07:35 PM
 
 ---
+
+## Tasks Completed
+
+### 1. Purchase Module Learning Session – ERP (SPR, Purchase Order, GRN & Purchase QC)
+
+- Attended a learning session with **Zakir Bhai** on the complete Purchase Module workflow.
+- Learned and reviewed the end-to-end process of:
+  - **SPR (Store Purchase Requisition)**
+  - **Purchase Order (PO)**
+  - **Purchase (GRN)**
+  - **Purchase QC**
+- Gained understanding of the Purchase workflow and transaction dependencies.
+- Reviewed Purchase Module business process flow and operational procedures.
+
+### 2. Return Flow Diagram Review
+
+- Studied and analyzed the **Return Flow Diagram**.
+- Reviewed system process flow, transaction stages, and return-related workflow logic.
+- Clarified process dependencies and return transaction sequence.
+
+### 3. Purchase Module Functional Testing
+
+- Performed the complete Purchase Module workflow independently:
+  - **SPR Creation**
+  - **Purchase Order (PO) Creation**
+  - **Purchase (GRN) Processing**
+  - **Purchase QC Execution**
+- Verified successful transaction processing throughout the workflow.
+- Confirmed system functionality and process continuity across all stages.
+
+### 4. Sales Return Module Learning Session
+
+- Attended a learning session with **Zakir Bhai** on the Sales Return process.
+- Learned and reviewed:
+  - **Sales Return**
+  - **Sales Return List**
+  - **Return Conditions**
+  - **Cash Return Slip**
+- Studied related business rules and return handling procedures.
+
+### 5. Sales Return Functional Testing
+
+- Performed end-to-end testing of the complete **Sales Return Cycle** independently.
+- Verified transaction execution and workflow completion.
+- Reviewed return processing behavior and system responses.
+
+### 6. Sales Cycle Functional Testing – HBB BU Outlet-01
+
+- Executed **2 complete Sales Cycle transactions** under:
+  - **HBB Business Unit – Outlet-01**
+- Verified successful sales transaction processing.
+- Confirmed end-to-end workflow execution and system functionality.
+
+### 7. Daily Work Update
+
+- Submitted daily work updates in the **DMS (Daily Management System)**.
+- Updated completed activities and testing progress.
+
+---
+
+## Bugs Identified
+
+### No Confirmed Bugs Reported
+
+- No confirmed defects were identified during today's Purchase Module and Sales Return testing activities.
+- Further validation and exploratory testing of Purchase and Return workflows will continue in upcoming sessions.
