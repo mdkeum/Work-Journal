@@ -1,1 +1,115 @@
+# Day 101 – August 05, 2026
 
+## Office Hours
+
+- **Scheduled:** 10:00 AM – 7:00 PM
+- **Arrived:** 09:55 AM
+- **End:** 07:25 PM
+
+---
+
+## Tasks Completed
+
+### 1. Production Receipt Functional Testing
+
+- Performed **2 Production Receipt (PR)** transactions under:
+  - **HBB Business Unit – Outlet-02**
+- Successfully completed and verified transaction processing.
+
+### 2. Production Receipt Functional Testing – Multiple Outlets
+
+- Executed additional **Production Receipt (PR)** transactions:
+  - **3 PR transactions** in **HBB Outlet-03**
+  - **1 PR transaction** in **HBI Outlet-04**
+- Verified successful completion of all Production Receipt workflows.
+- Confirmed transaction processing and inventory movement across multiple outlets.
+
+### 3. SQA & Software Development Life Cycle (SDLC) Learning Session
+
+- Studied methods to make ERP **Software Quality Assurance (SQA)** testing more comprehensive and structured.
+- Reviewed the **Software Development Life Cycle (SDLC)** and its phases:
+  - Planning
+  - Analysis
+  - Design
+  - Implementation
+  - Testing & Integration
+  - Maintenance
+- Learned about common SDLC models:
+  - Waterfall
+  - Agile
+  - Iterative
+  - Spiral
+  - Rapid Application Development (RAD)
+  - Prototyping
+
+### 4. Research & Development – ERP Testing Strategy
+
+- Conducted R&D on designing a structured testing framework for the H&B ERP system.
+- Explored methods to perform module-wise testing more efficiently.
+- Researched automation approaches and tools that can assist in ERP functional and regression testing.
+- Planned the initial structure for comprehensive test scenarios and test case documentation.
+
+### 5. Sales Cycle Functional Testing – HBB BU Outlet-01
+
+- Executed **4 complete Sales Cycle transactions** under:
+  - **HBB Business Unit – Outlet-01**
+- Successfully verified end-to-end sales transaction processing.
+- Confirmed inventory updates and workflow execution.
+
+### 6. Sales Cycle Functional Testing – HBB BU Outlet-03
+
+- Executed **4 complete Sales Cycle transactions** under:
+  - **HBB Business Unit – Outlet-03**
+- Successfully completed and verified the entire sales workflow.
+- Confirmed transaction processing and system functionality.
+
+### 7. POS Machine Sales Testing
+
+- Performed **1 Express POS Sales Cycle** using the **POS Machine**.
+- Verified successful transaction execution through the physical POS device.
+- Confirmed end-to-end sales processing and system integration.
+
+### 8. Daily Work Update
+
+- Documented today's testing activities and learning outcomes.
+- Updated personal testing notes and planned the structure for comprehensive ERP test cases and automation.
+
+---
+
+## Bugs Identified
+
+### No Confirmed Bugs Reported
+
+- No confirmed defects were identified during today's Production Receipt, Sales Cycle, and POS Machine testing activities.
+- Continued focus on strengthening the ERP testing process by researching structured QA methodologies and automation strategies.
+
+---
+
+## Key Learnings
+
+- Enhanced understanding of **Software Quality Assurance (SQA)** best practices.
+- Reviewed the complete **Software Development Life Cycle (SDLC)** and its major development models.
+- Gained insights into designing structured ERP test cases and identifying opportunities for automation.
+- Strengthened practical knowledge of **Production Receipt** and **Sales Cycle** workflows across multiple Business Units and Outlets.
+
+---
+
+## Challenges
+
+- No major functional issues were encountered during testing.
+- Current focus is on organizing comprehensive test documentation and identifying suitable areas for automation to improve future testing efficiency.
+
+---
+
+## Next Steps
+
+- Begin creating structured test scenarios and detailed test cases for each ERP module.
+- Continue Production, Sales, and Inventory module testing with broader coverage.
+- Evaluate automation tools such as Playwright for repetitive regression testing.
+- Expand regression test coverage and standardize QA documentation.
+
+---
+
+## Daily Summary
+
+Today's activities focused on strengthening both practical ERP testing and QA knowledge. Successfully completed **6 Production Receipt transactions**, **8 complete Sales Cycle transactions**, and **1 Express POS Sales transaction** across multiple Business Units and Outlets. Additionally, studied SQA principles, SDLC models, and researched structured testing and automation strategies to establish a more professional and scalable testing process for the H&B ERP system.
