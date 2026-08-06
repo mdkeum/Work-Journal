@@ -4,6 +4,121 @@
 
 - **Scheduled:** 10:00 AM – 7:00 PM
 - **Arrived:** 10:22 AM (2nd late day in August)
-- **End:** 07: PM
+- **End:** 07:58 PM
 
 ---
+
+## Tasks Completed
+
+### 1. POS (Express Sales) Terminal Configuration & Verification
+
+- Reviewed and verified **Sales Module Terminal Settings** for:
+  - **HBB Outlet-01**
+  - **HBB Outlet-02**
+- Checked terminal configuration and user accessibility for POS operations.
+
+### 2. POS (Express Sales) Device & Cash Management Verification
+
+- Tested and verified **Change Money** functionality.
+- Verified **Change Device** options and POS device switching functionality.
+- Confirmed system behavior during terminal configuration checks.
+
+### 3. Inventory Product Requisition (IPR) Testing
+
+- Identified that **Sharee** items under the **Standard Print Sharee** subgroup were **out of stock** in **HBB Outlet-02**.
+- Performed an **Inventory Product Requisition (IPR)** to replenish stock.
+- Successfully completed the stock transfer and verified inventory availability.
+
+### 4. Express POS Sales Functional Testing
+
+- Executed **2 complete Express POS Sales transactions** using the POS machine.
+- Verified end-to-end sales processing.
+- Confirmed successful transaction execution and system functionality.
+
+### 5. Web ERP Sales Return Functional Testing
+
+- Performed **2 Sales Return (SR)** transactions through the **Web ERP**.
+- Successfully verified the complete sales return workflow.
+- Confirmed proper inventory and transaction processing.
+
+### 6. Purchase Module Functional Testing
+
+- Executed **2 Store Purchase Requisition (SPR)** transactions.
+- Verified inventory movement and requisition processing.
+- Successfully completed the complete procurement workflow:
+  - **1 SPR**
+  - **3 Purchase Orders (PO)**
+  - **5 Goods Receive Notes (GRN)**
+  - **5 Purchase Quality Control (QC)** transactions
+- Verified the end-to-end purchase process from requisition to quality inspection.
+
+### 7. Procurement Workflow Research & Documentation
+
+- Studied and documented the complete **H&B ERP Procurement to Quality Control Workflow**.
+- Reviewed the business process from:
+  - Store Purchase Requisition (SPR)
+  - Purchase Order (PO)
+  - Goods Receive Note (GRN)
+  - Purchase Quality Control (QC)
+  - Inventory Acceptance
+  - Vendor Return (Rejected Products)
+
+### 8. ERP Documentation & Bug Analysis
+
+- Documented today's testing activities and research findings.
+- Recorded identified bugs, validation issues, and business logic observations for future regression testing and knowledge sharing.
+
+---
+
+## Bugs Identified
+
+### 1. Purchase QC Validation Issue
+
+- **Module:** Purchase → SPR → Purchase Order → Purchase (GRN) → Purchase QC
+- When **Rejected Quantity = 0**, the **Rejection Reason** field remains selectable.
+- **Expected:** The Rejection Reason should automatically become **"None"** or remain disabled when no items are rejected.
+
+### 2. POS (Express Sales) Sales Return Issue
+
+- **Module:** POS (Express Sales) → Sales Return
+- While scanning the barcode during a sales return, the system displays:
+  > **"Slip type does not match payment method."**
+- The error prevents the sales return process from continuing.
+
+### 3. POS (Express Sales) Sales Configuration Issue
+
+- **Module:** POS (Express Sales) → Sales
+- While attempting to create a sales transaction using the **Keum** and **Zakir** user accounts, the system displays:
+  > **"Store does not belong to the terminal's location."**
+- The issue prevents the sales transaction from being completed.
+
+---
+
+## Key Learnings
+
+- Enhanced understanding of the complete **Procurement to Quality Control** workflow within the H&B ERP system.
+- Learned how inventory flows through **SPR → PO → GRN → QC → Inventory / Vendor Return**.
+- Improved understanding of **POS terminal configuration**, device settings, and Express Sales operations.
+- Strengthened practical knowledge of identifying **validation**, **business logic**, and **configuration** issues during ERP UAT.
+
+---
+
+## Challenges
+
+- Encountered multiple validation and configuration-related issues during Purchase QC and POS testing.
+- Additional verification is required to distinguish between application defects and configuration-related issues.
+
+---
+
+## Next Steps
+
+- Verify reported bugs after developer fixes.
+- Continue comprehensive testing of the Purchase and POS (Express Sales) modules.
+- Expand module-wise UAT test cases and regression testing.
+- Continue documenting ERP business workflows and functional test scenarios.
+
+---
+
+## Daily Summary
+
+Today's activities focused on **POS (Express Sales) testing**, **Purchase Module functional testing**, and **Procurement Workflow research**. Successfully verified POS terminal settings, completed **2 Express POS Sales transactions**, **2 Web ERP Sales Return transactions**, and executed a complete procurement workflow consisting of **1 SPR, 3 Purchase Orders, 5 Goods Receive Notes, and 5 Purchase QC transactions**. Additionally, documented the Procurement to Quality Control business process and identified **three functional issues** related to Purchase QC validation, POS Sales Return, and POS terminal configuration, contributing to the continuous improvement of the H&B ERP system.
