@@ -1,1 +1,116 @@
+# Day 103 – August 08, 2026
 
+## Office Hours
+
+- **Scheduled:** 10:00 AM – 7:00 PM
+- **Arrived:** 10:04 AM
+- **End:** 07:25 PM
+
+---
+
+## Tasks Completed
+
+### 1. Sales Return Functional Testing
+
+- Performed **2 Sales Return (SR) transactions** through the Web ERP.
+- Tested the Sales Return workflow to verify its functional behavior.
+- Verified the return transaction processing and related system behavior.
+- Continued reviewing different Sales Return scenarios for future comprehensive UAT coverage.
+
+### 2. POS (Express Sales) Sales Return Discussion
+
+- Discussed the **POS Sales Return functionality** with the developer team.
+- Reviewed the existing Sales Return process and identified areas requiring further validation.
+- Discussed the previously identified POS Sales Return issue and its functional behavior.
+
+### 3. Bug Documentation & Tracker Organization
+
+- **11:20 AM – 12:25 PM**
+- Transferred and organized identified ERP bugs into **separate Google Docs/Sheets** for structured tracking.
+- Reviewed bug information and organized issues according to their respective modules/processes.
+- Improved the structure of bug documentation for easier tracking, review, and future regression testing.
+
+### 4. POS (Express Sales) Functional Testing
+
+- Performed **1 Express POS Sales transaction** using the POS machine.
+- Verified the sales process and checked the functional behavior of the POS transaction.
+
+### 5. Sales Return Learning Session – B2B & B2C
+
+- **2:00 PM – 3:20 PM**
+- Participated in a learning session with **Zakir Bhai** regarding different Sales Return and Exchange processes.
+- Learned about:
+  - **B2B Sales Return**
+  - **B2C Exchange Return**
+  - **B2C Cash Return**
+- Developed a better understanding of the different return processes based on **customer type and return method**.
+- Reviewed the business rules and functional differences between B2B and B2C return scenarios.
+
+### 6. Meeting & Business Process Discussion
+
+- **3:30 PM – 4:55 PM**
+- Participated in a meeting with **Mr. Fazle Rabbi Bhai**.
+- Discussed ERP-related activities, business processes, and ongoing system testing/review topics.
+- Continued discussions regarding ERP functionality and operational requirements.
+
+### 7. POS (Express Sales) Functional Verification
+
+- **5:30 PM – 6:00 PM**
+- Performed **1 additional Express POS Sales transaction** from the POS machine.
+- Verified the sales functionality and transaction processing.
+
+### 8. Continued Meeting & Discussions
+
+- **6:00 PM – 6:40 PM** and **7:00 PM – 7:20 PM**
+- Continued meetings and discussions with **Mr. Fazle Rabbi Bhai, Jaman Bhai, Zakir Bhai, and team members**.
+- Discussed ongoing ERP testing activities, business processes, and related functional requirements.
+
+---
+
+## Bugs / Issues & Documentation Activities
+
+### 1. Bug Tracker Organization
+
+- Transferred previously identified ERP bugs into **separate Google Docs/Sheets** for better organization and module-wise tracking.
+- Prepared the bug information for easier developer review, follow-up, and regression testing.
+
+### 2. POS Sales Return
+
+- Continued investigation and discussion of the **POS Sales Return** functionality with the developer team.
+- Further validation is required for the Sales Return workflow and previously identified barcode/payment-method validation issue.
+
+---
+
+## Key Learnings
+
+- Improved understanding of **B2B and B2C Sales Return processes**.
+- Learned the difference between **B2B Sales Return, B2C Exchange Return, and B2C Cash Return**.
+- Improved understanding of how customer type and return method affect the Sales Return business process.
+- Gained further practical experience with **POS/Express Sales functional testing**.
+- Improved bug management and documentation practices by organizing issues into structured Google Docs/Sheets.
+- Gained additional understanding of ERP business requirements through discussions with the development and business teams.
+
+---
+
+## Challenges
+
+- Different Sales Return rules for **B2B and B2C customers** require separate functional test scenarios.
+- POS Sales Return functionality requires additional validation to ensure barcode scanning, payment method, and return rules work correctly.
+- Existing bugs needed to be reorganized into a structured tracking format for easier follow-up and regression testing.
+
+---
+
+## Next Steps
+
+- Create and execute comprehensive **B2B and B2C Sales Return test cases**.
+- Test **full return, partial return, multiple return, exchange return, and cash return** scenarios.
+- Continue POS/Express Sales and Sales Return functional testing.
+- Continue maintaining the centralized ERP **SQA/UAT and Bug Tracking repository**.
+- Retest reported issues after developer fixes.
+- Continue documenting ERP business processes and functional requirements.
+
+---
+
+## Daily Summary
+
+Today's activities focused primarily on **Sales Return testing, B2B/B2C return process learning, POS functional testing, and ERP bug documentation**. Successfully performed **2 Web ERP Sales Return transactions** and **2 Express POS Sales transactions** while continuing to investigate POS Sales Return functionality with the development team. Participated in a learning session with Zakir Bhai covering **B2B Sales Return, B2C Exchange Return, and B2C Cash Return**, which strengthened understanding of customer-specific return business rules. Additionally, organized and transferred existing ERP bugs into separate Google Docs/Sheets for improved tracking and participated in multiple discussions with the business and development teams regarding ERP functionality and ongoing testing activities.
