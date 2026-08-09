@@ -1,0 +1,158 @@
+# Day 104 – August 09, 2026
+
+## Office Hours
+
+- **Scheduled:** 10:00 AM – 7:00 PM
+- **Arrived: 10:13 AM **
+- **End:** 
+
+---
+
+## Tasks Completed
+
+### 1. Full Sales Cycle Functional Testing – HBG Outlet-03
+
+- **10:20 AM – 11:55 AM**
+- Performed **4 full Sales Cycle transactions** in **HBG Business Unit – Outlet-03** using products from the **Three-Piece** subgroup.
+- Verified the complete sales transaction flow and system functionality.
+- Checked the inventory availability before and after the sales transactions.
+
+### 2. Inventory Availability Verification – HBG Outlet-03
+
+- Checked inventory availability in **HBG Outlet-03**.
+- Identified that **Fabric** and **Sharee** products were not available in the outlet inventory.
+- Determined that additional stock needs to be generated/transferred using the **Production Receipt** process before performing further sales testing with these product categories.
+
+### 3. Full Sales Cycle Testing – Fabric
+
+- **11:55 AM – 12:50 PM**
+- Performed **4 full Sales Cycle transactions** in **HBG Business Unit – Outlet-03** using **Fabric** products.
+- Verified the sales process and transaction functionality.
+- Checked the related inventory behavior during the testing process.
+
+### 4. Sales Return Functional Testing – Same Invoice
+
+- Performed **4 Sales Return transactions** in **HBG Business Unit – Outlet-03** using the **same sales invoice**.
+- Tested the scenario of returning the complete invoice through multiple Sales Return transactions.
+- Verified the Sales Return workflow and system behavior for repeated returns against the same invoice.
+- Used this scenario to evaluate whether the system correctly handles repeated returns and prevents invalid additional returns.
+
+### 5. Sales Return Without Invoice Testing
+
+- Performed **2 Sales Return transactions without an invoice**.
+- Tested the Sales Return process when the original invoice/slip is not available.
+- Verified the system behavior and return processing under the non-invoice return scenario.
+
+### 6. Research & Development – Centralized Test Case Repository
+
+- Performed **R&D on how to centralize all ERP test cases in one location**.
+- Researched and planned a centralized test-case management structure covering all ERP modules.
+- Considered organizing module-wise test cases with standardized fields such as:
+  - Test Case ID
+  - Module
+  - Submodule
+  - Test Category
+  - Test Scenario
+  - Preconditions
+  - Test Steps
+  - Test Data
+  - Expected Result
+  - Actual Result
+  - Status
+  - Severity
+  - Priority
+  - Tested By
+  - Test Date
+  - Reference/Screenshot
+  - Bug ID
+  - Remarks
+- Planned to maintain the test cases in a structured and reusable format for future **UAT and regression testing**.
+
+### 7. ERP Change Discussion & Learning Session
+
+- **5:16 PM – 6:05 PM**
+- Participated in a meeting with **Zakir Bhai** regarding recent changes in the ERP system.
+- Reviewed and discussed newly implemented ERP changes to understand their functional impact.
+- Discussed changes made in the **Sales Module**, particularly the addition of **Cash Sales** functionality.
+- Learned about the **Chart of Accounts (COA)** and its role in the ERP Accounts module.
+- Discussed how the Chart of Accounts works and how it can be considered during functional testing.
+
+### 8. Discussion with Team Lead
+
+- Participated in a short meeting with **Aontor Bhai**.
+- Discussed recent ERP changes and related testing activities.
+- Reviewed ongoing testing requirements and functional considerations.
+
+---
+
+## Bugs / Issues & Observations
+
+### 1. Sales Return List – Business Unit / Outlet / Store Filtering
+
+- During Sales Return testing, raised a question regarding the **Sales Return List**.
+- Observed that the Sales Return List changes according to the selected:
+  - Business Unit
+  - Outlet
+  - Store
+- Further clarification is required to confirm whether this filtering behavior is the expected business logic.
+
+### 2. Cash Return – Business Unit / Outlet / Store Dependency
+
+- Raised a question regarding the **Cash Return** functionality.
+- Need to confirm whether Cash Return should also change dynamically based on the selected:
+  - Business Unit
+  - Outlet
+  - Store
+- Current behavior does not appear to change in the same way as the Sales Return List.
+- Requires clarification of the expected business rule before classifying it as a bug.
+
+### 3. Inventory Availability – HBG Outlet-03
+
+- **Fabric** and **Sharee** products were unavailable in the inventory of **HBG Outlet-03** during testing.
+- Additional stock needs to be generated or received through the appropriate **Production Receipt / inventory process** for further testing.
+
+---
+
+## Key Learnings
+
+- Improved practical understanding of the **Sales Cycle** through repeated end-to-end transactions in HBG Outlet-03.
+- Gained further experience testing **Sales Return using the same invoice multiple times**.
+- Tested **Sales Return without invoice**, improving understanding of non-invoice return scenarios.
+- Learned about newly introduced **Cash Sales functionality** in the Sales Module.
+- Improved understanding of the **Chart of Accounts (COA)** and its relationship with ERP accounting processes.
+- Gained better understanding of how ERP changes should be reviewed and tested after implementation.
+- Developed a clearer approach for creating a **centralized ERP test-case repository** for all modules.
+
+---
+
+## Challenges
+
+- Limited inventory availability for **Fabric and Sharee** products in HBG Outlet-03 affected the ability to perform additional sales-cycle testing.
+- Repeated Sales Return testing against the same invoice requires careful verification of returned quantities and remaining returnable quantities.
+- Clarification is required regarding whether **Sales Return List** and **Cash Return** should follow the same Business Unit/Outlet/Store filtering behavior.
+- Newly implemented ERP changes require additional regression testing to ensure existing functionality remains unaffected.
+
+---
+
+## Next Steps
+
+- Continue testing **Sales Return** scenarios, including:
+  - Full return
+  - Partial return
+  - Multiple returns against the same invoice
+  - Return without invoice
+  - B2B return
+  - B2C exchange return
+  - B2C cash return
+- Continue testing Sales and Sales Return functionality across different Business Units, Outlets, and Stores.
+- Generate or arrange required inventory for **Fabric and Sharee** testing in HBG Outlet-03.
+- Continue developing the **centralized ERP SQA/UAT test-case repository** covering all ERP modules.
+- Review and test the newly implemented **Cash Sales** functionality.
+- Study the **Chart of Accounts** further and identify relevant Accounts test scenarios.
+- Clarify the expected Business Unit/Outlet/Store behavior for Sales Return List and Cash Return.
+
+---
+
+## Daily Summary
+
+Today's activities focused on **Sales Cycle testing, Sales Return testing, centralized SQA test-case planning, and ERP change learning**. Performed **4 full Sales Cycle transactions using Three-Piece products and 4 full Sales Cycle transactions using Fabric products** in HBG Outlet-03. Also performed **4 Sales Return transactions against the same invoice** to evaluate repeated full-return behavior and **2 Sales Return transactions without an invoice**. Identified inventory availability limitations for Fabric and Sharee products and reviewed the requirement for replenishing stock through the Production Receipt process. Additionally, conducted R&D on creating a **centralized test-case repository for all ERP modules**, participated in a session with Zakir Bhai regarding recent ERP changes including the new **Cash Sales** functionality, learned about the **Chart of Accounts**, and discussed ERP changes and testing activities with Aontor Bhai.
