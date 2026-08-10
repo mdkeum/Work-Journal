@@ -1,1 +1,128 @@
+# Day 105 – August 10, 2026
 
+## Office Hours
+
+- **Scheduled:** 10:00 AM – 7:00 PM
+- **Arrived:** 09:58 AM
+- **End:** 07:38 PM
+
+---
+
+## Tasks Completed
+
+### 1. DMS Documentation & Task Update
+
+- **10:20 AM – 12:00 PM**
+- Completed documentation and updated task activities in the **DMS system**.
+- Reviewed previous testing activities and maintained the required task records.
+- Updated work documentation for proper activity tracking and reporting.
+
+### 2. Accounts Module – Chart of Accounts (COA) Testing
+
+- **12:03 PM – 12:50 PM**
+- Conducted functional testing under:
+  - **Accounts → COA (Master)**
+- Tested the **Parent/Root Account** functionality.
+- Created **2 Root Test Accounts** to verify account creation and hierarchy behavior.
+- Checked the system behavior and validation of the newly created accounts.
+
+### 3. Bug & Issue Verification
+
+- Checked previously reported **bugs/issues** and reviewed their current status.
+- Verified issues that had been addressed or resolved by the Development Team.
+- Updated the relevant bug/issue information based on the latest verification results.
+
+### 4. Purchase Module End-to-End Testing
+
+- **2:10 PM – 2:35 PM**
+- Performed testing of the Purchase workflow:
+  - **Purchase → SPR → PO → GRN → QC**
+- Executed:
+  - **1 SPR**
+  - **2 Purchase Orders (PO)**
+  - **3 Goods Receive Notes (GRN)**
+  - **3 Purchase QC transactions**
+- Verified the end-to-end procurement workflow and transaction processing.
+
+### 5. Bug & Issue Resolution Discussion
+
+- **2:55 PM – 4:45 PM**
+- Discussed and reviewed **bugs/issues with Zakir Bhai**.
+- Reviewed previously identified issues and their resolutions.
+- Discussed functional behavior, expected results, and required verification after developer changes.
+- Improved understanding of the business logic behind the reported issues.
+
+### 6. Web Sales Functional Testing
+
+- **5:15 PM – 6:45 PM**
+- Performed **1 Web ERP Sales transaction** to verify sales functionality.
+- Tested the sales process for **HBB Outlet-03**.
+- The tested sales functionality **passed successfully**.
+
+### 7. Full Sales Cycle Testing – HBB Outlet-03
+
+- Performed **2 full Sales Cycle transactions** in **HBB Outlet-03**.
+- Tested the complete sales workflow and monitored the approval process.
+- The test was **not successful** due to an approval workflow issue.
+
+---
+
+## Bugs / Issues & Observations
+
+### 1. Sales Approval Workflow Issue – HBB Outlet-03
+
+- **Module:** Sales → Approval
+- **Business Unit:** HBB
+- **Outlet:** Outlet-03
+- During the full Sales Cycle testing, the sales transaction was **not moving to the required approval stage**.
+- The transaction could not proceed through the expected approval workflow.
+- Further investigation is required to determine whether the issue is related to:
+  - Approval configuration
+  - Business Unit configuration
+  - Outlet configuration
+  - Sales transaction setup
+  - Approval workflow logic
+
+**Status:** Requires further investigation.
+
+### 2. Bug / Issue Verification
+
+- Reviewed previously reported bugs/issues that were addressed by the Development Team.
+- Verified the updated functionality and recorded the latest testing observations for future regression testing.
+
+---
+
+## Key Learnings
+
+- Improved practical understanding of the **Chart of Accounts (COA)** and Parent/Root Account structure.
+- Gained additional experience testing the **Accounts Master** functionality.
+- Strengthened understanding of the complete **Purchase workflow: SPR → PO → GRN → QC**.
+- Improved experience in verifying developer-resolved bugs and conducting follow-up testing.
+- Enhanced understanding of the **Sales Approval workflow** and its dependency on Business Unit and Outlet configuration.
+- Continued practical experience with both **Web ERP Sales** and full Sales Cycle testing.
+
+---
+
+## Challenges
+
+- The full Sales Cycle transactions in **HBB Outlet-03** did not proceed to the expected approval stage.
+- Additional investigation is required to determine whether the approval issue is caused by configuration or application logic.
+- Some previously reported issues required discussion and verification with the development/functional team.
+
+---
+
+## Next Steps
+
+- Investigate the **Sales Approval workflow issue in HBB Outlet-03**.
+- Verify the approval configuration for the HBB Business Unit and Outlet-03.
+- Retest the full Sales Cycle after the approval issue is resolved.
+- Continue Accounts → COA functional testing with additional account hierarchy scenarios.
+- Continue Purchase workflow testing across different Business Units and Outlets.
+- Continue verifying developer-resolved bugs/issues.
+- Update the centralized ERP **SQA/UAT test-case and bug repository**.
+
+---
+
+## Daily Summary
+
+Today's activities focused on **DMS documentation, Accounts COA testing, Purchase workflow testing, bug verification, and Sales Cycle functional testing**. Completed DMS documentation and task updates, then tested the **Accounts → COA (Master)** functionality by creating **2 Root Test Accounts**. Performed an end-to-end Purchase workflow consisting of **1 SPR, 2 POs, 3 GRNs, and 3 Purchase QC transactions**. Also reviewed and discussed existing bugs/issues with Zakir Bhai and verified developer-resolved issues. In the Sales Module, successfully completed **1 Web ERP Sales transaction**, while **2 full Sales Cycle transactions in HBB Outlet-03** could not proceed to the required approval stage. The Sales Approval workflow issue was identified for further investigation and regression testing.
