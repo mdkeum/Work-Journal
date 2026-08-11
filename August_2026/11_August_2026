@@ -1,1 +1,63 @@
+# Day 106 – August 11, 2026
 
+## Office Hours
+
+- **Scheduled:** 10:00 AM – 7:00 PM
+- **Arrived:** 10:14 AM
+- **End:** 07: PM
+
+---
+
+## Tasks Completed
+
+### 1. Sales Module Test Case R&D
+**Time: 10:20 AM – 12:50 PM**
+
+- Performed R&D on possible **Sales Module test cases**.
+- Analyzed different sales scenarios and business workflows for comprehensive functional testing.
+- Reviewed the relationship between **Sales, Approval, and Inventory/Stock**.
+- Identified scenarios related to sales approval, rejection, payment, and inventory impact.
+
+### 2. Sales & Approval Functional Testing
+**Time: 10:20 AM – 12:50 PM**
+
+- Performed **2 test cases** in the Sales Module.
+- Tested the impact of **Sales Approval/Rejection on Inventory/Stock**.
+- Verified whether rejected sales transactions correctly return the affected product quantity to inventory.
+
+### 3. Bugs/Issues Identified
+
+Identified **3 payment-related issues** during **Sales → Account → Received Payment** testing:
+
+- Customer is not automatically populated on the Payment Page when paying an unpaid invoice.
+- Payment Page does not provide a field to enter the received/payment amount.
+- Approved sales transaction/item can be deleted from the Payment Page, although approved transactions should not be deletable.
+
+### 4. Bug/Issue Re-Testing
+**Time: 2:10 PM – 4:50 PM**
+
+- Re-checked previously reported bugs/issues.
+- Performed **2 Production Receipt transactions in HBB Outlet-03** to verify a previously reported/fixed issue.
+- Confirmed that the previously reported issue was fixed successfully.
+
+### 5. Resolved Bug Verification
+**Time: 5:20 PM – 6:45 PM**
+
+- Checked **9 previously resolved bugs**.
+- Re-tested the reported scenarios to verify the fixes.
+- Confirmed that **all 9 bugs were fixed successfully**.
+
+---
+
+## Key Learnings
+
+- Improved understanding of the integration between **Sales, Approval, Inventory, Accounts, and Payment**.
+- Learned the importance of testing both **approval and rejection scenarios** and their impact on inventory.
+- Strengthened experience in **bug re-testing and fix verification**.
+- Identified important payment workflow and business-rule validation gaps.
+
+---
+
+## Daily Summary
+
+> Conducted Sales Module test-case R&D and functional testing with a focus on Sales–Approval–Inventory integration. Identified 3 payment-related issues, re-tested previously reported bugs, performed 2 Production Receipt transactions in HBB Outlet-03, and successfully verified the fixes of 9 previously reported bugs.
