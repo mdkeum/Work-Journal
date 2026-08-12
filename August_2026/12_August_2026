@@ -1,1 +1,90 @@
+# Day 107 – August 12, 2026
 
+## Office Hours
+
+- **Scheduled:** 10:00 AM – 7:00 PM
+- **Arrived:** 09:45 AM
+- **End:** 07:34 PM
+
+---
+
+## Tasks Completed
+
+### 1. HBB Full Sales Cycle Functional Testing
+
+- Performed **8 full sales cycle tests** in **HBB Outlet-03**.
+- Tested products from all 4 major sub-categories:
+  - Three Piece
+  - Fabric
+  - Lungi
+  - Saree
+- Verified the end-to-end sales functionality.
+- Performed **1 rejected-sale test** to verify rejection/validation behavior.
+
+### 2. Cash Sales / B2C Functional Testing
+
+- Performed **2 complete Cash Sales cycles** and verified overall functionality.
+- Performed **3 additional Cash Sales (B2C) full-cycle tests**.
+- Performed **1 additional Cash Sales full-cycle test** later in the day.
+- Verified the sales flow and transaction completion.
+
+### 3. Invoice & Challan Printing Testing
+
+- Tested **Invoice Print** functionality.
+  - Invoice printing **passed**.
+- Tested **Challan Print** functionality.
+  - Challan printing **failed** during testing.
+- Identified issues related to Challan printing and Challan information.
+
+### 4. Bug Identification & Reporting
+
+Identified **2 issues** during Sales module testing:
+
+- **Challan Print Issue:** Challan can be printed only once from the same Invoice List screen. A second print attempt does not work until the page is closed/reopened.
+- **Customer Name Missing in Challan:** Customer name is missing from the printed Challan.
+
+### 5. H&B Full Sales Flow Diagram
+
+- Created the **H&B Full Sales Cycle Flow Diagram** using **draw.io**.
+- Documented the overall sales process flow for better process understanding and future testing/reference.
+
+---
+
+## Bugs Identified
+
+| Bug | Module | Issue | Severity | Status |
+|---|---|---|---|---|
+| **BUG-XXX** | Sales → Invoice List → Challan | Challan can be printed only once from the same screen; subsequent print attempts fail until the page is reopened. | Medium/High | Open |
+| **BUG-XXX** | Sales → Invoice List → Challan | Customer name is missing from the printed Challan. | High | Open |
+
+---
+
+## Key Learnings
+
+- Gained further practical understanding of the **HBB Sales full-cycle workflow**.
+- Improved understanding of **Cash Sales/B2C transaction testing**.
+- Verified the relationship between **Sales Transactions, Invoice Printing, and Challan Printing**.
+- Identified the importance of testing **reprint functionality** for operational documents.
+- Improved process documentation skills by creating the **H&B Full Sales Cycle Flow Diagram in draw.io**.
+
+---
+
+## Challenges
+
+- Challan printing functionality did not work correctly when attempting to print the same Challan multiple times from the same screen.
+- Customer information was not properly reflected in the generated Challan.
+
+---
+
+## Next Steps
+
+- Continue detailed **B2B and B2C/Cash Sales functional testing**.
+- Retest the reported Challan issues after developer fixes.
+- Continue verifying **Sales → Inventory → Invoice → Challan** integration.
+- Expand Sales test-case coverage for positive, negative, payment, inventory, and printing scenarios.
+
+---
+
+## Daily Summary
+
+> Performed extensive **HBB Sales and Cash Sales/B2C functional testing**, completing multiple full sales cycles across HBB Outlet-03. Verified Invoice and Challan printing, identified **2 Challan-related bugs**, and created the **H&B Full Sales Cycle Flow Diagram in draw.io** for process documentation and future SQA reference.
