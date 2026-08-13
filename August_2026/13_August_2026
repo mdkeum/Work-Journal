@@ -1,1 +1,85 @@
+# Day 108 – August 13, 2026
 
+## Office Hours
+
+- **Scheduled:** 10:00 AM – 7:00 PM
+- **Arrived:** 09:45 AM
+- **End:** 07:45 PM
+
+---
+
+## Tasks Completed
+
+### 1. Sales Full Flow Diagram Update
+- Updated the **HB ERP Sales Full Flow Diagram**.
+- Reviewed and documented the overall Sales workflow and related submodules.
+
+### 2. New Submodule Learning
+- Learned about the newly added **Stakeholder (Master)** submodule under **System Admin**.
+- Reviewed its functionality and Business Unit-related operations.
+
+### 3. Stakeholder (Master) Functional Testing
+- Tested the **Stakeholder (Master)** submodule.
+- Tested the **Copy from Master** functionality.
+- Successfully copied stakeholders from Master to:
+  - **BU-01:** 4 customers
+  - **BU-02:** 1 customer
+- Added:
+  - **3 customers in HBI**
+  - **3 customers in HBG**
+  - Customers were added from **Stakeholder (Master)**.
+
+### 4. User & Permission Configuration
+- Created **1 new user**.
+- Configured **Employee Mapping**.
+- Assigned and verified the required **user permissions**.
+
+### 5. Multi-Browser & Multi-Business Unit Testing
+- Used **3 different browsers** to test with different user accounts.
+- Logged into **3 Business Units** using different accounts.
+- Verified successful login and access across the Business Units.
+
+### 6. Cash Sales Functional Testing
+- Performed **2 complete Cash Sales cycles**.
+- Tested Cash Sales using:
+  - **HBB Outlet-03**
+  - **HBI Outlet-04**
+- Used different browsers/accounts during testing.
+- **Result: Passed.**
+
+---
+
+## Bugs / Issues Identified
+
+### BUG-032 – Cash Sales Customer Name Missing in Print
+- Customer name was manually entered during Cash Sales.
+- Customer name was **missing from the printed Challan**.
+
+### BUG-033 – Required Field Indicator Missing
+- A mandatory field on the **Payment Page** was not marked with an **asterisk (*)**.
+
+### BUG-034 – Stakeholder Copy from Master Failed
+- **System Admin → Stakeholder (Master) → Copy from Master** failed for Business Units.
+- Error displayed:
+  - `Error copying stakeholders: Stakeholder id 1942 does not belong to party type ALL`
+
+---
+
+## Key Learnings
+
+- Improved understanding of the **Stakeholder (Master)** workflow.
+- Learned the process of copying stakeholders from Master to individual Business Units.
+- Gained practical experience with **user creation, employee mapping, and permission configuration**.
+- Improved multi-browser and multi-account testing practices.
+- Further strengthened understanding of the **complete ERP Sales flow**.
+
+---
+
+## Daily Summary
+
+- Performed **Sales flow documentation and functional testing**.
+- Tested the new **Stakeholder (Master)** submodule and Business Unit stakeholder operations.
+- Configured a new ERP user with employee mapping and permissions.
+- Conducted multi-browser and multi-Business Unit testing.
+- Completed **2 Cash Sales full-cycle tests successfully**.
+- Identified and documented **3 ERP bugs/issues**.
