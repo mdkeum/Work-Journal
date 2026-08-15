@@ -1,1 +1,83 @@
+# Day 109 – August 15, 2026
 
+## Office Hours
+
+- **Scheduled:** 10:00 AM – 7:00 PM
+- **Arrived:** 10:04 AM
+- **End:** 07:35 PM
+
+---
+
+## Tasks Completed
+
+### 1. Stakeholder (Master) – Business Unit Functional Testing
+**Time: 10:20 AM – 12:50 PM**
+
+- Tested **System Admin → Stakeholders (Master)**.
+- Tested the **Copy from Master** functionality.
+- Verified copying stakeholders from the Master List to **Business Units 1, 2, and 3**.
+- Performed testing across **5 test categories** with a total of **6 test cases**.
+- **4 test cases passed** and **2 test cases failed**.
+- Reported the identified issue to the Development Team.
+- Verified that the reported issue was subsequently resolved.
+
+### 2. Sales Module – New Changes & Internal Logic Learning
+**Time: 2:30 PM – 3:15 PM**
+
+- Learned about the latest changes in the **Sales Module**.
+- Reviewed updated internal business logic and application changes.
+- Learned about the changes from the **Development Team (Zakir Bhai)**.
+
+### 3. Sales Module – Functional Testing
+**Time: 3:15 PM – 4:30 PM**
+
+- Tested the latest changes implemented in the **Sales Module**.
+- Executed test cases related to B2B Sales Invoice actions:
+  - **TC-001:** Verified the **Void** button functionality for B2B Sales Invoice.
+  - **TC-002:** Verified the **Reject** button functionality for B2B Sales Invoice.
+- Verified system behavior against the expected business logic.
+
+### 4. Cash Sales Payment Page – Validation Testing
+**Time: 5:20 PM – 6:20 PM**
+
+- Tested the **Cash Sales Payment Page**.
+- Identified **2 validation issues**:
+  - **Cash Sales Payment Page – Customer Name Validation Error**
+  - **Cash Sales Payment Page – Phone Number Validation Error**
+- Documented the identified issues for bug reporting and further investigation.
+
+---
+
+## Bugs / Issues Identified
+
+### BUG-035 – Cash Sales Payment Page Customer Name Validation Error
+
+- Identified a validation issue with the **Customer Name** field on the Cash Sales Payment Page.
+- Customer Name validation is not working as expected.
+
+### BUG-036 – Cash Sales Payment Page Phone Number Validation Error
+
+- Identified a validation issue with the **Phone Number** field on the Cash Sales Payment Page.
+- Phone Number validation is not working as expected.
+
+---
+
+## Key Learnings
+
+- Improved understanding of the **Stakeholder (Master)** and **Copy from Master** functionality.
+- Gained practical experience in testing stakeholder distribution across multiple Business Units.
+- Learned about recent changes to the **Sales Module** and its updated internal business logic.
+- Improved understanding of **B2B Sales Invoice Void and Reject** functionality.
+- Strengthened validation testing skills through **Cash Sales Payment Page** testing.
+
+---
+
+## Daily Summary
+
+- Performed **Stakeholder (Master) functional testing** across multiple Business Units.
+- Executed **6 stakeholder-related test cases**, with **4 passed and 2 failed**.
+- Reported the identified stakeholder issue to the Development Team and verified its resolution.
+- Learned and tested the latest **Sales Module** changes.
+- Tested **B2B Sales Invoice Void and Reject** functionality.
+- Identified and documented **2 Cash Sales Payment Page validation issues**.
+- Completed the day with functional, validation, and regression-oriented testing across the **System Admin and Sales modules**.
