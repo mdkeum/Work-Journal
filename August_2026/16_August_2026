@@ -1,1 +1,108 @@
+# Day 110 – August 16, 2026
 
+## Office Hours
+
+- **Scheduled:** 10:00 AM – 7:00 PM
+- **Arrived:** 09:56 AM
+- **End:** 07:25 PM
+
+---
+
+## Tasks Completed
+
+### 1. Sales Module – Reject Testing
+**Time: 10:09 AM – 12:35 PM**
+
+- Performed functional testing of the **Reject** workflow under the Sales Module.
+- Followed the workflow:
+  - **Sales → POS Sign In-Out → Continue to B2B**
+  - Selected the required product sub-group.
+  - Filled up the Sales Details.
+  - Submitted the sales transaction for approval.
+  - Tested the **Reject** action from Admin Approval.
+- Executed **4 Reject test cases**.
+- Performed full B2B sales-cycle testing to verify the system behavior after rejection.
+
+### 2. Sales Module – Void Testing
+**Time: 10:09 AM – 12:35 PM**
+
+- Performed functional testing of the **Void** workflow for B2B Sales.
+- Tested the **B2B paid invoice Void** scenario.
+- Verified the Void workflow through the Admin Approval process.
+- Executed **4 Void test cases**.
+- Performed full B2B sales-cycle testing to verify the system behavior after voiding.
+
+### 3. Sales Return Module – Internal Changes & Logic Review
+**Time: 12:35 PM – 12:47 PM**
+
+- Learned about the latest **internal changes** implemented in the **Sales Return sub-module**.
+- Reviewed the updated workflow and internal business logic.
+- Improved understanding of the changes made to the Sales Return functionality.
+
+### 4. Sales Module – Test Case Preparation
+**Time: 2:00 PM – 4:20 PM**
+
+- Created **20 test cases** for the **Sales Module**.
+- Prepared test scenarios covering different Sales Module workflows and functional requirements.
+- Structured the test cases for ongoing **UAT and functional testing**.
+
+### 5. Accounts Module – Accounts Period Setup
+**Time: 4:20 PM – 4:50 PM**
+
+- Worked under **Accounts → Accounts Setup → Accounts Period**.
+- Created/reviewed Accounts Periods for the following fiscal years:
+  - **2027**
+  - **2022–2025**
+- Verified the Accounts Period setup and related configuration.
+
+### 6. Accounts Module – Journal Voucher Testing
+**Time: 5:25 PM – 6:35 PM**
+
+- Performed **2 Journal Voucher tests** under the Accounts Module.
+- Executed Journal Voucher transactions and verified the workflow.
+- Checked the Journal Voucher approval process.
+- Verified that the **Total Debit and Total Credit** were balanced for the tested vouchers.
+
+### 7. Sales Module – Full Sales Cycle & Approval Testing
+
+- Performed **8 full B2B Sales cycles** to test:
+  - **Approve**
+  - **Reject**
+  - **Void**
+- Performed **2 complete Cash Sales cycles**.
+- Observed and verified the impact on **inventory and stock** after the sales transactions.
+- Performed **2 Approval tests** to verify the Sales approval workflow.
+
+---
+
+## Bugs / Issues Identified
+
+- No new bugs were specifically recorded in today's work notes.
+- Continued functional testing of **Reject, Void, and Approval** workflows to identify any business-logic or transaction-processing issues.
+
+---
+
+## Key Learnings
+
+- Improved understanding of the **B2B Sales Reject and Void workflows**.
+- Gained practical experience testing **paid B2B invoice Void** functionality.
+- Learned about recent internal changes in the **Sales Return sub-module**.
+- Improved test case preparation skills by creating **20 Sales Module test cases**.
+- Learned and worked with **Accounts Period** configuration for multiple fiscal years.
+- Strengthened understanding of **Journal Voucher** processing and approval.
+- Improved understanding of the relationship between **Sales transactions, approval status, inventory, and stock**.
+
+---
+
+## Daily Summary
+
+- Performed **B2B Sales Reject and Void functional testing**.
+- Executed **4 Reject tests and 4 Void tests**.
+- Performed **8 full B2B Sales cycles** covering **Approve, Reject, and Void**.
+- Performed **2 complete Cash Sales cycles** and observed inventory and stock impact.
+- Executed **2 Sales Approval tests**.
+- Created **20 test cases for the Sales Module**.
+- Reviewed the latest internal changes in the **Sales Return sub-module**.
+- Created/reviewed **Accounts Periods** for multiple fiscal years.
+- Performed **2 Journal Voucher tests** under the **Accounts Module**.
+- Continued UAT and functional testing across the **Sales and Accounts modules**.
