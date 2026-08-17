@@ -1,1 +1,124 @@
+# Day 111 – August 17, 2026
 
+## Office Hours
+
+- **Scheduled:** 10:00 AM – 7:00 PM
+- **Arrived:** 09:58 AM
+- **End:** 07:30 PM
+
+---
+
+## Tasks Completed
+
+### 1. ERP UAT & Bug Reporting
+**Time: 10:07 AM – 11:30 AM**
+
+- Reported **1 issue** to the Development Team.
+- Documented the identified issue in the **Google Docs UAT & Bug Tracker** for tracking and follow-up.
+
+### 2. B2B Sales Testing – Customer Name Validation
+**Time: 11:30 AM – 12:55 PM**
+
+- Performed **1 B2B Sales transaction** for testing the **Customer Name** functionality.
+- Validated customer name behavior during the B2B Sales process.
+
+### 3. Sales Module – Test Case Preparation
+
+- Created **10 test cases** for **Customer Name Validation**.
+- Created **10 test cases** for **Phone/Mobile Number Validation**.
+- Prepared test cases covering valid, invalid, boundary, and required-field validation scenarios.
+
+### 4. B2C / Cash Sales – Test Case Validation
+**Time: 2:00 PM – 3:00 PM**
+
+- Performed **B2C (Cash Sales)** testing to validate **TC-021 to TC-030**.
+- Executed the test cases against the Cash Sales workflow.
+- Test execution result:
+  - **Passed:** 06
+  - **Failed:** 03
+  - **Not Tested:** 01
+- Reviewed the actual results against the expected results.
+
+### 5. ERP Module & Sub-Module Learning Discussion
+**Time: 3:45 PM – 4:20 PM**
+
+- Discussed the remaining **ERP modules/sub-modules** that need to be learned and reviewed.
+- Discussed the learning plan and remaining areas with **Zakir Bhai and the Development Team**.
+
+### 6. ERP Business Unit & ERP Update Discussion
+
+- Discussed the **H&B Business Units (BU)** and their functions.
+- Discussed recent and upcoming **ERP updates** and their impact on system functionality.
+
+### 7. ERP Sub-Module Learning Session
+**Time: 5:15 PM – 6:20 PM**
+
+- Continued learning the remaining ERP sub-modules with **Zakir Bhai**.
+- Covered and reviewed:
+  - **Accounts → Pending Entry Approval**
+  - **Accounts → Day Book**
+  - **Customer Sub-Types**
+  - **Inventory → GRN**
+  - **Inventory → Production Received**
+- Improved understanding of the workflow and functional purpose of these sub-modules.
+
+### 8. Google Docs Documentation Update
+**Time: 6:20 PM – 6:30 PM**
+
+- Updated the **Google Docs** with the latest testing and learning activities.
+- Organized the newly prepared **Customer Name** and **Phone Number Validation** test cases.
+- Updated the relevant UAT and testing documentation for team reference.
+
+---
+
+## Bugs / Issues Identified
+
+- **1 issue** was reported to the Development Team.
+- The issue was documented in the **Google Docs UAT & Bug Tracker** for further tracking and resolution.
+
+---
+
+## Test Case Execution Summary
+
+### B2C / Cash Sales
+
+- **Test Cases Executed:** TC-021 – TC-030
+- **Passed:** 06
+- **Failed:** 03
+- **Not Tested:** 01
+- **Total:** 10
+
+### Test Case Preparation
+
+- **Customer Name Validation:** 10 Test Cases
+- **Phone/Mobile Number Validation:** 10 Test Cases
+- **Total New Test Cases Created:** **20**
+
+---
+
+## Key Learnings
+
+- Improved understanding of **Customer Name and Phone/Mobile Number Validation** requirements in the Sales module.
+- Gained practical experience testing **B2B Sales** for customer information validation.
+- Performed **B2C/Cash Sales** test case execution and result analysis.
+- Learned about **Accounts → Pending Entry Approval** and **Day Book**.
+- Learned about **Customer Sub-Types**.
+- Learned about **Inventory → GRN** and **Production Received**.
+- Improved understanding of **H&B Business Units and their functions**.
+- Discussed recent **ERP updates** and remaining module/sub-module learning requirements.
+- Continued maintaining and updating the **ERP UAT and Bug Tracking documentation**.
+
+---
+
+## Daily Summary
+
+- Reported and documented **1 issue** for the Development Team.
+- Performed **1 B2B Sales transaction** for Customer Name validation.
+- Created **20 new test cases**:
+  - 10 for Customer Name Validation
+  - 10 for Phone/Mobile Number Validation
+- Tested **10 B2C/Cash Sales test cases**, with **6 Passed, 3 Failed, and 1 Not Tested**.
+- Discussed remaining ERP modules/sub-modules with **Zakir Bhai and the Development Team**.
+- Learned **Accounts Pending Entry Approval, Day Book, Customer Sub-Types, GRN, and Production Received**.
+- Discussed **H&B Business Units and ERP updates**.
+- Updated the **Google Docs UAT, test case, and bug tracking documentation**.
