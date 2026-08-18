@@ -1,1 +1,92 @@
+# Day 112 – August 18, 2026
 
+## Office Hours
+
+- **Scheduled:** 10:00 AM – 7:00 PM
+- **Arrived:** 09:59 AM
+- **End:** 07:25 PM
+
+---
+
+## Tasks Completed
+
+### 1. B2B Sales – Void, Approval & Reject Testing
+
+- Performed **4 B2C sales** and **4 B2B sales** to test:
+  - Void
+  - Approval
+  - Reject
+- Performed **1 full B2B sales cycle test** in **HBB Outlet-03** — **Passed**.
+- Performed **1 B2B Reject test**.
+- Performed **1 B2B Void test** for **Credit + Cash Sales**.
+- Successfully verified the **Void Cash Slip functionality**.
+- Confirmed that the **cash amount was returned to the customer** after voiding the paid B2B Credit + Cash sale.
+- Performed **3 B2B sales tests** to verify an error identified during the flow after the development team applied a fix.
+- Re-tested the fixed flow and verified the behavior.
+
+### 2. B2C / Cash Sales – Full Cycle Testing
+
+- Performed **1 complete B2C / Cash Sales full-cycle test**.
+- Verified the direct sales and money collection flow.
+- Verified the approval behavior for the relevant sales issue process.
+
+### 3. Sales Issue & Inventory Verification
+
+- Performed **12 Sales Issue tests/records** from:
+  - **Inventory → Sales Issue List**
+- Checked the corresponding **Inventory Stock Summary** during the sales and void testing.
+- Verified the impact of sales transactions on inventory-related data.
+
+### 4. Business Logic Understanding & Mapping
+
+- Mapped and reviewed the following sales business rules:
+
+  - **Void → Unpaid**
+    - No Invoice/Challan should be printed.
+
+  - **Void → Paid**
+    - No Invoice/Challan should be printed.
+    - Cash Refund Slip should be printed.
+
+  - **Rejected → Unpaid**
+    - No Invoice/Challan should be printed.
+
+  - **B2C / Cash Sales**
+    - No approval is required for the direct sale and money collection flow.
+    - Relevant **Issue Approval** is required in the subsequent issue process.
+
+### 5. Requisition & Inventory Learning
+
+- Learned the new **Requisition** submodule.
+- Studied:
+  - **Requisition → Store Requisition (SR)**
+  - **Inventory → Stock Issue from SR**
+- Learned the relationship between **Store Requisition** and **Inventory Stock Issue**.
+
+### 6. Development Fix Verification
+
+- Checked the error identified by the development team by testing the complete sales flow.
+- Performed **3 B2B sales cycles** to verify the issue.
+- Re-tested the flow after the development team's fix.
+
+### 7. Documentation
+
+- Updated the **Google Docs ERP UAT & Bug Reporting documentation** with the latest:
+  - Testing activities
+  - Business logic
+  - Void/Reject/Approval behavior
+  - Inventory verification
+  - Requisition learning
+
+---
+
+## Key Outcomes
+
+- Completed **B2B and B2C sales cycle testing**.
+- Verified **Void, Reject, and Approval flows**.
+- Successfully validated **B2B Credit + Cash Void and Cash Refund Slip functionality**.
+- Verified **Invoice/Challan printing behavior** for Void and Reject scenarios.
+- Checked **Inventory Stock Summary** against sales testing.
+- Re-tested a development team's fixed error through actual sales flows.
+- Improved understanding of the **Requisition → Store Requisition → Stock Issue** workflow.
+- Updated ERP UAT documentation and business logic mapping.
