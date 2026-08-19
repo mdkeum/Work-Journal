@@ -1,1 +1,77 @@
+# Day 113 – August 19, 2026
 
+## Office Hours
+
+- **Scheduled:** 10:00 AM – 7:00 PM
+- **Arrived:** 10:08 AM
+- **End:** 07:35 PM
+
+---
+
+## Tasks Completed
+
+### 1. B2B Sales – Full Cycle Testing
+
+**Time: 10:15 AM – 12:55 PM**
+
+- Performed **4 full B2B Sales cycle tests** for different sub-categories, including **Three Piece**.
+- All **4 B2B full-cycle tests passed**.
+- Verified the complete sales flow for the selected sub-categories.
+
+### 2. B2C / Cash Sales – Full Cycle Testing
+
+- Performed **4 full B2C / Cash Sales cycle tests** for different sub-categories, including **Three Piece**.
+- All **4 B2C / Cash Sales full-cycle tests passed**.
+- Verified the complete cash sales flow.
+
+### 3. Customer Phone Number Validation Testing
+
+- Tested **phone number validation** through **1 complete B2C / Cash Sales cycle**.
+- Verified the behavior of the customer phone number field during the sales process.
+
+### 4. Inventory Stock Verification
+
+- Observed **Stock Summary** and **Stock Ledger** for each sales transaction.
+- Compared inventory information **before and after the final issue**.
+- Verified the impact of completed sales and issue transactions on inventory-related records.
+
+### 5. Bug Reporting & Documentation
+
+**Time: 2:15 PM – 3:25 PM**
+
+- Reviewed and checked previously identified **fixed bugs**.
+- Updated the relevant bug information and verification results in the documentation.
+- Continued **bug reporting and ERP UAT documentation**.
+
+### 6. Phone Number Validation – Test Case Execution
+
+**Time: 3:25 PM – 4:55 PM**
+
+- Performed test cases for **Customer Phone Number Validation**.
+- Executed test cases **TC-34 to TC-40**.
+- Identified validation issues during testing.
+- Reported **3 bugs** to the development team for further investigation and resolution.
+
+### 7. Bug Reporting – Phone Number & Load Bill
+
+**Time: 5:15 PM – 6:35 PM**
+
+- Reported **1 Customer Phone Number Validation bug**:
+  - System accepts an **invalid Bangladeshi phone number**.
+- Reported **Load Bill error bug** on the **Payment Page**.
+- Documented all identified errors and updated the bug-reporting records.
+
+---
+
+## Key Outcomes
+
+- Successfully completed **4 B2B full sales cycle tests**, with all tests passed.
+- Successfully completed **4 B2C / Cash Sales full cycle tests**, with all tests passed.
+- Tested customer **phone number validation** within the complete B2C sales flow.
+- Verified **Stock Summary and Stock Ledger** before and after final issue.
+- Executed **TC-34 to TC-40** for phone number validation.
+- Reported **3 bugs** to the development team.
+- Identified and reported an **invalid Bangladeshi phone number acceptance issue**.
+- Identified and reported the **Load Bill issue on the Payment Page**.
+- Checked previously fixed bugs and updated the documentation.
+- Maintained and updated the **ERP UAT & Bug Reporting documentation**.
