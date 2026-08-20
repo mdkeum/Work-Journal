@@ -4,6 +4,104 @@
 
 - **Scheduled:** 10:00 AM – 7:00 PM
 - **Arrived:** 09:47 AM
-- **End:** 07: PM
+- **End:** 07:27 PM
 
 ---
+
+## Tasks Completed
+
+### 1. Bug Status Update & Retesting
+
+**Time: 10:16 AM – 11:16 AM**
+
+- Changed the status of previously fixed bugs and performed **retesting**.
+- Updated the relevant bug records from **Fixed** to **Retested** after verification.
+- Retested the **B2B Credit + Cash Customer Voided Cash Slip** functionality.
+- Performed **1 B2B Void Cash Slip test** using:
+  - Partial cash payment
+  - Remaining amount as credit
+- Verified the behavior of the voided cash slip after the partial payment and credit balance.
+
+### 2. Customer Name Validation – Discussion & Test Case Management
+
+**Time: 11:15 AM – 11:50 AM**
+
+- Discussed **Customer Name Validation best practices** with **Zakir Bhai**.
+- Reviewed different validation scenarios and requirements for customer name testing.
+- Shared the **Google Docs test case management document** created for organizing and maintaining test cases.
+
+### 3. B2B Sales Issue & Inventory Verification
+
+**Time: 11:50 AM – 12:59 PM**
+
+- Performed **15 Sales Issue transactions** from **HBB Outlet-01**.
+- Checked the **Stock Summary** corresponding to the sales issues.
+- Verified the change in stock after each sales issue transaction.
+- Compared inventory records to ensure that the issued quantities were correctly reflected in stock.
+
+### 4. Reserved Item Clearance
+
+- Cleared all **reserved items** by issuing the reserved items.
+- Verified and cleared reserved inventory across **all Business Units (BU)**.
+- Ensured that the reserved quantities were properly released/adjusted after the issue process.
+
+### 5. Requisition Module – R&D and Test Case Planning
+
+**Time: 2:05 PM – 3:15 PM**
+
+- Performed **R&D on the Requisition Module**.
+- Studied how to properly test the Requisition workflow.
+- Researched and planned appropriate **test cases and testing scenarios** for the Requisition process.
+- Reviewed the end-to-end flow and approval points of the procurement process.
+
+### 6. Purchase & Requisition Workflow Analysis
+
+**Time: 3:15 PM – 4:59 PM**
+
+- Mapped and analyzed the overall **Requisition → Purchase → GRN → Purchase QC** workflow.
+- Reviewed the flow of:
+  - **Store Requisition (SR)**
+  - **Purchase Requisition (SPR)**
+  - **Purchase Order (PO)**
+  - **Goods Receipt Note (GRN)**
+  - **Purchase QC**
+- Studied different workflow actions, including:
+  - Add Item
+  - Requested Quantity
+  - Save Draft
+  - Edit
+  - Submit for Approval
+  - Approval
+  - GRN Creation
+  - Purchase QC
+  - Completion and cancellation scenarios
+- Created a workflow/reference diagram to support future **Purchase Module test case design and execution**.
+
+### 7. Requisition & Purchase Module Testing
+
+**Time: 5:15 PM – 6:30 PM**
+
+- Performed **1 Store Requisition (SR)** transaction.
+- Tested **4 Purchase Requisition (SPR)** transactions.
+- Tested **10 Purchase Order (PO)** transactions.
+- Tested **14 Goods Receipt Note (GRN)** transactions.
+- Tested **14 Purchase QC** transactions.
+- Tested **1 Cancelled Purchase QC** transaction.
+- Verified the workflow and behavior of the different Purchase Module stages.
+
+---
+
+## Key Outcomes
+
+- Retested previously fixed bugs and updated their status to **Retested**.
+- Performed **1 B2B Void Cash Slip test** with partial cash payment and remaining credit.
+- Discussed **Customer Name Validation best practices** with the development team.
+- Shared the **Google Docs test case management document**.
+- Performed **15 Sales Issue transactions** from HBB Outlet-01.
+- Verified **Stock Summary** changes corresponding to sales issues.
+- Cleared reserved items across **all Business Units**.
+- Performed **R&D on the Requisition Module** and developed a better understanding of its testing approach.
+- Analyzed the complete **Requisition → SPR → PO → GRN → Purchase QC** workflow.
+- Tested **1 SR, 4 SPR, 10 PO, 14 GRN, and 14 Purchase QC** transactions.
+- Tested **1 cancelled Purchase QC** scenario.
+- Continued **ERP UAT, functional testing, retesting, inventory verification, and test case management**.
