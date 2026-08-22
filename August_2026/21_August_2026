@@ -1,0 +1,81 @@
+# Day 115 – August 22, 2026
+
+## Office Hours
+
+- **Scheduled:** 10:00 AM – 7:00 PM
+- **Arrived:** 10:05 AM
+- **End:** 07:40 PM
+
+---
+
+## Tasks Completed
+
+### 1. Sales Cycle R&D and Flow Analysis
+
+**Time: 10:15 AM – 12:59 PM**
+
+- Performed **R&D on the Sales Cycle** to understand and validate the complete sales workflow.
+- Performed **1 full B2B Sales cycle** to test the complete B2B sales flow according to the prepared flow diagram.
+- Performed **2 full B2C / Cash Sales cycles** to test the complete cash sales workflow and verify alignment with the flow diagram.
+- Created/drew the **B2C / Cash Sales full-cycle flow diagram** using **draw.io**.
+
+### 2. Requisition & Purchase Workflow Discussion
+
+**Time: 2:15 PM – 2:55 PM**
+
+- Discussed the **Requisition → Store Requisition (SR)** and **Purchase → Purchase Requisition (SPR)** workflow with the development team.
+- Learned and reviewed the end-to-end flow and process of **Store Requisition (SR)** and **Purchase Requisition (SPR)**.
+- Improved understanding of the relationship between Requisition and Purchase processes for future UAT and functional testing.
+
+### 3. B2B Sales Flow Modification & Requisition Testing
+
+**Time: 2:55 PM – 3:25 PM**
+
+- Performed **edits/modifications in the B2B Sales flow** based on the testing and workflow analysis.
+- Performed **2 Store Requisition (SR)** transactions under the **Requisition Module**.
+- Verified the Store Requisition workflow and related process.
+
+### 4. Full Sales Cycle Testing
+
+**Time: 3:35 PM – 4:57 PM**
+
+- Tested **1 full B2B Sales cycle** to verify the complete sales flow.
+- Performed **2 full B2C / Cash Sales cycles** to verify and understand the complete cash sales flow.
+- Checked the complete transaction flow and compared the actual system behavior with the prepared flow diagrams.
+
+### 5. B2B Sales Approval, Reject & Void Testing
+
+**Time: 5:15 PM – 7:40 PM**
+
+- Modified the **B2C Sales full-cycle flow** based on the latest testing and workflow understanding.
+- Performed **4 B2B full Sales cycle tests** covering:
+  - Approval scenario
+  - Reject scenario
+  - Void scenario
+- All **4 B2B full-cycle tests passed**.
+- Verified the behavior of the sales process under different approval and rejection/void conditions.
+
+### 6. Purchase & Inventory Transaction Testing
+
+- Performed **1 Purchase Requisition (SPR)** transaction.
+- Performed **2 Purchase Orders (PO)**.
+- Performed **3 Goods Receipt Notes (GRN)**.
+- Performed **3 Purchase QC** transactions.
+- Performed **2 Stock Issue transactions from Store Requisition (SR)**.
+- Verified the workflow and transaction movement across the Purchase and Inventory processes.
+
+---
+
+## Key Outcomes
+
+- Performed **R&D on the complete B2B and B2C/Cash Sales cycles**.
+- Tested **1 B2B full sales cycle** and **2 B2C/Cash Sales full cycles** during initial workflow analysis.
+- Created the **B2C/Cash Sales full-cycle flow diagram using draw.io**.
+- Discussed and learned the **Requisition → SR → SPR** workflow from the development team.
+- Modified and improved the **B2B and B2C Sales flow diagrams** based on testing.
+- Performed **2 Store Requisition (SR)** transactions.
+- Successfully tested **4 B2B full Sales cycles** covering **Approval, Reject, and Void** scenarios.
+- All **4 B2B full-cycle tests passed**.
+- Performed **1 SPR, 2 PO, 3 GRN, and 3 Purchase QC** transactions.
+- Performed **2 Stock Issue transactions from SR**.
+- Continued **ERP UAT, functional testing, workflow analysis, and test flow documentation**.
