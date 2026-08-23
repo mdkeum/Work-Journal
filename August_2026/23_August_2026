@@ -1,1 +1,104 @@
+# Day 116 – August 23, 2026
 
+## Office Hours
+
+- **Scheduled:** 10:00 AM – 7:00 PM
+- **Arrived:** 10:01 AM
+- **End:** Around 7:15 PM
+
+---
+
+## Tasks Completed
+
+### 1. H&B ERP UAT Learning & Bug Reporting Documentation Review
+
+**Time: 10:20 AM – 12:55 PM**
+
+- Performed a **thorough review of the complete H&B ERP UAT Learning Report** maintained in Google Docs.
+- Reviewed the documented activities to identify:
+  - What has already been completed.
+  - What is still pending.
+  - What needs to be updated or documented.
+- Updated the **H&B ERP UAT Learning and Bug Reporting documentation** accordingly.
+
+### 2. Accounts → COA Master Testing
+
+- Tested the **COA Master copy functionality**.
+- Tested copying the **Master COA to Business Units 1, 2, and 3**.
+- Verified that the COA was transferred successfully to the respective Business Units.
+- Attempted to copy the **same COA again** to verify duplicate/validation handling.
+- The system displayed an appropriate **validation message** when attempting to copy the same COA again.
+- Verified the related **Journal Voucher and Payment Voucher issues** during Accounts testing.
+
+### 3. Accounts → Journal Voucher & Payment Voucher Issue Retesting
+
+**Time: 2:08 PM – 3:45 PM**
+
+- Retested the previously reported **Journal Voucher issue** after the developer fix.
+- The issue was successfully resolved and the retest **passed**.
+- Retested the previously reported **Payment Voucher issue** after the developer fix.
+- The issue was successfully resolved and the retest **passed**.
+- Confirmed that both resolved issues are now working correctly.
+
+### 4. Accounts → Contra Voucher Testing & COA Setup
+
+**Time: 3:45 PM – 4:57 PM**
+
+- Added **10 Chart of Accounts (COA)** entries for testing.
+- Used the Accounts setup/policy configuration to prepare the required COA data.
+- Used the newly added COA entries for **Contra Voucher testing**.
+- Verified the availability and usability of the COA entries during voucher testing.
+
+### 5. Accounts Module – Voucher Test Case Execution
+
+**Time: 5:19 PM – 6:35 PM**
+
+- Performed **12 test cases (TC-001 to TC-012)** under the **Accounts Module**.
+- Covered the following voucher submodules:
+  - **Receipt Voucher (RV)**
+  - **Payment Voucher (PV)**
+  - **Journal Voucher (JV)**
+  - **Contra Voucher (CV)**
+- Test execution result:
+  - **Passed:** 8 test cases
+  - **Failed:** 4 test cases
+- Documented the test results and corresponding issues for further tracking.
+
+### 6. Resolved Bug Verification
+
+- Checked **4 previously resolved bugs** after the development fixes.
+- Retested the reported issues and verified their current behavior.
+- All **4 resolved bugs were working correctly** after retesting.
+
+### 7. Purchase → GRN Testing & Workflow Observation
+
+- Found an important workflow observation during **Purchase/GRN testing**:
+  - When creating a **Purchase/GRN directly without a Purchase Order (PO)**, no Purchase Order is generated.
+- Documented the observed behavior and related fix/error information.
+- Performed **1 Purchase/GRN transaction** to verify whether the **GRN Number** was being generated.
+- The GRN Number was generated successfully.
+- **GRN Number generation test: Passed.**
+
+### 8. DMS Task Update
+
+**Time: 6:50 PM – 7:00 PM**
+
+- Updated the assigned **DMS task/work status**.
+- Recorded the day's completed activities and progress.
+
+---
+
+## Key Outcomes
+
+- Completed a thorough review and update of the **H&B ERP UAT Learning & Bug Reporting documentation**.
+- Tested **COA Master copy functionality** across Business Units **1, 2, and 3**.
+- Verified successful COA transfer to the respective Business Units.
+- Verified that the system provides a **validation message when attempting to copy the same COA again**.
+- Retested the resolved **Journal Voucher and Payment Voucher issues**; both **passed and were confirmed as solved**.
+- Added **10 COA entries** for Contra Voucher testing.
+- Executed **12 Accounts Module test cases** covering **RV, PV, JV, and CV**.
+- **8 test cases passed and 4 test cases failed**.
+- Retested **4 previously resolved bugs** and confirmed that they are now working correctly.
+- Performed **1 GRN transaction** to verify GRN Number generation; **test passed**.
+- Identified and documented an important **Purchase → GRN workflow observation** regarding direct GRN creation without a Purchase Order.
+- Updated the **DMS task** and continued ERP UAT, functional testing, bug retesting, and documentation activities.
