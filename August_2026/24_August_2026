@@ -4,6 +4,83 @@
 
 - **Scheduled:** 10:00 AM – 7:00 PM
 - **Arrived:** 10:03 AM
-- **End:** Around 7:25 PM
+- **End:** Around 7:35 PM
 
 ---
+
+## Tasks Completed
+
+### 1. Sales Module – B2B & B2C Sales Flow Testing
+
+**Time: 10:12 AM – 12:23 PM**
+
+- Performed **1 B2B sales transaction** to test the sales flow without adding a price.
+- Tested B2B sales without adding the required **receiver information** and verified the system validation message.
+- Performed **1 B2C sales transaction** to test the complete sales flow.
+- Verified that **B2C sales do not require an approval process** and are immediately paid before the sales transaction is issued/handed over to the cash customer.
+- Performed **1 B2B sales transaction** to test:
+  - Sales rejection.
+  - Approval workflow.
+  - Approval and payment process.
+- Rejected the B2B sale during the approval phase and verified that the **reserved item was automatically returned to available stock** and the stock quantity increased.
+- Performed **1 B2B and 1 B2C sales transaction** to test the inventory and approval flow.
+
+### 2. Documentation & Bug Fix Verification
+
+**Time: 12:23 PM – 12:59 PM**
+
+- Updated the **H&B ERP UAT and Bug Reporting Google Docs report**.
+- Checked previously fixed bugs and verified that the fixes were **aligned with the recorded issues**.
+
+### 3. Requisition Module – Store Requisition (SR) Testing
+
+**Time: 2:10 PM – 4:55 PM**
+
+- Performed **2 Store Requisition (SR) transactions** under **Requisition Module → H&B Outlet-03** to test the complete workflow and approval process.
+- Performed **Store Requisition rejection testing**:
+  - Created an SR and sent it for approval.
+  - Rejected the SR during the approval stage.
+- Observed that a **rejected SR can be edited and submitted again for approval**.
+- After approval, the SR proceeds to the **Issue** stage.
+- Rejected the same SR **twice** to further verify the rejection and resubmission behavior.
+- Performed **1 additional SR transaction** to test the overall workflow.
+- Created/drew the **complete Store Requisition (SR) flow diagram** to understand and document the full cycle.
+
+### 4. Purchase & Store Requisition Testing
+
+**Time: 5:15 PM – 6:40 PM**
+
+- Performed **3 SPR transactions** in **H&B Outlet-01**.
+- Performed **5 PO transactions, 5 PRN transactions, and 5 QC transactions**.
+- Performed **1 SR, 1 PO, and 1 QC transaction** in **H&B Outlet-03**.
+- Continued functional testing of the **Purchase and Requisition workflows** across outlets.
+
+### 5. Bug Identification & Reporting
+
+- Identified and reported **2 new bugs** during Store Requisition testing:
+  - **BUG-061:** Approval Configuration mismatch with the Store Requisition module/menu.
+  - **BUG-062:** Unnecessary **“Reference”** and **“Issuing Store”** columns in Store Requisition (SR).
+- Documented both issues for further developer review and resolution.
+
+### 6. DMS Task Update
+
+**Time: 6:55 PM – 7:25 PM**
+
+- Updated the assigned **DMS task/work status**.
+- Recorded the day's completed ERP UAT, testing, bug reporting, and documentation activities.
+
+---
+
+## Key Outcomes
+
+- Completed **B2B and B2C Sales flow testing**.
+- Verified that **B2C sales do not require approval** and proceed directly to payment/issuance.
+- Tested **B2B rejection and approval workflows**.
+- Verified that when a B2B sale is rejected, the **reserved inventory is automatically returned to available stock**.
+- Tested Store Requisition **creation, approval, rejection, editing, and resubmission** workflows.
+- Verified that a **rejected SR can be edited and resubmitted for approval**.
+- Created a **complete Store Requisition flow diagram** to understand the end-to-end process.
+- Performed Purchase and Requisition transactions across **H&B Outlet-01 and Outlet-03**.
+- Identified and reported **2 new bugs: BUG-061 and BUG-062**.
+- Updated the **H&B ERP UAT & Bug Reporting documentation**.
+- Updated the **DMS task/work status**.
