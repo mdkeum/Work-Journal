@@ -4,6 +4,88 @@
 
 - **Scheduled:** 10:00 AM – 7:00 PM
 - **Arrived:** 10:08 AM
-- **End:** Around 7:20 PM
+- **End:** Around 7:14 PM
 
 ---
+
+## Tasks Completed
+
+### 1. Requisition Module – Store Requisition (SR) Test Case R&D and Planning
+
+**Time: 10:00 AM – 12:59 PM**
+
+- Performed **R&D on the Requisitions module** to determine the required test coverage and possible test cases for the **Store Requisition (SR)** submodule.
+- Created **11 Test Case Categories** to organize the complete SR testing scope.
+- Prepared a total of **70 test cases** covering:
+  - Creation & Validation
+  - Approval & Rejection
+  - Edit & Resubmission
+  - Cancellation / Void
+  - Inventory / Stock Impact
+  - Business Unit & Outlet
+  - User Role & Permission
+  - Search & Filter
+  - View & Details
+  - Print & Export
+  - Integration with Inventory / Stock Issue
+
+### 2. SR Test Case Documentation & Initial Execution
+
+**Time: 2:07 PM – 3:48 PM**
+
+- Updated the identified errors and testing information in the **H&B ERP UAT & Bug Reporting Google Docs**.
+- Started execution of **Store Requisition test cases TC-SR-001 to TC-SR-008**.
+- Executed the initial SR creation and validation test cases.
+- Identified a validation issue during testing and documented the failed test case.
+- Reported **BUG-064** related to **required-field validation messages** in the Store Requisition module.
+- Updated the relevant testing and bug documentation.
+
+### 3. Store Requisition – Validation Testing & Bug Identification
+
+**Time: 3:48 PM – 4:58 PM**
+
+- Continued testing of **Store Requisition test cases TC-SR-009 to TC-SR-011**.
+- Identified additional validation issues related to SR quantity and required-field validation.
+- Reported and documented the following issues:
+  - **BUG-064:** Missing/improper required-field validation message.
+  - **BUG-066:** Improper validation message when **Quantity = 0**.
+- Updated the corresponding bug information in the **H&B ERP UAT & Bug Reporting documentation**.
+
+### 4. Store Requisition – Quantity & Input Validation Testing
+
+**Time: 5:20 PM – 6:35 PM**
+
+- Continued testing of **TC-SR-011 to TC-SR-013** focusing on Quantity field validation.
+- Tested **negative quantity validation**.
+- Tested **alphabetic/numeric input validation** in the Quantity field.
+- Identified and documented additional validation issues:
+  - **BUG-067:** Improper validation message for negative quantity.
+  - **BUG-068:** Quantity field accepts **“E”** as an input character while rejecting other alphabetic characters.
+- Reported the identified issues to the **Developer Team** for review and resolution.
+- Updated the related bug records and supporting documentation.
+
+### 5. DMS Task Update
+
+**Time: 6:50 PM – 7:20 PM**
+
+- Updated the assigned **DMS task/work status**.
+- Recorded the day's completed **ERP UAT, Store Requisition testing, test case preparation, bug identification, reporting, and documentation activities**.
+
+---
+
+## Key Outcomes
+
+- Performed **R&D and test planning** for the Requisitions → Store Requisition (SR) submodule.
+- Created **11 Test Case Categories** and **70 test cases** to provide comprehensive SR test coverage.
+- Started execution of the SR test cases and tested **TC-SR-001 to TC-SR-013** across creation and validation scenarios.
+- Identified multiple **input and validation-related issues** in the Store Requisition module.
+- Reported/documented **BUG-064, BUG-066, BUG-067, and BUG-068**.
+- Tested validation for:
+  - Missing required Item
+  - Missing required Quantity
+  - Zero Quantity
+  - Negative Quantity
+  - Alphabetic input
+  - Numeric input validation
+- Updated the **H&B ERP UAT & Bug Reporting Google Docs**.
+- Updated the **DMS task/work status**.
