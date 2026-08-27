@@ -4,6 +4,73 @@
 
 - **Scheduled:** 10:00 AM – 7:00 PM
 - **Arrived:** 09:53 AM
-- **End:** Around 7: PM
+- **End:** Around 7:25 PM
 
 ---
+
+## Tasks Completed
+
+### 1. Inventory & Sales Module – Full Flow Testing
+
+**Time: 10:00 AM – 1:04 PM**
+
+- Performed **Inventory → Stock Issue from SR** testing.
+- Created and approved the **Stock Issue from Store Requisition (SR)** using the admin account.
+- Performed **2 B2B sales transactions** to verify the complete sales flow.
+- Both B2B sales transactions **passed successfully**.
+- Performed **1 B2C/Cash Sale** to verify the complete sales flow.
+- B2C/Cash Sale flow **passed successfully**.
+- Recorded **Sales data for BU-1, BU-2, and BU-3** in an Excel file.
+
+### 2. Approval Module – Double Approval Testing & Bug Identification
+
+**Time: 2:08 PM – 4:59 PM**
+
+- Performed **1 B2B and 1 B2C sales full-cycle flow** to test the **double approval process**.
+- Continued testing of the Approval module focusing on **duplicate/double approval validation**.
+- Received and reviewed an **Excel test from HR regarding WhatsApp messaging**.
+- Identified and documented the following bugs/issues:
+  - **BUG-069:** Approval Pending List – Approve button is not positioned on the right side (**UI/UX issue**).
+  - **BUG-070:** Duplicate approval displays a **coding/technical error** instead of a user-friendly validation message.
+  - **BUG-071:** Approval → Approval Pending List – Duplicate approval does not show the **standard validation message**.
+
+### 3. Meeting with Mr. Fazle Rabbi
+
+**Time: 5:20 PM – 5:40 PM**
+
+- Attended a meeting with **Mr. Fazle Rabbi**.
+- Discussed ongoing ERP testing and related tasks/issues.
+
+### 4. Store Requisition (SR) – Test Case Execution
+
+**Time: 5:40 PM – 6:30 PM**
+
+- Continued testing of **Requisition → Store Requisition (SR)**.
+- Executed **Store Requisition test cases TC-SR-014 to TC-SR-017** focusing on SR validation and item-related scenarios.
+- Identified and documented:
+  - **BUG-072:** Store Requisition accepts **decimal quantity values** instead of allowing only valid whole-number quantities.
+  - **BUG-073:** The same item can be added **multiple times in a single SR**; duplicate item validation is missing.
+- Updated the related bug/testing documentation.
+
+### 5. DMS Task Update
+
+**Time: 6:55 PM – 7:20 PM**
+
+- Updated the assigned **DMS daily task/work status**.
+- Recorded the day's completed **ERP UAT, sales flow testing, approval testing, Store Requisition testing, bug identification, and documentation activities**.
+
+---
+
+## Key Outcomes
+
+- Performed **Inventory → Stock Issue from SR** testing and verified the stock issue flow using the admin account.
+- Successfully tested **2 B2B sales** and **1 B2C/Cash Sale** full-cycle flows.
+- Tested the **double approval process** for B2B and B2C sales.
+- Identified and documented **BUG-069, BUG-070, and BUG-071** in the Approval module.
+- Continued **Store Requisition (SR)** test case execution from **TC-SR-014 to TC-SR-017**.
+- Identified and documented **BUG-072** related to decimal quantity validation.
+- Identified and documented **BUG-073** related to duplicate item addition in SR.
+- Recorded sales data for **BU-1, BU-2, and BU-3** in Excel.
+- Attended a meeting with **Mr. Fazle Rabbi**.
+- Reviewed an **HR-provided Excel test related to WhatsApp messaging**.
+- Updated the **H&B ERP UAT & Bug Reporting documentation** and **DMS daily task status**.
