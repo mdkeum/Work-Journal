@@ -4,6 +4,92 @@
 
 - **Scheduled:** 10:00 AM – 7:00 PM
 - **Arrived:** 10:01 AM
-- **End:** Around 7:15 PM
+- **End:** Around 7:25 PM
 
 ---
+
+## Tasks Completed
+
+### 1. Fixed Bug Retesting & Documentation
+
+**Time: 10:10 AM – 11:57 AM**
+
+- Checked the **fixed bugs** and documented the verification results.
+- Retested **7 previously reported/resolved bugs**.
+- All **7 bugs were successfully fixed** after retesting.
+
+### 2. SR Approval – Business Unit Discussion & Validation
+
+**Time: 11:57 AM – 12:30 PM**
+
+- Discussed the **Store Requisition (SR) approval process for different Business Units (BU)** with **Zakir Bhai**.
+- Reviewed the current approval workflow, where SR approval is assigned to a **designated person/approver**.
+- Identified that the **Business Unit header does not currently restrict the approver to the respective Business Unit**.
+- The approver can view **SR approval requests from different Business Units**.
+- Performed **2 SR tests** to validate the identified approval issue.
+- **Approval issue was identified during testing.**
+- Performed **1 additional SR test** to check and validate **duplicate/multiple item addition during SR creation**.
+- **Issue was found** during the test.
+
+### 3. SR Approval & Workflow Testing
+
+**Time: 12:30 PM – 1:30 PM**
+
+- Performed **2 SR tests using different users** to verify the SR approval workflow.
+- Checked whether the approval process works correctly for different users and approval scenarios.
+
+### 4. Store Requisition – Functional Test Case Execution
+
+**Time: 2:10 PM – 3:40 PM**
+
+- Performed **same-transaction double-approval testing** for SR.
+- Performed **SR rejection testing** to validate the rejection workflow.
+- Performed **SR flow testing** by creating and processing an SR.
+- Tested **Store Requisition (SR) test cases TC-SR-018 to TC-SR-024**.
+- Validated the SR workflow and related approval scenarios.
+
+### 5. SR Duplicate Submission – Bug Investigation & Testing
+
+**Time: 3:40 PM – 5:00 PM**
+
+- Reviewed **BUG-074 – SR Duplicate Submission**.
+- Performed **18-SR testing from 1 SR** in **BU-01, Outlet-01** to check for duplicate SR submission.
+- Performed **16-SR testing from 1 SR** in **BU-01, Outlet-02** to test duplicate submission behavior.
+- Performed **13-SR testing from 1 SR** in **BU-01, Outlet-03**.
+- Continued testing different SR generation scenarios to validate the duplicate submission issue.
+
+### 6. Additional SR Testing – Multiple Business Units & Outlets
+
+**Time: 5:15 PM onward**
+
+- Performed **4-SR testing from 1 SR** in **BU-02, Outlet-01**.
+- Performed **10-SR testing from 1 SR** in **BU-03, Outlet-05**.
+- Tested SR behavior across different **Business Units and outlets** to further validate duplicate submission scenarios.
+
+### 7. Production Receipt – Duplicate Submission & Inventory Validation
+
+**Time: Evening**
+
+- Reviewed **BUG-076 – Production Receipt Duplicate Submission**.
+- Tested **inventory stock levels after each approval**.
+- Verified whether inventory remained consistent after the approval process.
+- **Inventory stock was found to be OK** during validation.
+
+### 8. DMS Task Update
+
+- Updated the **daily DMS task/work status**.
+- Recorded the day's **bug retesting, SR approval validation, SR functional testing, duplicate submission testing, test case execution, and inventory validation activities**.
+
+---
+
+## Key Outcomes
+
+- Retested **7 fixed bugs**, and **all 7 bugs were successfully verified as fixed**.
+- Investigated the **SR approval workflow across different Business Units** and identified an approval visibility issue.
+- Performed SR testing using **different users** to validate approval behavior.
+- Executed **SR test cases TC-SR-018 to TC-SR-024**.
+- Performed **SR double-approval, rejection, and workflow testing**.
+- Investigated **BUG-074 – SR Duplicate Submission** through multiple SR test scenarios across different BUs and outlets.
+- Reviewed **BUG-076 – Production Receipt Duplicate Submission**.
+- Validated inventory stock after approval processing and found the **inventory status OK**.
+- Updated the **daily DMS task status and ERP UAT/bug-reporting documentation**.
