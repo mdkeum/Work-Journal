@@ -1,1 +1,81 @@
+# Day 122 – September 1, 2026
 
+## Office Hours
+
+- **Scheduled:** 10:00 AM – 7:00 PM
+- **Arrived:** 09:57 AM
+- **End:** Around 7:40 PM
+
+---
+
+## Tasks Completed
+
+### 1. SR Test Case Execution, Review & Automation Preparation
+
+**Time: 10:10 AM – 12:59 PM**
+
+- Performed **SR test cases TC-SR-025 to TC-SR-028**.
+- Reviewed the existing **SR test cases** and testing requirements.
+- Discussed the **SR unauthorized approval testing approach**.
+- Discussed **API vs. UI automation approaches** for ERP testing.
+- Set up the **Playwright** environment for UI automation testing.
+- Verified the **Playwright installation** and configuration.
+- Explored **Playwright Codegen** for generating automated test scripts.
+- Set up a **Python virtual environment** for the automation environment.
+
+### 2. SR Test Case Execution
+
+**Time: 2:00 PM – 3:20 PM**
+
+- Performed **SR test cases TC-SR-029 to TC-SR-034**.
+- Performed **2 SR tests** for the assigned test cases.
+- Validated the SR workflow and related test scenarios.
+
+### 3. B2B Sales & SR Functional Testing
+
+**Time: 3:20 PM – 4:39 PM**
+
+- Performed **1 B2B full sales cycle** to test the **approval, cancellation, and void** processes.
+- Performed **3 SR tests** from **BU-01, Outlet-01**.
+- Performed **TC-SR-035** testing.
+- Performed **2 SR tests** in **BU-01, Outlet-03**.
+- Continued testing **SR test cases TC-SR-035 to TC-SR-050**.
+
+### 4. Inventory Module – Bug & Issue Investigation
+
+**Time: 5:15 PM – 6:25 PM**
+
+- Investigated an issue related to the **auto-fill option** in **Inventory → Transactions → Transfer Request**.
+- Reviewed **BUG-077 – Opening Stock Duplicate Submission**.
+- Reviewed **BUG-078 – GRN Duplicate Submission**.
+- Tested the related inventory transaction scenarios to validate the reported issues.
+
+### 5. SR Test Case Execution & Purchase Inventory Testing
+
+**Time: 6:40 PM – 7:00 PM**
+
+- Performed **TC-SR-051 and TC-SR-052**.
+- Tested the **Purchase Inventory module** for the reported **duplicate submission bug**.
+- Performed testing across **6 scenarios** and identified a bug during validation.
+
+### 6. DMS Task Update
+
+**Time: 7:00 PM – 7:30 PM**
+
+- Updated the **daily DMS task/work status**.
+- Recorded the day's **SR test case execution, bug investigation, inventory testing, Playwright setup, and automation-related activities**.
+
+---
+
+## Key Outcomes
+
+- Executed **SR test cases TC-SR-025 to TC-SR-052** across multiple testing sessions.
+- Reviewed the **SR test cases** and developed an approach for **unauthorized approval testing**.
+- Explored **API vs. UI automation** for ERP testing.
+- Set up and verified **Playwright**, including **Codegen**, for future UI automation activities.
+- Set up a **Python virtual environment** for automation testing.
+- Successfully performed **1 B2B full sales cycle** covering approval, cancellation, and void scenarios.
+- Tested SR functionality across **multiple Business Units and outlets**.
+- Investigated **Opening Stock and GRN duplicate submission issues**.
+- Tested the **Purchase Inventory module** for duplicate submission and identified a bug across the tested scenarios.
+- Updated the **daily DMS task status and ERP UAT & Bug Reporting activities**.
