@@ -4,6 +4,76 @@
 
 - **Scheduled:** 10:00 AM – 7:00 PM
 - **Arrived:** 10:03 AM
-- **End:** 7:15 PM
+- **End:** Around 7:15 PM
 
 ---
+
+## Tasks Completed
+
+### 1. Sales Cycle, SR Testing & Excel Assessment
+
+**Time: 10:10 AM – 12:59 PM**
+
+- Performed **1 B2B full sales cycle** and observed the **inventory and overall transaction flow**.
+- The B2B sales cycle **passed successfully**.
+- Performed **1 B2C sales test cycle** and observed the **inventory and transaction flow**.
+- Received an **Excel assessment/exam** through a Google link provided by **HR Head Habib Sir**.
+- Performed **SR test cases** from the assigned test case range.
+- Documented the completed **SR test cases**.
+
+### 2. SQL & Database Learning for ERP
+
+**Time: 2:05 PM – 3:25 PM**
+
+- Learned about **SQL and databases** with a focus on their implementation in the **ERP system**.
+- Studied database-related concepts relevant to ERP operations and development.
+- Created a **new database in PostgreSQL** as part of the learning and practical exercise.
+
+### 3. H&B ERP Full System R&D
+
+**Time: 3:25 PM – 4:13 PM**
+
+- Performed **R&D (Research & Development)** activities for the **H&B ERP full system**.
+- Explored the overall ERP system structure and functionality to support further testing and understanding.
+
+### 4. Test Case Creation – System Admin, Accounts & Sales
+
+**Time: 4:13 PM – 5:00 PM**
+
+- Created new **test cases** for the following ERP modules:
+  - **System Admin**
+  - **Accounts**
+  - **Sales**
+- Created and organized a total of **114 test cases** as part of the ongoing ERP testing documentation.
+
+### 5. System Admin Test Case Creation & Execution
+
+**Time: 5:00 PM – 6:24 PM**
+
+- Created **TC-54 to TC-114** for the ERP system.
+- Performed **System Admin test cases TC-SA-001 to TC-SA-003**.
+- Performed additional **System Admin test cases TC-004 to TC-016**.
+- Validated the **System Admin module** functionality through the created test cases.
+
+### 6. DMS Task Update
+
+**Time: 6:40 PM – 7:15 PM**
+
+- Updated the **daily DMS task/work status**.
+- Recorded the day's **sales cycle testing, SR testing, SQL/database learning, PostgreSQL database creation, ERP R&D, test case creation, and System Admin testing activities**.
+
+---
+
+## Key Outcomes
+
+- Successfully completed **1 B2B full sales cycle** and verified the inventory and transaction flow.
+- Completed **1 B2C sales test cycle** and reviewed its inventory and transaction flow.
+- Completed the assigned **SR testing and test case documentation**.
+- Completed an **Excel assessment** provided through HR.
+- Learned **SQL and database concepts** relevant to ERP implementation.
+- Created a **new PostgreSQL database** for practical learning.
+- Performed **R&D on the H&B ERP full system**.
+- Created and organized **114 ERP test cases** across **System Admin, Accounts, and Sales**.
+- Created **TC-54 to TC-114** as part of the ongoing test case development.
+- Executed **System Admin test cases** and validated the module functionality.
+- Updated the **daily DMS task status and H&B ERP UAT & Bug Reporting activities**.
