@@ -4,4 +4,87 @@
 
 - **Scheduled:** 10:00 AM – 7:00 PM
 - **Arrived:** 10:17 AM
-- **End:** Around 7: PM
+- **End:** Around 7:10 PM
+
+---
+
+## Tasks Completed
+
+### 1. Test Case Tracker Organization & Accounts Module Testing
+
+**Time: 10:25 AM – 1:00 PM**
+
+- Organized and updated the **ERP Test Case Tracker** in Google Docs/Google Sheets.
+- Performed testing on the **Accounts module** for:
+  - Journal Voucher (JV)
+  - Payment Voucher (PV)
+  - Receipt Voucher (RV)
+  - Contra Voucher (CV)
+  - Debit-related voucher functionality
+- Created **3 JV** in **BU-01 → Outlet-01**.
+- Created **1 CV** and **1 RV** in **BU-01**.
+- Verified that the voucher records were displayed correctly.
+- All tested voucher functionalities **passed successfully**.
+
+### 2. Purchase Module – PO & GRN Testing
+
+**Time: 1:00 PM – 2:00 PM**
+
+- Performed **5 Purchase Order (PO) and GRN transactions** in **BU-01**.
+- Tested the PO and GRN flow and verified the transaction process.
+
+### 3. Learning & Development / ERP R&D
+
+**Time: 2:00 PM – 2:35 PM**
+
+- Performed **Learning & Development (L&D)** activities.
+- Conducted **R&D on the H&B ERP system**, focusing on system functionality and business processes.
+
+### 4. B2B & B2C Sales Cycle Testing
+
+**Time: 2:35 PM – 3:50 PM**
+
+- Performed **4 B2B full sales cycle tests**.
+- All B2B sales cycle tests **passed successfully**.
+- Tested **B2B Approval, Reject, and Void** scenarios.
+- All Approval, Reject, and Void tests **passed successfully**.
+- Performed **4 B2C/Cash Sales cycles**.
+- All B2C/Cash Sales tests **passed successfully**.
+
+### 5. Demo Customer Creation & Permission R&D
+
+**Time: 3:50 PM – 4:50 PM**
+
+- Added **1 demo customer – Demo Credit Customer (USA)** from **System Admin → Stakeholders (Master)**.
+- Verified that the newly created customer appeared correctly in the customer list.
+- Performed **R&D on the permission management process**, focusing on how permissions may be assigned to **individual Admins/Users**.
+
+### 6. B2B Sales Testing with Demo Customers Across Business Units
+
+**Time: 5:15 PM – 6:15 PM**
+
+- Performed **1 B2B full sales cycle** using the newly added demo customer in **BU-01**.
+- The B2B sales cycle **passed successfully**.
+- Performed **1 B2B sales cycle in BU-03** using a new demo customer.
+- The test **passed successfully**.
+- Copied the demo customer from **BU-01 to BU-03**.
+- Copied the demo customer from **Stakeholders Master to BU-02**.
+- Performed a **B2B sales test in BU-02** using the copied customer.
+- The test **passed successfully**.
+
+---
+
+## Key Outcomes
+
+- Organized and updated the **ERP Test Case Tracker**.
+- Successfully tested **JV, PV, RV, and CV** functionalities in the Accounts module.
+- Created and verified multiple voucher transactions in **BU-01**.
+- Completed **5 PO & GRN tests** in BU-01.
+- Successfully completed **4 B2B full sales cycles**.
+- Successfully tested **B2B Approval, Reject, and Void** scenarios.
+- Successfully completed **4 B2C/Cash Sales cycles**.
+- Created and verified a **Demo Credit Customer (USA)** from Stakeholders Master.
+- Performed **permission-management R&D** for individual Admins/Users.
+- Tested **demo customer copying across BU-01, BU-02, and BU-03**.
+- Successfully tested B2B sales using **copied/demo customers across different Business Units**.
+- Continued **ERP Learning, Development, and R&D activities**.
