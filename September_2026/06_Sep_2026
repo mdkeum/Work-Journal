@@ -1,1 +1,115 @@
+# Day 125 – September 6, 2026
 
+## Office Hours
+
+- **Scheduled:** 10:00 AM – 7:00 PM
+- **Arrived:** 10:03 AM
+- **End:** 7:12 PM
+
+---
+
+## Tasks Completed
+
+### 1. Bug/Issue Verification & Developer Document Update
+
+**Time: 10:13 AM – 1:04 PM**
+
+- Checked and transferred identified **bugs/issues to the developer documentation**.
+- Reviewed previously reported bugs and checked whether the **old bugs were resolved or still pending**.
+- Updated the relevant bug/issue documentation based on the verification results.
+
+### 2. System Admin – Menu Hierarchy & ORG Structure Testing
+
+**Time: 10:13 AM – 1:04 PM**
+
+- Checked whether the **Menu Hierarchy** under the **System Admin module** was consistent with the actual **Module → Submodule → Menu → Submenu** structure.
+- Identified inconsistencies under **System Admin → ORG Structure**.
+- Observed that the **Outlets and Stores** structure was not properly aligned with the actual functional structure.
+- Documented the identified inconsistencies for further review.
+
+### 3. System Admin – User Management Issue Identification
+
+**Time: 10:13 AM – 1:04 PM**
+
+- Identified an issue under **System Admin → User Management → User List**.
+- Observed that there is **no search/filter option** to quickly find a user by **ID, Name, Email, Role, or Status**.
+- Documented **BUG-083** in Google Docs with supporting screenshot evidence.
+- Identified the potential usability impact when the number of users increases significantly.
+
+### 4. B2B & B2C Sales Cycle Testing
+
+**Time: 10:13 AM – 1:04 PM**
+
+- Performed **2 B2B full sales cycle tests**.
+- Both B2B sales cycle tests **passed successfully**.
+- Performed **1 B2C sales cycle test**, which **passed successfully**.
+
+### 5. System Admin Test Case Execution
+
+**Time: 10:13 AM – 1:04 PM**
+
+- Tested **TC-SA-016 to TC-SA-029** for the **System Admin module**.
+- Continued testing additional System Admin test cases, including **TC-SA-030 to TC-SA-037**.
+- Verified the expected behavior of the tested System Admin functionalities.
+
+### 6. Field Sales Person – Sales Flow Testing
+
+**Time: 2:10 PM – 3:35 PM**
+
+- Performed sales testing as a **Field Sales Person** using the **Keum demo account**.
+- Performed **2 B2B full sales cycle tests** in the test environment.
+- Both B2B sales cycles **passed successfully**.
+- Identified an issue where the **Print Receipt was not generated** after completing the sales process.
+
+### 7. System Admin Test Case Execution & Automation R&D
+
+**Time: 2:10 PM – 3:35 PM**
+
+- Continued execution of **System Admin test cases**.
+- Performed **R&D on test automation**, focusing on how ERP test cases and business flows can be automated.
+- Created a **demo role** to test role-specific **Create, Edit, and Delete** permissions/options.
+- Tested the behavior of the configured role permissions.
+
+### 8. Test Case Documentation & Fixed Bug Retesting
+
+**Time: 3:55 PM – 4:55 PM**
+
+- Documented the executed **System Admin test cases**.
+- Tested previously **fixed bugs** to verify whether the reported issues had been successfully resolved.
+- Documented the retesting results.
+- Continued execution and documentation of System Admin test cases.
+
+### 9. Additional System Admin Test Case Execution
+
+**Time: 5:15 PM – 6:20 PM**
+
+- Continued executing **System Admin test cases**.
+- Verified system behavior against the defined expected results.
+- Updated the test case documentation based on the execution results.
+
+### 10. Additional Test Case & Daily PMS Update
+
+**Time: 6:40 PM – 7:15 PM**
+
+- Performed additional test case execution, including **TC-OS-086**.
+- Updated the **Daily PMS task records**.
+- Documented the day's completed ERP testing, bug reporting, retesting, and R&D activities.
+
+---
+
+## Key Outcomes
+
+- Reviewed and transferred identified **bugs/issues to the developer documentation**.
+- Checked the resolution status of previously reported bugs.
+- Identified **Menu Hierarchy inconsistencies** under **System Admin → ORG Structure**.
+- Identified and documented **BUG-083 – User Management → User List search/filter option missing**.
+- Successfully completed **2 B2B and 1 B2C sales cycle tests**.
+- Successfully completed **2 B2B sales cycle tests as a Field Sales Person** using the demo account.
+- Identified an issue where **Print Receipt was not generated** during Field Sales B2B testing.
+- Executed multiple **System Admin test cases**, including **TC-SA-016 to TC-SA-037**.
+- Performed **test automation R&D** for future ERP automation activities.
+- Created a **demo role** and tested role-specific **Create, Edit, and Delete** permissions.
+- Retested fixed bugs and documented the verification results.
+- Continued **System Admin test case documentation and execution**.
+- Performed additional test case execution, including **TC-OS-086**.
+- Updated the **Daily PMS task records**.
