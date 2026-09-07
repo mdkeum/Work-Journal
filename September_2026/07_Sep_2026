@@ -8,3 +8,117 @@
 
 ---
 
+## Tasks Completed
+
+### 1. Bug/Issue Documentation & Account Mapping Verification
+
+**Time: 10:00 AM – 2:12 PM**
+
+- Documented identified **bugs/issues** for further review and developer action.
+- Performed **account mapping** for State Sales.
+- Observed that due to the **missing mapping, sub-groups were not showing** properly.
+- Verified the mapping behavior and documented the issue.
+
+### 2. Production Receipt & Inventory Verification
+
+**Time: 10:00 AM – 2:12 PM**
+
+- Performed **10 Production Receipt transactions in HBO-01**.
+- Observed that **all inventory was deleted by the development team**.
+- Checked the inventory to understand and verify the impact of the deletion.
+- Observed that the **inventory increased** after the relevant transactions.
+- Observed that **all terminals were deleted** and noted that they need to be recreated.
+
+### 3. B2B & B2C Sales Cycle Testing
+
+**Time: 2:10 PM – 4:02 PM**
+
+- Performed **1 B2B and 1 B2C full sales cycle test**.
+- Both sales cycle tests **passed successfully**.
+
+### 4. SPR & PO Process Testing
+
+**Time: 2:10 PM – 4:02 PM**
+
+- Performed **1 SPR and 4 PO transactions**.
+- Identified some issues during the testing.
+- Reported the identified issues to the **development team**.
+
+### 5. SR Functionality & Multiple SR Creation Testing
+
+**Time: 2:10 PM – 4:02 PM**
+
+- Performed **3 SR tests** to verify the functionality.
+- Tested the ability to create **multiple SRs from a single SR**.
+- The tested functionality **passed successfully**.
+
+### 6. Voucher & Accounts Testing
+
+**Time: 2:10 PM – 4:02 PM**
+
+- Performed **1 JV, 1 PV, 1 RV, and 1 CV**.
+- Verified the transactions and confirmed that they were **OK and passed**.
+- Tested **Accounts → Account Setup → Opening Balances**.
+- Identified an issue during the Opening Balances testing.
+
+### 7. Bug/Issue Identification & Documentation
+
+**Time: 4:02 PM – 4:44 PM**
+
+- Documented the identified bugs/issues.
+- **BUG-084:** Identified an error in **Purchase → SPR → PO** during the **SPR to PO** process.
+- Performed **1 PR in HBO-01**, which **passed successfully**.
+- **BUG-085:** Identified an issue under **Production → Production Receipt**, where the **Save and Submit button was not functioning**.
+
+### 8. Accounts Opening Balance Bug Verification
+
+**Time: 5:00 PM – 7:12 PM**
+
+- Identified and documented **BUG-086** under **Accounts → Accounts Setup → Opening Balances**.
+- Observed that an **error was showing** during the Opening Balances process.
+- Documented the bug/issue found for further review.
+
+### 9. Production Receipt Testing Across Outlets
+
+**Time: 5:00 PM – 7:12 PM**
+
+- Performed **2 PR transactions in HBO-02**.
+- Performed **1 PR in HBI Outlet-04**.
+- Performed **1 PR in HBG Outlet-05**.
+- Verified the Production Receipt functionality across the respective outlets.
+
+### 10. Terminal Creation & Device Binding
+
+**Time: 5:00 PM – 7:12 PM**
+
+- Created **2 new terminals in HBB Outlet-01**.
+- Configured the terminals to **bind devices for sales**.
+- Completed the terminal setup after the database was fully cleaned.
+
+### 11. HBB Outlet B2B & B2C Sales Cycle Testing
+
+**Time: 5:00 PM – 7:12 PM**
+
+- Performed **1 B2B and 1 B2C full sales cycle test** in **HBB Outlet-01**.
+- Both sales cycle tests **passed successfully**.
+
+---
+
+## Key Outcomes
+
+- Documented and reviewed identified **bugs/issues**.
+- Performed **State Sales account mapping** and identified missing mapping that caused sub-groups not to display.
+- Completed **10 Production Receipt transactions in HBO-01**.
+- Verified the impact of inventory deletion and observed **inventory increases** after transactions.
+- Identified that **all terminals were deleted** and required recreation.
+- Successfully completed **1 B2B and 1 B2C full sales cycle test**.
+- Performed **1 SPR and 4 PO tests** and reported identified issues to the development team.
+- Successfully tested **3 SR transactions**, including multiple SR creation from one SR.
+- Successfully tested **1 JV, 1 PV, 1 RV, and 1 CV**.
+- Identified and documented issues in **Accounts → Account Setup → Opening Balances**.
+- Documented **BUG-084 – Error during SPR to PO process**.
+- Documented **BUG-085 – Production Receipt Save and Submit button not functioning**.
+- Documented **BUG-086 – Error showing in Opening Balances**.
+- Successfully performed PR testing across **HBO-01, HBO-02, HBI Outlet-04, and HBG Outlet-05**.
+- Created **2 new terminals in HBB Outlet-01** for device binding and sales.
+- Successfully completed **1 B2B and 1 B2C full sales cycle test in HBB Outlet-01**.
