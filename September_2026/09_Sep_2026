@@ -1,4 +1,4 @@
-# Day 127 – September 9, 2026
+# Day 128 – September 9, 2026
 
 ## Office Hours
 
@@ -7,3 +7,86 @@
 - **End:** 7:05 PM
 
 ---
+
+## Tasks Completed
+
+### 1. Document Update & Terminal Creation
+
+**Time: 10:15 AM – 1:00 PM**
+
+- Updated the **ERP testing and bug-reporting document**.
+- Created **3 new terminals** in **HBB Outlet-01, Outlet-02, and Outlet-03**.
+- Created **3 POS terminals** in **HBI Outlet-04 and HBG Outlet-05**.
+- Created a total of **15 new POS terminals** across **BU-01 to BU-03**.
+- Set up **15 POS devices** in **BU-01 to BU-03**.
+
+### 2. Production Receipt & Stock Testing
+
+**Time: 10:15 AM – 1:00 PM**
+
+- Performed **5 Production Receipt (PR) transactions** to add stock to items.
+- Verified stock movement for **BU-01 to BU-03** and **Outlets 01–05**.
+
+### 3. B2B & B2C Full Sales Cycle Testing
+
+**Time: 10:15 AM – 1:00 PM**
+
+- Performed **1 B2B and 1 B2C full sales cycle test** in **HBB Outlet-02**.
+- Performed **1 B2B full sales cycle test** in **HBI Outlet-04**.
+
+### 4. B2C & SR Testing
+
+**Time: 2:10 PM – 3:16 PM**
+
+- Performed **2 B2C sales transactions** in **HBB Outlet-02**, which **passed successfully**.
+- Performed **1 B2C sales transaction** in **HBI Outlet-04**, which **failed**.
+- Performed **3 SR (Store Requisition) transactions** in **HBB Outlets-01 to 03**, which **passed successfully**.
+- Documented the identified **bug/issue** in the bug-reporting document.
+
+### 5. Accounts & General Ledger Discussion
+
+**Time: 3:16 PM – 3:36 PM**
+
+- Attended a **meeting session with Rakin Bhai** regarding **Accounts and GL (General Ledger)**.
+- Discussed the relevant **GL posting rules and accounting process**.
+
+### 6. SR & Inventory Stock Issue Testing
+
+**Time: 3:36 PM – 4:45 PM**
+
+- Performed **2 SR transactions** in **HBI Outlet-04 and HBG Outlet-05**.
+- Tested the **Requisitions → Store Requisition (SR) → Inventory Stock Issue** process.
+- Performed **1 B2B full sales cycle test**, which **passed successfully**.
+
+### 7. Voucher & Sales Cycle Testing
+
+**Time: 5:00 PM – 6:05 PM**
+
+- Performed **1 JV, 1 PV, 1 RV, and 1 CV** transaction, all **passed successfully**.
+- Performed **1 B2C sales cycle test**, which **passed successfully**.
+- Performed **2 B2B sales cycle tests**, both **passed successfully**.
+- Performed **2 Sales Return transactions**.
+
+### 8. Bug/Issue Identification
+
+**During Testing**
+
+- Identified an error while performing **B2C Sales in HBI Outlet-04**.
+- Observed that there was **no active GL posting rule for the Sales/Cash event**.
+- Documented the issue for further review under **Accounts → GL Posting Rules**.
+
+---
+
+## Key Outcomes
+
+- Updated the **ERP testing and bug-reporting document**.
+- Created and configured **15 new POS terminals/devices** across **BU-01 to BU-03**.
+- Created terminals for **HBB Outlet-01 to 03, HBI Outlet-04, and HBG Outlet-05**.
+- Completed **5 Production Receipt transactions** for stock testing.
+- Successfully tested multiple **B2B and B2C sales cycles** across HBB and HBI outlets.
+- Successfully completed **3 SR tests** in HBB Outlets-01 to 03.
+- Tested the **SR → Inventory Stock Issue** process.
+- Successfully completed **1 JV, 1 PV, 1 RV, and 1 CV**.
+- Performed **2 Sales Return transactions**.
+- Identified and documented a **B2C Sales GL posting-rule issue in HBI Outlet-04**.
+- Participated in a discussion regarding **Accounts and General Ledger (GL)** configuration.
