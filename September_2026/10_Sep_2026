@@ -1,0 +1,68 @@
+# Day 129 – September 10, 2026
+
+## Office Hours
+
+- **Scheduled:** 10:00 AM – 7:00 PM
+- **Arrived:** 10:02 AM
+- **End:** 7:25 PM
+
+---
+
+## Tasks Completed
+
+### 1. B2B & B2C Sales Cycle Testing
+
+**Time: 10:00 AM – 12:58 PM**
+
+- Performed **2 B2B full sales cycle tests without approval settings**, which **passed successfully**.
+- Set up the **approval configuration for POS B2B sales**.
+- Performed **2 B2B sales transactions after approval configuration**, which **passed successfully**.
+- Performed **2 B2C sales transactions**, which **passed successfully**.
+- Performed test cases **TC-SA-087–094**.
+
+### 2. Test Case Execution & Customer Management
+
+**Time: 2:09 PM – 3:15 PM**
+
+- Performed test cases **TC-SA-095–103**.
+- Created **1 demo customer** under **Stakeholders (Master)**.
+- Tested **Edit, Activate, and Inactivate** functions for the newly created customer.
+
+### 3. Production Receipt & Stock Testing
+
+**Time: 3:15 PM – 4:40 PM**
+
+- Performed **5 Production Receipt (PR) transactions** to add stock to items in **HBB Outlet-01**.
+- Performed **1 PR transaction in HBB Outlet-02** and **1 PR transaction in HBB Outlet-03**, which **passed successfully**.
+- Checked inventory for **HBB Outlets-01 to 03** and verified that the stock was added successfully.
+
+### 4. Learning & Development – SQL
+
+**Time: 5:00 PM – 6:20 PM**
+
+- Studied **SQL basics** for the **HBERP project**.
+
+### 5. PostgreSQL Learning
+
+**Time: 6:25 PM – 6:55 PM**
+
+- Continued learning **PostgreSQL**.
+
+### 6. DMS Task Update
+
+**Time: 6:55 PM – 7:20 PM**
+
+- Updated the **DMS task**.
+
+---
+
+## Key Outcomes
+
+- Successfully tested **B2B and B2C sales cycles**.
+- Configured and tested the **POS B2B sales approval process**.
+- Completed test cases **TC-SA-087–094** and **TC-SA-095–103**.
+- Created and tested a **demo customer** with Edit, Activate, and Inactivate functions.
+- Completed **7 Production Receipt (PR) transactions** across HBB Outlets-01 to 03.
+- Verified successful **inventory stock updates** for HBB Outlets-01 to 03.
+- Continued **SQL and PostgreSQL learning** for the HBERP project.
+- Completed the **DMS task update**.
