@@ -1,1 +1,111 @@
+# Day 130 – September 12, 2026
 
+## Office Hours
+
+- **Scheduled:** 10:00 AM – 7:00 PM
+- **Arrived:** 09:52 AM
+- **End:** 7:15 PM
+
+---
+
+## Tasks Completed
+
+### 1. H&B ERP Sales & Inventory Testing
+
+**Time: 10:05 AM – 11:45 AM**
+
+- Set up the **terminal and bound the device for Sales**.
+- Checked inventory to determine whether **restocking was required**.
+- Performed **4 B2B full sales cycle tests**, which **passed successfully**.
+- Checked inventory after B2B sales to verify the **stock impact**, which **passed successfully**.
+- Performed **4 B2C full sales cycle tests**, which **passed successfully**.
+- Checked inventory after B2C sales to verify the **stock impact**, which **passed successfully**.
+
+### 2. PostgreSQL & pgAdmin 4 Learning
+
+**Time: 11:45 AM – 12:52 PM**
+
+- Learned how to use **PostgreSQL from CMD / Command Prompt as Administrator**.
+- Created a **database table with 3 users**, including username and email fields, using **pgAdmin 4**.
+- Practiced **manually inserting and deleting row data** using the pgAdmin 4 interface.
+
+### 3. PostgreSQL Table CRUD Operations
+
+**Time: 2:05 PM – 3:30 PM**
+
+- Practiced **PostgreSQL table CRUD operations**.
+- Added and deleted user records containing **name, number, and email** information.
+- Practiced **commenting out a single-line SQL query using `--`**.
+- Learned how to **comment out multiple SQL queries using `/* */`**.
+
+### 4. Store Requisition & Search Filter Testing
+
+**Time: 3:30 PM – 4:44 PM**
+
+- Performed **2 Store Requisition (SR) transactions** in **HBB Outlet-01**, which **passed successfully**.
+- Tested **all headers and search filters**, which **passed successfully**.
+
+### 5. System Admin Module – Search & Filter Testing
+
+**Time: 5:00 PM – 6:15 PM**
+
+- Tested **System Admin → User Management → User List** search filters:
+  - Keyword
+  - Status
+  - Role
+  - All tested filters were **working successfully**.
+- Tested **Roles → Keyword Filter**, which **passed successfully**.
+- Tested **User Login Audit** search filters:
+  - Username
+  - Start Date
+  - End Date
+  - IP Address
+  - Status
+  - All tested filters were **working successfully**.
+- Tested **Organization Structure → Employee Mapping** search filters:
+  - Organization
+  - Business Unit
+  - Location
+  - Store
+  - Employee
+  - Status
+  - All tested filters were **working successfully**.
+- Tested **Party (Master)** search filters:
+  - Party Type
+  - Customer Type
+  - Keyword
+  - Division
+  - Area
+  - Market
+  - All tested filters were **working successfully**.
+- Performed **1 B2B sales transaction**, which **passed successfully**.
+
+### 6. Accounts Module Testing
+
+**Time: 6:30 PM – 6:53 PM**
+
+- Tested **Accounts → Transactions → Journal Voucher (JV)** search filters.
+- Verified **Date and Status filters**, which were **working successfully**.
+- Created and tested a **Journal Voucher (JV)**.
+- Created **1 Payment Voucher (PV), 1 Receipt Voucher (RV), and 1 Contra Voucher (CV)**, which **passed successfully**.
+
+### 7. DMS Task Update
+
+**Time: 6:53 PM – 7:15 PM**
+
+- Updated the **DMS task**.
+
+---
+
+## Key Outcomes
+
+- Successfully completed **B2B and B2C sales cycle testing** and verified inventory impact after sales.
+- Completed **8 sales cycle tests** during the main Sales testing session.
+- Successfully tested **Store Requisition transactions** in HBB Outlet-01.
+- Tested **headers and search filters** across relevant ERP screens.
+- Completed extensive **System Admin search and filter testing** covering User Management, Roles, User Login Audit, Organization Structure, and Party Master.
+- Continued hands-on learning of **PostgreSQL, pgAdmin 4, and SQL CRUD operations**.
+- Practiced **single-line and multi-line SQL commenting**.
+- Successfully tested **Accounts → Transactions → Journal Voucher** filters and voucher creation.
+- Created and tested **1 JV, 1 PV, 1 RV, and 1 CV** successfully.
+- Completed the **DMS task update**.
