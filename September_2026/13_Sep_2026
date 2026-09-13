@@ -1,0 +1,89 @@
+# Day 131 – September 13, 2026
+
+## Office Hours
+
+- **Scheduled:** 10:00 AM – 7:00 PM
+- **Arrived:** 10:36 AM
+- **End:** 7:25 PM
+
+---
+
+## Tasks Completed
+
+### 1. H&B ERP UAT, Sales & Store Requisition Testing
+
+**Time: 10:40 AM – 11:25 AM**
+
+- Updated the **H&B ERP UAT & Bug Reporting documentation** in Google Docs.
+- Performed **2 Store Requisition (SR) tests**, which **passed successfully**.
+- Performed **1 B2B full sales cycle test**, which **passed successfully**.
+- Performed **1 B2C/Cash Sales cycle test**, which **passed successfully**.
+
+### 2. Meeting with Director Sir
+
+**Time: 11:25 AM – 12:30 PM**
+
+- Attended a meeting with **Director Sir** regarding the ERP system and software setup.
+- Discussed important software setup and **SEL**, which will be managed by the head team in consultation with Director Sir.
+- Discussed **Chart of Accounts (COA) setup**, **Customer Entry**, **Super Admin**, **Developer/Development ID**, and other administrative setup requirements.
+- Discussed the required **system structure and responsibilities**.
+- **Aontor Bhai** will provide a written structure for the required setup.
+- Planned to **present the complete ERP system** to Aontor Bhai.
+
+### 3. Store Requisition Testing & Post-Meeting Review
+
+**Time: 12:35 PM – 12:59 PM**
+
+- Created **2 additional Store Requisition (SR) test cases**, which **passed successfully**.
+- Reviewed the records and requirements that need to be added after the meeting with Director Sir.
+
+### 4. ERP Roles & Access Management
+
+**Time: 2:08 PM – 3:15 PM**
+
+- Edited **4 module-specific roles** for:
+  - **Accounts**
+  - **Sales**
+  - **Purchase**
+  - **Inventory**
+- Created **4 managerial roles** for the respective modules.
+
+### 5. Real User Creation & Verification
+
+**Time: 3:15 PM – 4:45 PM**
+
+- Created **13 new real users** from different departments.
+- Added their relevant information, including **name, phone number, and other required details**.
+- Verified the **13 newly created users** from the user list.
+- Created and documented the **real-user credentials** in Google Docs.
+- Created the required **user permissions**.
+
+### 6. User Login & Credential Verification
+
+**Time: 5:00 PM – 6:25 PM**
+
+- Verified user credentials and permissions for the newly created accounts.
+- Logged in to several accounts using the **new user IDs and passwords**.
+- Confirmed that the login process was **successful**.
+
+### 7. DMS Task Update
+
+**Time: 7:00 PM – 7:25 PM**
+
+- Updated the **DMS task** based on the day's completed activities.
+
+---
+
+## Key Outcomes
+
+- Successfully updated the **H&B ERP UAT & Bug Reporting documentation**.
+- Completed **4 SR tests** during the day, all of which **passed successfully**.
+- Successfully completed **1 B2B** and **1 B2C/Cash Sales** cycle test.
+- Participated in an important **ERP system discussion with Director Sir**.
+- Reviewed ERP setup requirements including **COA, Customer Entry, Super Admin, user/development access, and system structure**.
+- Edited **4 module-specific roles** for Accounts, Sales, Purchase, and Inventory.
+- Created **4 managerial roles** for the respective modules.
+- Created and verified **13 real users** from different departments.
+- Created and documented **real-user credentials** and configured **user permissions**.
+- Successfully verified login access using newly created credentials.
+- Completed the **DMS task update**.
