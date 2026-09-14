@@ -4,6 +4,84 @@
 
 - **Scheduled:** 10:00 AM – 7:00 PM
 - **Arrived:** 10:06 AM
-- **End:** 7: PM
+- **End:** 7:15 PM
 
 ---
+
+## Tasks Completed
+
+### 1. H&B ERP UAT & Sales Cycle Testing
+
+**Time: 10:00 AM – 11:05 AM**
+
+- Performed **4 B2B full sales cycle tests**, which **passed successfully**.
+- Performed **1 B2C/Cash Sales cycle test**, which **passed successfully**.
+- Observed the **inventory after completing all B2B and B2C sales transactions**.
+- Verified that the inventory **decreased correctly** after the sales transactions.
+
+### 2. Real User Creation & Role Assignment
+
+**Time: 11:05 AM – 12:30 PM**
+
+- Created **6 additional real users**.
+- Assigned appropriate **roles to 11 real users** among the total **13 users**.
+- Verified the required user and role assignments.
+
+### 3. Store Requisition & Filter Test Case Creation
+
+**Time: 12:30 PM – 12:59 PM**
+
+- Performed **2 Store Requisition (SR) tests**, which **passed successfully**.
+- Created **test cases for module-specific filter testing**.
+- Created a total of **79 test cases**.
+
+### 4. AI Tools Learning & HRM Test Case Documentation
+
+**Time: 2:00 PM – 3:35 PM**
+
+- Learned about different **AI tools and their practical use cases**.
+- Documented the prepared **test cases in Google Docs**.
+- Created **30 additional HRM test cases**.
+
+### 5. JV & Accounts Module Testing
+
+**Time: 3:35 PM – 4:45 PM**
+
+- Performed **3 Journal Voucher (JV) tests** in **HBB Outlet-01**.
+- Performed **Accounts module test cases TC-FJ-ACC-001–004**.
+- Documented and formatted **30 HRM test cases**.
+
+### 6. Bug/Issue Identification & Documentation
+
+**Time: 5:00 PM – 6:20 PM**
+
+- Identified and documented the following issues:
+
+  - **BUG-088 – Accounts → Day Book**
+    - **Issue:** The outlet filter does not display transactions for the selected outlet.
+
+  - **BUG-089 – Accounts → Transactions**
+    - **Issue:** No option is available to search for a specific voucher.
+
+- Documented the identified bugs with **supporting images and videos**.
+
+### 7. DMS Task Update
+
+**Time: 6:35 PM – 7:00 PM**
+
+- Updated the **daily DMS task** with detailed information on the day's completed activities.
+
+---
+
+## Key Outcomes
+
+- Successfully completed **4 B2B** and **1 B2C/Cash Sales** cycle tests.
+- Verified that **inventory decreased correctly** after sales transactions.
+- Created **6 additional real users** and assigned roles to **11 users** out of the total 13 users.
+- Successfully completed **2 SR tests**.
+- Created a total of **79 test cases**, including **30 additional HRM test cases**.
+- Performed **3 JV tests** in HBB Outlet-01.
+- Completed **Accounts module test cases TC-FJ-ACC-001–004**.
+- Documented and formatted **30 HRM test cases**.
+- Identified and documented **2 Accounts module bugs (BUG-088 and BUG-089)** with supporting images/videos.
+- Completed the **DMS task update**.
