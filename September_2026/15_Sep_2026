@@ -1,1 +1,72 @@
+# Day 133 – September 15, 2026
 
+## Office Hours
+
+- **Scheduled:** 10:00 AM – 7:00 PM
+- **Arrived:** 09:51 AM
+- **End:** 7:10 PM
+
+---
+
+## Tasks Completed
+
+### 1. H&B ERP UAT, Bug Documentation & Store Requisition Testing
+
+**Time: 10:05 AM – 1:08 PM**
+
+- Transferred identified **bugs/issues to the bug documentation**.
+- Performed **1 Store Requisition (SR) test** in **HBB Outlet-01**.
+- Performed **1 SR test each** in:
+  - HBB Outlet-02
+  - HBB Outlet-03
+  - HBI Outlet-04
+  - HBG Outlet-05
+- Set up **employee mapping for Sales from the HRM module**.
+- Performed **1 B2B Sales test** using a real user ID.
+- Performed **1 B2C Sales test** using a real user ID.
+- Performed **1 B2B and 1 B2C Sales test** using real user credentials.
+- Performed **1 SR test** using a real user.
+
+### 2. Real User Sales Cycle & Transaction Testing
+
+**Time: 2:10 PM – 4:45 PM**
+
+- Performed **2 B2B full sales cycle tests** using real user ID and password.
+- Performed **1 B2C Sales test** using real user ID and password.
+- Performed **2 B2B full sales cycle tests** using the same real user on **different terminals**.
+- Performed **1 GRN, 3 PO, and 5 SR tests** in **HBB Outlet**.
+
+### 3. Bug/Issue Identification & Documentation
+
+**Time: 5:00 PM – 6:28 PM**
+
+- Identified and documented the following issues:
+
+  - **HRM → Employees**
+    - **Issue:** No search option is available for **Employee Name** or **Mobile Number**.
+
+  - **Purchase → GRN**
+    - **Issue:** An error occurs during GRN approval.
+    - **Error:** `Error: FA item 'ITEM-04758' has no FA category. Assign an FA category on the item before submit/post.`
+
+- Documented the identified bugs with **supporting images** in Google Docs.
+
+### 4. DMS Task Update
+
+**Time: 6:32 PM – 7:10 PM**
+
+- Updated the **daily DMS task** with detailed information on the day's completed activities.
+
+---
+
+## Key Outcomes
+
+- Successfully tested **Store Requisitions across HBB Outlet-01, HBB Outlet-02, HBB Outlet-03, HBI Outlet-04, and HBG Outlet-05**.
+- Set up **employee mapping for Sales from the HRM module**.
+- Performed multiple **B2B and B2C Sales tests using real user credentials**.
+- Completed **B2B full sales cycle testing**, including testing with the same user on **different terminals**.
+- Performed **1 GRN, 3 PO, and 5 SR tests** in the HBB Outlet.
+- Identified and documented **2 new ERP issues**:
+  - Missing **Employee Name/Mobile Number search options** in HRM → Employees.
+  - **GRN approval error** caused by a missing FA category for **ITEM-04758**.
+- Updated the **daily DMS task** with detailed work information.
