@@ -7,3 +7,74 @@
 - **End:** 07:30 PM
 
 ---
+
+## Tasks Completed
+
+### 1. H&B ERP UAT – Purchase & Sales Testing
+
+**Time: 10:30 AM – 1:00 PM**
+
+- Performed **1 Purchase Requisition (PR) test** in **HBB Outlet-01**.
+- Performed **2 B2B void tests**.
+- Reviewed the **B2B Sales void functionality** and raised the question of whether the **Sales Person should have the option to void a B2B bill**.
+- Performed **1 B2B rejected sales test**.
+- Reviewed the **void and reject permissions** for B2B Sales and considered:
+  - Who should have the option to void or reject a B2B sale?
+  - Whether a rejected bill should be voided or edited.
+- Performed **2 B2C Sales tests**, which passed successfully.
+- Performed **1 B2B Sales test**, which passed successfully.
+
+### 2. Real User Testing – Sales & Inventory
+
+**Time: 2:00 PM – 2:20 PM**
+
+- Performed testing with **real users** for **Sales and Inventory**.
+- Verified the system behavior using real user credentials.
+
+### 3. H&B ERP Discussion with Team Lead
+
+**Time: 2:20 PM – 3:28 PM**
+
+- Attended a meeting with **Aontor Bhai** regarding the **H&B ERP system**.
+- Discussed ongoing ERP UAT, testing activities, and related issues.
+
+### 4. Communication with H&B Team & User Account Setup
+
+**Time: 3:35 PM – 3:55 PM**
+
+- Communicated with the **H&B team** regarding ERP access and user requirements.
+- Created **user IDs and passwords** for the H&B team.
+- Handed over the created credentials to the respective users.
+
+### 5. H&B User Creation & Data Preparation
+
+**Time: 4:57 PM – 6:16 PM**
+
+- Continued **H&B user creation** activities.
+- Created and prepared required user accounts for H&B ERP access.
+
+### 6. H&B Meeting & Master Data Checking
+
+**Time: 6:30 PM – 6:45 PM**
+
+- Attended a **meeting/phone call with the H&B team**.
+- Checked **master data** and reviewed the data provided by H&B.
+
+### 7. DMS Task Update
+
+**Time: 6:45 PM – 7:30 PM**
+
+- Updated the **daily DMS task** with detailed information about the day's completed activities.
+
+---
+
+## Key Outcomes
+
+- Completed **PR testing** in HBB Outlet-01.
+- Performed **B2B void and reject testing** and reviewed the related approval/permission requirements.
+- Successfully completed **2 B2C Sales tests** and **1 B2B Sales test**.
+- Performed **real-user testing for Sales and Inventory**.
+- Discussed the **H&B ERP system** with Aontor Bhai and the H&B team.
+- Created and handed over **user IDs and passwords** for H&B team members.
+- Checked **master data and data provided by H&B**.
+- Updated the **daily DMS task** with detailed work information.
