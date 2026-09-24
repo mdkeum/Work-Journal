@@ -4,6 +4,79 @@
 
 - **Scheduled:** 10:00 AM – 7:00 PM
 - **Arrived:** 10:00 AM
-- **End:** 7: PM
+- **End:** 7:50 PM
 
 ---
+
+## Tasks Completed
+
+### 1. ERP User Management & Employee Data Entry
+
+**Time: 10:09 AM – 12:24 PM**
+
+- Performed a **user check** in the ERP system and **inactivated demo users**.
+- Worked on the **Sales Team requirement** for adding an **In-Charge option in the employee header**.
+- Entered employee data into the **ERP system**.
+- Added data for **57 new employees** to the ERP system.
+
+### 2. Data Organization & Sales Requirement Analysis
+
+**Time: 12:24 PM – 1:03 PM**
+
+- Organized relevant data in the **Google Spreadsheet**.
+- Reviewed the **Sales Team requirement** related to **Risk Management**.
+- Identified the new requirement for **Special/Attention Customers**.
+
+### 3. Purchase Requisition Testing
+
+**Time: 1:03 PM – 2:00 PM**
+
+- Performed **2 PR (Purchase Requisition)** transactions successfully.
+
+### 4. Sales & Accounts Discussion and Customer Data Entry
+
+**Time: 2:00 PM – 4:00 PM**
+
+- Attended a short meeting with the **Sales and Accounts Teams**.
+- Continued **Customer Type data entry** in the ERP system.
+- Performed **R&D to identify an automation approach** for customer data entry.
+- Developed and tested an automation approach using **Python, Playwright, and Excel**.
+- Input **186 data records** using the automation code.
+
+### 5. Customer Data Entry & Sales Requirement Follow-up
+
+**Time: 5:00 PM – 6:22 PM**
+
+- Continued **customer data entry** in the ERP system.
+- Worked on the **Sales Team requirement** for **Risk Management**.
+- Reviewed the requirement for a **Risk Management dropdown** for **Special Attention Customers**.
+
+### 6. Customer Sub-Type Data Automation
+
+**Time: 6:26 PM – 7:28 PM**
+
+- Performed **R&D on customer sub-type data automation**.
+- Organized **Customer Type and Customer Sub-Type data** in an Excel file for automation.
+- Entered all **86 Customer Sub-Type data rows** in both **English and Bangla** using Python automation.
+- Worked on automating **Customer Type and Customer Sub-Type data entry** into the H&B ERP using **Python, Playwright, and Excel**.
+
+### 7. DMS Data Update
+
+**Time: 7:28 PM – 7:50 PM**
+
+- Updated the **DMS data** with details of the day's completed activities.
+
+---
+
+## Key Outcomes
+
+- Checked ERP users and **inactivated demo users**.
+- Added data for **57 new employees** to the ERP system.
+- Successfully completed **2 PR transactions**.
+- Organized customer-related data in **Google Sheets and Excel**.
+- Worked with the Sales and Accounts Teams on **Risk Management and Special/Attention Customer requirements**.
+- Performed R&D and developed an automation approach using **Python, Playwright, and Excel**.
+- Automated/input **186 customer-related data records**.
+- Completed entry of **86 Customer Sub-Type records** in both **English and Bangla**.
+- Continued development of **Customer Type and Customer Sub-Type ERP data-entry automation**.
+- Completed the **DMS data update**.
