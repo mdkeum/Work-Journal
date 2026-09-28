@@ -7,3 +7,90 @@
 - **End:** 7:15 PM
 
 ---
+
+## Tasks Completed
+
+### 1. Meeting & ERP Coordination
+
+**Time: 10:14 AM – 10:30 AM**
+
+- Attended a meeting with **Zakir Bhai** regarding ongoing H&B ERP activities.
+
+### 2. System Admin – User Management Filter Testing
+
+**Time: 10:30 AM – 11:25 AM**
+
+- Performed **module filter testing** under **System Admin → User Management → User List**.
+- Tested the following filters:
+  - **Keyword Filter** – working fine.
+  - **Status Filter** – Active, Inactive, and All working fine.
+  - **Department Filter** – working fine.
+  - **Role Filter** – working fine.
+  - **Role Sub-menu / Keyword Filter** – working fine.
+- Verified that the tested filters were functioning correctly.
+
+### 3. Customer Data Export
+
+**Time: 11:25 AM – 12:25 PM**
+
+- Exported **Customer Entry data** from the ERP system.
+- Reviewed the exported customer information for further data-related activities.
+
+### 4. User Login Audit Testing
+
+**Time: 12:25 PM – 1:22 PM**
+
+- Tested the **User Login Audit** functionality.
+- Verified the following fields:
+  - Username
+  - Start Date
+  - End Date
+  - IP Address
+  - Status
+- Confirmed that the tested functionality was **working successfully**.
+
+### 5. System Admin – Business Unit Testing
+
+**Time: 2:05 PM – 2:45 PM**
+
+- Tested **System Admin → Business Units** functionality.
+- Tested the **Active/Inactive** status of Business Units.
+- Verified that the Business Unit status changes correctly and the updated status is properly displayed in the list.
+
+### 6. Meeting with HB Accounts Team
+
+**Time: 2:48 PM – 4:08 PM**
+
+- Attended a meeting with the **HB Accounts Team**.
+- Discussed accounts-related processes, data, and requirements.
+
+### 7. Accounting Research & Learning
+
+**Time: 4:08 PM – 4:45 PM**
+
+- Conducted **R&D on accounting-related topics**.
+- Reviewed the **Harvard Business School website** to learn about financial terms.
+- Reviewed the **HBS Online Learning Guide** for additional accounting and financial learning.
+
+### 8. Vendor Data Cleaning & AI-Assisted Data Formatting
+
+**Time: 5:05 PM – 6:08 PM**
+
+- Performed **vendor data cleaning** in Google Spreadsheet.
+- Explored the use of **Claude AI** for standardizing and formatting vendor data.
+- Worked on **data formatting and restructuring** requirements.
+- Tested the free version of Claude for data conversion; however, the conversion attempt was unsuccessful due to the limitations of the free plan.
+
+---
+
+## Key Outcomes
+
+- Completed a meeting with **Zakir Bhai** regarding H&B ERP activities.
+- Successfully tested **User Management filters**, including keyword, status, department, and role filters.
+- Exported **Customer Entry data** from the ERP system.
+- Successfully tested the **User Login Audit** functionality and verified the required fields.
+- Tested **Business Unit Active/Inactive functionality** and verified status changes.
+- Participated in a meeting with the **HB Accounts Team** regarding accounts-related requirements.
+- Conducted **accounting-related R&D** and reviewed financial learning resources from Harvard Business School.
+- Cleaned and organized **vendor data in Google Spreadsheet**.
+- Explored **Claude AI** for vendor data standardization, formatting, and restructuring.
