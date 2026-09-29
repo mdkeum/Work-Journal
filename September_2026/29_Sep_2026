@@ -4,6 +4,91 @@
 
 - **Scheduled:** 10:00 AM – 7:00 PM
 - **Arrived:** 10:17 AM
-- **End:** 7:10 PM
+- **End:** 07:10 PM
 
 ---
+
+## Tasks Completed
+
+### 1. H&B ERP UAT & Sales Cycle Testing
+
+**Time: 10:20 AM – 11:20 AM**
+
+- Performed **1 B2B and 1 B2C full-cycle sales test**.
+- Both sales cycle tests were **passed successfully**.
+- Tested **Active/Inactive functionality** under **System Admin → ORG Structure**.
+- Changed an outlet status from **Active to Inactive** and verified the status change.
+- Reactivated the outlet and verified that the status changed back to **Active**.
+- Performed **Sales module Active/Inactive testing** and confirmed that the functionality was working.
+
+### 2. System Admin – ORG Structure Testing & Requirements
+
+- Tested **System Admin → ORG Structure → Employee Mapping**.
+- Identified that the **Employee Mapping List does not have a Department column**.
+- Identified that changing a user's **Active/Inactive status** from **User List** has no impact on the corresponding employee status in **Employee Mapping**.
+- Documented the identified issues for further development review.
+
+### 3. Accounts Module – Active/Inactive Testing
+
+- Tested Active/Inactive functionality under **Accounts → Setup**.
+- **Cost Center** — Active/Inactive status working correctly.
+- **GL Posting Rules** — Active/Inactive status working correctly.
+- **Account Types** — Active/Inactive status working correctly.
+- **Account Sub-types** — Active/Inactive status working correctly.
+
+### 4. Accounts → General Entries – Non-Customer Testing
+
+- Tested **Non-Customer List → Active/Inactive** functionality.
+- Identified that the **Active/Inactive status is not functioning properly**.
+- Documented the issue for further investigation.
+
+### 5. Accounts → General Entries – Bank Testing
+
+- Tested **Bank → Bank Name** functionality.
+- Identified that there is **no search/filter option for Bank Code or Bank Name**.
+- Tested bank deactivation functionality.
+- Found that when a bank is deactivated, the bank record is **removed from the list instead of remaining with an Inactive status**.
+- Documented the issue with the affected bank record for developer review.
+
+### 6. Meeting & Sales Module Demonstration
+
+**Time: 3:55 PM – 4:45 PM**
+
+- Attended a meeting with the **H&B Sales Team**.
+- Demonstrated the **Sales module** and related ERP processes.
+- Discussed the Sales workflow and system functionality with the team.
+
+### 6. Meeting with H&B Sales Team
+
+**Time: 5:05 PM – 6:02 PM**
+
+- Attended a meeting with the **H&B Sales Team** and **Mr. Firoz**.
+- Discussed sales-related processes, ERP requirements, and operational activities.
+- Discussed the **Sales module workflow and functionality** with the team.
+
+### 7. Discussion Documentation & Developer Coordination
+
+**Time: 6:17 PM – 6:40 PM**
+
+- Documented the key points and requirements discussed during the meeting with the **H&B Sales Team**.
+- Communicated the identified **ERP requirements and issues** to the **Development Team**.
+- Discussed the requirements with the developers for further review and implementation.
+
+### 8. Discussion Documentation & Developer Coordination
+
+**Time: 6:40 PM – 7:15 PM**
+- DMS Task update.
+
+---
+
+## Key Outcomes
+
+- Successfully completed **1 B2B and 1 B2C full-cycle sales tests**.
+- Verified **Outlet Active/Inactive and Reactivation** functionality.
+- Successfully tested Active/Inactive functionality for **Cost Center, GL Posting Rules, Account Types, and Account Sub-types**.
+- Identified **Employee Mapping Department column requirement**.
+- Identified **User Active/Inactive → Employee Mapping synchronization issue**.
+- Identified **Non-Customer Active/Inactive functionality issue**.
+- Identified **Bank search/filter and deactivation behavior issues**.
+- Conducted a **Sales module demonstration for the H&B Sales Team**.
+- Continued **ERP UAT, functional testing, bug identification, and requirements documentation**.
