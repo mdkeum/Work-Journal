@@ -10,28 +10,60 @@
 
 ## Tasks Completed
 
-### 1. Meeting & Requirement Discussion
+### 1. Documentation & Data Cleaning
+
+**Time: 10:20 AM – 1:05 PM**
+
+- Performed **documentation and office-related work**.
+- Cleaned **party and employee names** in Excel.
+- Transferred data from **one Excel file to another**.
+- Cleaned and organized the required data for further ERP-related activities.
+
+### 2. Continued Data Cleaning & Organization
+
+**Time: 2:05 PM – 3:30 PM**
+
+- Continued the **data cleaning and preparation** work.
+- Removed **unnecessary rows and columns** from the Excel data.
+- Organized the cleaned data for further processing and ERP requirements.
+
+### 3. Inventory Team Meeting & Requirement Discussion
+
+**Time: 3:30 PM – 4:10 PM**
+
+- Attended a meeting with the **H&B Inventory Team (Mr. Biswas)**.
+- Discussed the **Rejection Quantity Ledger** requirement with vendor names maintained in a **separate ledger**.
+- Discussed the **Stock Summary** and related inventory requirements.
+- Discussed the requirement for **Production Unit Price and Sales Price** setup.
+- Discussed the requirement for setting up the relevant prices **manually** where necessary.
+- Discussed the **Production and Vendor List dropdown** requirement.
+- Identified the required vendors for the dropdown, including:
+  - **Helal Brothers**
+  - **Amanat Shah Fabrics**
+  - **Amanat Shah Tower**
+
+### 4. Meeting & Requirement Analysis
 
 **Time: 4:10 PM – 4:25 PM**
 
 - Attended a meeting with **Azakin Bhai**.
 - Discussed ongoing ERP-related requirements and activities.
 
-### 2. Requirement Analysis & Documentation
+### 5. Requirement Analysis & Documentation
 
 **Time: 4:25 PM – 4:45 PM**
 
 - Analyzed the discussed **ERP requirements**.
 - Documented and noted down the relevant requirements for further discussion and development.
 
-### 3. Inventory Requirement Analysis
+### 6. Inventory Requirement Analysis
 
 **Time: 5:00 PM – 5:30 PM**
 
 - Analyzed the **Inventory module requirements**.
 - Prepared the identified requirements and shared them with the **Development Team** for further review and implementation.
 
-### 4. Sales Team Meeting & Sales Requirements Discussion
+### 7. Sales Team Meeting & Sales Requirements Discussion
 
 **Time: 5:30 PM – 6:00 PM**
 
@@ -43,14 +75,14 @@
   - Three-Piece
 - Discussed **customer-wise reporting and customer selection/dropdown requirements** for POS billing.
 
-### 5. Sales & Inventory Requirement Analysis
+### 8. Sales & Inventory Requirement Analysis
 
 **Time: 6:12 PM – 6:43 PM**
 
 - Analyzed **Sales and Inventory requirements**.
 - Discussed the identified requirements and related system improvements with the **Development Team**.
 
-### 6. DMS Data Update
+### 9. DMS Data Update
 
 **Time: 6:44 PM – 7:00 PM**
 
@@ -60,11 +92,16 @@
 
 ## Key Outcomes
 
-- Attended meetings with **Azakin Bhai** and the **H&B Sales Team**.
+- Completed **Excel data cleaning and organization** for party and employee names.
+- Transferred and cleaned data between different Excel files.
+- Removed **unnecessary rows and columns** from the dataset.
+- Participated in an **Inventory Team meeting** and discussed rejection quantity, stock summary, production pricing, and vendor-related requirements.
+- Identified requirements for **Production Unit Price and Sales Price** configuration.
+- Discussed **Production and Vendor List dropdown** requirements with the Inventory Team.
 - Analyzed and documented various **ERP requirements**.
 - Prepared and shared **Inventory requirements** with the Development Team.
 - Discussed **Sales, Accounts, and Cash Collection** requirements with the Sales Team.
-- Identified requirements for **customer-wise sales reporting** for products such as Sharee, Lungi, and Three-Piece.
+- Identified requirements for **customer-wise sales reporting** for Sharee, Lungi, and Three-Piece.
 - Discussed **customer selection/dropdown requirements for POS billing**.
 - Discussed **Sales and Inventory requirements** with the Development Team.
 - Completed the **DMS data update**.
