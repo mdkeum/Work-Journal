@@ -1,1 +1,85 @@
+# Day 147 – October 1, 2026
 
+## Office Hours
+
+- **Scheduled:** 10:00 AM – 7:00 PM
+- **Arrived:** 10:06 AM
+- **End:** 07:15 PM
+
+---
+
+## Tasks Completed
+
+### 1. H&B ERP Requirement Understanding, Issue Resolution & Functional Testing
+
+**Time: 10:10 AM – 12:59 PM**
+
+- Worked on **H&B ERP requirement understanding** and issue resolution.
+- Reviewed and understood **issues resolved by the Development Team**.
+- Performed **functional testing** of the resolved ERP issues.
+- Tested the **Production → Production Receipt** functionality.
+- Identified the following issues:
+  - **No Vendor available in the Production Receipt Vendor dropdown/production line.**
+  - **No validation when saving the Production Receipt without selecting the mandatory Vendor field.**
+- Verified that the issues were resolved after adding the required Vendor.
+- Created **1 Vendor with complete details** for **H&B Baburhat, Narsingdi**.
+- Reviewed the Sales and Inventory requirements and noted that **most of the discussed requirements have been fulfilled**.
+
+### 2. Production & Sales Functional Testing
+
+**Time: 2:05 PM – 4:45 PM**
+
+- Successfully performed **2 Production Receipts (PR)** using the ERP system.
+- Performed **2 B2B Cash Sales full-cycle tests** and verified successful completion.
+- Performed **Vendor data cleaning** by collecting the required information from the Inventory data.
+- Prepared and entered the cleaned **Vendor data into the ERP system**.
+
+### 3. Vendor Data Entry & ERP Update
+
+**Time: 5:00 PM – 5:35 PM**
+
+- Continued entering **Vendor data into the ERP system**.
+- Updated the required vendor information for ERP use.
+
+### 4. Meeting with Zakir Bhai
+
+**Time: 5:35 PM – 5:48 PM**
+
+- Attended a meeting with **Zakir Bhai**.
+- Discussed ongoing **ERP vendor data and related activities**.
+
+### 5. Continued Vendor Data Entry
+
+**Time: 5:48 PM – 6:07 PM**
+
+- Continued **Vendor data entry** in the ERP system.
+- Verified the entered vendor information.
+
+### 6. Purchase Order Creation & Issue Resolution
+
+**Time: 6:07 PM – 6:55 PM**
+
+- Created **1 Purchase Order (PO)** using actual purchase data.
+- Identified an **Accounts Payable (AP)-related error** during the process.
+- Investigated and **resolved the identified error**.
+
+### 7. DMS Data Update
+
+**Time: 6:55 PM – 7:15 PM**
+
+- Updated the **DMS data** with details of the day's completed activities and ERP work.
+
+---
+
+## Key Outcomes
+
+- Performed **H&B ERP requirement understanding and functional testing**.
+- Tested **Production Receipt** functionality and identified two Production-related issues.
+- Verified the resolution of the **Vendor dropdown** and **mandatory Vendor validation** issues.
+- Created **1 Vendor** with required details for H&B Baburhat, Narsingdi.
+- Successfully completed **2 Production Receipts**.
+- Successfully completed **2 B2B Cash Sales full-cycle tests**.
+- Cleaned and entered **Vendor data** into the ERP system.
+- Created **1 Purchase Order** using actual purchase data.
+- Identified and resolved an **AP-related error** during PO processing.
+- Completed the **DMS data update**.
