@@ -1,1 +1,83 @@
+# Day 148 – October 4, 2026
 
+## Office Hours
+
+- **Scheduled:** 10:00 AM – 7:00 PM
+- **Arrived:** 10:07 AM
+- **End:** 07:20 PM
+
+---
+
+## Tasks Completed
+
+### 1. H&B ERP Documentation & Active/Inactive Functional Testing
+
+**Time: 10:20 AM – 1:00 PM**
+
+- Worked on **H&B ERP document management** and documentation updates.
+- Performed **Active/Inactive functional testing across ERP modules** to verify whether status changes have the expected impact throughout the system.
+- Tested **System Admin → Org Structure → Business Units**.
+- Tested **Business Unit, Outlet, and Store** Active/Inactive functionality.
+- Identified the following issues:
+  - **Inactive Business Unit** still available in the Header Business Unit selector.
+  - **Inactive Outlet** still available in the Header Outlet selector.
+  - **Inactive Store** still available in the Header Store selector.
+
+### 2. System Admin Filter Testing & Requirement Identification
+
+**Time: 2:05 PM – 4:31 PM**
+
+- Continued testing **System Admin → Org Structure → Business Units**.
+- Identified the need for search/filter functionality using:
+  - Organization Name
+  - Organization Code
+  - Business Unit Name
+  - Active/Inactive status
+- Tested the **Outlet** section and identified the need for similar search and Active/Inactive filters.
+- Performed **Accounts module Active/Inactive testing**.
+- Identified that **Accounts → General Entries → Non-Customer Active/Inactive status is not functioning as expected**.
+- Tested **Bank Active/Inactive functionality** and identified that deactivating a bank causes the bank record to be removed instead of remaining with an **Inactive** status.
+- Tested **Purchase → Vendor (Master)** and identified that an inactive Vendor status is **not reflected in the Vendor List**.
+
+### 3. ERP Bug Documentation & Reporting
+
+**Time: 4:42 PM – 5:55 PM**
+
+- Documented the identified ERP bugs in the **Google Spreadsheet**.
+- Captured **screenshots and screen-recording videos** as evidence for the identified issues.
+- Reported the identified bugs to the **Development Team**.
+- Organized the relevant bug evidence for tracking and verification.
+
+### 4. Bug Documentation & Additional Functional Testing
+
+**Time: 6:10 PM – 6:54 PM**
+
+- Continued documenting the identified bugs with corresponding **images and videos**.
+- Performed **Accounts → Accounts Setup → Cost Center Active/Inactive testing**.
+- Verified that the **Cost Center Active/Inactive functionality passed the test**.
+- Reviewed **Customer Type / Customer Subtype** functionality and identified the requirement for search filters to search customers based on:
+  - Code
+  - English Name
+  - Bangla Name
+  - Status
+
+### 5. DMS data update
+
+**Time: 6:54 PM – 7:25 PM**
+-DMS data update with details.
+
+
+---
+
+## Key Outcomes
+
+- Performed **system-wide Active/Inactive functional testing** across multiple ERP modules.
+- Tested Active/Inactive functionality for **Business Units, Outlets, Stores, Non-Customers, Banks, Vendors, and Cost Centers**.
+- Identified issues where inactive **Business Units, Outlets, and Stores remain available in Header selectors**.
+- Identified an issue where **Bank deactivation removes the record instead of setting it to Inactive**.
+- Identified an issue where **Vendor Master Inactive status is not reflected in the Vendor List**.
+- Identified that **Non-Customer Active/Inactive functionality is not working as expected**.
+- Verified that **Cost Center Active/Inactive functionality passed**.
+- Identified required **search/filter improvements** for Business Units, Outlets, Customer Types, and Customer Subtypes.
+- Documented bugs in the **Google Spreadsheet** with supporting screenshots and videos.
+- Reported the identified issues to the **Development Team**.
