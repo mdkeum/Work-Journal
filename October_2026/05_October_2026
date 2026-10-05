@@ -1,1 +1,97 @@
+# Day 150 – October 5, 2026
 
+## Office Hours
+
+- **Scheduled:** 10:00 AM – 7:00 PM
+- **Arrived:** 10:39 AM
+- **End:** 08:55 PM
+
+---
+
+## Tasks Completed
+
+### 1. H&B ERP Documentation, Requirement Resolution & B2B Sales Testing
+
+**Time: 10:42 AM – 11:10 AM**
+
+- Worked on **H&B ERP documentation and organization**.
+- Solved one **requirement raised by the H&B team**.
+- Performed **1 complete B2B Sales cycle**.
+- Verified that the B2B Sales cycle **passed successfully**.
+
+### 2. ERP Discussion & COA Mapping Preparation
+
+**Time: 11:10 AM – 12:38 PM**
+
+- Attended a meeting with **Zakir Bhai** regarding ERP activities.
+- Discussed **COA (Chart of Accounts) mapping requirements** for adding COA data into the ERP.
+- Started the **ERP COA mapping process**.
+
+### 3. ERP COA Mapping
+
+**Time: 12:38 PM – 2:04 PM**
+
+- Continued the **ERP COA mapping activity**.
+- Performed **3 COA mappings** for ERP implementation.
+- Reviewed the required COA structure and mapping information.
+
+### 4. COA Mapping, ERP Sub-Head Updates & Duplicate Data Checking
+
+**Time: 2:04 PM – 4:31 PM**
+
+- Continued **COA mapping for ERP**.
+- Performed and edited **8 sub-heads in the ERP** based on the marked sub-head ledger.
+- Performed **duplicate data checking in Excel** for **Non-Customers in the Accounts module**.
+- Started **R&D with Python automation** to identify duplicate Non-Customer records.
+
+### 5. Python Automation R&D for Duplicate Non-Customer Checking
+
+**Time: 4:45 PM – 5:50 PM**
+
+- Continued **R&D with Python automation** for checking duplicate Non-Customer records.
+- Worked on automating the process of comparing and identifying potentially duplicate records.
+- Prepared the automation workflow for checking duplicate Non-Customers against ERP data.
+
+### 6. ERP Duplicate Data Checking Using Python Automation
+
+**Time: 6:08 PM – 6:30 PM**
+
+- Ran the **Python automation script** to check duplicate Non-Customer records from the **ERP system**.
+- Tested the automation workflow against ERP records to identify duplicate entries.
+
+### 7. Meeting with Director Sir
+
+**Time: 6:30 PM – 7:15 PM**
+
+- Attended a **meeting with Director Sir**.
+- Discussed relevant ERP and business activities.
+
+### 8. Meeting with Aontor Bhai & Zakir Bhai
+
+**Time: 7:15 PM – 7:45 PM**
+
+- Attended a meeting with **Aontor Bhai and Zakir Bhai**.
+- Discussed ongoing ERP-related activities and requirements.
+
+### 9. DMS Data Update
+
+**Time: 7:45 PM – 7:55 PM**
+
+- Performed the **daily DMS data update**.
+- Updated the required DMS information as part of the daily operational activities.
+
+---
+
+## Key Outcomes
+
+- Completed and passed **1 full B2B Sales cycle**.
+- Resolved **one requirement from the H&B team**.
+- Initiated and continued **COA mapping for ERP implementation**.
+- Completed **3 COA mappings**.
+- Edited **8 ERP sub-heads** based on the marked sub-head ledger.
+- Performed **duplicate Non-Customer data checking in Excel**.
+- Conducted **R&D on Python automation** for duplicate Non-Customer identification.
+- Ran the **Python automation script against ERP data** to check duplicate Non-Customer records.
+- Participated in meetings with **Zakir Bhai, Director Sir, and Aontor Bhai** regarding ERP/business activities.
+- Completed the **daily DMS data update**.
+- Continued applying **SQA, ERP data validation, business requirement analysis, and Python automation** in daily ERP operations.
