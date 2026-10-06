@@ -7,3 +7,85 @@
 - **End:** 07:52 PM
 
 ---
+
+## Tasks Completed
+
+### 1. H&B ERP Documentation, B2B Sales Testing & Vendor Setup
+
+**Time: 10:05 AM – 11:05 AM**
+
+- Worked on **H&B ERP UAT and work documentation**.
+- Performed **1 complete B2B Sales cycle** and verified that it **passed successfully**.
+- Added **1 new vendor** to the Vendor List under the **Standard Company Building**.
+- Attended a **short meeting with the IT Team** regarding the upcoming visit/tour.
+
+### 2. Duplicate Non-Customer Identification & ERP Data Validation
+
+**Time: 11:05 AM – 1:52 PM**
+
+- Worked on **identifying duplicate Non-Customer records** in the ERP.
+- Reviewed and processed Non-Customer records for **inactivation of duplicate entries**.
+- Identified the requirement for an **Active/Inactive search filter** under:
+  **Accounts → General Entries → Non-Customer**.
+- The filter would help ensure that only **active Non-Customer records** are copied/used in the BU.
+- Processed the Non-Customer records through the required sequence for duplicate identification and validation.
+
+### 3. Automated ERP Data Processing & Human-in-the-Loop Validation
+
+**Time: 2:22 PM – 4:28 PM**
+
+- Worked on **automated ERP data processing with human-in-the-loop validation** for **Accounts → Non-Customer** records.
+- Continued processing Non-Customer records for **data validation and verification**.
+- Worked with the ERP dataset containing approximately **2,725 customer records**.
+- Continued **Python automation** for systematic data processing and duplicate identification.
+- Performed **data cleaning** and prepared separate Excel files containing:
+  - Duplicate records
+  - Complete/processed data
+
+### 4. Duplicate Non-Customer Data Identification & Inactivation
+
+**Time: 4:38 PM – 5:50 PM**
+
+- Found **79 duplicate Non-Customer records**.
+- Inactivated duplicate Non-Customer records using **Python automation and manual verification**.
+- Verified the processed records against the ERP data to ensure accurate inactivation.
+
+### 5. ERP Duplicate Non-Customer Inactivation
+
+**Time: 6:00 PM – 7:03 PM**
+
+- Continued inactivating **duplicate Non-Customer records** in the ERP.
+- Processed the identified duplicate records through the ERP system.
+- Continued verification of the inactivated records.
+
+### 6. Final Duplicate Data Processing & ERP Verification
+
+**Time: 7:03 PM – 7:38 PM**
+
+- Performed **DMS data update**.
+- Continued processing and inactivation of duplicate Non-Customer records in the ERP.
+- In total, **196 duplicate Non-Customer records were inactivated through Python-based automation and verification**.
+
+### 7. DMS Data Update
+
+**Time: 7:39 PM – 7:52 PM**
+
+- Completed the **DMS data update**.
+- Updated the required DMS information as part of the daily operational activities.
+
+---
+
+## Key Outcomes
+
+- Completed and passed **1 full B2B Sales cycle**.
+- Added **1 new vendor** to the ERP Vendor List.
+- Participated in an **IT meeting regarding the upcoming tour/visit**.
+- Identified and processed **duplicate Non-Customer records** in the ERP.
+- Found **79 duplicate Non-Customer records** during the duplicate-checking process.
+- Used **Python automation with human verification** for ERP data validation and duplicate identification.
+- Successfully **inactivated a total of 196 duplicate Non-Customer records** through automation and verification.
+- Performed **data cleaning and Excel-based data preparation** for duplicate and complete datasets.
+- Identified the requirement for an **Active/Inactive search filter** in the Non-Customer section to improve ERP data handling.
+- Worked with approximately **2,725 customer records** for data processing and validation.
+- Completed the **daily DMS data update**.
+- Continued applying **SQA, ERP data validation, business requirement analysis, data cleaning, and Python automation** in daily ERP operations.
