@@ -1,1 +1,90 @@
+# Day 152 – October 7, 2026
 
+## Office Hours
+
+- **Scheduled:** 10:00 AM – 7:00 PM
+- **Arrived:** 10:17 AM
+- **End:** 07:10 PM
+
+---
+
+## Tasks Completed
+
+### 1. Sales Customer Data Download, Verification & Department Analysis
+
+**Time: 10:22 AM – 11:35 AM**
+
+- Downloaded and reviewed **Sales Customer data** for verification.
+- Conducted **R&D on Accounts and Sales modules** to understand the respective **departmental roles and responsibilities**.
+- Compared the customer lists between the relevant **Accounts and Sales records**.
+- Verified the **Non-Customer Accounts and Customer-Sales lists** against the master data.
+- Found no additional customer records in the lists beyond the existing master records.
+
+### 2. Meeting with H&B Sales Team
+
+**Time: 11:35 AM – 12:59 PM**
+
+- Attended a meeting with the **H&B Sales Team**.
+- Discussed the **customer, sales and credit/debit-related requirements**.
+- Reviewed relevant customer/account transaction information and business requirements with the Sales Team.
+- Discussed the applicable credit/debit entries and their corresponding business context.
+
+### 3. Duplicate Customer Identification & Sales Master Data Automation
+
+**Time: 2:02 PM – 4:32 PM**
+
+- Performed **Python automation to separate duplicate customers** from the Sales Master data.
+- Stored the relevant **customer IDs** for duplicate identification and verification.
+- Marked the identified duplicate customer records in **yellow** for easy visual verification.
+- Created a **separate Excel tab/file for duplicate Sales customers**.
+- Continued automation-based processing for **duplicate customer identification and deactivation**.
+
+### 4. Duplicate Account Data Verification
+
+**Time: 4:47 PM – 5:49 PM**
+
+- Performed **duplicate checking for Accounts data**.
+- Reviewed the previously identified **79 duplicate records**.
+- Verified the duplicate records and confirmed that **all previously processed records passed the verification**.
+- Continued duplicate data identification using **Python automation**.
+
+### 5. Automated Duplicate Data Identification & Deactivation
+
+**Time: 5:49 PM – 6:00 PM**
+
+- Continued **duplicate data identification using automation**.
+- Processed the first batch of duplicate records **(1–20)**.
+- Prepared the identified records for ERP-level deactivation and verification.
+
+### 6. Duplicate Data Identification & ERP Deactivation
+
+**Time: 6:00 PM – 6:58 PM**
+
+- Continued **duplicate data identification and deactivation** using the automated workflow.
+- Processed the next batch of duplicate records **(21–58)**.
+- Performed verification of the processed records before deactivation.
+- Continued the controlled deactivation process because the exact customer usage/status needed to be verified before permanently changing the records.
+
+### 7. DMS Data Update
+
+**Time: 6:58 PM – 7:10 PM**
+
+- Completed the **daily DMS data update**.
+- Updated the required DMS information as part of the daily operational activities.
+
+---
+
+## Key Outcomes
+
+- Downloaded and verified **Sales Customer data**.
+- Conducted **R&D on Accounts and Sales modules** to understand departmental roles and responsibilities.
+- Verified **Non-Customer Accounts and Customer-Sales data** against the master records.
+- Participated in a meeting with the **H&B Sales Team** regarding customer, sales, and credit/debit-related requirements.
+- Developed and applied **Python automation** to identify and separate duplicate Sales Customer records.
+- Created a **separate Excel dataset/tab for duplicate Sales customers**.
+- Marked identified duplicate records in **yellow** for easier manual verification.
+- Re-checked the previously identified **79 duplicate Account records**, with all records passing verification.
+- Processed duplicate data identification and deactivation through **automated batches (1–20 and 21–58)**.
+- Continued applying **controlled ERP data deactivation and validation** to avoid incorrectly affecting active customer records.
+- Completed the **daily DMS data update**.
+- Continued applying **SQA, ERP data validation, business requirement analysis, data cleaning, and Python automation** in daily ERP operations.
