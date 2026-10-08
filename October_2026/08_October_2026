@@ -4,6 +4,96 @@
 
 - **Scheduled:** 10:00 AM – 7:00 PM
 - **Arrived:** 09:59 AM
-- **End:** 07: PM
+- **End:** 07:03 PM
 
 ---
+
+## Tasks Completed
+
+### 1. ERP Chart of Accounts Mapping Requirement Analysis & R&D
+
+**Time: 10:08 AM – 2:00 PM**
+
+- Reviewed the **Accounts → Non-Customer** data and identified the requirement for **Chart of Accounts (COA) mapping**.
+- Identified the required COA mappings for Non-Customers:
+  - **Hawlati**
+  - **Amanoti Accounts**
+- Confirmed that existing COA mappings should be **preserved** while adding the required mappings.
+- Reviewed the total **2,525 Non-Customer records** requiring mapping/verification.
+- Reviewed the **Sales Customer Master** COA mapping requirement.
+- Identified the required Sales Customer COA mappings:
+  - **Accounts Receivable – Local**
+  - **Hawlati**
+  - **Tagda Cost**
+- Reviewed the total **3,661 Sales Customer records**.
+- Conducted **R&D on how to automate the COA mapping process efficiently** and reduce manual ERP data-entry time.
+
+### 2. Python Automation for Non-Customer COA Mapping
+
+**Time: 12:18 PM – 2:00 PM**
+
+- Started developing and executing **Python automation for ERP Non-Customer COA mapping**.
+- Automated the process of processing Non-Customer records through the ERP system.
+- Configured the automation to **skip records that had already been processed**.
+- Continued automated processing of the Non-Customer records to improve the speed and accuracy of COA mapping.
+- Completed automated processing of approximately **488 Non-Customer records** in the ERP system.
+
+### 3. Sales Customer Data Entry Automation
+
+**Time: 2:00 PM – 3:30 PM**
+
+- Continued **Sales Customer data entry and COA-related processing** in the ERP system.
+- Used **Python automation** to make the data-entry and processing workflow faster.
+- Continued R&D on improving the automation workflow for large-volume ERP master data processing.
+- Focused on reducing repetitive manual operations while maintaining controlled data validation.
+
+### 4. Meeting with Sales & Inventory Teams
+
+**Time: 3:30 PM – 4:32 PM**
+
+- Attended a short meeting with the **Sales Team and Inventory Team**.
+- Discussed ongoing **Sales and Inventory requirements and operational issues**.
+- Identified and solved **one problem raised by the Inventory Team**.
+- Conducted R&D on the **requirements and needs coming from the Sales and Inventory Teams**.
+- Reviewed how the identified requirements could be addressed through ERP functionality and process improvements.
+
+### 5. Meeting with Zakir Bhai Regarding H&B ERP
+
+**Time: 4:47 PM – 6:40 PM**
+
+- Attended a short **WhatsApp meeting with Zakir Bhai** regarding the **H&B ERP system**.
+- Discussed **Tagda and Tagda Collection** requirements and related ERP activities.
+- Clarified the relevant business/process requirements for further ERP work.
+
+### 6. ERP Non-Customer COA Mapping Automation
+
+**Time: 4:47 PM – 6:40 PM**
+
+- Continued **Python automation development for ERP Non-Customer COA mapping**.
+- Worked on automating the mapping process while preserving previously assigned COAs.
+- Continued testing and troubleshooting the automated ERP workflow.
+- Focused on improving the reliability of the automation for processing large numbers of Non-Customer records.
+
+### 7. DMS Data Update
+
+**Time: 6:40 PM – 7:03 PM**
+
+- Completed the **daily DMS data update**.
+- Updated the required DMS information as part of the daily operational activities.
+
+---
+
+## Key Outcomes
+
+- Analyzed the **Non-Customer and Sales Customer COA mapping requirements**.
+- Identified COA requirements for **2,525 Non-Customers** and **3,661 Sales Customers**.
+- Started and continued **Python-based ERP automation** for large-volume COA mapping and data entry.
+- Automated the Non-Customer processing workflow with **already completed records skipped**.
+- Processed approximately **488 Non-Customer ERP records** through automation.
+- Continued automation for **Sales Customer data entry and processing**.
+- Conducted R&D to make ERP master-data automation **faster, more reliable, and less dependent on manual data entry**.
+- Participated in a meeting with the **Sales and Inventory Teams** and solved one Inventory-related issue.
+- Reviewed and analyzed requirements coming from the **Sales and Inventory Teams**.
+- Discussed **Tagda and Tagda Collection** requirements with Zakir Bhai in relation to the H&B ERP system.
+- Continued applying **SQA, ERP requirement analysis, business process understanding, data validation, Python automation, and ERP data management** in daily work.
+- Completed the **daily DMS data update**.
