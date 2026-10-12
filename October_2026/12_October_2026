@@ -4,5 +4,101 @@
 
 - **Scheduled:** 10:00 AM – 7:00 PM
 - **Arrived:** 10:12 AM
-- **End:** 07:15 PM
+- **End:** 07:55 PM
+
 ---
+
+## Tasks Completed
+
+### 1. Meeting with Zakir Bhai Regarding H&B ERP Visit Update
+
+**Time: 10:20 AM – 10:55 AM**
+
+- Attended a meeting with Zakir Bhai regarding the H&B ERP visit update.
+- Discussed the current status of ERP-related activities and relevant updates.
+- Reviewed ongoing requirements and coordination related to the H&B ERP system.
+
+### 2. Sales Customer COA Mapping Automation
+
+**Time: 10:55 AM – 2:29 PM**
+
+- Continued Sales Customer Chart of Accounts (COA) mapping using Python automation.
+- Configured and executed automation to process Sales Customer records in the ERP system.
+- Processed approximately **1,330 records** through automated COA mapping.
+- Configured automation settings to improve processing efficiency and reduce repetitive manual operations.
+- Focused on maintaining accurate COA assignments while processing large volumes of customer master data.
+
+### 3. Non-Customer COA Mapping Automation
+
+- Started the Accounts → Non-Customer COA mapping automation.
+- Configured the automation to process Non-Customer records through the ERP system.
+- Worked on the record range from **1,854 to 2,536**, covering approximately **682 records**.
+- Continued refining the automation workflow to improve the efficiency of large-volume COA mapping.
+- Focused on maintaining the required account mappings while preserving existing COA assignments.
+
+### 4. Cash Vendor Creation for Cash Purchases
+
+- Created a **Cash Vendor** in the H&B ERP system for cash purchases.
+- Completed the required vendor master data entry.
+- Supported the purchasing process by ensuring the required vendor information was available in the ERP system.
+
+### 5. Further Sales Customer COA Mapping
+
+- Continued Sales Customer COA mapping using Python automation.
+- Worked on the record range from **2,950 to 3,601**, covering approximately **652 records**.
+- Continued processing Sales Customer records through the ERP system.
+- Worked on completing the COA mapping workflow for the remaining customer records.
+- Focused on reducing manual data entry while maintaining accurate ERP master data.
+
+### 6. Meeting Regarding H&B ERP Activities
+
+**Time: 4:58 PM – 5:50 PM**
+
+- Attended a meeting with **Mr. Fazle, Zaman Bhai, Zakir Bhai, and Asish Bhai** regarding the H&B ERP system.
+- Discussed ERP-related activities, requirements, and ongoing work.
+- Coordinated with relevant team members regarding current ERP matters and further activities.
+
+### 7. Manual COA Mapping in Accounts – Non-Customer
+
+**Time: 6:02 PM – 6:52 PM**
+
+- Performed manual COA mapping for records under Accounts → Non-Customer.
+- Worked on records within the range of **722–748**, covering 27 records.
+- Reviewed and assigned the required COA mappings to the relevant Non-Customer records.
+- Continued supporting the accuracy and consistency of account assignments in the ERP system.
+
+### 8. Purchase module testing
+
+**Time: 6:52 PM – 7:25 PM**
+
+- Purchase spr, po testing.
+
+### 9. Daily DMS Data Update
+
+**Time: 07:25 PM – 7:57 PM**
+
+- Completed the daily DMS task update.
+- Updated the required information and documented the day's activities.
+
+
+
+---
+
+## Key Outcomes
+
+- Participated in a meeting with Zakir Bhai regarding the H&B ERP visit update.
+- Continued Python-based automation for Sales Customer COA mapping.
+- Processed approximately **1,330 Sales Customer records** during the first automation session.
+- Continued Sales Customer processing for records **2,950–3,601**.
+- Started and configured Non-Customer COA mapping automation for records **1,854–2,536**.
+- Created a Cash Vendor in the ERP system to support cash purchases.
+- Attended an H&B ERP meeting with Mr. Fazle, Zaman Bhai, Zakir Bhai, and Asish Bhai.
+- Performed manual COA mapping for Non-Customer records **722–748**.
+- Applied Python automation, ERP data management, COA mapping, business process understanding, and data validation.
+- Completed the daily DMS data update.
+
+---
+
+## Summary
+
+Worked on large-scale Sales Customer and Non-Customer COA mapping in the H&B ERP system using Python automation and manual data entry. Configured and executed automation workflows, processed customer records, created a Cash Vendor for cash purchases, and performed manual account mapping. Also attended meetings regarding H&B ERP activities and completed the daily DMS update.
