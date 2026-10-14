@@ -1,1 +1,98 @@
+# Day 157 – October 13, 2026
 
+## Office Hours
+
+- **Scheduled:** 10:00 AM – 7:00 PM
+- **Arrived:** 09:56 AM
+- **End:** 07:25 PM
+
+---
+
+## Tasks Completed
+
+### 1. H&B ERP UAT and Testing
+
+**Time: 10:00 AM – 11:45 AM**
+
+- Performed testing of Store Purchase Requisition (SPR), Purchase Order (PO), and Goods Received Note (GRN).
+- Successfully tested one SPR, one PO, and one GRN.
+- Reviewed the customer subsidiary and vendor Excel files.
+- Conducted research and development (R&D) on ERP software testing automation.
+- Filled out the office requisition form for the required office items.
+
+### 2. H&B ERP Project Documentation Update
+
+**Time: 11:45 AM – 1:00 PM**
+
+- Updated the Google Spreadsheet documentation for the H&B ERP project.
+- Reviewed and updated relevant project information.
+- Maintained the ERP project records and documentation.
+
+### 3. Bug Identification and Documentation
+
+**Time: 2:00 PM – 4:05 PM**
+
+Identified and documented the following UI-related issues in the H&B ERP system.
+
+#### Bug 1: Accounts → Bank → Bank Name
+
+- **Issue:** The Reset button can be dragged and moved away from its designated position.
+- **Expected Result:** The Reset button should remain fixed in its designated position and should not be movable through normal user interaction.
+- **Action Taken:** Identified and documented the bug.
+
+#### Bug 2: Common UI → Header
+
+- **Issue:** The user profile image and notification icon can be dragged and moved around the screen.
+- **Expected Result:** The user profile image and notification icon should remain in their designated positions within the header.
+- **Action Taken:** Identified and documented the bug.
+
+### 4. Customer Type/Sub-Type Entry and Load Testing
+
+**Time: 4:05 PM – 5:50 PM**
+
+- Worked on Customer Type/Sub-Type entry in the H&B ERP system.
+- Completed 10 out of 43 Customer Type records.
+- Continued Customer Sub-Type entry for records 11–44.
+- Performed a second load-testing session with a 5-second delay.
+
+### 5. User-Level Load Testing R&D
+
+**Time: 6:02 PM – 6:39 PM**
+
+- Conducted research and development on user-level load testing.
+- Explored ERP software performance-testing approaches.
+- Continued investigating automated testing techniques for ERP performance evaluation.
+
+### 6. Customer Sub-Type Data Entry
+
+- Continued Customer Sub-Type entry, covering records 1–77.
+- The last entry noted was **Halo Plus Techno System, Dhaka**.
+- Continued working on customer master data entry in the ERP system.
+
+### 7. Daily DMS Data Update
+
+**Time: 7:00 PM – 7:25 PM**
+
+- Completed the daily DMS data update.
+- Recorded the relevant work information and daily activities.
+
+---
+
+## Key Outcomes
+
+- Successfully tested one SPR, one PO, and one GRN.
+- Reviewed customer subsidiary and vendor Excel files.
+- Conducted R&D on ERP software testing automation.
+- Completed the office requisition form for required office items.
+- Updated the H&B ERP project Google Spreadsheet.
+- Identified and documented two UI bugs involving movable interface elements.
+- Continued Customer Type/Sub-Type data entry.
+- Performed automated load testing using Python with a 5-second delay.
+- Conducted R&D on user-level load testing and ERP performance-testing approaches.
+- Completed the daily DMS data update.
+
+---
+
+## Summary
+
+Worked on H&B ERP purchase module UAT, project documentation, UI bug identification, customer master data entry, and software testing automation. Successfully tested one SPR, one PO, and one GRN, reviewed customer subsidiary and vendor Excel files, and updated the project Google Spreadsheet. Identified and documented two UI issues involving the Reset button and header elements being movable from their designated positions. Continued Customer Type/Sub-Type data entry, performed automated load-testing activities with a 5-second delay, explored user-level performance testing, and completed the daily DMS update.
