@@ -4,6 +4,80 @@
 
 - **Scheduled:** 10:00 AM – 7:00 PM
 - **Arrived:** 10:12 AM
-- **End:** 07: PM
+- **End:** 07:35 PM
 
 ---
+
+## Tasks Completed
+
+### 1. H&B ERP Documentation & Store Requisition Testing
+
+**Time: 10:15 AM – 12:00 PM**
+
+- Updated the **H&B ERP UAT and Bug Reporting documentation**.
+- Performed **1 Store Requisition (SR) test**, which passed successfully.
+- Identified a business-process clarification regarding the **Sales Issue List** after items are handed over against a Store Requisition.
+- Raised the question of whether the SR should be closed after issuing the requested items or remain open for the Purchase process.
+
+### 2. Credit Realization R&D & Collection Process Practice
+
+**Time: 12:00 PM – 2:00 PM**
+
+- Performed **R&D on the Credit Realization process** in the ERP.
+- Practiced the **Tagda, Tagda Collection, and Hal Collection** processes.
+- Reviewed the workflows and their expected system behavior for testing.
+
+### 3. B2B Cash Sales & Credit Realization Testing
+
+**Time: 2:00 PM – 3:40 PM**
+
+- Performed **2 complete B2B Cash Sales cycles** for Tagda Collection testing.
+- Tested the **Credit Realization → Tagda** process; completed **8 Tagda transactions**, all of which passed.
+- Performed **5 Tagda Collection transactions**, all of which passed.
+- Tested **Hal Collection**, which failed during testing.
+- Performed **1 Tagda transaction with a void operation**, which passed successfully.
+
+### 4. Sales Reports & Accounts Report Verification
+
+**Time: 3:40 PM – 4:30 PM**
+
+- Checked sales reports against the corresponding customer records.
+- Reviewed the **Accounts Reports General Ledger** to verify debit, credit, and closing balances.
+- Checked the **Customer Sales Ledger** for cash payments, Hal Collection, Tagda Collection, and closing sales balances.
+
+### 5. ERP Documentation & Google Docs Update
+
+**Time: 4:30 PM – 5:20 PM**
+
+- Updated the **Google Docs documentation** for the ERP system.
+- Reviewed and documented the updated ERP modules and their relevant information.
+
+### 6. ERP Sub-Module Documentation Update
+
+**Time: 5:20 PM – 7:00 PM**
+
+- Updated the ERP documentation with the latest system changes.
+- Updated the Google Docs records to include the **newly updated sub-modules**.
+
+### 7. DMS Data Update
+
+**Time: 7:00 PM – 7:35 PM**
+
+- Performed the daily **DMS data update**.
+- Updated the required information as part of routine operational activities.
+
+---
+
+## Key Outcomes
+
+- Updated the H&B ERP UAT and Bug Reporting documentation.
+- Completed and passed **1 Store Requisition test**.
+- Identified a business-process clarification regarding SR closure after Sales Issue.
+- Conducted R&D and practice on **Credit Realization, Tagda, Tagda Collection, and Hal Collection**.
+- Completed **2 full B2B Cash Sales cycles** for Tagda Collection testing.
+- Successfully tested **8 Tagda transactions, 5 Tagda Collection transactions, and 1 Tagda transaction with void**.
+- Identified a failure in the **Hal Collection** test for further investigation.
+- Verified sales reports, the Accounts General Ledger, and the Customer Sales Ledger, including debit, credit, payment, collection, and closing balance information.
+- Updated ERP documentation and Google Docs with the latest sub-module changes.
+- Completed the daily DMS data update.
+- Continued applying **SQA, ERP functional testing, business-process validation, report verification, and documentation management** in daily ERP operations.
