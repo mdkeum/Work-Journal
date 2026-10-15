@@ -7,3 +7,103 @@
 - **End:** 08:15 PM
 
 ---
+
+## Tasks Completed
+
+### 1. H&B ERP UAT Documentation and Vendor Verification
+
+**Time: 10:30 AM – 11:50 AM**
+
+- Updated the H&B ERP UAT and Bug Reporting documentation.
+- Reviewed the vendor list entered into the ERP system.
+- Verified all 43 vendors in Purchase for the relevant customer type/subtype classification.
+- Checked vendor master data for accuracy and consistency.
+
+### 2. Vendor Data Update and Store Requisition Collection
+
+**Time: 11:50 AM – 1:00 PM**
+
+- Updated vendor list data in the H&B ERP system.
+- Collected the Store Requisition form from the Inventory team.
+- Created 5 new vendors in the vendor master to ensure their availability in the Production module.
+
+### 3. Inventory Module UAT and Transaction Testing
+
+**Time: 2:00 PM – 4:30 PM**
+
+- Tested the Inventory module and its related transactions, including:
+  - Opening Stock
+  - Goods Received Note (GRN)
+  - Production Received
+  - Stock Hold
+  - Stock Hold Approval
+  - Transfer Request
+  - Pending Store Transfer
+  - Store Issue (TR)
+  - Store Receipt (TR)
+- Executed and verified the relevant inventory workflows.
+- Checked the Inventory Summary after each transaction to verify stock updates and transaction consistency.
+
+### 4. Sales Full-Cycle Testing
+
+**Time: 2:00 PM – 4:30 PM**
+
+- Successfully executed one complete Sales transaction cycle.
+- Verified the transaction flow and checked the related inventory updates.
+
+### 5. Store Purchase Requisition and Purchase Workflow Testing
+
+**Time: 2:00 PM – 4:30 PM**
+
+- Executed one Store Purchase Requisition (SPR) workflow.
+- Tested the related Purchase Order (PO), Goods Received Note (GRN), Quality Control (QC), and Purchase Return processes.
+- Verified the related transactions and checked inventory updates.
+
+### 6. H&B ERP Meeting Regarding Sales and Accounts
+
+**Time: 4:30 PM – 5:30 PM**
+
+- Attended a meeting with Zakir Bhai regarding Sales and Accounts Tagda Sales.
+- Discussed relevant ERP activities and business processes.
+
+### 7. Follow-up Meeting with Zakir Bhai
+
+**Time: 5:55 PM – 6:55 PM**
+
+- Continued the meeting with Zakir Bhai.
+- Discussed ongoing ERP-related activities and requirements.
+
+### 8. H&B ERP Team Meeting
+
+**Time: 6:55 PM – 8:00 PM**
+
+- Attended an H&B ERP meeting with Mr. Fazle, Zaman Bhai, Zakir Bhai, and Ashish Bhai.
+- Discussed ERP-related activities, requirements, and ongoing coordination.
+
+### 9. Daily DMS Data Update
+
+**Time: 8:00 PM – 8:15 PM**
+
+- Completed the daily DMS update.
+- Recorded the relevant work information and daily activities.
+
+---
+
+## Key Outcomes
+
+- Updated the H&B ERP UAT and Bug Reporting documentation.
+- Verified 43 vendors for the relevant customer type/subtype classification.
+- Updated vendor master data and created 5 new vendors for Production.
+- Collected the Store Requisition form from the Inventory team.
+- Tested multiple Inventory transactions, including stock movements, holds, transfers, issues, and receipts.
+- Successfully completed one Sales transaction cycle.
+- Executed one SPR workflow and tested the related PO, GRN, QC, and Purchase Return processes.
+- Verified Inventory Summary updates after each transaction.
+- Participated in meetings regarding Sales, Accounts, and ongoing H&B ERP activities.
+- Completed the daily DMS update.
+
+---
+
+## Summary
+
+Worked on H&B ERP UAT documentation, vendor verification, vendor master data updates, and transaction testing across the Inventory, Sales, and Purchase workflows. Verified 43 vendors, created 5 new vendors for Production, tested multiple inventory transactions, completed one Sales cycle, and tested the SPR, PO, GRN, QC, and Purchase Return processes. Also attended meetings regarding Sales, Accounts, and H&B ERP activities and completed the daily DMS update.
