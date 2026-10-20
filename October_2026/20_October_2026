@@ -7,3 +7,84 @@
 - **End:** 07:03 PM
 
 ---
+
+## Tasks Completed
+
+### 1. H&B ERP UAT Documentation and Voil Poplin Data Entry
+
+**Time: 10:04 AM – 11:58 AM**
+
+- Updated the H&B ERP UAT and bug-tracking documentation.
+- Started Voil Poplin item data entry in the ERP system.
+- Entered Voil Poplin item records covering the range **1–8**.
+
+### 2. Project Status Review and Portfolio Study
+
+**Time: 11:58 AM – 12:40 PM**
+
+- Studied the project status and portfolio documentation.
+- Reviewed the project portfolio that was initiated on **October 18, 2025**.
+
+### 3. Voil Poplin ERP Data Entry
+
+**Time: 12:40 PM – 2:04 PM**
+
+- Continued ERP item data entry for Voil Poplin.
+- Entered item records covering the range **9–10**.
+
+### 4. Inventory Transactions and Opening Stock Testing
+
+**Time: 2:04 PM – 3:45 PM**
+
+- Tested inventory opening stock transactions in the ERP system.
+- Performed opening stock entries to verify inventory transaction functionality.
+- Identified an issue with opening stock valuation: the unit cost should be set automatically, but the system currently allows values to be entered or changed, including the product cost price.
+
+### 5. H&B ERP Bug Identification and Reporting
+
+**Time: 3:45 PM – 5:00 PM**
+
+Identified and documented the following ERP issues:
+
+- **Bug #2 – Inventory → Reports → Stock Valuation:** The item name search/filter option is missing.
+- **Bug #3 – Inventory → Store Requisition (SR) → Purchase:** The system allows purchase creation for quantities exceeding the approved SR quantity, creating a risk of unauthorized or excessive procurement.
+
+### 6. Bug Documentation and Team Discussion
+
+**Time: 5:00 PM – 6:15 PM**
+
+- Documented the identified ERP bugs in Google Docs.
+- Discussed the reported bugs with the team during a meeting.
+- Recorded images/videos of the bugs along with supporting details for documentation and follow-up.
+
+### 7. Production Receipt and Inventory Stock Updates
+
+**Time: 6:15 PM – 6:43 PM**
+
+- Performed **6 Production Receipts**, adding items to inventory stock.
+- Performed **1 Purchase Requisition (PR)** involving **20 items** in inventory stock.
+
+### 8. DMS Data Update
+
+**Time: 6:43 PM – 7:03 PM**
+
+- Updated DMS data.
+
+---
+
+## Key Outcomes
+
+- Updated the H&B ERP UAT and bug-tracking documentation.
+- Entered Voil Poplin item records covering ranges **1–8** and **9–10**.
+- Reviewed project status and portfolio documentation.
+- Tested inventory opening stock transactions and identified an issue with automatic unit cost handling.
+- Identified and documented two ERP bugs involving the Stock Valuation search/filter option and purchase quantities exceeding approved SR quantities.
+- Discussed bugs with the team and recorded supporting images/videos.
+- Completed **6 Production Receipts** and **1 PR involving 20 items**.
+- Updated DMS data.
+
+---
+
+## Summary
+
+Worked on H&B ERP UAT, documentation, item master data entry, and inventory transaction testing. Updated the project documentation and entered Voil Poplin records into the ERP system. Tested opening stock transactions and identified an issue with unit cost handling. Also documented two ERP bugs related to Stock Valuation filtering and purchase quantities exceeding approved Store Requisition quantities, discussed the issues with the team, completed six Production Receipts and one PR involving 20 items, and updated DMS data.
