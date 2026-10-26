@@ -7,3 +7,81 @@
 - **End:** 07:03 PM
 
 ---
+
+## Tasks Completed
+
+### 1. H&B ERP Documentation Update and HRM Module Knowledge Sharing
+
+**Time: 10:40 AM – 1:00 PM**
+
+- Updated and organized the H&B ERP project documentation in Google Docs.
+- Attended a meeting with Zakir Bhai regarding the HRM module.
+- Learned about the **HRM → Employee Bill → Employee Bill Setup and Approval** workflow.
+- Reviewed the Employee Bill configuration and approval process to improve understanding of the HRM module.
+- Documented all ERP modules, sub-modules, submenus, and menus according to the complete ERP system structure.
+- Updated and maintained the overall ERP project documentation to reflect the latest module hierarchy and system changes.
+
+### 2. H&B ERP Business Discussion and Purchase Full-Cycle Testing
+
+**Time: 2:04 PM – 4:15 PM**
+
+- Discussed H&B business operations and ERP-related processes with Zakir Bhai.
+- Performed **1 complete Purchase transaction cycle using test data**, which passed successfully.
+- Performed **2 complete Purchase transaction cycles using real business data**, both of which passed successfully.
+- Entered **1 new item** under the Raw Materials category:
+  - Direct Raw Materials → Print Sharee
+- Executed Purchase workflow transactions involving:
+  - Store Purchase Requisition (SPR)
+  - Purchase Order (PO)
+  - Goods Received Note (GRN)
+- Verified the successful execution of the relevant Purchase transactions.
+
+### 3. Real Purchase Transaction and Inventory Team Coordination
+
+**Time: 4:30 PM – 5:35 PM**
+
+- Performed **1 additional Purchase transaction using real business data**.
+- Reviewed the relevant Purchase workflow and transaction information.
+- Attended a meeting with the H&B Inventory and Purchase teams.
+- Discussed ERP-related inventory and purchasing activities with Russell Bhai and Aminul Bhai.
+- Coordinated with the relevant team members regarding ongoing Purchase and Inventory operations.
+
+### 4. Purchase Full-Cycle Testing and Item Master Data Entry
+
+**Time: 5:47 PM – 6:45 PM (Approximate)**
+
+- Performed **2 complete Purchase transaction cycles using real business data**.
+- Both Purchase cycles passed successfully.
+- Created **2 new items** under the Print Sharee category in the ERP system.
+- Continued supporting Purchase transaction execution and item master data preparation.
+
+### 5. Daily DMS Data Update
+
+**Time: 6:45 PM – 7:07 PM**
+
+- Completed the daily DMS data update.
+- Recorded and documented the day's ERP-related activities.
+
+---
+
+## Key Outcomes
+
+- Updated and organized the H&B ERP project documentation in Google Docs.
+- Gained knowledge of the HRM Employee Bill Setup and Approval workflow.
+- Documented the complete ERP module, sub-module, submenu, and menu hierarchy.
+- Discussed H&B business operations and ERP processes with Zakir Bhai.
+- Successfully completed **1 Purchase transaction cycle using test data**.
+- Successfully completed **2 Purchase transaction cycles using real business data** during the afternoon session.
+- Performed **1 additional real Purchase transaction**.
+- Successfully completed **2 additional Purchase transaction cycles using real business data** during the evening session.
+- Executed and verified SPR, PO, and GRN transactions.
+- Added **3 new Print Sharee-related items** to the ERP system.
+- Attended a coordination meeting with the H&B Inventory and Purchase teams.
+- Continued applying ERP functional testing, business process validation, real-data transaction execution, master data management, and documentation skills.
+- Completed the daily DMS data update.
+
+---
+
+## Summary
+
+Worked on H&B ERP documentation, HRM module knowledge sharing, Purchase module UAT, real business transaction testing, and item master data entry. Updated the complete ERP module hierarchy and learned about the Employee Bill Setup and Approval workflow. Successfully completed five full Purchase transaction cycles, including one using test data and four using real business data, and performed one additional real Purchase transaction. Executed SPR, PO, and GRN workflows, created three Print Sharee-related items, and attended a coordination meeting with the H&B Inventory and Purchase teams. Also completed the daily DMS data update.
