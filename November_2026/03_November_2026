@@ -1,3 +1,4 @@
+
 # Day 174 – November 03, 2026
 
 ## Office Hours
@@ -5,3 +6,99 @@
 - **Scheduled:** 10:00 AM – 7:00 PM
 - **Arrived:** 09:43 AM
 - **End:** 07:03 PM
+
+---
+
+## Tasks Completed
+
+### 1. H&B ERP Implementation Visit Report Preparation and Documentation
+
+**Time: 09:55 AM – 12:40 PM**
+
+- Worked on the **H&B ERP UAT and Bug Tracking** documentation.
+- Prepared the H&B ERP implementation visit report covering **4 days of on-site activities**.
+- Organized the implementation activities, observations, and project progress into a structured report.
+- Reviewed the Purchase, Production, and Inventory module activities conducted during the implementation visit.
+- Conducted a short meeting with **Mr. Russell** regarding the H&B Purchase, Production, and Inventory modules.
+- Performed Grey Purchase-related work and reviewed the relevant Purchase process.
+- Completed the **4-day H&B ERP implementation report**.
+- Submitted the completed report to **Mr. Zakir Hossain** for review.
+
+### 2. H&B ERP Implementation Report Printing and Discussion
+
+**Time: 12:40 PM – 1:00 PM**
+
+- Printed the prepared H&B ERP implementation visit report.
+- Conducted a short discussion with **Mr. Zaman and Mr. Zakir Hossain** regarding the report.
+- Reviewed the documented implementation activities and findings.
+- Discussed the report content and relevant project information.
+
+### 3. H&B ERP Functional Checking and Requirement Identification
+
+**Time: 2:00 PM – 4:15 PM**
+
+- Performed functional checking of H&B ERP modules.
+- Reviewed the **Grand Total calculation and display functionality** across relevant ERP processes.
+- Tested the **Requisitions → Store Requisition (SR)** functionality.
+- Identified an issue in the Store Requisition module:
+  - The **Grand Total is not displayed** when multiple item lines are added to a Store Requisition.
+- Reviewed the issue as part of ongoing ERP UAT and Bug Tracking activities.
+- Identified the requirement for displaying the combined total for multiple item entries in Store Requisitions.
+- Documented the finding for further review and necessary development.
+
+### 4. H&B ERP Implementation Report Proofreading and Validation
+
+**Time: 4:25 PM – 6:20 PM**
+
+- Performed detailed proofreading of the **4-day H&B ERP implementation visit report**.
+- Reviewed the report for accuracy, completeness, and consistency.
+- Identified incorrect information and areas requiring modification.
+- Corrected the identified errors and updated the relevant report sections.
+- Verified the documented implementation activities and findings.
+- Validated the complete report after making the necessary corrections.
+- Finalized the report content for management review and project documentation.
+
+### 5. ERP Tour/Movement Application and Attendance Documentation
+
+**Time: 6:20 PM – 6:52 PM**
+
+- Prepared ERP applications for official tour/movement activities.
+- Completed the required ERP application for the **2-day official tour/movement**.
+- Reviewed the tour/movement information before submitting the applications.
+- Completed the relevant administrative documentation through the ERP system.
+
+### 6. Daily DMS Data Update
+
+**Time: 6:52 PM – 7:03 PM**
+
+- Completed the daily DMS data update.
+- Recorded the day's ERP implementation, testing, reporting, and documentation activities.
+- Updated the required daily task information.
+- Maintained the daily work records for reporting and tracking purposes.
+
+---
+
+## Key Outcomes
+
+- Updated the H&B ERP UAT and Bug Tracking documentation.
+- Prepared and completed the **4-day H&B ERP implementation visit report**.
+- Reviewed the Purchase, Production, and Inventory module activities with Mr. Russell.
+- Performed Grey Purchase-related work.
+- Submitted the implementation report to Mr. Zakir Hossain.
+- Printed the implementation report for review and discussion.
+- Discussed the report with Mr. Zaman and Mr. Zakir Hossain.
+- Performed ERP functional checking related to Grand Total calculations.
+- Identified a **Store Requisition (SR) Grand Total display issue** when multiple item lines are added.
+- Documented the identified ERP issue for further review.
+- Proofread the complete implementation visit report.
+- Corrected incorrect information in the report.
+- Validated and finalized the **4-day implementation report**.
+- Completed ERP tour/movement applications for **2 days**.
+- Completed the daily DMS data update.
+- Continued applying **ERP functional testing, UAT, bug identification, business process analysis, implementation reporting, technical documentation, proofreading, report validation, and project coordination skills**.
+
+---
+
+## Summary
+
+Worked on H&B ERP implementation reporting, UAT documentation, functional testing, and administrative activities. Prepared and completed the **4-day H&B ERP implementation visit report**, covering implementation activities and relevant Purchase, Production, and Inventory module findings. Conducted discussions with Mr. Russell regarding ERP modules and reviewed the report with Mr. Zaman and Mr. Zakir Hossain. Performed ERP functional checking and identified a **Grand Total display issue in the Store Requisition (SR) module** when multiple item lines are added. Proofread, corrected, and validated the complete implementation report. Also completed **2-day official tour/movement applications** through the ERP system and updated the daily DMS records.
