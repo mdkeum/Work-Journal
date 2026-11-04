@@ -7,3 +7,94 @@
 - **End:** 07:03 PM
 
 ---
+
+## Tasks Completed
+
+### 1. H&B ERP UAT, Bug Reporting, and Purchase & Inventory Coordination
+
+**Time: 10:43 AM – 1:00 PM**
+
+- Updated the **H&B ERP UAT and Bug Reporting** documentation.
+- Documented and reviewed the ongoing ERP task list.
+- Conducted a meeting with **Mr. Russell (Purchase)** and **Mr. Aminul (Inventory)** regarding ERP implementation activities.
+- Discussed the accuracy and completeness of the Purchase Vendor List and Inventory Item Master.
+- Identified missing vendor and inventory item information requiring verification and updates.
+- Discussed the identified issues through WhatsApp and phone communication.
+- Agreed on the following follow-up activities:
+  - **Mr. Russell** will prepare an Excel sheet containing the complete Purchase Vendor List, including the required vendor information.
+  - The Purchase Vendor List will be verified against existing ERP records to identify missing or inconsistent information.
+  - **Mr. Aminul** will prepare a list of Packing Materials, Poly, and other inventory items.
+  - Missing inventory items will be identified and added to the ERP Item Master using the information provided.
+
+### 2. H&B ERP Testing Research and Development
+
+**Time: 1:15 PM – 1:42 PM**
+
+- Conducted research and development (R&D) on **ERP software testing methodologies**.
+- Studied the fundamentals of **Locust, Playwright, and Python-based testing automation**.
+- Explored approaches for performing ERP load testing and functional testing.
+- Reviewed how automated testing tools can help evaluate ERP performance, reliability, and system behavior.
+- Investigated the basic workflow for simulating concurrent ERP users and measuring system response times.
+- Continued developing technical knowledge for future ERP performance and automation testing.
+
+### 3. Purchase Vendor Data Verification and Reconciliation
+
+**Time: 2:10 PM – 4:15 PM**
+
+- Obtained the finalized Purchase Vendor Data List for verification.
+- Started comparing the provided vendor records against existing H&B ERP vendor information.
+- Verified **Purchase Vendor Records 1–10** and found them satisfactory.
+- Continued verification of **Vendor Records 11–33**.
+- Identified **8 vendor records that were not found in the ERP system**.
+- Reviewed the identified discrepancies for further verification and necessary updates.
+- Maintained the verification findings to support Purchase Vendor Master data accuracy.
+
+### 4. Purchase Customer Data Verification and Duplicate Identification
+
+**Time: 5:40 PM – 6:50 PM**
+
+- Continued verification of the Purchase Customer Data List.
+- Reviewed **Customer Records 34–60** against the existing ERP records.
+- Identified the following discrepancies:
+  - **14 duplicate customer records**.
+  - **5 customer records with address mismatches**.
+  - **1 customer record not found in the ERP system**.
+- Documented the identified duplicate records and data inconsistencies.
+- Reviewed the findings to support data cleansing, reconciliation, and Purchase Customer Master accuracy.
+
+### 5. Daily DMS Data Update
+
+**Time: 6:50 PM – 7:03 PM**
+
+- Completed the daily DMS data update.
+- Recorded the day's ERP testing, vendor verification, customer data reconciliation, and coordination activities.
+- Updated the required daily task information.
+- Maintained the daily work records for reporting and project tracking purposes.
+
+---
+
+## Key Outcomes
+
+- Updated the **H&B ERP UAT and Bug Reporting** documentation.
+- Documented and reviewed the ERP task list.
+- Conducted a coordination meeting with **Mr. Russell (Purchase)** and **Mr. Aminul (Inventory)**.
+- Discussed Purchase Vendor Master and Inventory Item Master data discrepancies.
+- Established follow-up requirements for preparing complete vendor and inventory item lists.
+- Conducted R&D on **Locust, Playwright, Python, and ERP software testing automation**.
+- Obtained the finalized Purchase Vendor Data List.
+- Verified Purchase Vendor Records 1–33.
+- Confirmed that Vendor Records 1–10 were satisfactory.
+- Identified **8 vendor records missing from the ERP** among Records 11–33.
+- Verified Purchase Customer Records 34–60.
+- Identified **14 duplicate customer records**.
+- Identified **5 customer address mismatches**.
+- Identified **1 customer record missing from the ERP**.
+- Documented the identified vendor and customer data discrepancies for further review.
+- Completed the daily DMS data update.
+- Continued applying **ERP UAT, bug reporting, data verification, master data reconciliation, duplicate detection, software testing R&D, business process analysis, and project coordination skills**.
+
+---
+
+## Summary
+
+Worked on H&B ERP UAT documentation, Purchase and Inventory coordination, software testing R&D, and master data verification. Conducted discussions with **Mr. Russell and Mr. Aminul** regarding Purchase Vendor and Inventory Item Master data accuracy and missing records. Studied **Locust, Playwright, and Python-based ERP testing automation** to explore performance and functional testing approaches. Obtained the finalized Purchase Vendor Data List and verified Records 1–33, identifying **8 vendors missing from the ERP**. Also verified Purchase Customer Records 34–60 and identified **14 duplicates, 5 address mismatches, and 1 missing customer record**. Documented the findings for further reconciliation and completed the daily DMS data update.
