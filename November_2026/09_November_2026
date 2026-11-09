@@ -4,6 +4,101 @@
 
 - **Scheduled:** 10:00 AM – 7:00 PM
 - **Arrived:** 10:19 AM
-- **End:** 07:03 PM
+- **End:** 08:05 PM
 
 ---
+
+## Tasks Completed
+
+### 1. ERP Load Testing Preparation, HR Application, and Leave Applications
+
+**Time: 10:25 AM – 1:01 PM**
+
+- Prepared and printed the **Python and Locust Basics** learning material for ERP load testing.
+- Prepared and printed an HR application for submission.
+- Submitted the required ERP leave and day-off applications.
+- Continued studying the **Locust** load testing framework and its application to ERP performance testing.
+- Generated a Python-based load testing script for the H&B ERP system.
+- Reviewed the basic requirements for executing concurrent user load tests.
+
+### 2. Locust Load Testing Script Execution and Error Resolution
+
+**Time: 2:07 PM – 3:23 PM**
+
+- Executed the Python-based **Locust load testing script** for the ERP system.
+- Encountered errors during the initial execution of the load testing script.
+- Reviewed the generated load testing output and printed the Locust load testing report.
+- Investigated the script errors and modified the Python code to address the identified issues.
+- Continued debugging and preparing the script for successful execution.
+
+### 3. ERP Load Testing Script Debugging and Successful Execution
+
+**Time: 3:23 PM – 4:00 PM**
+
+- Executed the modified ERP load testing script.
+- Identified and fixed additional errors in the Python code.
+- Reran the corrected script successfully.
+- Generated a load testing report following the successful execution.
+- Verified that the script could execute after resolving the identified coding errors.
+
+### 4. Concurrent User Load Testing and Report Generation
+
+**Time: 4:10 PM – 5:23 PM**
+
+- Conducted ERP load testing using **1, 5, 10, and 30 concurrent users**.
+- Executed the Locust load testing script with the respective user configurations.
+- Generated and saved the corresponding **PDF load testing reports** for each user configuration.
+- Maintained the test reports for future performance analysis and comparison.
+- Continued evaluating the ERP system's load testing process using Python and Locust.
+
+### 5. Six-Month HR Performance Report Preparation
+
+**Time: 5:35 PM – 6:50 PM**
+
+- Prepared a **six-month HR performance report** covering professional activities and contributions.
+- Used AI tools and GitHub-hosted daily work journals to compile and organize documented work records.
+- Reviewed the daily work journal records to prepare an evidence-based performance report.
+- Organized the report with references to previously documented work activities.
+- Prepared the report to support the HR performance review process.
+
+### 6. Meeting with Software Management and Project Team
+
+**Time: 7:00 PM – 7:45 PM**
+
+- Attended a meeting with:
+  - **Mr. Fazle Rabby**
+  - **Mr. Zaman**
+  - **Mr. Zakir Hossain**
+- Participated in the meeting with the software management and project team.
+
+### 7. Daily DMS Data Update
+
+**Time: 7:45 PM – 8:00 PM**
+
+- Completed the daily DMS data update.
+- Maintained the required daily work records.
+
+---
+
+## Key Outcomes
+
+- Prepared and printed Python and Locust Basics learning materials.
+- Prepared and printed an HR application.
+- Submitted ERP leave and day-off applications.
+- Continued studying Locust for ERP load testing.
+- Generated and executed a Python-based ERP load testing script.
+- Identified and resolved script execution errors.
+- Successfully reran the corrected load testing script.
+- Conducted ERP load testing using **1, 5, 10, and 30 concurrent users**.
+- Generated and saved the corresponding PDF load testing reports.
+- Prepared a six-month HR performance report using AI tools and GitHub daily work journals.
+- Organized documented work records with supporting references.
+- Attended a meeting with Mr. Fazle Rabby, Mr. Zaman, and Mr. Zakir Hossain.
+- Completed the daily DMS data update.
+- Continued developing practical skills in **Python, Locust, ERP performance testing, technical troubleshooting, report preparation, and documentation**.
+
+---
+
+## Summary
+
+Worked on **H&B ERP load testing, Python and Locust script development, debugging, performance report generation, and HR performance documentation**. Prepared and printed Locust learning materials and an HR application, submitted ERP leave and day-off applications, and developed a Python-based load testing script. Identified and corrected script errors, successfully executed the revised code, and performed load testing using **1, 5, 10, and 30 concurrent users**, generating and saving PDF reports for each configuration. Prepared a six-month HR performance report using AI tools and GitHub daily work journals as supporting references. Attended a meeting with **Mr. Fazle Rabby, Mr. Zaman, and Mr. Zakir Hossain**, and completed the daily DMS data update.
