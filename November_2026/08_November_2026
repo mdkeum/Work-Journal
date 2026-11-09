@@ -1,1 +1,142 @@
 
+# Day 176 – November 08, 2026
+
+## Office Hours
+
+- **Scheduled:** 10:00 AM – 7:00 PM
+- **Arrived:** 10:30 AM
+- **End:** 07:03 PM
+
+---
+
+## Tasks Completed
+
+### 1. H&B ERP UAT Documentation, Bug Tracking, and Issue Identification
+
+**Time: 10:40 AM – 1:01 PM**
+
+- Updated the **H&B ERP UAT and Bug Tracking** documentation in Google Docs.
+- Improved the ERP documentation structure by organizing the navigation hierarchy into:
+  - **Module**
+  - **Menu Group/Section**
+  - **Submenu**
+  - **Page/Screen**
+- Updated the learning and testing status of completed ERP pages/screens from **Started** to **Finished**.
+- Reviewed previously tested ERP functionality and documented newly identified issues.
+- Identified and documented the following ERP bugs:
+
+**Bug 1: Purchase Order History Button Alignment Issue**
+
+- **Module:** Purchase → Purchase Order (PO)
+- Identified that the **PO History** button is incorrectly positioned above the Item Name field.
+- The incorrect positioning causes a UI alignment issue and affects the form layout.
+- Documented the issue for further review and correction.
+
+**Bug 2: Missing Employee Search/Filter Functionality**
+
+- **Module:** HRM → Employee Bill
+- Identified that the Search/Filter functionality is missing from the Employee Bill page.
+- The absence of search functionality makes it difficult to locate employee records using Employee ID or Name.
+- Documented the issue as a usability improvement requirement.
+
+**Bug 3: Inventory Opening Stock Business Rule Issue**
+
+- **Module:** Inventory → Transactions → Opening Stock
+- Identified that the Opening Stock functionality is not working according to the required business rules.
+- Observed that the item price is not automatically populated or configured as expected.
+- Reviewed the issue and reported it to **Mr. Zaman** for further investigation and necessary correction.
+
+### 2. ERP Load Testing Research and Development
+
+**Time: 2:01 PM – 4:00 PM**
+
+- Conducted research and development (R&D) on **H&B ERP load testing and performance evaluation**.
+- Studied approaches for testing ERP performance under concurrent user activity.
+- Explored the use of **Python and Locust** for simulating multiple users accessing the ERP system.
+- Reviewed the basic concepts of virtual users, concurrent requests, response times, and system performance monitoring.
+- Investigated the requirements for configuring load testing in the ERP testing environment.
+- Identified **one additional ERP issue/bug** during the review and documented the finding with relevant details.
+- Continued preparing the technical foundation for future ERP load testing and performance analysis.
+
+### 3. Sales POS B2B Subtotal Calculation and Display Bug Identification
+
+**Time: 4:10 PM – 4:50 PM**
+
+- Performed UAT on the **Sales → POS → POS Sign In-Out → Continue to B2B** workflow.
+- Reviewed the item-level subtotal calculation and display functionality.
+- Identified a mismatch between the displayed item subtotal and the actual calculated value.
+- Observed the following values:
+  - **Quantity:** 110 Pcs
+  - **Unit Rate:** BDT 1,625.00
+  - **Expected Subtotal:** BDT 178,750.00
+  - **Displayed Subtotal:** BDT 162,500.00
+- Confirmed that the **Grand Total calculation was correct**, while the item-level subtotal was displayed incorrectly.
+- Identified the issue as a **subtotal calculation/display mismatch** in the B2B POS interface.
+- Documented the bug for further investigation and correction.
+
+### 4. ERP Load Testing Research and Technical Learning
+
+**Time: 4:50 PM – 5:35 PM**
+
+- Continued R&D on **H&B ERP load testing**.
+- Reviewed the fundamentals of Locust and its application in ERP performance testing.
+- Studied the relationship between Python-based automation and concurrent user simulation.
+- Explored how Locust can be used to measure server response times, request throughput, and failure rates.
+- Reviewed the basic requirements for preparing and executing load tests in a controlled testing environment.
+- Continued building technical knowledge for ERP performance testing and system reliability assessment.
+
+### 5. Python and Locust Learning for ERP Load Testing
+
+**Time: 5:35 PM – 6:51 PM**
+
+- Continued learning **Python and Locust** for ERP load testing.
+- Studied the basic concepts and working principles of the Locust framework.
+- Reviewed important load-testing terminology, including:
+  - Virtual Users
+  - Concurrent Users
+  - Spawn Rate
+  - Response Time
+  - Requests Per Second (RPS)
+  - Failure Rate
+  - Performance Metrics
+- Reviewed how Python scripts can define user behavior and simulate ERP requests.
+- Studied the process of preparing a Locust testing environment.
+- Prepared and printed the **Locust Basics Study Guide** for reference and further learning.
+- Continued developing practical knowledge for implementing ERP load testing using Python.
+
+### 6. Daily DMS Data Update
+
+**Time: 6:51 PM – 7:03 PM**
+
+- Completed the daily DMS data update.
+- Recorded the day's ERP UAT, bug reporting, load testing R&D, and technical learning activities.
+- Updated the required daily task information.
+- Maintained the daily work records for reporting and project tracking purposes.
+
+---
+
+## Key Outcomes
+
+- Updated the **H&B ERP UAT and Bug Tracking** documentation.
+- Improved the ERP documentation hierarchy using Module, Menu Group/Section, Submenu, and Page/Screen.
+- Updated the learning status of fully completed ERP pages/screens from **Started** to **Finished**.
+- Identified and documented the **Purchase Order History button alignment issue**.
+- Identified the missing **Search/Filter functionality** in HRM Employee Bill.
+- Identified the **Inventory Opening Stock business rule and price configuration issue**.
+- Reported the Opening Stock issue to **Mr. Zaman**.
+- Conducted R&D on ERP load testing and performance evaluation.
+- Identified and documented **one additional ERP issue** during the load-testing R&D session.
+- Identified the **Sales POS B2B item subtotal display mismatch**.
+- Verified that the expected subtotal for 110 Pcs at BDT 1,625.00 was **BDT 178,750.00**, whereas the displayed subtotal was **BDT 162,500.00**.
+- Confirmed that the Grand Total calculation was correct despite the item-level subtotal mismatch.
+- Studied **Python and Locust** for ERP load testing.
+- Reviewed concurrent user simulation, response times, RPS, failure rates, and load-testing concepts.
+- Prepared and printed the **Locust Basics Study Guide** for learning and reference.
+- Completed the daily DMS data update.
+- Continued developing skills in **ERP UAT, bug reporting, software quality assurance, Python, Locust, performance testing, business process analysis, and technical documentation**.
+
+---
+
+## Summary
+
+Worked on **H&B ERP UAT documentation, bug tracking, software testing R&D, and Python-based load testing preparation**. Updated the ERP documentation hierarchy and learning status of completed pages/screens. Identified and documented multiple ERP issues, including the **Purchase Order History button alignment problem, missing HRM Employee Bill search functionality, Inventory Opening Stock business rule issue, and Sales POS B2B subtotal display mismatch**. Reported the Opening Stock issue to **Mr. Zaman** and documented an additional ERP issue during the testing review. Conducted research on **Locust and Python-based ERP load testing**, studied concurrent user simulation and performance metrics, and prepared a printed Locust Basics Study Guide for further learning. Completed the daily DMS data update and maintained the project documentation.
