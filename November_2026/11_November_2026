@@ -7,3 +7,154 @@
 - **End:** 07:51 PM
 
 ---
+
+## Tasks Completed
+
+### 1. H&B ERP UAT Documentation, Bug Tracking, and ERP Development Research
+
+**Time: 9:40 AM – 10:48 AM**
+
+- Updated the **H&B ERP UAT and Bug Tracking** documentation.
+- Conducted research and development (R&D) on **ERP software development time and cost estimation**.
+- Reviewed the requirements and considerations involved in developing a customized ERP system.
+- Documented the research findings and relevant work activities for future reference.
+
+### 2. ERP Requirements Discussion and Sales Module Bug Reporting
+
+**Time: 10:48 AM – 11:51 AM**
+
+- Attended a meeting with **Mr. Zakir Hossain** regarding ERP requirements and identified issues.
+- Discussed existing ERP problems and their possible solutions.
+- Identified and demonstrated a **Sales module issue** where the item quantity was added but the corresponding price did not update.
+- Reported and explained the issue to Mr. Zakir Hossain for further investigation and resolution.
+- Coordinated with the development team regarding ERP requirements and ongoing fixes.
+
+### 3. Production Receipt UOM Testing and Purchase Workflow Verification
+
+**Time: 11:51 AM – 1:05 PM**
+
+- Performed testing of the **Production Receipt** functionality to identify Unit of Measurement (UOM) conversion issues.
+- Identified a **UOM conversion failure** requiring correction.
+- Tested the Purchase workflow, including **Stock Purchase Requisition (SPR) → Purchase Order (PO)**.
+- Verified item UOM conversion between **Yard and Pcs** in the Purchase process.
+- Confirmed that UOM conversion worked successfully in the tested Purchase workflow.
+- Reviewed the conversion relationship between **1 Yard and 36 Inches**, including how the system should maintain the conversion consistently.
+- Documented the difference between successful Purchase UOM conversion and the failed Production Receipt conversion for further investigation.
+
+### 4. HR Communication and H&B ERP Work Reporting
+
+**Time: 2:09 PM – 3:00 PM**
+
+- Performed HR-related communication regarding personnel requirements.
+- Prepared and shared information about the **H&B ERP project activities and work completed**.
+- Submitted details of the H&B ERP tasks performed to the reporting supervisor.
+- Maintained communication regarding ongoing responsibilities and project progress.
+
+### 5. ERP Requirement Resolution Verification and Sales Module Discussion
+
+**Time: 3:00 PM – 4:05 PM**
+
+- Reviewed ERP requirements that had been addressed by the development team.
+- Verified and demonstrated the resolved functionality with **Mr. Zakir Hossain**.
+- Discussed previously identified Sales module requirements and their resolution status.
+- Coordinated with the development team to confirm the implemented changes.
+
+### 6. ERP Report Issue Resolution
+
+**Time: 4:15 PM – 4:30 PM**
+
+- Discussed an identified ERP report issue with **Mr. Zakir Hossain**.
+- Worked on resolving the report-related problem.
+- Reviewed the corrected report functionality following the discussion.
+
+### 7. Accounts Module UAT Execution and Purchase Department Coordination
+
+**Time: 4:30 PM – 5:30 PM**
+
+- Contacted **Mr. Russell from the H&B Purchase Department** to coordinate a meeting.
+- Executed **ERP Accounts module UAT test cases TC-AC-001 to TC-AC-004**.
+- Verified the functionality against the documented test scenarios.
+- Identified the test results and recorded issues requiring further attention.
+- Continued coordination regarding Purchase module requirements and implementation activities.
+
+### 8. Accounts Test Result Documentation and Purchase Requirements Meeting
+
+**Time: 5:30 PM – 6:38 PM**
+
+- Updated the **Accounts module UAT testing documentation**.
+- Recorded the results of four executed test cases:
+  - **Passed:** 2 test cases
+  - **Failed:** 2 test cases
+- Discussed ERP requirements with the **Purchase team**, including Mr. Russell.
+- Reviewed and documented the following Purchase, Inventory, and Production requirements:
+
+**Inventory Requirements**
+- Category-wise Stock Report should display the **Total Quantity** with the corresponding UOM.
+- Category-wise stock reporting requires a **Location column** for improved stock identification and tracking.
+
+**Purchase Requirements**
+- Discussed the requirement for selecting vendors based on **Cash/Credit purchase conditions**.
+- Reviewed vendor selection functionality and related business requirements.
+
+**Production Requirements**
+- Identified an issue with the **font size of item information in Production Receipt**.
+- Discussed the need to maintain appropriate UOM information for **Lungi items in Production Receipt**, including Pcs.
+- Reviewed pending vendor-related requirements and follow-up activities.
+
+### 9. New ERP Requirements Discussion and Development Coordination
+
+**Time: 6:38 PM – 6:58 PM**
+
+- Discussed newly identified ERP requirements with **Mr. Zakir Hossain**.
+- Reviewed the requirements collected from the Purchase and Inventory teams.
+- Communicated the identified issues and requested improvements for development consideration.
+- Coordinated further follow-up on pending ERP requirements.
+
+### 10. ERP Project Review Meeting with Software Team
+
+**Time: 6:58 PM – 7:20 PM**
+
+- Attended a meeting with **Mr. Fazle Rabby, Mr. Zakir Hossain, and Mr. Zaman**.
+- Discussed ongoing H&B ERP implementation activities.
+- Reviewed ERP requirements, identified issues, and development-related matters.
+- Participated in discussions regarding ERP functionality, implementation progress, and further coordination.
+
+### 11. DMS data update with details
+**Time: 07:20 PM – 7:48 PM**
+
+---
+
+## Key Outcomes
+
+- Updated the **H&B ERP UAT and Bug Tracking** documentation.
+- Conducted R&D on customized ERP development time and cost estimation.
+- Discussed ERP requirements and resolved issues with Mr. Zakir Hossain.
+- Identified and reported the **Sales item quantity and price update issue**.
+- Identified a **Production Receipt UOM conversion failure**.
+- Successfully verified **Yard-to-Pcs UOM conversion** in the Purchase workflow.
+- Reviewed Yard and Inch conversion consistency.
+- Completed HR-related communication and reported H&B ERP work activities to the reporting supervisor.
+- Verified ERP requirements addressed by the development team.
+- Discussed and worked on resolving an ERP report issue.
+- Executed **4 Accounts module UAT test cases (TC-AC-001 to TC-AC-004)**.
+- Documented **2 passed and 2 failed test cases**, achieving a 50% pass rate for the four executed cases.
+- Coordinated with the H&B Purchase Department.
+- Collected and discussed Inventory, Purchase, and Production requirements.
+- Identified category-wise stock report improvements involving **Total Quantity, UOM, and Location**.
+- Discussed vendor selection requirements involving Cash/Credit purchase conditions.
+- Reviewed Production Receipt item font size and Lungi UOM requirements.
+- Discussed pending vendor-related tasks.
+- Participated in ERP implementation and development coordination meetings with the software team.
+- Continued developing practical experience in **ERP UAT, software quality assurance, bug reporting, business requirement analysis, technical documentation, and cross-functional coordination**.
+
+---
+
+## Summary
+
+Worked on **H&B ERP UAT documentation, bug tracking, ERP development research, Sales and Production issue identification, Purchase workflow testing, Accounts module test execution, and ERP implementation coordination**.
+
+Conducted R&D on customized ERP development time and cost, identified a Sales item price update issue, and tested Production Receipt UOM conversion, where a failure was observed. Successfully verified Yard-to-Pcs conversion in the Purchase SPR-to-PO workflow and reviewed conversion consistency.
+
+Coordinated with Mr. Zakir Hossain regarding resolved requirements, Sales issues, and report-related problems. Executed **4 Accounts module UAT test cases**, documenting **2 passed and 2 failed** results.
+
+Participated in Purchase and Inventory requirements discussions covering **category-wise stock reports, UOM, stock location, vendor selection, Production Receipt formatting, and pending vendor information**. Reported H&B ERP work activities to the reporting supervisor and attended a development coordination meeting with **Mr. Fazle Rabby, Mr. Zakir Hossain, and Mr. Zaman** to review ongoing implementation requirements and issues.
