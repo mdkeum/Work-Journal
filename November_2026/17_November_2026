@@ -7,3 +7,139 @@
 - **End:** 07:05 PM
 
 ---
+
+## Tasks Completed
+
+### 1. H&B ERP Documentation, Requisition Module Testing, and Software Testing Research
+
+**Time: 9:40 AM – 11:05 AM**
+
+- Documented the ongoing **H&B ERP implementation, UAT, and bug tracking activities**.
+- Tested the **ERP Requisition module** to verify its functionality and operational workflow.
+- Conducted research and development (R&D) on methods for performing more comprehensive ERP software testing.
+- Reviewed different software testing approaches to improve ERP test coverage and effectiveness.
+
+### 2. Software Testing Pyramid Research and ERP Leave Application
+
+**Time: 11:05 AM – 11:40 AM**
+
+- Studied the **Software Testing Pyramid**, including its three major testing levels:
+  - **Unit Testing**
+  - **Integration Testing**
+  - **End-to-End (E2E) Testing**
+- Reviewed the purpose of each testing level and its relevance to ERP software quality assurance.
+- Worked on an **ERP tour and leave application**.
+- Prepared, printed, and submitted the **day-off-in-lieu leave application**.
+
+### 3. Accounts Dashboard UAT, Sales Quantity Testing, and Approval Workflow Verification
+
+**Time: 11:40 AM – 12:59 PM**
+
+- Executed **Accounts module Dashboard UAT test cases TC-AC-005 to TC-AC-007**.
+- Recorded the test execution results:
+  - **Passed:** 3 test cases
+  - **Failed:** 0 test cases
+- Reviewed the requirement for supporting **fractional quantities in the Sales module**.
+- Performed **two Sales transaction cycles**, covering B2B and B2C workflows.
+- Verified that the tested Sales transactions were functioning correctly.
+- Tested the **pending approval workflow**.
+- Identified the requirement that the person who creates a bill should not be allowed to approve the same bill.
+- Reviewed the importance of separating bill creation and approval responsibilities.
+
+### 4. Accounts Module UAT Execution and HR Leave Application Submission
+
+**Time: 2:10 PM – 4:00 PM**
+
+- Executed **Accounts module UAT test cases TC-AC-008 to TC-AC-013**.
+- Continued verifying Accounts module functionality against documented test scenarios.
+- Recorded test observations for subsequent UAT reporting.
+- Submitted the **day-off-in-lieu leave application** to the HR Department.
+- Reviewed the approval restriction requiring separate users for bill creation and approval.
+
+### 5. Accounts Journal Voucher Testing and UAT Result Documentation
+
+**Time: 4:15 PM – 5:25 PM**
+
+- Executed **Accounts → Transactions → Journal Voucher** UAT test cases **TC-AC-014 to TC-AC-018**.
+- Recorded the test execution results:
+  - **Passed:** 2 test cases
+  - **Failed:** 3 test cases
+- Reviewed the Journal Voucher functionality and identified issues requiring further investigation.
+- Documented the test results and relevant observations for the H&B ERP UAT and Bug Tracking records.
+
+### 6. ERP Bug Identification, Journal Voucher Transactions, and Database Backup
+
+**Time: 5:35 PM – 6:50 PM**
+
+- Identified and documented two ERP issues.
+
+**Bug 1: Accounts → Journal Voucher – Missing Search Option**
+- Identified that the Journal Voucher page does not provide a search option to find specific Journal Vouchers.
+- Documented the issue for further development and resolution.
+
+**Bug 2: Purchase → Purchase Report – Missing UOM Information**
+- Identified that the UOM column in the Purchase Report does not display the corresponding item units, such as **Yard or Pcs**.
+- Documented the issue for further investigation and correction.
+
+**Journal Voucher Transaction Testing**
+- Performed **9 Journal Voucher (JV) transactions** to test the Accounts module.
+- Recorded the following observations:
+  - **Rejected:** 1 Journal Voucher
+  - **Void:** 1 Journal Voucher
+- Performed **2 additional Journal Voucher transactions from another account** to verify the workflow.
+- Continued testing Journal Voucher functionality and transaction handling.
+
+**Database Backup**
+- Worked on maintaining a **local backup of the ERP database** for data preservation and reference.
+
+### 7. DMS Data Update
+
+**Time: 6:50 PM – 7:05 PM**
+
+- Updated the required information in the **DMS (Daily Management System)**.
+- Recorded the day's activities and task details.
+- Maintained the daily work record for documentation and reporting purposes.
+
+---
+
+## Key Outcomes
+
+- Updated **H&B ERP UAT, implementation, and bug tracking documentation**.
+- Tested the **ERP Requisition module**.
+- Conducted R&D on comprehensive ERP software testing methodologies.
+- Studied the **Software Testing Pyramid**, covering Unit, Integration, and End-to-End testing.
+- Prepared, printed, and submitted the day-off-in-lieu leave application.
+- Executed **Accounts Dashboard UAT test cases TC-AC-005 to TC-AC-007**, with all 3 passing.
+- Reviewed fractional quantity requirements in the Sales module.
+- Successfully performed **2 Sales transaction cycles** covering B2B and B2C.
+- Tested the pending approval workflow and reviewed the restriction on self-approval.
+- Executed **Accounts module UAT test cases TC-AC-008 to TC-AC-013**.
+- Executed **Journal Voucher UAT test cases TC-AC-014 to TC-AC-018**, with 2 passed and 3 failed.
+- Identified and documented **2 ERP bugs**:
+  - Missing Journal Voucher search option in the Accounts module.
+  - Missing item UOM information (Yard/Pcs) in the Purchase Report.
+- Performed **9 Journal Voucher transactions**, including 1 rejected and 1 void transaction.
+- Performed **2 additional Journal Voucher transactions from another account**.
+- Worked on maintaining a local ERP database backup.
+- Completed the DMS data update.
+- Continued developing practical experience in **ERP UAT, software quality assurance, test case execution, bug reporting, business workflow verification, and technical documentation**.
+
+---
+
+## Summary
+
+Worked on **H&B ERP UAT documentation, Requisition module testing, software testing research, Accounts module test execution, Sales transaction verification, Journal Voucher testing, bug reporting, and database backup activities**.
+
+Conducted R&D on comprehensive ERP testing methodologies and studied the Software Testing Pyramid, including Unit, Integration, and End-to-End testing. Tested the ERP Requisition module and reviewed the requirement for fractional quantities in Sales transactions.
+
+Executed Accounts Dashboard UAT test cases **TC-AC-005 to TC-AC-007**, achieving **3 passed and 0 failed** results. Continued Accounts module testing through **TC-AC-008 to TC-AC-013** and executed Journal Voucher test cases **TC-AC-014 to TC-AC-018**, recording **2 passed and 3 failed** results.
+
+Successfully performed two Sales transaction cycles covering B2B and B2C workflows. Reviewed pending approval functionality and the requirement to prevent users from approving bills they created themselves.
+
+Identified and documented **two ERP bugs** involving the missing Journal Voucher search option and missing UOM information in the Purchase Report.
+
+Performed **9 Journal Voucher transactions**, including one rejected and one void transaction, and executed **2 additional Journal Voucher transactions from another account**. Also worked on maintaining a local ERP database backup.
+
+Additionally, prepared and submitted the day-off-in-lieu leave application to HR and completed the daily DMS update.
+
+The day's activities strengthened practical experience in **ERP functional testing, software quality assurance, Accounts transaction verification, bug identification, approval workflow testing, technical research, and ERP implementation documentation**.
