@@ -7,3 +7,149 @@
 - **End:** 07:52 PM
 
 ---
+
+## Tasks Completed
+
+### 1. H&B ERP Documentation, Finished Goods Data Verification, and Sales Team Coordination
+
+**Time: 10:25 AM – 11:30 AM**
+
+- Updated and documented the ongoing **H&B ERP UAT, Bug Tracking, and Reporting** activities.
+- Completed the duplicate removal process for **Finished Goods items** in the Excel dataset.
+- Reviewed and verified the Finished Goods item list for duplicate records.
+- Reduced the total number of items from **4,735 to 4,694** after removing **41 duplicate records**.
+- Prepared the cleaned Finished Goods item dataset for the **H&B Sales Team**.
+- Shared the updated Excel data file with **Mr. Khairul** from the Sales Department.
+- Ensured that the revised item list was available for further verification and ERP implementation activities.
+
+### 2. Excel VBA Duplicate Removal, Technical Research, and Accounts Payment Voucher Testing
+
+**Time: 11:30 AM – 1:00 PM**
+
+- Worked on removing duplicate item records from Excel using **VBA (Visual Basic for Applications)**.
+- Developed and applied VBA-based duplicate removal logic to identify duplicate item entries.
+- Prepared a separate Excel file containing **30 duplicate items** for additional review and reference.
+- Conducted research and development (R&D) on the book **Change by Design by Tim Brown**.
+- Reviewed concepts related to design thinking and problem-solving approaches.
+- Continued analyzing Excel duplicate removal techniques to improve data preparation efficiency.
+- Performed **Accounts → Transactions → Payment Voucher** UAT testing.
+- Executed Payment Voucher test cases **TC-AC-019 to TC-AC-020**.
+- Reviewed Payment Voucher functionality and transaction processing in the Accounts module.
+
+### 3. Accounts Module Research, Voucher Workflow Analysis, and Payment Voucher Testing
+
+**Time: 2:05 PM – 4:02 PM**
+
+- Conducted research and development (R&D) on **Accounts module functionality and accounting transaction workflows**.
+- Studied different types of accounting vouchers used in ERP systems, including:
+  - **Journal Voucher (JV)**
+  - **Payment Voucher (PV)**
+  - **Receipt Voucher (RV)**
+  - **Contra Voucher (CV)**
+- Reviewed the purpose and application of different voucher types in business accounting.
+- Studied the differences between **Cash and Bank Payment transactions**.
+- Analyzed how different accounting transactions should be recorded and processed through the ERP Accounts module.
+- Executed **Accounts module UAT test cases TC-AC-021 to TC-AC-022**.
+- Recorded the test execution result:
+  - **Passed:** 1 test case
+- Performed **3 Payment Voucher transactions** to verify the functionality of the Accounts module.
+- Continued reviewing Payment Voucher transaction processing and accounting workflows.
+
+### 4. Accounts Module UAT Execution and Debit/Credit Research
+
+**Time: 4:13 PM – 5:25 PM**
+
+- Executed **Accounts module UAT test cases TC-AC-023 to TC-AC-028**.
+- Recorded the test execution results:
+  - **Total Test Cases:** 6
+  - **Passed:** 6
+  - **Failed:** 0
+- Verified the tested Accounts module functionality against the documented UAT scenarios.
+- Conducted research and development (R&D) on the fundamental concepts of **Debit and Credit** in accounting.
+- Studied the relationship between debit and credit entries in different accounting transactions.
+- Reviewed the purposes and differences between various accounting vouchers.
+- Continued developing an understanding of accounting principles and their practical application within the ERP Accounts module.
+
+### 5. Accounts Module UAT and Contra Voucher Testing
+
+**Time: 5:40 PM – 6:59 PM**
+
+- Executed **Accounts module UAT test cases TC-AC-029 to TC-AC-034**.
+- Recorded the test execution results:
+  - **Total Test Cases:** 6
+  - **Passed:** 5
+  - **Failed:** 1
+- Reviewed the failed test scenario for further investigation and documentation.
+- Performed functional testing of **Accounts → Transactions → Contra Voucher**.
+- Executed **Contra Voucher UAT test cases TC-AC-035 to TC-AC-036**.
+- Recorded the Contra Voucher test results:
+  - **Total Test Cases:** 2
+  - **Passed:** 2
+  - **Failed:** 0
+- Continued verifying accounting transaction functionality and voucher processing in the ERP system.
+- Documented the test observations for ongoing Accounts module UAT reporting.
+
+### 6. DMS Data Update
+
+**Time: 6:59 PM – 7:40 PM**
+
+- Updated the required information in the **DMS (Daily Management System)**.
+- Recorded the day's completed activities and relevant task details.
+- Updated daily work documentation for reporting and future reference.
+- Maintained the daily work record to support ERP implementation progress tracking.
+
+***07:15PM -7:45PM - Short discussion on AI services provided by Ground Floor, Pico cloud with Mahfuzul bhai and Sayed bhai***
+
+---
+
+## Key Outcomes
+
+- Updated the **H&B ERP UAT, Bug Tracking, and Reporting** documentation.
+- Completed duplicate removal from the **Finished Goods item dataset**.
+- Reduced the Finished Goods item list from **4,735 to 4,694 records**, removing **41 duplicates**.
+- Shared the cleaned Excel data file with **Mr. Khairul from the H&B Sales Team**.
+- Worked on **Excel VBA automation** for duplicate item identification and removal.
+- Prepared a separate Excel file containing **30 duplicate items**.
+- Conducted R&D on **Change by Design by Tim Brown**.
+- Executed **Accounts Payment Voucher UAT test cases TC-AC-019 to TC-AC-020**.
+- Studied accounting voucher types, including Journal Voucher, Payment Voucher, Receipt Voucher, and Contra Voucher.
+- Reviewed **Cash and Bank Payment** transaction processes.
+- Executed **Accounts module test cases TC-AC-021 to TC-AC-022**, recording 1 passed test case.
+- Performed **3 Payment Voucher transactions**.
+- Executed **Accounts UAT test cases TC-AC-023 to TC-AC-028**, achieving 6 passed and 0 failed results.
+- Conducted R&D on **Debit and Credit accounting principles**.
+- Executed **Accounts UAT test cases TC-AC-029 to TC-AC-034**, recording 5 passed and 1 failed result.
+- Executed **Contra Voucher test cases TC-AC-035 to TC-AC-036**, achieving 2 passed and 0 failed results.
+- Completed the daily DMS update.
+- Continued developing practical experience in **ERP UAT, software quality assurance, accounting workflows, Excel VBA automation, data cleaning, test case execution, and business process analysis**.
+
+---
+
+## Accounts Module UAT Execution Summary
+
+| Test Case Range | Total | Passed | Failed | Remarks |
+|---|---:|---:|---:|---|
+| TC-AC-019 to TC-AC-020 | 2 | — | — | Executed; results not specified |
+| TC-AC-021 to TC-AC-022 | 2 | 1 | — | One pass recorded; other result unspecified |
+| TC-AC-023 to TC-AC-028 | 6 | 6 | 0 | All passed |
+| TC-AC-029 to TC-AC-034 | 6 | 5 | 1 | One failed |
+| TC-AC-035 to TC-AC-036 | 2 | 2 | 0 | All passed |
+| **Total** | **18** | **14 confirmed** | **1 confirmed** | **3 results unspecified** |
+
+**Note:** A total of 18 test cases were executed, with 14 confirmed passes, 1 confirmed failure, and 3 results not fully specified in the handwritten records.
+
+---
+
+## Summary
+
+Worked on **H&B ERP UAT documentation, Finished Goods data verification, Excel VBA duplicate removal, Accounts module testing, accounting research, Payment Voucher and Contra Voucher transaction verification, and DMS reporting**.
+
+Completed the duplicate removal process for the H&B Finished Goods item dataset, reducing the total number of records from **4,735 to 4,694** by removing **41 duplicate entries**. Shared the cleaned Excel file with **Mr. Khairul from the Sales Department** and prepared a separate file containing **30 duplicate items** using Excel VBA-based duplicate removal techniques.
+
+Conducted research and development on **Change by Design by Tim Brown** and studied fundamental accounting concepts, including **Debit, Credit, Journal Voucher, Payment Voucher, Receipt Voucher, Contra Voucher, and Cash/Bank Payment transactions**.
+
+Continued extensive **Accounts module UAT testing**, executing test cases **TC-AC-019 to TC-AC-036**. The notebook records **18 executed test cases**, with **14 confirmed passes, 1 confirmed failure, and 3 results not fully specified**. Performed **3 Payment Voucher transactions** and verified Contra Voucher functionality through dedicated test cases.
+
+Additionally, updated the H&B ERP UAT documentation and completed the daily DMS data update.
+
+The day's activities contributed to strengthening practical experience in **ERP functional testing, software quality assurance, Accounts module implementation, financial transaction workflows, Excel VBA automation, data quality management, technical research, and ERP implementation documentation**.
